@@ -1,5 +1,12 @@
-import React from 'react';
+// @flow
+import * as React from 'react';
 
-const App = () => <div>App</div>;
+type Props = {
+  title: string,
+};
+
+const App: React.ComponentType<any> = (props: Props): React.Node => (
+  <div>{props.title}</div>
+);
 
 export default App;
