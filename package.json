@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/react": "^3.4.6",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.3.2"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -15,7 +17,8 @@
     "lint": "npm-run-all lint:prettier lint:types lint:eslint",
     "lint:eslint": "eslint . --fix --max-warnings=0",
     "lint:prettier:": "prettier  --write **/*.css **/*.js **/*.json",
-    "lint:types": "flow"
+    "lint:types": "flow",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "husky": {
     "hooks": {
@@ -23,16 +26,13 @@
     }
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-preset-flow": "^6.23.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-flowtype": "^2.49.3",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.9.1",
     "flow-bin": "^0.74.0",
     "husky": "^1.0.0-rc.8",
