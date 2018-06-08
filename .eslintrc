@@ -26,6 +26,14 @@
         "children": "ignore"
       }
     ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to", "hrefLeft", "hrefRight"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ],
     "semi": 0,
     "quotes": 1,
     "jsx-quotes": 1,
