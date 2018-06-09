@@ -21,6 +21,8 @@
     "lint:eslint": "eslint . --fix --max-warnings=0",
     "lint:prettier:": "prettier  --write **/*.css **/*.js **/*.json",
     "lint:types": "flow",
+    "visual-reg:compare": "loki test",
+    "visual-reg:update": "loki update",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "husky": {
@@ -37,6 +39,26 @@
       "<rootDir>/src",
       "<rootDir>/.storybook"
     ]
+  },
+  "loki": {
+    "configurations": {
+      "chrome.laptop": {
+        "target": "chrome.docker",
+        "fitWindow": true,
+        "width": 1280,
+        "height": 800
+      },
+      "chrome.iphone7": {
+        "mobile": true,
+        "target": "chrome.docker",
+        "preset": "iPhone 7"
+      },
+      "chrome.googlepixel": {
+        "mobile": true,
+        "target": "chrome.docker",
+        "preset": "Google Pixel"
+      }
+    }
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.4.6",
