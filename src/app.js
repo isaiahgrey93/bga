@@ -1,12 +1,5 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
-type Props = {
-  title: string,
-};
-
-const App: React.ComponentType<any> = (props: Props): React.Node => (
-  <div>{props.title}</div>
-);
+const App = () => <div>Givelify</div>;
 
 export default App;
