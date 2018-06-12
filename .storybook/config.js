@@ -1,4 +1,4 @@
-import { configure, } from '@storybook/react';
+import { configure } from '@storybook/react';
 import 'loki/configure-react';
 
 const req = require.context('./stories', true, /\.js$/);

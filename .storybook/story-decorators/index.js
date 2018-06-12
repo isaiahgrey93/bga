@@ -1,1 +1,2 @@
-export { default as Centered } from './Centered';
+export { default as centered } from './centered';
+export { default as header } from './header';

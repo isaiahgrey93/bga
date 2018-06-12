@@ -47,16 +47,6 @@
         "fitWindow": true,
         "width": 1280,
         "height": 800
-      },
-      "chrome.iphone7": {
-        "mobile": true,
-        "target": "chrome.docker",
-        "preset": "iPhone 7"
-      },
-      "chrome.googlepixel": {
-        "mobile": true,
-        "target": "chrome.docker",
-        "preset": "Google Pixel"
       }
     }
   },
