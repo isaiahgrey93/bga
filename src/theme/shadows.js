@@ -10,21 +10,15 @@ export default {
     primary: 'rgba(47, 176, 255, 0.30)',
     secondary: 'rgba(255, 155, 24, 0.40)',
   },
-  get: function(depth = 1, color = 'default') {
+  get(color = 'default', depth = false) {
+    if (!color || !depth) return;
+
     if (Object.keys(`${this.depth}`).indexOf(`${depth}`) < 0) {
-      throw new Error(
-        `Invalid option "${depth}" for shadow. Use one of the following: ${JSON.stringify(
-          Object.keys(this.depth)
-        )}`
-      );
+      throw new Error(`Invalid option "${depth}" for shadow. Use one of the following: ${JSON.stringify(Object.keys(this.depth))}`);
     }
 
     if (Object.keys(this.color).indexOf(color) < 0) {
-      throw new Error(
-        `Invalid option "${color}" for shadow. Use one of the following: ${JSON.stringify(
-          Object.keys(this.color)
-        )}`
-      );
+      throw new Error(`Invalid option "${color}" for shadow. Use one of the following: ${JSON.stringify(Object.keys(this.color))}`);
     }
 
     return `${this.depth[depth]} ${this.color[color]}`;

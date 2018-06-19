@@ -1,33 +1,22 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import { header } from 'story-decorators';
+import { text, select, number } from '@storybook/addon-knobs/react';
 
-import { Button } from 'components';
+import { decorateAddons } from 'story-decorators';
 
-storiesOf('Buttons', module)
-  .addDecorator(header({ title: 'Buttons' }))
-  .add('Solid', () => (
-    <Button
-      raised
-      type={'solid'}
-      value={'Sign Up'}
-      color={'primary'}
-      onClick={() => alert('woot')}
-    />
-  ))
-  .add('Outline', () => (
-    <Button
-      value={'Login'}
-      type={'outline'}
-      color={'primary'}
-      onClick={() => alert('woot')}
-    />
-  ))
-  .add('Wrapper', () => (
-    <Button
-      type={'wrapper'}
-      value={'Use a different address'}
-      onClick={() => alert('woot')}
-    />
-  ));
+import { SolidButton } from 'components';
+import { bgColors } from 'components/Button/SolidButton/constants';
+
+decorateAddons(storiesOf('Buttons', module)).addWithJSX('Solid Button', () => (
+  <SolidButton
+    onClick={() => null}
+    value={text('Label', 'Sign Up')}
+    color={select('Color', Object.keys(bgColors), 'black')}
+    raised={select(
+      'Shadow Depth',
+      { 0: 'None', 1: 'Low', 2: 'Medium', 3: 'High' },
+      0
+    )}
+  />
+));

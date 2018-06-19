@@ -1,253 +1,329 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Buttons Solid Button 1`] = `
+<div>
+  <h1
+    className="sc-bwzfXH dblvNi"
+  >
+    Buttons
+     -- 
+    Solid Button
+  </h1>
+  <div
+    className="sc-bdVaJa hGMQEm"
+  >
+    <button
+      className="sc-htpNat lgpCmI"
+      color="black"
+      onClick={[Function]}
+      value={undefined}
+    >
+      Sign Up
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Theme Colors 1`] = `
 <div>
   <h1
-    className="sc-bwzfXH kJKDzY"
+    className="sc-bwzfXH dblvNi"
   >
+    Theme
+     -- 
     Colors
   </h1>
   <div
-    className="sc-htpNat bMvVgH"
+    className="sc-bdVaJa hGMQEm"
   >
     <div
-      className="sc-bxivhb hjfKHh"
+      className="sc-bxivhb eRtDDx"
     >
       <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        Black
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          White
+        </div>
+        <div
+          className="sc-EHOje dLufTI"
+          color="#FFFFFF"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #FFFFFF
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX jPRZar"
-        color="#303030"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #303030
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        White
-      </div>
-      <div
-        className="sc-ifAKCX idaxDp"
-        color="#FFFFFF"
-      />
-      <div
-        className="sc-EHOje iUebre"
-      >
-        <code>
-          #FFFFFF
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Grey 1
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Grey 5
+        </div>
+        <div
+          className="sc-EHOje jdQSre"
+          color="#EDEFF2"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #EDEFF2
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX kxJRpe"
-        color="#666666"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #666666
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Grey 2
-      </div>
-      <div
-        className="sc-ifAKCX fbZkov"
-        color="#9B9B9B"
-      />
-      <div
-        className="sc-EHOje iUebre"
-      >
-        <code>
-          #9B9B9B
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Grey 3
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Grey 4
+        </div>
+        <div
+          className="sc-EHOje ftFSA"
+          color="#E1E3E6"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #E1E3E6
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX ieKddY"
-        color="#C1C3C6"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #C1C3C6
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Grey 4
-      </div>
-      <div
-        className="sc-ifAKCX jNHMIY"
-        color="#E1E3E6"
-      />
-      <div
-        className="sc-EHOje iUebre"
-      >
-        <code>
-          #E1E3E6
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Primary Orange
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Grey 3
+        </div>
+        <div
+          className="sc-EHOje hfBJOr"
+          color="#C1C3C6"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #C1C3C6
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX bwMiqr"
-        color="#FFA700"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #FFA700
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Light Orange
-      </div>
-      <div
-        className="sc-ifAKCX gUtDIR"
-        color="#FFBE00"
-      />
-      <div
-        className="sc-EHOje iUebre"
-      >
-        <code>
-          #FFBE00
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Dark Orange
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Grey 2
+        </div>
+        <div
+          className="sc-EHOje fthUpU"
+          color="#9B9B9B"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #9B9B9B
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX hVdSuQ"
-        color="#FF8D00"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #FF8D00
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Primary Blue
-      </div>
-      <div
-        className="sc-ifAKCX aRWAZ"
-        color="#0075F7"
-      />
-      <div
-        className="sc-EHOje iUebre"
-      >
-        <code>
-          #0075F7
-        </code>
-      </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
-      <div
-        className="sc-EHOje iUebre"
-      >
-        Light Blue
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Grey 1
+        </div>
+        <div
+          className="sc-EHOje jOWcPm"
+          color="#666666"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #666666
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX tHOtX"
-        color="#00CDFF"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #00CDFF
-        </code>
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Black
+        </div>
+        <div
+          className="sc-EHOje bIYmgC"
+          color="#303030"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #303030
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      className="sc-bxivhb hjfKHh"
-    >
       <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        Dark Blue
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Primary Orange
+        </div>
+        <div
+          className="sc-EHOje bKQbsc"
+          color="#FFA700"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #FFA700
+          </div>
+        </div>
       </div>
       <div
-        className="sc-ifAKCX hCnlrs"
-        color="#0E91FD"
-      />
-      <div
-        className="sc-EHOje iUebre"
+        className="sc-ifAKCX hAJQnO"
       >
-        <code>
-          #0E91FD
-        </code>
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Light Orange
+        </div>
+        <div
+          className="sc-EHOje ghDmJf"
+          color="#FFBE00"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #FFBE00
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-ifAKCX hAJQnO"
+      >
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Dark Orange
+        </div>
+        <div
+          className="sc-EHOje gFXENb"
+          color="#FF8D00"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #FF8D00
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-ifAKCX hAJQnO"
+      >
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Primary Blue
+        </div>
+        <div
+          className="sc-EHOje dqJcAf"
+          color="#0075F7"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #0075F7
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-ifAKCX hAJQnO"
+      >
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Light Blue
+        </div>
+        <div
+          className="sc-EHOje ktUMPC"
+          color="#00CDFF"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #00CDFF
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-ifAKCX hAJQnO"
+      >
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          Dark Blue
+        </div>
+        <div
+          className="sc-EHOje eTZQaM"
+          color="#0E91FD"
+        />
+        <div
+          className="sc-bZQynM jLRaHO"
+        >
+          <div
+            className="sc-gzVnrw HfMTP"
+          >
+            #0E91FD
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -257,65 +333,61 @@ exports[`Storyshots Theme Colors 1`] = `
 exports[`Storyshots Theme Gradients 1`] = `
 <div>
   <h1
-    className="sc-bwzfXH kJKDzY"
+    className="sc-bwzfXH dblvNi"
   >
+    Theme
+     -- 
     Gradients
   </h1>
   <div
-    className="sc-bZQynM HQzKM"
+    className="sc-bdVaJa hGMQEm"
   >
     <div
-      className="sc-gzVnrw bwwDXb"
+      className="sc-htoDjs btXLhN"
     >
       <div
-        className="sc-dnqmqq gomCeZ"
+        className="sc-dnqmqq dussaN"
       >
-        Blue
+        <div
+          className="sc-gZMcBi btwASl"
+        >
+          Primary
+        </div>
+        <div
+          className="sc-iwsKbI dYebdI"
+        />
+        <div
+          className="sc-gZMcBi btwASl"
+        >
+          <div
+            className="sc-gqjmRU dThHby"
+          >
+            background: 
+            linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
+          </div>
+        </div>
       </div>
       <div
-        className="sc-htoDjs OXVZd"
-        end="#0E91FD"
-        start="#00CDFF"
-      />
-      <div
-        className="sc-dnqmqq gomCeZ"
+        className="sc-dnqmqq dussaN"
       >
-        <u>
-          <code>
-            background: linear-gradient(135deg, 
-            #00CDFF
-             0%, 
-            #0E91FD
-             100%)
-          </code>
-        </u>
-      </div>
-    </div>
-    <div
-      className="sc-gzVnrw bwwDXb"
-    >
-      <div
-        className="sc-dnqmqq gomCeZ"
-      >
-        Orange
-      </div>
-      <div
-        className="sc-htoDjs cxwyrn"
-        end="#FF8D00"
-        start="#FFBE00"
-      />
-      <div
-        className="sc-dnqmqq gomCeZ"
-      >
-        <u>
-          <code>
-            background: linear-gradient(135deg, 
-            #FFBE00
-             0%, 
-            #FF8D00
-             100%)
-          </code>
-        </u>
+        <div
+          className="sc-gZMcBi btwASl"
+        >
+          Secondary
+        </div>
+        <div
+          className="sc-iwsKbI jmlsLh"
+        />
+        <div
+          className="sc-gZMcBi btwASl"
+        >
+          <div
+            className="sc-gqjmRU dThHby"
+          >
+            background: 
+            linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -325,295 +397,310 @@ exports[`Storyshots Theme Gradients 1`] = `
 exports[`Storyshots Theme Typography 1`] = `
 <div>
   <h1
-    className="sc-bwzfXH kJKDzY"
+    className="sc-bwzfXH dblvNi"
   >
+    Theme
+     -- 
     Typography
   </h1>
-  <div>
-    <h3
-      className="sc-iwsKbI iPsnHI"
-    >
-      Font Family
-    </h3>
-    <div
-      className="sc-gZMcBi loQEOQ"
-    >
+  <div
+    className="sc-bdVaJa hGMQEm"
+  >
+    <div>
       <h3
-        style={
-          Object {
-            "fontFamily": "monospace",
-            "fontSize": 24,
-            "padding": 12,
-          }
-        }
+        className="sc-VigVT huAvfj"
       >
-        Poppins
+        Font Family 
+        <code>
+          font-family
+        </code>
       </h3>
       <div
-        className="sc-gqjmRU clECPs"
+        className="sc-jTzLTM kMBvvz"
       >
-        <div
-          className="sc-jTzLTM eqtTga"
-          size={64}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Regular
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM jHqgcH"
-          size={64}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Medium
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM hbNzqU"
-          size={64}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Semi-Bold
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM oINAq"
-          size={64}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Bold
-        </div>
-      </div>
-    </div>
-    <h3
-      className="sc-iwsKbI iPsnHI"
-    >
-      Font Sizing
-    </h3>
-    <div
-      className="sc-gZMcBi loQEOQ"
-    >
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM eKNpvT"
-          size={12}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Extra Small - 12px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM eDQThV"
-          size={14}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Small - 14px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM eJNJJH"
-          size={16}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Medium - 16px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM pGPpu"
-          size={24}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Large - 24px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM iWnoYC"
-          size={30}
-          style={undefined}
-        >
-          Aa
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Extra Large - 30px
-        </div>
-      </div>
-    </div>
-    <h3
-      className="sc-iwsKbI iPsnHI"
-    >
-      Font Leading
-    </h3>
-    <div
-      className="sc-gZMcBi loQEOQ"
-    >
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM eWMgGb"
-          size={16}
+        <h3
           style={
             Object {
-              "maxWidth": 240,
-              "padding": "0px 10px",
+              "fontFamily": "monospace",
+              "fontSize": 24,
+              "padding": 12,
             }
           }
         >
-          Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          Poppins
+        </h3>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG lhcheg"
+            size={64}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Regular - 400
+          </div>
         </div>
         <div
-          className="sc-VigVT kinzzo"
+          className="sc-fjdhpX YujWz"
         >
-          Extra Small - 18px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM eWMgGb"
-          size={16}
-          style={
-            Object {
-              "maxWidth": 240,
-              "padding": "0px 10px",
-            }
-          }
-        >
-          Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          <div
+            className="sc-cSHVUG gSIcV"
+            size={64}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Medium - 500
+          </div>
         </div>
         <div
-          className="sc-VigVT kinzzo"
+          className="sc-fjdhpX YujWz"
         >
-          Small - 20px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM fvXDqm"
-          size={16}
-          style={
-            Object {
-              "maxWidth": 240,
-              "padding": "0px 10px",
-            }
-          }
-        >
-          Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          <div
+            className="sc-cSHVUG jkuDyn"
+            size={64}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Semi-Bold - 600
+          </div>
         </div>
         <div
-          className="sc-VigVT kinzzo"
+          className="sc-fjdhpX YujWz"
         >
-          Medium - 24px
-        </div>
-      </div>
-      <div
-        className="sc-gqjmRU clECPs"
-      >
-        <div
-          className="sc-jTzLTM cHMwvo"
-          size={16}
-          style={
-            Object {
-              "maxWidth": 240,
-              "padding": "0px 10px",
-            }
-          }
-        >
-          Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
-        </div>
-        <div
-          className="sc-VigVT kinzzo"
-        >
-          Large - 30px
+          <div
+            className="sc-cSHVUG fjWil"
+            size={64}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Bold - 700
+          </div>
         </div>
       </div>
+      <h3
+        className="sc-VigVT huAvfj"
+      >
+        Font Sizing 
+        <code>
+          font-size
+        </code>
+      </h3>
       <div
-        className="sc-gqjmRU clECPs"
+        className="sc-jTzLTM kMBvvz"
       >
         <div
-          className="sc-jTzLTM dyDaVN"
-          size={16}
-          style={
-            Object {
-              "maxWidth": 240,
-              "padding": "0px 10px",
-            }
-          }
+          className="sc-fjdhpX YujWz"
         >
-          Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          <div
+            className="sc-cSHVUG edxDSm"
+            size={12}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Extra Small - 12px
+          </div>
         </div>
         <div
-          className="sc-VigVT kinzzo"
+          className="sc-fjdhpX YujWz"
         >
-          Extra Large - 36px
+          <div
+            className="sc-cSHVUG hQlgeD"
+            size={14}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Small - 14px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG eXcseB"
+            size={16}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Medium - 16px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG jXrTYi"
+            size={24}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Large - 24px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG cRZwaT"
+            size={30}
+            style={undefined}
+          >
+            Aa
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Extra Large - 30px
+          </div>
+        </div>
+      </div>
+      <h3
+        className="sc-VigVT huAvfj"
+      >
+        Font Leading 
+        <code>
+          line-height
+        </code>
+      </h3>
+      <div
+        className="sc-jTzLTM kMBvvz"
+      >
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG ikInxO"
+            size={16}
+            style={
+              Object {
+                "maxWidth": 240,
+                "padding": "0px 10px",
+              }
+            }
+          >
+            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Extra Small - 18px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG ikInxO"
+            size={16}
+            style={
+              Object {
+                "maxWidth": 240,
+                "padding": "0px 10px",
+              }
+            }
+          >
+            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Small - 20px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG bPGfPa"
+            size={16}
+            style={
+              Object {
+                "maxWidth": 240,
+                "padding": "0px 10px",
+              }
+            }
+          >
+            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Medium - 24px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG efCkfl"
+            size={16}
+            style={
+              Object {
+                "maxWidth": 240,
+                "padding": "0px 10px",
+              }
+            }
+          >
+            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Large - 30px
+          </div>
+        </div>
+        <div
+          className="sc-fjdhpX YujWz"
+        >
+          <div
+            className="sc-cSHVUG kpcpyd"
+            size={16}
+            style={
+              Object {
+                "maxWidth": 240,
+                "padding": "0px 10px",
+              }
+            }
+          >
+            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+          </div>
+          <div
+            className="sc-jzJRlG gZFxXA"
+          >
+            Extra Large - 36px
+          </div>
         </div>
       </div>
     </div>

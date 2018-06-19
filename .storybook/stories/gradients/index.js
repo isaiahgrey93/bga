@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import styled from 'styled-components';
-import { header } from 'story-decorators';
+import { decorateAddons } from 'story-decorators';
 import { colors, gradients } from 'theme';
 
 import {
@@ -24,11 +24,9 @@ const GradientSwatch = ({ name, primary }) => (
   </GradientSwatchContainer>
 );
 
-storiesOf('Theme', module)
-  .addDecorator(header({ title: 'Gradients' }))
-  .add('Gradients', () => (
-    <GradientSwatchesContainer>
-      <GradientSwatch name={'Primary'} primary />
-      <GradientSwatch name={'Secondary'} />
-    </GradientSwatchesContainer>
-  ));
+decorateAddons(storiesOf('Theme', module)).addWithJSX('Gradients', () => (
+  <GradientSwatchesContainer>
+    <GradientSwatch name={'Primary'} primary />
+    <GradientSwatch name={'Secondary'} />
+  </GradientSwatchesContainer>
+));

@@ -2,18 +2,29 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-const StoryWrapper = styled.h1`
-  margin-top: 0px;
-  margin-bottom: 40px;
-  color: #ffffff;
-  background: linear-gradient(135deg, #303030 0%, #3b3b3b 100%);
+const StoryHeader = styled.h3`
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 12px;
-  border-radius: 3px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 2px 4px 0px rgba(0, 40, 121, 0.1);
 `;
 
-export default ({ title }) => story => (
+const StoryWrapper = styled.div`
+  margin-top: 40px;
+`;
+
+export default () => story => (
   <div>
-    <StoryWrapper>{title}</StoryWrapper>
-    {story()}
+    <StoryHeader>
+      {story().props.context.kind}&nbsp;&nbsp;&rarr;&nbsp;&nbsp;{
+        story().props.context.story
+      }
+    </StoryHeader>
+    <StoryWrapper>{story()}</StoryWrapper>
   </div>
 );
