@@ -26,12 +26,13 @@ storiesOf('Theme', module)
   .addDecorator(header({ title: 'Colors' }))
   .add('Colors', () => (
     <ColorSwatchesContainer>
-      <ColorSwatch name={'Black'} color={colors.black} />
       <ColorSwatch name={'White'} color={colors.white} />
-      <ColorSwatch name={'Grey 1'} color={colors.grey1} />
-      <ColorSwatch name={'Grey 2'} color={colors.grey2} />
-      <ColorSwatch name={'Grey 3'} color={colors.grey3} />
+      <ColorSwatch name={'Grey 5'} color={colors.grey5} />
       <ColorSwatch name={'Grey 4'} color={colors.grey4} />
+      <ColorSwatch name={'Grey 3'} color={colors.grey3} />
+      <ColorSwatch name={'Grey 2'} color={colors.grey2} />
+      <ColorSwatch name={'Grey 1'} color={colors.grey1} />
+      <ColorSwatch name={'Black'} color={colors.black} />
 
       <ColorSwatch name={'Primary Orange'} color={colors.primaryOrange} />
       <ColorSwatch name={'Light Orange'} color={colors.lightOrange} />

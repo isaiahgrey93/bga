@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from 'theme';
+import { colors, gradients } from 'theme';
 
 export const GradientSwatchesContainer = styled.div`
   display: flex;
@@ -20,8 +20,8 @@ export const GradientSwatchShape = styled.div`
   width: 100%;
   height: 120px;
   border-radius: 10px;
-  background: ${({ start, end }) =>
-    `linear-gradient(126.76deg, ${start} 0%, ${end} 100%)`};
+  background: ${props =>
+    props.primary ? gradients.primary : gradients.secondary};
   box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.1212);
 `;
 
