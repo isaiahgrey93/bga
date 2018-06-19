@@ -14,4 +14,5 @@ export default {
   darkOrange: '#FF8D00',
   lightOrange: '#FFBE00',
   primaryOrange: '#FFA700',
+  transparent: 'transparent',
 };

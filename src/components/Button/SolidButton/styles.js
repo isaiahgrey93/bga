@@ -1,13 +1,14 @@
-import styled, { css, } from 'styled-components';
+import styled, { css } from 'styled-components';
 
-import { shadows, } from 'theme';
+import { shadows } from 'theme';
 
-import { bgColors, textColors, } from './constants';
+import { backgroundColors, textColors, buttonSizes } from './constants';
 
 const buttonShadowMixin = css`
-  box-shadow: ${(props) => {
+  transition: all 0.1s linear 0.1s;
+  box-shadow: ${props => {
     let shadowColor;
-    const { color, raised, } = props;
+    const { color, raised } = props;
 
     if (color === 'primary' || color === 'secondary') {
       shadowColor = color;
@@ -18,27 +19,33 @@ const buttonShadowMixin = css`
     }
   }};
   &:active {
-    box-shadow: ${(props) => {
-    let shadowColor;
-    const { color, raised, } = props;
+    opacity: 0.8;
+    transition: all 0.1s ease-in;
+    box-shadow: ${props => {
+      let shadowColor;
+      const { color, raised } = props;
 
-    if (color === 'primary' || color === 'secondary') {
-      shadowColor = color;
-    }
+      if (color === 'primary' || color === 'secondary') {
+        shadowColor = color;
+      }
 
-    if (raised) {
-      return shadows.get(shadowColor, false);
-    }
-  }};
+      if (raised) {
+        return shadows.get(shadowColor);
+      }
+    }};
   }
 `;
 
 export const SolidButton = styled.button`
   outline: 0;
   border: none;
-  padding: 12px 16px;
-  border-radius: 18px;
+  padding: 8px 16px;
+  font-family: 'Poppins';
   color: ${props => textColors[props.color]};
-  background: ${props => bgColors[props.color]};
+  font-size: ${props => buttonSizes[props.size].text}px;
+  min-width: ${props => buttonSizes[props.size].container}px;
+  min-height: ${props => buttonSizes[props.size].container}px;
+  border-radius: ${props => buttonSizes[props.size].container}px;
+  background: ${props => backgroundColors[props.color]};
   ${buttonShadowMixin};
 `;

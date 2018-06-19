@@ -1,8 +1,8 @@
-import { colors, gradients, } from 'theme';
+import { colors, gradients, shadows } from 'theme';
 
-export const bgColors = {
+export const backgroundColors = {
   black: colors.black,
-  transparent: 'transparent',
+  transparent: colors.transparent,
   muted: colors.grey5,
   white: colors.white,
   blue: colors.primaryBlue,
@@ -20,4 +20,23 @@ export const textColors = {
   secondary: colors.white,
 };
 
-export const defaultColor = 'black';
+export const buttonSizes = {
+  small: {
+    text: 11,
+    container: 32,
+  },
+  medium: {
+    text: 13,
+    container: 40,
+  },
+  large: {
+    text: 15,
+    container: 56,
+  },
+};
+
+export const shadowTypes = shadows.depth;
+
+export const defaultShadowType = 'none';
+export const defaultBackgroundColor = 'black';
+export const defaultButtonSize = 'medium';
