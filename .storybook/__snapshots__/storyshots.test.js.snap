@@ -1,11 +1,115 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Buttons/Solid Button Component 1`] = `
+exports[`Storyshots Button/Icon Button Component 1`] = `
 <div>
   <h3
     className="sc-htpNat bmPwTJ"
   >
-    Buttons/Solid Button
+    Button/Icon Button
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button/Icon Button Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Button/Icon Button
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button/Outline Button Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Button/Outline Button
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button/Outline Button Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Button/Outline Button
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button/Solid Button Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Button/Solid Button
       →  
     Component
   </h3>
@@ -27,12 +131,12 @@ exports[`Storyshots Buttons/Solid Button Component 1`] = `
 </div>
 `;
 
-exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
+exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
 <div>
   <h3
     className="sc-htpNat bmPwTJ"
   >
-    Buttons/Solid Button
+    Button/Solid Button
       →  
     Prop Combinations
   </h3>
@@ -1897,6 +2001,578 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
 </div>
 `;
 
+exports[`Storyshots Button/Wrapper Button Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Button/Wrapper Button
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button/Wrapper Button Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Button/Wrapper Button
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Card
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Card
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Divider Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Divider
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Divider Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Divider
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Icon Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Icon
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Icon Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Icon
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Image
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Image
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Input
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Input
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Modal Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Modal
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Modal Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Modal
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Row Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Row
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Row Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Row
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tag Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Tag
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tag Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Tag
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Text Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Text
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Text Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Text
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextArea Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    TextArea
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextArea Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    TextArea
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Theme Colors 1`] = `
 <div>
   <h3
@@ -2585,6 +3261,58 @@ exports[`Storyshots Theme Typography 1`] = `
             >
               Extra Large - 36px
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Toggle Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Toggle
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        Not Implement
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Toggle Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Toggle
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <div>
+            Not Implement
           </div>
         </div>
       </div>
