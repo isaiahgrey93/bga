@@ -15,9 +15,9 @@ exports[`Storyshots Button/Icon Button Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -42,9 +42,9 @@ exports[`Storyshots Button/Icon Button Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -67,9 +67,9 @@ exports[`Storyshots Button/Outline Button Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -94,9 +94,9 @@ exports[`Storyshots Button/Outline Button Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2016,9 +2016,9 @@ exports[`Storyshots Button/Wrapper Button Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2043,9 +2043,9 @@ exports[`Storyshots Button/Wrapper Button Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2068,9 +2068,9 @@ exports[`Storyshots Card Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2095,9 +2095,9 @@ exports[`Storyshots Card Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2120,9 +2120,9 @@ exports[`Storyshots Divider Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2147,9 +2147,9 @@ exports[`Storyshots Divider Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2172,9 +2172,9 @@ exports[`Storyshots Icon Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2199,9 +2199,9 @@ exports[`Storyshots Icon Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2224,9 +2224,9 @@ exports[`Storyshots Image Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2251,9 +2251,9 @@ exports[`Storyshots Image Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2276,9 +2276,9 @@ exports[`Storyshots Input Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2303,9 +2303,9 @@ exports[`Storyshots Input Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2328,9 +2328,9 @@ exports[`Storyshots Modal Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2355,9 +2355,9 @@ exports[`Storyshots Modal Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2380,9 +2380,9 @@ exports[`Storyshots Row Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2407,9 +2407,9 @@ exports[`Storyshots Row Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2432,9 +2432,9 @@ exports[`Storyshots Tag Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2459,9 +2459,9 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2484,9 +2484,9 @@ exports[`Storyshots Text Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2511,9 +2511,9 @@ exports[`Storyshots Text Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -2536,9 +2536,9 @@ exports[`Storyshots TextArea Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -2563,9 +2563,9 @@ exports[`Storyshots TextArea Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>
@@ -3284,9 +3284,9 @@ exports[`Storyshots Toggle Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div>
-        Not Implement
-      </div>
+      <center>
+        Not Implemented
+      </center>
     </div>
   </div>
 </div>
@@ -3311,9 +3311,9 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <div>
-            Not Implement
-          </div>
+          <center>
+            Not Implemented
+          </center>
         </div>
       </div>
     </div>

@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default () => <div>Not Implement</div>;
+export default () => <center>Not Implemented</center>;
