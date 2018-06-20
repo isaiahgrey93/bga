@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { SolidButton as Button } from './styles';
+import { SolidButton as StyledSolidButton, } from './styles';
 import {
   buttonSizes,
   shadowTypes,
@@ -11,13 +11,15 @@ import {
   defaultBackgroundColor,
 } from './constants';
 
-const SolidButton = ({ color, size, raised, value, children, ...props }) => (
-  <Button size={size} color={color} raised={raised} {...props}>
+const SolidButton = ({
+  color, size, raised, value, children, ...props
+}) => (
+  <StyledSolidButton size={size} color={color} raised={raised} {...props}>
     {children || value}
-  </Button>
+  </StyledSolidButton>
 );
 
-Button.propTypes = {
+SolidButton.propTypes = {
   size: PropTypes.oneOf(Object.keys(buttonSizes)),
   color: PropTypes.oneOf(Object.keys(backgroundColors)),
   raised: PropTypes.oneOf(Object.keys(shadowTypes)),
@@ -31,7 +33,7 @@ Button.propTypes = {
   ]),
 };
 
-Button.defaultProps = {
+SolidButton.defaultProps = {
   size: defaultButtonSize,
   color: defaultBackgroundColor,
   raised: defaultShadowType,

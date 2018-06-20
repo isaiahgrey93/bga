@@ -1,4 +1,4 @@
-import { colors, gradients, shadows } from 'theme';
+import { colors, gradients, shadows, } from 'theme';
 
 export const backgroundColors = {
   black: colors.black,
