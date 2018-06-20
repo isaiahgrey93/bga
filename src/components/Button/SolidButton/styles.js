@@ -1,14 +1,14 @@
-import styled, { css, } from 'styled-components';
+import styled, { css } from 'styled-components';
 
-import { shadows, } from 'theme';
+import { shadows } from 'theme';
 
-import { backgroundColors, textColors, buttonSizes, } from './constants';
+import { backgroundColors, textColors, buttonSizes } from './constants';
 
 const buttonShadowMixin = css`
   transition: all 0.1s linear 0.1s;
-  box-shadow: ${(props) => {
+  box-shadow: ${props => {
     let shadowColor;
-    const { color, raised, } = props;
+    const { color, raised } = props;
 
     if (color === 'primary' || color === 'secondary') {
       shadowColor = color;
@@ -23,20 +23,20 @@ const buttonShadowMixin = css`
   &:active {
     opacity: 0.8;
     transition: all 0.1s ease-in;
-    box-shadow: ${(props) => {
-    let shadowColor;
-    const { color, raised, } = props;
+    box-shadow: ${props => {
+      let shadowColor;
+      const { color, raised } = props;
 
-    if (color === 'primary' || color === 'secondary') {
-      shadowColor = color;
-    }
+      if (color === 'primary' || color === 'secondary') {
+        shadowColor = color;
+      }
 
-    if (raised) {
-      return shadows.get(shadowColor);
-    }
+      if (raised) {
+        return shadows.get(shadowColor);
+      }
 
-    return 'none';
-  }};
+      return 'none';
+    }};
   }
 `;
 
@@ -51,5 +51,6 @@ export const SolidButton = styled.button`
   min-height: ${props => buttonSizes[props.size].container}px;
   border-radius: ${props => buttonSizes[props.size].container}px;
   background: ${props => backgroundColors[props.color]};
+  width: ${props => (props.fluid ? '100%' : 'auto')};
   ${buttonShadowMixin};
 `;
