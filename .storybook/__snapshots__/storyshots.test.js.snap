@@ -1,327 +1,1280 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Buttons Solid Button 1`] = `
+exports[`Storyshots Buttons/Solid Button Component 1`] = `
 <div>
-  <h1
-    className="sc-bwzfXH dblvNi"
+  <h3
+    className="sc-htpNat bmPwTJ"
   >
-    Buttons
-     -- 
-    Solid Button
-  </h1>
+    Buttons/Solid Button
+      →  
+    Component
+  </h3>
   <div
-    className="sc-bdVaJa hGMQEm"
+    className="sc-bxivhb fZfWO"
   >
-    <button
-      className="sc-htpNat lgpCmI"
-      color="black"
-      onClick={[Function]}
-      value={undefined}
+    <div
+      className="sc-bwzfXH hMZSjH"
     >
-      Sign Up
-    </button>
+      <button
+        className="sc-ifAKCX jLICax"
+        color="black"
+        size="small"
+      >
+        ButtonText
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Buttons/Solid Button
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH hMZSjH"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jLICax"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fxvhzp"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eMkIJB"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jxLkLb"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ftNiWp"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kUAMvZ"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jxNtlO"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX exOzSa"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jyIXnq"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ktIiEh"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eqQJmD"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eVnYET"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fOELHE"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hXvCxC"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kfAdOf"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX epimpt"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX easQGn"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX CmcWE"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cUelGy"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eeuDio"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jhwHfR"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jUUVPY"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX dOrbKe"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iodXfB"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jicIsm"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX coxdxs"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hsPKvj"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jAzzBJ"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bJcJoC"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX imDFcV"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hLHItW"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jOvwYw"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX blIKOf"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gGgEsA"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kwzLfy"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gRhXRa"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hrDkIK"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eWGVUT"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX griFjX"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eFqfmF"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ipMeF"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hSJoNo"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX dPiFyR"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cemWvn"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gBHQOd"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cKAoOB"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jxVWPA"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jQlZlJ"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ezzYyu"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gokmZn"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eqzmVQ"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ivnQQt"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eBDpun"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jqFaZo"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fmFVZB"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cyaHkh"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cJgodJ"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kQbWGA"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hRbzKy"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hhKqoU"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX aJTtL"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX idLYZR"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX UbSYT"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iphPWg"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ejFWNh"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX clfdmI"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX IOAMU"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cQeouP"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fSNfgO"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jHBory"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hgLPAN"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cIlXRV"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bxSSVv"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ihpsLx"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ckZZQq"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fnEwJr"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hLEHGG"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hxnzss"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bbyVsQ"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ElEZH"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fbsCvT"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kpMkOm"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kOhKDv"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hZtPrm"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots Theme Colors 1`] = `
 <div>
-  <h1
-    className="sc-bwzfXH dblvNi"
+  <h3
+    className="sc-htpNat bmPwTJ"
   >
     Theme
-     -- 
+      →  
     Colors
-  </h1>
+  </h3>
   <div
-    className="sc-bdVaJa hGMQEm"
+    className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-bxivhb eRtDDx"
+      className="sc-bwzfXH hMZSjH"
     >
       <div
-        className="sc-ifAKCX hAJQnO"
+        className="sc-EHOje fwuUJE"
       >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          White
-        </div>
-        <div
-          className="sc-EHOje dLufTI"
-          color="#FFFFFF"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #FFFFFF
+            White
+          </div>
+          <div
+            className="sc-gzVnrw fERSV"
+            color="#FFFFFF"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #FFFFFF
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Grey 5
-        </div>
-        <div
-          className="sc-EHOje jdQSre"
-          color="#EDEFF2"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #EDEFF2
+            Grey 5
+          </div>
+          <div
+            className="sc-gzVnrw hzhyrr"
+            color="#EDEFF2"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #EDEFF2
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Grey 4
-        </div>
-        <div
-          className="sc-EHOje ftFSA"
-          color="#E1E3E6"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #E1E3E6
+            Grey 4
+          </div>
+          <div
+            className="sc-gzVnrw gMpawJ"
+            color="#E1E3E6"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #E1E3E6
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Grey 3
-        </div>
-        <div
-          className="sc-EHOje hfBJOr"
-          color="#C1C3C6"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #C1C3C6
+            Grey 3
+          </div>
+          <div
+            className="sc-gzVnrw XgNmS"
+            color="#C1C3C6"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #C1C3C6
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Grey 2
-        </div>
-        <div
-          className="sc-EHOje fthUpU"
-          color="#9B9B9B"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #9B9B9B
+            Grey 2
+          </div>
+          <div
+            className="sc-gzVnrw bAoNuG"
+            color="#9B9B9B"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #9B9B9B
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Grey 1
-        </div>
-        <div
-          className="sc-EHOje jOWcPm"
-          color="#666666"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #666666
+            Grey 1
+          </div>
+          <div
+            className="sc-gzVnrw jMOYBh"
+            color="#666666"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #666666
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Black
-        </div>
-        <div
-          className="sc-EHOje bIYmgC"
-          color="#303030"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #303030
+            Black
+          </div>
+          <div
+            className="sc-gzVnrw hQUwR"
+            color="#303030"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #303030
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Primary Orange
-        </div>
-        <div
-          className="sc-EHOje bKQbsc"
-          color="#FFA700"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #FFA700
+            Primary Orange
+          </div>
+          <div
+            className="sc-gzVnrw hMTANw"
+            color="#FFA700"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #FFA700
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Light Orange
-        </div>
-        <div
-          className="sc-EHOje ghDmJf"
-          color="#FFBE00"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #FFBE00
+            Light Orange
+          </div>
+          <div
+            className="sc-gzVnrw ghraY"
+            color="#FFBE00"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #FFBE00
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Dark Orange
-        </div>
-        <div
-          className="sc-EHOje gFXENb"
-          color="#FF8D00"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #FF8D00
+            Dark Orange
+          </div>
+          <div
+            className="sc-gzVnrw fBFhSz"
+            color="#FF8D00"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #FF8D00
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Primary Blue
-        </div>
-        <div
-          className="sc-EHOje dqJcAf"
-          color="#0075F7"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #0075F7
+            Primary Blue
+          </div>
+          <div
+            className="sc-gzVnrw imSaBK"
+            color="#0075F7"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #0075F7
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Light Blue
-        </div>
-        <div
-          className="sc-EHOje ktUMPC"
-          color="#00CDFF"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #00CDFF
+            Light Blue
+          </div>
+          <div
+            className="sc-gzVnrw exOvMC"
+            color="#00CDFF"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #00CDFF
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-ifAKCX hAJQnO"
-      >
         <div
-          className="sc-bZQynM jLRaHO"
-        >
-          Dark Blue
-        </div>
-        <div
-          className="sc-EHOje eTZQaM"
-          color="#0E91FD"
-        />
-        <div
-          className="sc-bZQynM jLRaHO"
+          className="sc-bZQynM etgEpo"
         >
           <div
-            className="sc-gzVnrw HfMTP"
+            className="sc-htoDjs bKhna"
           >
-            #0E91FD
+            Dark Blue
+          </div>
+          <div
+            className="sc-gzVnrw kANIpf"
+            color="#0E91FD"
+          />
+          <div
+            className="sc-htoDjs bKhna"
+          >
+            <div
+              className="sc-dnqmqq gVnRJi"
+            >
+              #0E91FD
+            </div>
           </div>
         </div>
       </div>
@@ -332,60 +1285,64 @@ exports[`Storyshots Theme Colors 1`] = `
 
 exports[`Storyshots Theme Gradients 1`] = `
 <div>
-  <h1
-    className="sc-bwzfXH dblvNi"
+  <h3
+    className="sc-htpNat bmPwTJ"
   >
     Theme
-     -- 
+      →  
     Gradients
-  </h1>
+  </h3>
   <div
-    className="sc-bdVaJa hGMQEm"
+    className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-htoDjs btXLhN"
+      className="sc-bwzfXH hMZSjH"
     >
       <div
-        className="sc-dnqmqq dussaN"
+        className="sc-iwsKbI kUkwhG"
       >
         <div
-          className="sc-gZMcBi btwASl"
-        >
-          Primary
-        </div>
-        <div
-          className="sc-iwsKbI dYebdI"
-        />
-        <div
-          className="sc-gZMcBi btwASl"
+          className="sc-gZMcBi hsXsqw"
         >
           <div
-            className="sc-gqjmRU dThHby"
+            className="sc-VigVT jfKvj"
           >
-            background: 
-            linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
+            Primary
+          </div>
+          <div
+            className="sc-gqjmRU cCEnXC"
+          />
+          <div
+            className="sc-VigVT jfKvj"
+          >
+            <div
+              className="sc-jTzLTM DLLmq"
+            >
+              background: 
+              linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="sc-dnqmqq dussaN"
-      >
         <div
-          className="sc-gZMcBi btwASl"
-        >
-          Secondary
-        </div>
-        <div
-          className="sc-iwsKbI jmlsLh"
-        />
-        <div
-          className="sc-gZMcBi btwASl"
+          className="sc-gZMcBi hsXsqw"
         >
           <div
-            className="sc-gqjmRU dThHby"
+            className="sc-VigVT jfKvj"
           >
-            background: 
-            linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
+            Secondary
+          </div>
+          <div
+            className="sc-gqjmRU ekLiEv"
+          />
+          <div
+            className="sc-VigVT jfKvj"
+          >
+            <div
+              className="sc-jTzLTM DLLmq"
+            >
+              background: 
+              linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
+            </div>
           </div>
         </div>
       </div>
@@ -396,310 +1353,314 @@ exports[`Storyshots Theme Gradients 1`] = `
 
 exports[`Storyshots Theme Typography 1`] = `
 <div>
-  <h1
-    className="sc-bwzfXH dblvNi"
+  <h3
+    className="sc-htpNat bmPwTJ"
   >
     Theme
-     -- 
+      →  
     Typography
-  </h1>
+  </h3>
   <div
-    className="sc-bdVaJa hGMQEm"
+    className="sc-bxivhb fZfWO"
   >
-    <div>
-      <h3
-        className="sc-VigVT huAvfj"
-      >
-        Font Family 
-        <code>
-          font-family
-        </code>
-      </h3>
-      <div
-        className="sc-jTzLTM kMBvvz"
-      >
+    <div
+      className="sc-bwzfXH hMZSjH"
+    >
+      <div>
         <h3
-          style={
-            Object {
-              "fontFamily": "monospace",
-              "fontSize": 24,
-              "padding": 12,
-            }
-          }
+          className="sc-fjdhpX jvvweT"
         >
-          Poppins
+          Font Family 
+          <code>
+            font-family
+          </code>
         </h3>
         <div
-          className="sc-fjdhpX YujWz"
+          className="sc-jzJRlG hhUSl"
         >
-          <div
-            className="sc-cSHVUG lhcheg"
-            size={64}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Regular - 400
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG gSIcV"
-            size={64}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Medium - 500
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG jkuDyn"
-            size={64}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Semi-Bold - 600
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG fjWil"
-            size={64}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Bold - 700
-          </div>
-        </div>
-      </div>
-      <h3
-        className="sc-VigVT huAvfj"
-      >
-        Font Sizing 
-        <code>
-          font-size
-        </code>
-      </h3>
-      <div
-        className="sc-jTzLTM kMBvvz"
-      >
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG edxDSm"
-            size={12}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Extra Small - 12px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG hQlgeD"
-            size={14}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Small - 14px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG eXcseB"
-            size={16}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Medium - 16px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG jXrTYi"
-            size={24}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Large - 24px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG cRZwaT"
-            size={30}
-            style={undefined}
-          >
-            Aa
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Extra Large - 30px
-          </div>
-        </div>
-      </div>
-      <h3
-        className="sc-VigVT huAvfj"
-      >
-        Font Leading 
-        <code>
-          line-height
-        </code>
-      </h3>
-      <div
-        className="sc-jTzLTM kMBvvz"
-      >
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG ikInxO"
-            size={16}
+          <h3
             style={
               Object {
-                "maxWidth": 240,
-                "padding": "0px 10px",
+                "fontFamily": "monospace",
+                "fontSize": 24,
+                "padding": 12,
               }
             }
           >
-            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            Poppins
+          </h3>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV fzxrBl"
+              size={64}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Regular - 400
+            </div>
           </div>
           <div
-            className="sc-jzJRlG gZFxXA"
+            className="sc-cSHVUG hlgoUJ"
           >
-            Extra Small - 18px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG ikInxO"
-            size={16}
-            style={
-              Object {
-                "maxWidth": 240,
-                "padding": "0px 10px",
-              }
-            }
-          >
-            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            <div
+              className="sc-chPdSV cVlCTe"
+              size={64}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Medium - 500
+            </div>
           </div>
           <div
-            className="sc-jzJRlG gZFxXA"
+            className="sc-cSHVUG hlgoUJ"
           >
-            Small - 20px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG bPGfPa"
-            size={16}
-            style={
-              Object {
-                "maxWidth": 240,
-                "padding": "0px 10px",
-              }
-            }
-          >
-            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            <div
+              className="sc-chPdSV icHpQy"
+              size={64}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Semi-Bold - 600
+            </div>
           </div>
           <div
-            className="sc-jzJRlG gZFxXA"
+            className="sc-cSHVUG hlgoUJ"
           >
-            Medium - 24px
-          </div>
-        </div>
-        <div
-          className="sc-fjdhpX YujWz"
-        >
-          <div
-            className="sc-cSHVUG efCkfl"
-            size={16}
-            style={
-              Object {
-                "maxWidth": 240,
-                "padding": "0px 10px",
-              }
-            }
-          >
-            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
-          </div>
-          <div
-            className="sc-jzJRlG gZFxXA"
-          >
-            Large - 30px
+            <div
+              className="sc-chPdSV cHhCiJ"
+              size={64}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Bold - 700
+            </div>
           </div>
         </div>
+        <h3
+          className="sc-fjdhpX jvvweT"
+        >
+          Font Sizing 
+          <code>
+            font-size
+          </code>
+        </h3>
         <div
-          className="sc-fjdhpX YujWz"
+          className="sc-jzJRlG hhUSl"
         >
           <div
-            className="sc-cSHVUG kpcpyd"
-            size={16}
-            style={
-              Object {
-                "maxWidth": 240,
-                "padding": "0px 10px",
-              }
-            }
+            className="sc-cSHVUG hlgoUJ"
           >
-            Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            <div
+              className="sc-chPdSV gZzSZi"
+              size={12}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Extra Small - 12px
+            </div>
           </div>
           <div
-            className="sc-jzJRlG gZFxXA"
+            className="sc-cSHVUG hlgoUJ"
           >
-            Extra Large - 36px
+            <div
+              className="sc-chPdSV cGTuEG"
+              size={14}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Small - 14px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV dJIKOJ"
+              size={16}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Medium - 16px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV ctDDEM"
+              size={24}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Large - 24px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV bFZztA"
+              size={30}
+              style={undefined}
+            >
+              Aa
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Extra Large - 30px
+            </div>
+          </div>
+        </div>
+        <h3
+          className="sc-fjdhpX jvvweT"
+        >
+          Font Leading 
+          <code>
+            line-height
+          </code>
+        </h3>
+        <div
+          className="sc-jzJRlG hhUSl"
+        >
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV dCxum"
+              size={16}
+              style={
+                Object {
+                  "maxWidth": 240,
+                  "padding": "0px 10px",
+                }
+              }
+            >
+              Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Extra Small - 18px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV dCxum"
+              size={16}
+              style={
+                Object {
+                  "maxWidth": 240,
+                  "padding": "0px 10px",
+                }
+              }
+            >
+              Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Small - 20px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV kyavAe"
+              size={16}
+              style={
+                Object {
+                  "maxWidth": 240,
+                  "padding": "0px 10px",
+                }
+              }
+            >
+              Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Medium - 24px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV ecAuwZ"
+              size={16}
+              style={
+                Object {
+                  "maxWidth": 240,
+                  "padding": "0px 10px",
+                }
+              }
+            >
+              Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Large - 30px
+            </div>
+          </div>
+          <div
+            className="sc-cSHVUG hlgoUJ"
+          >
+            <div
+              className="sc-chPdSV bkcfHE"
+              size={16}
+              style={
+                Object {
+                  "maxWidth": 240,
+                  "padding": "0px 10px",
+                }
+              }
+            >
+              Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
+            </div>
+            <div
+              className="sc-kAzzGY bLvxCo"
+            >
+              Extra Large - 36px
+            </div>
           </div>
         </div>
       </div>
