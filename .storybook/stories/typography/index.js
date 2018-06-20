@@ -49,11 +49,8 @@ const FontStyle = ({
   </FontStyleContainer>
 );
 
-decorateAddons(storiesOf('Theme', module)).addWithJSX('Typography', () => (
-  <div>
-    <SectionTitle>
-      Font Family <code>font-family</code>
-    </SectionTitle>
+decorateAddons(storiesOf('Typography', module))
+  .add('Font Families', () => (
     <FontStylesContainer>
       <h3 style={fontFamilyTitleStyle}>Poppins</h3>
       <FontStyle
@@ -81,9 +78,8 @@ decorateAddons(storiesOf('Theme', module)).addWithJSX('Typography', () => (
         weight={fonts.fontWeight.bold}
       />
     </FontStylesContainer>
-    <SectionTitle>
-      Font Sizing <code>font-size</code>
-    </SectionTitle>
+  ))
+  .add('Font Sizes', () => (
     <FontStylesContainer>
       <FontStyle
         content={'Aa'}
@@ -116,9 +112,8 @@ decorateAddons(storiesOf('Theme', module)).addWithJSX('Typography', () => (
         weight={fonts.fontWeight.default}
       />
     </FontStylesContainer>
-    <SectionTitle>
-      Font Leading <code>line-height</code>
-    </SectionTitle>
+  ))
+  .add('Font Leading', () => (
     <FontStylesContainer>
       <FontStyle
         name={`Extra Small - ${fonts.fontLeading.xSmall}px`}
@@ -161,5 +156,4 @@ decorateAddons(storiesOf('Theme', module)).addWithJSX('Typography', () => (
         content={paragraph}
       />
     </FontStylesContainer>
-  </div>
-));
+  ));

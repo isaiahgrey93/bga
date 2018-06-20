@@ -25,6 +25,9 @@ export const FontStyleContainer = styled.div`
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const FontStyleDetail = styled.div`

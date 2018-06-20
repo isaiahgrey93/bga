@@ -24,7 +24,7 @@ const GradientSwatch = ({ name, primary }) => (
   </GradientSwatchContainer>
 );
 
-decorateAddons(storiesOf('Theme', module)).addWithJSX('Gradients', () => (
+decorateAddons(storiesOf('Colors', module)).add('Gradients', () => (
   <GradientSwatchesContainer>
     <GradientSwatch name={'Primary'} primary />
     <GradientSwatch name={'Secondary'} />

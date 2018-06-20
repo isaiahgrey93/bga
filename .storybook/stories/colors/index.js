@@ -22,7 +22,7 @@ const ColorSwatch = ({ name, color }) => (
   </ColorSwatchContainer>
 );
 
-decorateAddons(storiesOf('Theme', module)).addWithJSX('Colors', () => (
+decorateAddons(storiesOf('Colors', module)).add('Colors', () => (
   <ColorSwatchesContainer>
     <ColorSwatch name={'White'} color={colors.white} />
     <ColorSwatch name={'Grey 5'} color={colors.grey5} />
