@@ -33,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "jest && yarn lint"
+      "pre-commit": "jest -o && yarn lint"
     }
   },
   "jest": {
