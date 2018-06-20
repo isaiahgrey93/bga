@@ -17,8 +17,8 @@ const buttonSizeOptions = Object.keys(buttonSizes);
 const shadowTypeOptions = Object.keys(shadowTypes);
 const backgroundColorOptions = Object.keys(backgroundColors);
 
-decorateAddons(storiesOf('Buttons', module))
-  .addWithJSX('Solid-Button', () => (
+decorateAddons(storiesOf('Buttons/Solid Button', module))
+  .addWithJSX('Component', () => (
     <SolidButton
       value={text('Label', 'ButtonText')}
       size={select('Size', buttonSizeOptions, buttonSizeOptions[0])}
@@ -27,7 +27,7 @@ decorateAddons(storiesOf('Buttons', module))
     />
   ))
   .add(
-    'Solid Button - Props Combinations',
+    'Prop Combinations',
     withPropsCombinations(SolidButton, {
       value: ['ButtonText'],
       size: buttonSizeOptions,

@@ -9,7 +9,9 @@ import JSXAddon from 'storybook-addon-jsx';
 import 'loki/configure-react';
 
 const PropComboContainer = styled.div`
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
 `;
 
 setAddon(JSXAddon);

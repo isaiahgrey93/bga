@@ -39,9 +39,9 @@ const buttonShadowMixin = css`
 export const SolidButton = styled.button`
   outline: 0;
   border: none;
-  padding: 8px 16px;
   font-family: 'Poppins';
   color: ${props => textColors[props.color]};
+  padding: 8px ${props => buttonSizes[props.size].horizontal}px;
   font-size: ${props => buttonSizes[props.size].text}px;
   min-width: ${props => buttonSizes[props.size].container}px;
   min-height: ${props => buttonSizes[props.size].container}px;
