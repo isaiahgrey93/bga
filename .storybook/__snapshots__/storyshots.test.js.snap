@@ -13,12 +13,11 @@ exports[`Storyshots Buttons/Solid Button Component 1`] = `
     className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-bwzfXH hMZSjH"
+      className="sc-bwzfXH EgZdJ"
     >
       <button
-        className="sc-ifAKCX jLICax"
+        className="sc-ifAKCX jipgDf"
         color="black"
-        onClick={[Function]}
         size="small"
       >
         ButtonText
@@ -41,14 +40,14 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
     className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-bwzfXH hMZSjH"
+      className="sc-bwzfXH EgZdJ"
     >
       <div>
         <div
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jLICax"
+            className="sc-ifAKCX jGFSJH"
             color="black"
             size="small"
           >
@@ -59,7 +58,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fxvhzp"
+            className="sc-ifAKCX bNIsPd"
             color="black"
             size="small"
           >
@@ -70,7 +69,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eMkIJB"
+            className="sc-ifAKCX kzhdBD"
             color="black"
             size="small"
           >
@@ -81,7 +80,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jxLkLb"
+            className="sc-ifAKCX kGQeYc"
             color="black"
             size="small"
           >
@@ -92,7 +91,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ftNiWp"
+            className="sc-ifAKCX jipgDf"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jgCYIc"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jeUkOc"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ewXXWx"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX OyAGS"
             color="transparent"
             size="small"
           >
@@ -103,7 +146,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kUAMvZ"
+            className="sc-ifAKCX cxLHZK"
             color="transparent"
             size="small"
           >
@@ -114,7 +157,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jxNtlO"
+            className="sc-ifAKCX yoABQ"
             color="transparent"
             size="small"
           >
@@ -125,7 +168,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX exOzSa"
+            className="sc-ifAKCX hFbQUo"
             color="transparent"
             size="small"
           >
@@ -136,7 +179,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jyIXnq"
+            className="sc-ifAKCX fMdlih"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bDWaLm"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ggOodY"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kadLjr"
+            color="transparent"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gMFtQp"
             color="muted"
             size="small"
           >
@@ -147,7 +234,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ktIiEh"
+            className="sc-ifAKCX cLiYex"
             color="muted"
             size="small"
           >
@@ -158,7 +245,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eqQJmD"
+            className="sc-ifAKCX gTEdui"
             color="muted"
             size="small"
           >
@@ -169,7 +256,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eVnYET"
+            className="sc-ifAKCX jzPjVr"
             color="muted"
             size="small"
           >
@@ -180,7 +267,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fOELHE"
+            className="sc-ifAKCX irqmHq"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kJFJRP"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cmWbOu"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cVcdeb"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fzxDVP"
             color="white"
             size="small"
           >
@@ -191,7 +322,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hXvCxC"
+            className="sc-ifAKCX cPovYI"
             color="white"
             size="small"
           >
@@ -202,7 +333,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kfAdOf"
+            className="sc-ifAKCX ahsVX"
             color="white"
             size="small"
           >
@@ -213,7 +344,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX epimpt"
+            className="sc-ifAKCX fMkKYD"
             color="white"
             size="small"
           >
@@ -224,7 +355,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX easQGn"
+            className="sc-ifAKCX wkMCA"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hkIohq"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX dCkwXX"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bKJumM"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fncxgm"
             color="blue"
             size="small"
           >
@@ -235,7 +410,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX CmcWE"
+            className="sc-ifAKCX uWMEJ"
             color="blue"
             size="small"
           >
@@ -246,7 +421,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cUelGy"
+            className="sc-ifAKCX bPfCsr"
             color="blue"
             size="small"
           >
@@ -257,7 +432,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eeuDio"
+            className="sc-ifAKCX cudbBU"
             color="blue"
             size="small"
           >
@@ -268,7 +443,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jhwHfR"
+            className="sc-ifAKCX fbbXTH"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hWRcSw"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gppBfJ"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gpXFKp"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iZPIqJ"
             color="primary"
             size="small"
           >
@@ -279,7 +498,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jUUVPY"
+            className="sc-ifAKCX ejyPzB"
             color="primary"
             size="small"
           >
@@ -290,7 +509,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX dOrbKe"
+            className="sc-ifAKCX jXFBRt"
             color="primary"
             size="small"
           >
@@ -301,7 +520,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX iodXfB"
+            className="sc-ifAKCX ciSsJH"
             color="primary"
             size="small"
           >
@@ -312,7 +531,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jicIsm"
+            className="sc-ifAKCX AsxxH"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gZYaRL"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jrPcKR"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kbQcoq"
+            color="primary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jbeDIV"
             color="secondary"
             size="small"
           >
@@ -323,7 +586,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX coxdxs"
+            className="sc-ifAKCX biJJHN"
             color="secondary"
             size="small"
           >
@@ -334,7 +597,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hsPKvj"
+            className="sc-ifAKCX cEwfzf"
             color="secondary"
             size="small"
           >
@@ -345,7 +608,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jAzzBJ"
+            className="sc-ifAKCX dGkDkc"
             color="secondary"
             size="small"
           >
@@ -356,7 +619,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bJcJoC"
+            className="sc-ifAKCX fAlzpb"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX grTguW"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gkVVeD"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gxQIfu"
+            color="secondary"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX earwdz"
             color="black"
             size="medium"
           >
@@ -367,7 +674,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX imDFcV"
+            className="sc-ifAKCX iTdnwI"
             color="black"
             size="medium"
           >
@@ -378,7 +685,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hLHItW"
+            className="sc-ifAKCX hpwJVt"
             color="black"
             size="medium"
           >
@@ -389,7 +696,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jOvwYw"
+            className="sc-ifAKCX laucSj"
             color="black"
             size="medium"
           >
@@ -400,7 +707,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX blIKOf"
+            className="sc-ifAKCX jufpAE"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hNjtLf"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX julDTY"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX llmMCU"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX goBAJV"
             color="transparent"
             size="medium"
           >
@@ -411,7 +762,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gGgEsA"
+            className="sc-ifAKCX dkouIP"
             color="transparent"
             size="medium"
           >
@@ -422,7 +773,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kwzLfy"
+            className="sc-ifAKCX HtnQD"
             color="transparent"
             size="medium"
           >
@@ -433,7 +784,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gRhXRa"
+            className="sc-ifAKCX dhIBSz"
             color="transparent"
             size="medium"
           >
@@ -444,7 +795,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hrDkIK"
+            className="sc-ifAKCX gNIsjX"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX dhueyD"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kklLzc"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX dfppAL"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fOSJlG"
             color="muted"
             size="medium"
           >
@@ -455,7 +850,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eWGVUT"
+            className="sc-ifAKCX iqLhlr"
             color="muted"
             size="medium"
           >
@@ -466,7 +861,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX griFjX"
+            className="sc-ifAKCX fWszMH"
             color="muted"
             size="medium"
           >
@@ -477,7 +872,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eFqfmF"
+            className="sc-ifAKCX kaGAEV"
             color="muted"
             size="medium"
           >
@@ -488,7 +883,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ipMeF"
+            className="sc-ifAKCX kJmbry"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX WpPQc"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bBQAaM"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cwdBRd"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kkibZg"
             color="white"
             size="medium"
           >
@@ -499,7 +938,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hSJoNo"
+            className="sc-ifAKCX xcJjm"
             color="white"
             size="medium"
           >
@@ -510,7 +949,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX dPiFyR"
+            className="sc-ifAKCX gzDMqE"
             color="white"
             size="medium"
           >
@@ -521,7 +960,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cemWvn"
+            className="sc-ifAKCX geAdmX"
             color="white"
             size="medium"
           >
@@ -532,7 +971,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gBHQOd"
+            className="sc-ifAKCX dDqeDR"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kBJTGi"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hDHCxG"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kXLEri"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bbOBMb"
             color="blue"
             size="medium"
           >
@@ -543,7 +1026,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cKAoOB"
+            className="sc-ifAKCX bGnyMd"
             color="blue"
             size="medium"
           >
@@ -554,7 +1037,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jxVWPA"
+            className="sc-ifAKCX fwmiEm"
             color="blue"
             size="medium"
           >
@@ -565,7 +1048,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jQlZlJ"
+            className="sc-ifAKCX hOhRCp"
             color="blue"
             size="medium"
           >
@@ -576,7 +1059,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ezzYyu"
+            className="sc-ifAKCX hiPiWg"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hiISpc"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kQPFGa"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fWyDGO"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kORwbc"
             color="primary"
             size="medium"
           >
@@ -587,7 +1114,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gokmZn"
+            className="sc-ifAKCX kLyegi"
             color="primary"
             size="medium"
           >
@@ -598,7 +1125,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eqzmVQ"
+            className="sc-ifAKCX fePTfn"
             color="primary"
             size="medium"
           >
@@ -609,7 +1136,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ivnQQt"
+            className="sc-ifAKCX cqPrMK"
             color="primary"
             size="medium"
           >
@@ -620,7 +1147,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX eBDpun"
+            className="sc-ifAKCX doOUeE"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cZAlcA"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX emNJcR"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iqpZAv"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kofWPo"
             color="secondary"
             size="medium"
           >
@@ -631,7 +1202,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jqFaZo"
+            className="sc-ifAKCX cWNlEf"
             color="secondary"
             size="medium"
           >
@@ -642,7 +1213,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fmFVZB"
+            className="sc-ifAKCX iTgEC"
             color="secondary"
             size="medium"
           >
@@ -653,7 +1224,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cyaHkh"
+            className="sc-ifAKCX dcpioh"
             color="secondary"
             size="medium"
           >
@@ -664,7 +1235,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cJgodJ"
+            className="sc-ifAKCX bcled"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kgSYyq"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iwCdBu"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX biZzNV"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jEZeCQ"
             color="black"
             size="large"
           >
@@ -675,7 +1290,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kQbWGA"
+            className="sc-ifAKCX dtAdrb"
             color="black"
             size="large"
           >
@@ -686,7 +1301,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hRbzKy"
+            className="sc-ifAKCX iOxesS"
             color="black"
             size="large"
           >
@@ -697,7 +1312,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hhKqoU"
+            className="sc-ifAKCX gwbxwC"
             color="black"
             size="large"
           >
@@ -708,7 +1323,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX aJTtL"
+            className="sc-ifAKCX fyBsIu"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fWBZYL"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX osXkV"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fSTUcf"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bzDBBH"
             color="transparent"
             size="large"
           >
@@ -719,7 +1378,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX idLYZR"
+            className="sc-ifAKCX ljKwwW"
             color="transparent"
             size="large"
           >
@@ -730,7 +1389,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX UbSYT"
+            className="sc-ifAKCX cNiXZO"
             color="transparent"
             size="large"
           >
@@ -741,7 +1400,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX iphPWg"
+            className="sc-ifAKCX blpvBX"
             color="transparent"
             size="large"
           >
@@ -752,7 +1411,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ejFWNh"
+            className="sc-ifAKCX LtQpy"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX JgFxK"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jLUvNN"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX epXlpa"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cNmIxo"
             color="muted"
             size="large"
           >
@@ -763,7 +1466,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX clfdmI"
+            className="sc-ifAKCX dolSxH"
             color="muted"
             size="large"
           >
@@ -774,7 +1477,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX IOAMU"
+            className="sc-ifAKCX hukYdh"
             color="muted"
             size="large"
           >
@@ -785,7 +1488,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cQeouP"
+            className="sc-ifAKCX bxdXuK"
             color="muted"
             size="large"
           >
@@ -796,7 +1499,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fSNfgO"
+            className="sc-ifAKCX fuJLNb"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fwyVMZ"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gNURFz"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cGRzeE"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX Xovrv"
             color="white"
             size="large"
           >
@@ -807,7 +1554,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jHBory"
+            className="sc-ifAKCX fNSJmP"
             color="white"
             size="large"
           >
@@ -818,7 +1565,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hgLPAN"
+            className="sc-ifAKCX fHvdFp"
             color="white"
             size="large"
           >
@@ -829,7 +1576,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cIlXRV"
+            className="sc-ifAKCX ihIzja"
             color="white"
             size="large"
           >
@@ -840,7 +1587,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bxSSVv"
+            className="sc-ifAKCX buoJbE"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bWyVWo"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gNfRcl"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iteEIK"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fipFNg"
             color="blue"
             size="large"
           >
@@ -851,7 +1642,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ihpsLx"
+            className="sc-ifAKCX ibGeHE"
             color="blue"
             size="large"
           >
@@ -862,7 +1653,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ckZZQq"
+            className="sc-ifAKCX hHQiad"
             color="blue"
             size="large"
           >
@@ -873,7 +1664,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fnEwJr"
+            className="sc-ifAKCX iPzTxA"
             color="blue"
             size="large"
           >
@@ -884,7 +1675,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hLEHGG"
+            className="sc-ifAKCX eZjUdp"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX axlnU"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX lnWImb"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX ctuavF"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hYoXDv"
             color="primary"
             size="large"
           >
@@ -895,7 +1730,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hxnzss"
+            className="sc-ifAKCX duMpxa"
             color="primary"
             size="large"
           >
@@ -906,7 +1741,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bbyVsQ"
+            className="sc-ifAKCX gFYsCT"
             color="primary"
             size="large"
           >
@@ -917,7 +1752,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ElEZH"
+            className="sc-ifAKCX fGCRra"
             color="primary"
             size="large"
           >
@@ -928,7 +1763,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fbsCvT"
+            className="sc-ifAKCX iHpkj"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX jyjiub"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX dgXeQO"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eBTVTw"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eXEayX"
             color="secondary"
             size="large"
           >
@@ -939,7 +1818,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kpMkOm"
+            className="sc-ifAKCX bBQRSu"
             color="secondary"
             size="large"
           >
@@ -950,7 +1829,7 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kOhKDv"
+            className="sc-ifAKCX fDTlho"
             color="secondary"
             size="large"
           >
@@ -961,7 +1840,51 @@ exports[`Storyshots Buttons/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hZtPrm"
+            className="sc-ifAKCX dVApMU"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX bUbltC"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cbwGxj"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX eKBOMl"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX tdrnu"
             color="secondary"
             size="large"
           >
@@ -987,7 +1910,7 @@ exports[`Storyshots Theme Colors 1`] = `
     className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-bwzfXH hMZSjH"
+      className="sc-bwzfXH EgZdJ"
     >
       <div
         className="sc-EHOje fwuUJE"
@@ -1297,7 +2220,7 @@ exports[`Storyshots Theme Gradients 1`] = `
     className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-bwzfXH hMZSjH"
+      className="sc-bwzfXH EgZdJ"
     >
       <div
         className="sc-iwsKbI kUkwhG"
@@ -1365,7 +2288,7 @@ exports[`Storyshots Theme Typography 1`] = `
     className="sc-bxivhb fZfWO"
   >
     <div
-      className="sc-bwzfXH hMZSjH"
+      className="sc-bwzfXH EgZdJ"
     >
       <div>
         <h3

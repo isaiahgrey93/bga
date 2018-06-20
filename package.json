@@ -21,8 +21,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "jest -o",
-    "test:watch": "jest -o --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "eject": "react-scripts eject",
     "lint": "npm-run-all lint:prettier lint:eslint",
     "lint:eslint": "eslint . --fix --max-warnings=0",
@@ -40,8 +40,7 @@
   "jest": {
     "setupTestFrameworkScriptFile": "./test.setup.js",
     "testMatch": [
-      "<rootDir>/src/**/*test.{js,jsx}",
-      "<rootDir>/.storybook/**/*test.{js,jsx}"
+      "<rootDir>/**/**/*test.{js,jsx}"
     ],
     "modulePaths": [
       "<rootDir>/src",
