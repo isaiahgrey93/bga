@@ -21,7 +21,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "test": "jest -o",
+    "test:watch": "jest -o --watch",
     "eject": "react-scripts eject",
     "lint": "npm-run-all lint:prettier lint:eslint",
     "lint:eslint": "eslint . --fix --max-warnings=0",
@@ -33,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "jest -o && yarn lint"
+      "pre-commit": "yarn test && yarn lint"
     }
   },
   "jest": {
@@ -45,6 +46,10 @@
     "modulePaths": [
       "<rootDir>/src",
       "<rootDir>/.storybook"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/components/**/*.{js,jsx}"
     ]
   },
   "loki": {
