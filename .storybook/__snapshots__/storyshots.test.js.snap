@@ -67,9 +67,13 @@ exports[`Storyshots Button/Outline Button Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <center>
-        Not Implemented
-      </center>
+      <button
+        className="sc-ifAKCX cFbRBg"
+        color="black"
+        size="small"
+      >
+        ButtonText
+      </button>
     </div>
   </div>
 </div>
@@ -94,9 +98,266 @@ exports[`Storyshots Button/Outline Button Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa flAlLV"
         >
-          <center>
-            Not Implemented
-          </center>
+          <button
+            className="sc-ifAKCX ghmRJL"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iNvivt"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gbvGAL"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cFbRBg"
+            color="black"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hKHcOI"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX lhXmtI"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX gNzVzy"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX izUfQc"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX khGZql"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cWkbTs"
+            color="muted"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX clPdpR"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kZEvAF"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kMtirW"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX sDNMD"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX cpIpBV"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hdtFUF"
+            color="white"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX iVJmKi"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX kytqoi"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hapKxd"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX hsBLzX"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX fkrLkf"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX knscUz"
+            color="blue"
+            size="small"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX izhjqu"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-ifAKCX Ubppl"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
         </div>
       </div>
     </div>
@@ -120,7 +381,7 @@ exports[`Storyshots Button/Solid Button Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <button
-        className="sc-ifAKCX jipgDf"
+        className="sc-EHOje jNolJN"
         color="black"
         size="small"
       >
@@ -151,7 +412,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jGFSJH"
+            className="sc-EHOje imYoqf"
             color="black"
             size="small"
           >
@@ -162,7 +423,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bNIsPd"
+            className="sc-EHOje NMuqi"
             color="black"
             size="small"
           >
@@ -173,7 +434,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kzhdBD"
+            className="sc-EHOje JGxxp"
             color="black"
             size="small"
           >
@@ -184,7 +445,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kGQeYc"
+            className="sc-EHOje kmrZQq"
             color="black"
             size="small"
           >
@@ -195,7 +456,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jipgDf"
+            className="sc-EHOje XuciL"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kZsnwB"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje WpunN"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kOMHid"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fhCXcN"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje cPQwpe"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eDKVMZ"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ezMzgL"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jNolJN"
             color="black"
             size="small"
           >
@@ -206,7 +555,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jgCYIc"
+            className="sc-EHOje cgjVxX"
             color="black"
             size="small"
           >
@@ -217,7 +566,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jeUkOc"
+            className="sc-EHOje HAVDK"
             color="black"
             size="small"
           >
@@ -228,7 +577,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ewXXWx"
+            className="sc-EHOje chuZgI"
             color="black"
             size="small"
           >
@@ -239,7 +588,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX OyAGS"
+            className="sc-EHOje BwgDR"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kqbjhf"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iQHqUD"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje lpfJFb"
+            color="black"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hpWEYp"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje cqUEMJ"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fMIOXK"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje BDttZ"
+            color="black"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fNiFyG"
             color="transparent"
             size="small"
           >
@@ -250,7 +687,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cxLHZK"
+            className="sc-EHOje bkbQxk"
             color="transparent"
             size="small"
           >
@@ -261,7 +698,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX yoABQ"
+            className="sc-EHOje kkgvUq"
             color="transparent"
             size="small"
           >
@@ -272,7 +709,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hFbQUo"
+            className="sc-EHOje ShTYv"
             color="transparent"
             size="small"
           >
@@ -283,7 +720,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fMdlih"
+            className="sc-EHOje kLzcQF"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje cHiGYC"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jkEfvH"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bDvxkW"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jFngUN"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jLKhCw"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kcGVSS"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje PZDGc"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje edHVjd"
             color="transparent"
             size="small"
           >
@@ -294,7 +819,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bDWaLm"
+            className="sc-EHOje kKTLMP"
             color="transparent"
             size="small"
           >
@@ -305,7 +830,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ggOodY"
+            className="sc-EHOje ckqIit"
             color="transparent"
             size="small"
           >
@@ -316,7 +841,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kadLjr"
+            className="sc-EHOje jvxhKH"
             color="transparent"
             size="small"
           >
@@ -327,7 +852,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gMFtQp"
+            className="sc-EHOje kmvBrG"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iroMJs"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jWAAnH"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eQvgha"
+            color="transparent"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje cUyhoP"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eZmMGT"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ZDgAR"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje OydaQ"
+            color="transparent"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bjgZbQ"
             color="muted"
             size="small"
           >
@@ -338,7 +951,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cLiYex"
+            className="sc-EHOje hGEJIM"
             color="muted"
             size="small"
           >
@@ -349,7 +962,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gTEdui"
+            className="sc-EHOje iQIeCJ"
             color="muted"
             size="small"
           >
@@ -360,7 +973,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jzPjVr"
+            className="sc-EHOje bwaNKa"
             color="muted"
             size="small"
           >
@@ -371,7 +984,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX irqmHq"
+            className="sc-EHOje eGhHgw"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje gobxSx"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ezOCLw"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jxrKjN"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jRsDZu"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hlWRoX"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jIKIQY"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jFsgMs"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hzLiAK"
             color="muted"
             size="small"
           >
@@ -382,7 +1083,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kJFJRP"
+            className="sc-EHOje gxLKsp"
             color="muted"
             size="small"
           >
@@ -393,7 +1094,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cmWbOu"
+            className="sc-EHOje bqzIHV"
             color="muted"
             size="small"
           >
@@ -404,7 +1105,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cVcdeb"
+            className="sc-EHOje cVSVSi"
             color="muted"
             size="small"
           >
@@ -415,7 +1116,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fzxDVP"
+            className="sc-EHOje fIQruW"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bEzkWj"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iuPHGQ"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje gGJyJK"
+            color="muted"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bhixCV"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fNvPoj"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ZRRbB"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eQRhGr"
+            color="muted"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje leDRdd"
             color="white"
             size="small"
           >
@@ -426,7 +1215,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cPovYI"
+            className="sc-EHOje fHuHkx"
             color="white"
             size="small"
           >
@@ -437,7 +1226,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ahsVX"
+            className="sc-EHOje eBhfZu"
             color="white"
             size="small"
           >
@@ -448,7 +1237,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fMkKYD"
+            className="sc-EHOje bSCwWm"
             color="white"
             size="small"
           >
@@ -459,7 +1248,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX wkMCA"
+            className="sc-EHOje lauhmR"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje AWfJc"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fxCuyW"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fynriV"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje edZFpt"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje gMqUBd"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje emAYLs"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jufWdk"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje GfLTk"
             color="white"
             size="small"
           >
@@ -470,7 +1347,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hkIohq"
+            className="sc-EHOje ebaElr"
             color="white"
             size="small"
           >
@@ -481,7 +1358,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX dCkwXX"
+            className="sc-EHOje bsIjQO"
             color="white"
             size="small"
           >
@@ -492,7 +1369,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bKJumM"
+            className="sc-EHOje gLyBNW"
             color="white"
             size="small"
           >
@@ -503,7 +1380,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fncxgm"
+            className="sc-EHOje hZnrhk"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hOJSRC"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje dOQCet"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kDrEJf"
+            color="white"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje klLJNw"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jrOBNu"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iUgpxI"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje gSMONP"
+            color="white"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jjhZIs"
             color="blue"
             size="small"
           >
@@ -514,7 +1479,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX uWMEJ"
+            className="sc-EHOje fBVtSS"
             color="blue"
             size="small"
           >
@@ -525,7 +1490,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bPfCsr"
+            className="sc-EHOje fVveOd"
             color="blue"
             size="small"
           >
@@ -536,7 +1501,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cudbBU"
+            className="sc-EHOje ilIBTv"
             color="blue"
             size="small"
           >
@@ -547,7 +1512,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fbbXTH"
+            className="sc-EHOje hohwdL"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje dLjkad"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hfWmAC"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kqfDoU"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ffEoms"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje euslmv"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje gywKWH"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iPUEDR"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje biazFW"
             color="blue"
             size="small"
           >
@@ -558,7 +1611,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX hWRcSw"
+            className="sc-EHOje dTsAUy"
             color="blue"
             size="small"
           >
@@ -569,7 +1622,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gppBfJ"
+            className="sc-EHOje fRPqPb"
             color="blue"
             size="small"
           >
@@ -580,7 +1633,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gpXFKp"
+            className="sc-EHOje jaKlJP"
             color="blue"
             size="small"
           >
@@ -591,7 +1644,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX iZPIqJ"
+            className="sc-EHOje fflEDR"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje kAJdqZ"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje KSBRJ"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje uwFkt"
+            color="blue"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jlxeNq"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bABiyd"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jQsRuk"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ichfLH"
+            color="blue"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hSXXMp"
             color="primary"
             size="small"
           >
@@ -602,7 +1743,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ejyPzB"
+            className="sc-EHOje iIUSHC"
             color="primary"
             size="small"
           >
@@ -613,7 +1754,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jXFBRt"
+            className="sc-EHOje bjMraZ"
             color="primary"
             size="small"
           >
@@ -624,7 +1765,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX ciSsJH"
+            className="sc-EHOje kTQJQw"
             color="primary"
             size="small"
           >
@@ -635,7 +1776,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX AsxxH"
+            className="sc-EHOje bqqTZU"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje fyXfnZ"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eOtKWA"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iigBpD"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hHtlFR"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jieCia"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eVeXOU"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje SLrAV"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ihQulm"
             color="primary"
             size="small"
           >
@@ -646,7 +1875,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gZYaRL"
+            className="sc-EHOje kCoffr"
             color="primary"
             size="small"
           >
@@ -657,7 +1886,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jrPcKR"
+            className="sc-EHOje boIkrQ"
             color="primary"
             size="small"
           >
@@ -668,7 +1897,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX kbQcoq"
+            className="sc-EHOje eGNfWu"
             color="primary"
             size="small"
           >
@@ -679,7 +1908,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX jbeDIV"
+            className="sc-EHOje ftlPPb"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje dMdhSX"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje cppwRe"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje uPcrS"
+            color="primary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje eYDPOt"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje ivpKx"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje WTixJ"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje gUyqHH"
+            color="primary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jupslU"
             color="secondary"
             size="small"
           >
@@ -690,7 +2007,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX biJJHN"
+            className="sc-EHOje jkbEpc"
             color="secondary"
             size="small"
           >
@@ -701,7 +2018,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cEwfzf"
+            className="sc-EHOje HIUMW"
             color="secondary"
             size="small"
           >
@@ -712,7 +2029,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX dGkDkc"
+            className="sc-EHOje iPmtTF"
             color="secondary"
             size="small"
           >
@@ -723,7 +2040,95 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fAlzpb"
+            className="sc-EHOje jTqbst"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje dyFAel"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bVAEES"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bErNfD"
+            color="secondary"
+            size="medium"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje htfbHq"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje hTWEhk"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje iWPjS"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje jIkYAD"
+            color="secondary"
+            size="large"
+          >
+            ButtonText
+          </button>
+        </div>
+        <div
+          className="sc-bdVaJa flAlLV"
+        >
+          <button
+            className="sc-EHOje bwgxur"
             color="secondary"
             size="small"
           >
@@ -734,7 +2139,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX grTguW"
+            className="sc-EHOje kIakAk"
             color="secondary"
             size="small"
           >
@@ -745,7 +2150,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gkVVeD"
+            className="sc-EHOje bQebzi"
             color="secondary"
             size="small"
           >
@@ -756,7 +2161,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX gxQIfu"
+            className="sc-EHOje iqlPXh"
             color="secondary"
             size="small"
           >
@@ -767,535 +2172,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX earwdz"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iTdnwI"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hpwJVt"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX laucSj"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX jufpAE"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hNjtLf"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX julDTY"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX llmMCU"
-            color="black"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX goBAJV"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dkouIP"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX HtnQD"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dhIBSz"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX gNIsjX"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dhueyD"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kklLzc"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dfppAL"
-            color="transparent"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fOSJlG"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iqLhlr"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fWszMH"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kaGAEV"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kJmbry"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX WpPQc"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bBQAaM"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cwdBRd"
-            color="muted"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kkibZg"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX xcJjm"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX gzDMqE"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX geAdmX"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dDqeDR"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kBJTGi"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hDHCxG"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kXLEri"
-            color="white"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bbOBMb"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bGnyMd"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fwmiEm"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hOhRCp"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hiPiWg"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hiISpc"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kQPFGa"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fWyDGO"
-            color="blue"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kORwbc"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kLyegi"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fePTfn"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cqPrMK"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX doOUeE"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cZAlcA"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX emNJcR"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iqpZAv"
-            color="primary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kofWPo"
+            className="sc-EHOje bsisYi"
             color="secondary"
             size="medium"
           >
@@ -1306,7 +2183,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX cWNlEf"
+            className="sc-EHOje gtdMfx"
             color="secondary"
             size="medium"
           >
@@ -1317,7 +2194,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX iTgEC"
+            className="sc-EHOje febzAU"
             color="secondary"
             size="medium"
           >
@@ -1328,7 +2205,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX dcpioh"
+            className="sc-EHOje iVNScO"
             color="secondary"
             size="medium"
           >
@@ -1339,579 +2216,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bcled"
-            color="secondary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX kgSYyq"
-            color="secondary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iwCdBu"
-            color="secondary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX biZzNV"
-            color="secondary"
-            size="medium"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX jEZeCQ"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dtAdrb"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iOxesS"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX gwbxwC"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fyBsIu"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fWBZYL"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX osXkV"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fSTUcf"
-            color="black"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bzDBBH"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX ljKwwW"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cNiXZO"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX blpvBX"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX LtQpy"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX JgFxK"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX jLUvNN"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX epXlpa"
-            color="transparent"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cNmIxo"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dolSxH"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hukYdh"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bxdXuK"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fuJLNb"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fwyVMZ"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX gNURFz"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cGRzeE"
-            color="muted"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX Xovrv"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fNSJmP"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fHvdFp"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX ihIzja"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX buoJbE"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bWyVWo"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX gNfRcl"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iteEIK"
-            color="white"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fipFNg"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX ibGeHE"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hHQiad"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iPzTxA"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX eZjUdp"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX axlnU"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX lnWImb"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX ctuavF"
-            color="blue"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX hYoXDv"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX duMpxa"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX gFYsCT"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX fGCRra"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX iHpkj"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX jyjiub"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX dgXeQO"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX eBTVTw"
-            color="primary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX eXEayX"
+            className="sc-EHOje hoYMgG"
             color="secondary"
             size="large"
           >
@@ -1922,7 +2227,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX bBQRSu"
+            className="sc-EHOje cKGQNA"
             color="secondary"
             size="large"
           >
@@ -1933,7 +2238,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX fDTlho"
+            className="sc-EHOje fxgdku"
             color="secondary"
             size="large"
           >
@@ -1944,51 +2249,7 @@ exports[`Storyshots Button/Solid Button Prop Combinations 1`] = `
           className="sc-bdVaJa flAlLV"
         >
           <button
-            className="sc-ifAKCX dVApMU"
-            color="secondary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX bUbltC"
-            color="secondary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX cbwGxj"
-            color="secondary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX eKBOMl"
-            color="secondary"
-            size="large"
-          >
-            ButtonText
-          </button>
-        </div>
-        <div
-          className="sc-bdVaJa flAlLV"
-        >
-          <button
-            className="sc-ifAKCX tdrnu"
+            className="sc-EHOje iZGwcq"
             color="secondary"
             size="large"
           >
@@ -2121,289 +2382,289 @@ exports[`Storyshots Colors Colors 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-EHOje fwuUJE"
+        className="sc-bZQynM HQzKM"
       >
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             White
           </div>
           <div
-            className="sc-gzVnrw fERSV"
+            className="sc-htoDjs iOvkkd"
             color="#FFFFFF"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #FFFFFF
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Grey 5
           </div>
           <div
-            className="sc-gzVnrw hzhyrr"
+            className="sc-htoDjs imfwQ"
             color="#EDEFF2"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #EDEFF2
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Grey 4
           </div>
           <div
-            className="sc-gzVnrw gMpawJ"
+            className="sc-htoDjs fEOgdi"
             color="#E1E3E6"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #E1E3E6
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Grey 3
           </div>
           <div
-            className="sc-gzVnrw XgNmS"
+            className="sc-htoDjs hHcYow"
             color="#C1C3C6"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #C1C3C6
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Grey 2
           </div>
           <div
-            className="sc-gzVnrw bAoNuG"
+            className="sc-htoDjs HXqVz"
             color="#9B9B9B"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #9B9B9B
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Grey 1
           </div>
           <div
-            className="sc-gzVnrw jMOYBh"
+            className="sc-htoDjs cRGMEK"
             color="#666666"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #666666
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Black
           </div>
           <div
-            className="sc-gzVnrw hQUwR"
+            className="sc-htoDjs koGpKo"
             color="#303030"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #303030
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Primary Orange
           </div>
           <div
-            className="sc-gzVnrw hMTANw"
+            className="sc-htoDjs gFfQuF"
             color="#FFA700"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #FFA700
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Light Orange
           </div>
           <div
-            className="sc-gzVnrw ghraY"
+            className="sc-htoDjs dGvdDu"
             color="#FFBE00"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #FFBE00
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Dark Orange
           </div>
           <div
-            className="sc-gzVnrw fBFhSz"
+            className="sc-htoDjs hORCnI"
             color="#FF8D00"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #FF8D00
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Primary Blue
           </div>
           <div
-            className="sc-gzVnrw imSaBK"
+            className="sc-htoDjs gqFzkq"
             color="#0075F7"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #0075F7
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Light Blue
           </div>
           <div
-            className="sc-gzVnrw exOvMC"
+            className="sc-htoDjs iewNqu"
             color="#00CDFF"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #00CDFF
             </div>
           </div>
         </div>
         <div
-          className="sc-bZQynM etgEpo"
+          className="sc-gzVnrw bqRCsx"
         >
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             Dark Blue
           </div>
           <div
-            className="sc-gzVnrw kANIpf"
+            className="sc-htoDjs diFjZT"
             color="#0E91FD"
           />
           <div
-            className="sc-htoDjs bKhna"
+            className="sc-dnqmqq iWnxmT"
           >
             <div
-              className="sc-dnqmqq gVnRJi"
+              className="sc-iwsKbI dPnoLe"
             >
               #0E91FD
             </div>
@@ -2431,24 +2692,24 @@ exports[`Storyshots Colors Gradients 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-iwsKbI kUkwhG"
+        className="sc-gZMcBi dWPVKR"
       >
         <div
-          className="sc-gZMcBi hsXsqw"
+          className="sc-gqjmRU bZyTlF"
         >
           <div
-            className="sc-VigVT jfKvj"
+            className="sc-jTzLTM jBpWQl"
           >
             Primary
           </div>
           <div
-            className="sc-gqjmRU cCEnXC"
+            className="sc-VigVT dqXwcE"
           />
           <div
-            className="sc-VigVT jfKvj"
+            className="sc-jTzLTM jBpWQl"
           >
             <div
-              className="sc-jTzLTM DLLmq"
+              className="sc-fjdhpX fdyCIz"
             >
               background: 
               linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
@@ -2456,21 +2717,21 @@ exports[`Storyshots Colors Gradients 1`] = `
           </div>
         </div>
         <div
-          className="sc-gZMcBi hsXsqw"
+          className="sc-gqjmRU bZyTlF"
         >
           <div
-            className="sc-VigVT jfKvj"
+            className="sc-jTzLTM jBpWQl"
           >
             Secondary
           </div>
           <div
-            className="sc-gqjmRU ekLiEv"
+            className="sc-VigVT jlPykX"
           />
           <div
-            className="sc-VigVT jfKvj"
+            className="sc-jTzLTM jBpWQl"
           >
             <div
-              className="sc-jTzLTM DLLmq"
+              className="sc-fjdhpX fdyCIz"
             >
               background: 
               linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
@@ -3019,7 +3280,7 @@ exports[`Storyshots Typography Font Families 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jzJRlG hhUSl"
+        className="sc-cSHVUG hjWbSZ"
       >
         <h3
           style={
@@ -3033,65 +3294,65 @@ exports[`Storyshots Typography Font Families 1`] = `
           Poppins
         </h3>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV fzxrBl"
+            className="sc-kgoBCf ilMscz"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Regular - 400
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV cVlCTe"
+            className="sc-kgoBCf dShXzW"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Medium - 500
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV icHpQy"
+            className="sc-kgoBCf cOktzs"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Semi-Bold - 600
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV cHhCiJ"
+            className="sc-kgoBCf QewmO"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Bold - 700
           </div>
@@ -3118,13 +3379,13 @@ exports[`Storyshots Typography Font Leading 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jzJRlG hhUSl"
+        className="sc-cSHVUG hjWbSZ"
       >
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV dCxum"
+            className="sc-kgoBCf bhNvAt"
             size={16}
             style={
               Object {
@@ -3136,16 +3397,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Extra Small - 18px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV dCxum"
+            className="sc-kgoBCf bhNvAt"
             size={16}
             style={
               Object {
@@ -3157,16 +3418,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Small - 20px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV kyavAe"
+            className="sc-kgoBCf iPAHuc"
             size={16}
             style={
               Object {
@@ -3178,16 +3439,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Medium - 24px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV ecAuwZ"
+            className="sc-kgoBCf khHxJY"
             size={16}
             style={
               Object {
@@ -3199,16 +3460,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Large - 30px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV bkcfHE"
+            className="sc-kgoBCf kOzLMS"
             size={16}
             style={
               Object {
@@ -3220,7 +3481,7 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Extra Large - 36px
           </div>
@@ -3247,84 +3508,84 @@ exports[`Storyshots Typography Font Sizes 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jzJRlG hhUSl"
+        className="sc-cSHVUG hjWbSZ"
       >
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV gZzSZi"
+            className="sc-kgoBCf dDPNw"
             size={12}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Extra Small - 12px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV cGTuEG"
+            className="sc-kgoBCf fNGkGq"
             size={14}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Small - 14px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV dJIKOJ"
+            className="sc-kgoBCf dTaYx"
             size={16}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Medium - 16px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV ctDDEM"
+            className="sc-kgoBCf lonXHn"
             size={24}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Large - 24px
           </div>
         </div>
         <div
-          className="sc-cSHVUG gQGbgO"
+          className="sc-kAzzGY flrCev"
         >
           <div
-            className="sc-chPdSV bFZztA"
+            className="sc-kgoBCf uwRSn"
             size={30}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kAzzGY bLvxCo"
+            className="sc-chPdSV elaRZA"
           >
             Extra Large - 30px
           </div>

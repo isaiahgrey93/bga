@@ -32,9 +32,9 @@ decorateAddons(storiesOf('Button/Solid Button', module))
     'Prop Combinations',
     withPropsCombinations(SolidButton, {
       value: ['ButtonText'],
-      size: buttonSizeOptions,
       color: backgroundColorOptions,
       fluid: [true, false],
+      size: buttonSizeOptions,
       raised: shadowTypeOptions,
     })
   );

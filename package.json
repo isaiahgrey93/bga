@@ -52,6 +52,7 @@
     ]
   },
   "loki": {
+    "chromeConcurrency": 1,
     "configurations": {
       "chrome.laptop": {
         "target": "chrome.docker",
