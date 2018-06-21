@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { OutlineButton as StyledOutlineButton } from './styles';
+import { OutlineButton as StyledOutlineButton, } from './styles';
 import {
   buttonSizes,
   buttonColors,
@@ -9,7 +9,9 @@ import {
   defaultButtonColor,
 } from './constants';
 
-const OutlineButton = ({ color, size, fluid, value, children, ...props }) => (
+const OutlineButton = ({
+  color, size, fluid, value, children, ...props
+}) => (
   <StyledOutlineButton size={size} color={color} fluid={fluid} {...props}>
     {children || value}
   </StyledOutlineButton>
