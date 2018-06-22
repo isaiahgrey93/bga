@@ -6,6 +6,7 @@ import { text, select, number, boolean } from '@storybook/addon-knobs/react';
 import withPropsCombinations from 'react-storybook-addon-props-combinations';
 
 import { decorateAddons } from 'story-decorators';
+import { storyAction } from 'story-utilities';
 
 import { SolidButton } from 'components';
 import {
@@ -26,6 +27,7 @@ decorateAddons(storiesOf('Button/Solid Button', module))
       size={select('Size', buttonSizeOptions, buttonSizeOptions[0])}
       color={select('Color', backgroundColorOptions, backgroundColorOptions[0])}
       raised={select('Shadow Depth', shadowTypeOptions, shadowTypeOptions[0])}
+      onClick={storyAction('onClick')}
     />
   ))
   .add(

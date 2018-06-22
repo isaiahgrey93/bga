@@ -6,6 +6,7 @@ import { text, select, number, boolean } from '@storybook/addon-knobs/react';
 import withPropsCombinations from 'react-storybook-addon-props-combinations';
 
 import { decorateAddons } from 'story-decorators';
+import { storyAction } from 'story-utilities';
 
 import { OutlineButton } from 'components';
 import {
@@ -23,6 +24,7 @@ decorateAddons(storiesOf('Button/Outline Button', module))
       fluid={boolean('Full Width', false)}
       size={select('Size', buttonSizeOptions, buttonSizeOptions[0])}
       color={select('Color', buttonColorOptions, buttonColorOptions[0])}
+      onClick={storyAction('onClick')}
     />
   ))
   .add(
