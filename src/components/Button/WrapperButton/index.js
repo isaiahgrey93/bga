@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { WrapperButton as StyledWrapperButton } from './styles';
+import { WrapperButton as StyledWrapperButton, } from './styles';
 
 const WrapperButton = ({ children, value, ...props }) => (
   <StyledWrapperButton {...props}>{children || value}</StyledWrapperButton>

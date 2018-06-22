@@ -1,8 +1,8 @@
 import React from 'react';
 import sinon from 'sinon';
-import { shallow } from 'enzyme';
+import { shallow, } from 'enzyme';
 
-import { WrapperButton } from 'components';
+import { WrapperButton, } from 'components';
 
 describe('WrapperButton event handlers', () => {
   it('should handle button click', () => {
