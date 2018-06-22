@@ -5,7 +5,7 @@ import { shallow, } from 'enzyme';
 import { OutlineButton, } from 'components';
 
 describe('OutlineButton event handlers', () => {
-  it('should handle button click', () => {
+  it('should handle click event', () => {
     const onClick = sinon.spy();
     const wrapper = shallow(<OutlineButton onClick={onClick} />);
 

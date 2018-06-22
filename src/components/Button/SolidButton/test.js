@@ -5,7 +5,7 @@ import { shallow, } from 'enzyme';
 import { SolidButton, } from 'components';
 
 describe('SolidButton event handlers', () => {
-  it('should handle button click', () => {
+  it('should handle click event', () => {
     const onClick = sinon.spy();
     const wrapper = shallow(<SolidButton onClick={onClick} />);
 
