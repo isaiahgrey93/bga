@@ -1,3 +1,7 @@
 import React from 'react';
 
-export default () => <center>Not Implemented</center>;
+import { Divider as StyledDivider } from './styles';
+
+const Divider = props => <StyledDivider {...props} />;
+
+export default Divider;

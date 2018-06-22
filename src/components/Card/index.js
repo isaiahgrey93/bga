@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { WrapperButton } from 'components';
+import { WrapperButton, } from 'components';
 
-import { Card as StyledCard } from './styles';
+import { Card as StyledCard, } from './styles';
 
-const Card = ({ children, value, onClick, ...props }) => (
+const Card = ({
+  children, value, onClick, ...props
+}) => (
   <WrapperButton onClick={onClick}>
     <StyledCard {...props}>{children || value}</StyledCard>
   </WrapperButton>

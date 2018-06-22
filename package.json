@@ -29,6 +29,7 @@
     "lint:prettier:": "prettier  --write **/*.css **/*.js **/*.json",
     "visual-reg:compare": "loki test",
     "visual-reg:update": "loki update",
+    "visual-reg:approve": "loki approve",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "storybook:build": "build-storybook -o build-storybook"
   },
