@@ -7,7 +7,7 @@ export {
 export { default as Card, } from './Card';
 export { default as Divider, } from './Divider';
 export { default as Icon, } from './Icon';
-export { default as Image, } from './Image';
+export { HeaderImage, ProfileImage, } from './Image';
 export { default as Input, } from './Input';
 export { default as Modal, } from './Modal';
 export { default as Row, } from './Row';

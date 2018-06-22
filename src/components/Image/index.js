@@ -1,3 +1,2 @@
-import React from 'react';
-
-export default () => <center>Not Implemented</center>;
+export { default as ProfileImage, } from './ProfileImage';
+export { default as HeaderImage, } from './HeaderImage';

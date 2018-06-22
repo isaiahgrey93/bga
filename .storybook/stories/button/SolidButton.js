@@ -13,6 +13,9 @@ import {
   buttonSizes,
   backgroundColors,
   shadowTypes,
+  defaultShadowType,
+  defaultBackgroundColor,
+  defaultButtonSize,
 } from 'components/Button/SolidButton/constants';
 
 const buttonSizeOptions = Object.keys(buttonSizes);
@@ -24,9 +27,9 @@ decorateAddons(storiesOf('Button/Solid Button', module))
     <SolidButton
       value={text('Label', 'ButtonText')}
       fluid={boolean('Full Width', false)}
-      size={select('Size', buttonSizeOptions, buttonSizeOptions[0])}
-      color={select('Color', backgroundColorOptions, backgroundColorOptions[0])}
-      raised={select('Shadow Depth', shadowTypeOptions, shadowTypeOptions[0])}
+      size={select('Size', buttonSizeOptions, defaultButtonSize)}
+      color={select('Color', backgroundColorOptions, defaultBackgroundColor)}
+      raised={select('Shadow Depth', shadowTypeOptions, defaultShadowType)}
       onClick={storyAction('onClick')}
     />
   ))

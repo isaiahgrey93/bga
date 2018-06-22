@@ -382,10 +382,10 @@ exports[`Storyshots Button/Solid Button Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <button
-        className="sc-EHOje jNolJN"
+        className="sc-EHOje BwgDR"
         color="black"
         onClick={[Function]}
-        size="small"
+        size="medium"
       >
         ButtonText
       </button>
@@ -2460,289 +2460,289 @@ exports[`Storyshots Colors Colors 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-dnqmqq eWlhsD"
+        className="sc-iwsKbI kUkwhG"
       >
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             White
           </div>
           <div
-            className="sc-gZMcBi euaJBl"
+            className="sc-gqjmRU iaHNDq"
             color="#FFFFFF"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #FFFFFF
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Grey 5
           </div>
           <div
-            className="sc-gZMcBi GfaLf"
+            className="sc-gqjmRU dUagzs"
             color="#EDEFF2"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #EDEFF2
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Grey 4
           </div>
           <div
-            className="sc-gZMcBi iAwBny"
+            className="sc-gqjmRU dFTefq"
             color="#E1E3E6"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #E1E3E6
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Grey 3
           </div>
           <div
-            className="sc-gZMcBi gyxnXS"
+            className="sc-gqjmRU fYXzDb"
             color="#C1C3C6"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #C1C3C6
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Grey 2
           </div>
           <div
-            className="sc-gZMcBi fqScKH"
+            className="sc-gqjmRU hHNqFK"
             color="#9B9B9B"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #9B9B9B
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Grey 1
           </div>
           <div
-            className="sc-gZMcBi eImaXX"
+            className="sc-gqjmRU hyaQUM"
             color="#666666"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #666666
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Black
           </div>
           <div
-            className="sc-gZMcBi eltGyZ"
+            className="sc-gqjmRU hILeRZ"
             color="#303030"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #303030
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Primary Orange
           </div>
           <div
-            className="sc-gZMcBi eZZfaw"
+            className="sc-gqjmRU hhHPeD"
             color="#FFA700"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #FFA700
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Light Orange
           </div>
           <div
-            className="sc-gZMcBi bCnLPl"
+            className="sc-gqjmRU hviHuv"
             color="#FFBE00"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #FFBE00
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Dark Orange
           </div>
           <div
-            className="sc-gZMcBi gYBZWO"
+            className="sc-gqjmRU jSFCBH"
             color="#FF8D00"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #FF8D00
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Primary Blue
           </div>
           <div
-            className="sc-gZMcBi jtAamk"
+            className="sc-gqjmRU cMjOdZ"
             color="#0075F7"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #0075F7
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Light Blue
           </div>
           <div
-            className="sc-gZMcBi dXzMGk"
+            className="sc-gqjmRU cMFSqk"
             color="#00CDFF"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #00CDFF
             </div>
           </div>
         </div>
         <div
-          className="sc-iwsKbI iiKcrz"
+          className="sc-gZMcBi kHEduT"
         >
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             Dark Blue
           </div>
           <div
-            className="sc-gZMcBi jKmZIh"
+            className="sc-gqjmRU lcAAlY"
             color="#0E91FD"
           />
           <div
-            className="sc-gqjmRU dRATxY"
+            className="sc-VigVT iclQvs"
           >
             <div
-              className="sc-VigVT iotfnv"
+              className="sc-jTzLTM DLLmq"
             >
               #0E91FD
             </div>
@@ -2770,24 +2770,24 @@ exports[`Storyshots Colors Gradients 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jTzLTM jLWsng"
+        className="sc-fjdhpX kFhZUw"
       >
         <div
-          className="sc-fjdhpX jijjCY"
+          className="sc-jzJRlG cOlSHQ"
         >
           <div
-            className="sc-cSHVUG iNjDVN"
+            className="sc-kAzzGY erWsed"
           >
             Primary
           </div>
           <div
-            className="sc-jzJRlG gUTETD"
+            className="sc-cSHVUG jNBSMs"
           />
           <div
-            className="sc-cSHVUG iNjDVN"
+            className="sc-kAzzGY erWsed"
           >
             <div
-              className="sc-kAzzGY cpJhcI"
+              className="sc-chPdSV eGANNm"
             >
               background: 
               linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
@@ -2795,21 +2795,21 @@ exports[`Storyshots Colors Gradients 1`] = `
           </div>
         </div>
         <div
-          className="sc-fjdhpX jijjCY"
+          className="sc-jzJRlG cOlSHQ"
         >
           <div
-            className="sc-cSHVUG iNjDVN"
+            className="sc-kAzzGY erWsed"
           >
             Secondary
           </div>
           <div
-            className="sc-jzJRlG dUTkxs"
+            className="sc-cSHVUG iHsBhP"
           />
           <div
-            className="sc-cSHVUG iNjDVN"
+            className="sc-kAzzGY erWsed"
           >
             <div
-              className="sc-kAzzGY cpJhcI"
+              className="sc-chPdSV eGANNm"
             >
               background: 
               linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
@@ -2926,12 +2926,12 @@ exports[`Storyshots Icon Prop Combinations 1`] = `
 </div>
 `;
 
-exports[`Storyshots Image Component 1`] = `
+exports[`Storyshots Image/Header Image Component 1`] = `
 <div>
   <h3
     className="sc-htpNat bmPwTJ"
   >
-    Image
+    Image/Header Image
       →  
     Component
   </h3>
@@ -2949,12 +2949,12 @@ exports[`Storyshots Image Component 1`] = `
 </div>
 `;
 
-exports[`Storyshots Image Prop Combinations 1`] = `
+exports[`Storyshots Image/Header Image Prop Combinations 1`] = `
 <div>
   <h3
     className="sc-htpNat bmPwTJ"
   >
-    Image
+    Image/Header Image
       →  
     Prop Combinations
   </h3>
@@ -2971,6 +2971,414 @@ exports[`Storyshots Image Prop Combinations 1`] = `
           <center>
             Not Implemented
           </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image/Profile Image Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Image/Profile Image
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <img
+        className="sc-dnqmqq gjfFIr"
+        shape="square"
+        size="small"
+        src="https://placehold.it/192/ccc/606060&&text=G"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Image/Profile Image
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq cFfIQZ"
+            shape="square"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq dHrass"
+            shape="square"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq iGcDZb"
+            shape="square"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq gjfFIr"
+            shape="square"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq ibOgAf"
+            shape="circle"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq cMOshO"
+            shape="circle"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq ewSiVL"
+            shape="circle"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq kNHYPr"
+            shape="circle"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq hQkxFc"
+            shape="rounded"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq vAGWO"
+            shape="rounded"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq cEVsfo"
+            shape="rounded"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq lbjmpl"
+            shape="rounded"
+            size="small"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq hnHlYv"
+            shape="square"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq faLXns"
+            shape="square"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq fslcjo"
+            shape="square"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq cphiYj"
+            shape="square"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq hwuhws"
+            shape="circle"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq jGGOpc"
+            shape="circle"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq dbHIDJ"
+            shape="circle"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq ffnYyY"
+            shape="circle"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq gkmYtt"
+            shape="rounded"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq iNVMlw"
+            shape="rounded"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq bxIiSg"
+            shape="rounded"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq ccdqQA"
+            shape="rounded"
+            size="medium"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq iuiGVY"
+            shape="square"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq HFFYW"
+            shape="square"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq bekTBQ"
+            shape="square"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq jQkcJk"
+            shape="square"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq kVsyME"
+            shape="circle"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq eJSoys"
+            shape="circle"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq jhtozw"
+            shape="circle"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq jPfbST"
+            shape="circle"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq bEmVKe"
+            shape="rounded"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq eiDydh"
+            shape="rounded"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq hXwVLX"
+            shape="rounded"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <img
+            className="sc-dnqmqq guACEr"
+            shape="rounded"
+            size="large"
+            src="https://placehold.it/192/ccc/606060&&text=G"
+          />
         </div>
       </div>
     </div>
@@ -3358,7 +3766,7 @@ exports[`Storyshots Typography Font Families 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-kgoBCf cwcxlH"
+        className="sc-kGXeez gXythQ"
       >
         <h3
           style={
@@ -3372,65 +3780,65 @@ exports[`Storyshots Typography Font Families 1`] = `
           Poppins
         </h3>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ iScqjC"
+            className="sc-ckVGcZ dJKPOS"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Regular - 400
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ jNZYlk"
+            className="sc-ckVGcZ eoNJzW"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Medium - 500
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ kcPSOL"
+            className="sc-ckVGcZ hTzCvb"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Semi-Bold - 600
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ liqJIE"
+            className="sc-ckVGcZ jYpKci"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Bold - 700
           </div>
@@ -3457,13 +3865,13 @@ exports[`Storyshots Typography Font Leading 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-kgoBCf cwcxlH"
+        className="sc-kGXeez gXythQ"
       >
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ hTgfg"
+            className="sc-ckVGcZ eMtAbD"
             size={16}
             style={
               Object {
@@ -3475,16 +3883,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Extra Small - 18px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ hTgfg"
+            className="sc-ckVGcZ eMtAbD"
             size={16}
             style={
               Object {
@@ -3496,16 +3904,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Small - 20px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ lebjuW"
+            className="sc-ckVGcZ ljAbVZ"
             size={16}
             style={
               Object {
@@ -3517,16 +3925,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Medium - 24px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ ghJyrR"
+            className="sc-ckVGcZ bWMYTH"
             size={16}
             style={
               Object {
@@ -3538,16 +3946,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Large - 30px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ ipahko"
+            className="sc-ckVGcZ hMlqIm"
             size={16}
             style={
               Object {
@@ -3559,7 +3967,7 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Extra Large - 36px
           </div>
@@ -3586,84 +3994,84 @@ exports[`Storyshots Typography Font Sizes 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-kgoBCf cwcxlH"
+        className="sc-kGXeez gXythQ"
       >
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ dzRUFJ"
+            className="sc-ckVGcZ fDLJXW"
             size={12}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Extra Small - 12px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ dLqyIp"
+            className="sc-ckVGcZ gOTQXk"
             size={14}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Small - 14px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ gtZPYx"
+            className="sc-ckVGcZ cMObzf"
             size={16}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Medium - 16px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ hehBCb"
+            className="sc-ckVGcZ FlxPP"
             size={24}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Large - 24px
           </div>
         </div>
         <div
-          className="sc-kGXeez iIsLbj"
+          className="sc-kpOJdX hnmMWq"
         >
           <div
-            className="sc-dxgOiQ ljhrXe"
+            className="sc-ckVGcZ gGptCY"
             size={30}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-kpOJdX cobcqO"
+            className="sc-dxgOiQ gHQGNI"
           >
             Extra Large - 30px
           </div>
