@@ -56,8 +56,8 @@ decorateAddons(storiesOf('Typography', module))
       <FontStyle
         size={64}
         content={'Aa'}
-        name={`Regular - ${fonts.fontWeight.default}`}
-        weight={fonts.fontWeight.default}
+        name={`Regular - ${fonts.fontWeight.regular}`}
+        weight={fonts.fontWeight.regular}
       />
       <FontStyle
         size={64}
@@ -85,31 +85,31 @@ decorateAddons(storiesOf('Typography', module))
         content={'Aa'}
         name={`Extra Small - ${fonts.fontSizing.xSmall}px`}
         size={fonts.fontSizing.xSmall}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
       />
       <FontStyle
         content={'Aa'}
         name={`Small - ${fonts.fontSizing.small}px`}
         size={fonts.fontSizing.small}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
       />
       <FontStyle
         content={'Aa'}
         name={`Medium - ${fonts.fontSizing.medium}px`}
         size={fonts.fontSizing.medium}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
       />
       <FontStyle
         content={'Aa'}
         name={`Large - ${fonts.fontSizing.large}px`}
         size={fonts.fontSizing.large}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
       />
       <FontStyle
         content={'Aa'}
         name={`Extra Large - ${fonts.fontSizing.xLarge}px`}
         size={fonts.fontSizing.xLarge}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
       />
     </FontStylesContainer>
   ))
@@ -118,7 +118,7 @@ decorateAddons(storiesOf('Typography', module))
       <FontStyle
         name={`Extra Small - ${fonts.fontLeading.xSmall}px`}
         size={fonts.fontSizing.medium}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
         leading={fonts.fontLeading.small}
         contentStyle={paragraphStyle}
         content={paragraph}
@@ -126,7 +126,7 @@ decorateAddons(storiesOf('Typography', module))
       <FontStyle
         name={`Small - ${fonts.fontLeading.small}px`}
         size={fonts.fontSizing.medium}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
         leading={fonts.fontLeading.small}
         contentStyle={paragraphStyle}
         content={paragraph}
@@ -134,7 +134,7 @@ decorateAddons(storiesOf('Typography', module))
       <FontStyle
         name={`Medium - ${fonts.fontLeading.medium}px`}
         size={fonts.fontSizing.medium}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
         leading={fonts.fontLeading.medium}
         contentStyle={paragraphStyle}
         content={paragraph}
@@ -142,7 +142,7 @@ decorateAddons(storiesOf('Typography', module))
       <FontStyle
         name={`Large - ${fonts.fontLeading.large}px`}
         size={fonts.fontSizing.medium}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
         leading={fonts.fontLeading.large}
         contentStyle={paragraphStyle}
         content={paragraph}
@@ -150,7 +150,7 @@ decorateAddons(storiesOf('Typography', module))
       <FontStyle
         name={`Extra Large - ${fonts.fontLeading.xLarge}px`}
         size={fonts.fontSizing.medium}
-        weight={fonts.fontWeight.default}
+        weight={fonts.fontWeight.regular}
         leading={fonts.fontLeading.xLarge}
         contentStyle={paragraphStyle}
         content={paragraph}
