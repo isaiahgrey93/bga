@@ -41,5 +41,5 @@ export const buttonSizes = {
 export const shadowTypes = shadows.depth;
 
 export const defaultShadowType = 'none';
-export const defaultBackgroundColor = 'black';
+export const defaultColor = 'black';
 export const defaultButtonSize = 'medium';

@@ -8,7 +8,7 @@ import {
   backgroundColors,
   defaultShadowType,
   defaultButtonSize,
-  defaultBackgroundColor,
+  defaultColor,
 } from './constants';
 
 const SolidButton = ({
@@ -48,7 +48,7 @@ SolidButton.propTypes = {
 
 SolidButton.defaultProps = {
   size: defaultButtonSize,
-  color: defaultBackgroundColor,
+  color: defaultColor,
   raised: defaultShadowType,
   fluid: false,
   value: undefined,
