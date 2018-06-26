@@ -10,7 +10,7 @@ const ModalComponent = props => <StyledModal {...defaults} {...props} />;
 const Modal = ({
   active, onClose, children, ...props
 }) => (
-  <ModalComponent isOpen={active} {...props}>
+  <ModalComponent isOpen={active} onRequestClose={onClose} {...props}>
     {children}
   </ModalComponent>
 );
