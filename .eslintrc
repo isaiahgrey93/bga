@@ -43,6 +43,7 @@
     "eqeqeq": 0,
     "func-names": 0,
     "valid-typeof": 1,
+    "array-bracket-spacing": 0,
     "constructor-super": 1,
     "no-const-assign": 1,
     "no-extra-semi": 0,

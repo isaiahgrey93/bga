@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { fonts, } from 'theme';
 
 import { buttonColors, buttonSizes, } from './constants';
 
 export const OutlineButton = styled.button`
   outline: 0;
-  font-family: 'Poppins';
+  font-family: ${fonts.fontFamily};
   color: ${props => buttonColors[props.color]};
   padding: 8px ${props => buttonSizes[props.size].horizontal}px;
   font-size: ${props => buttonSizes[props.size].text}px;

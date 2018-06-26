@@ -1,3 +1,1 @@
-import React from 'react';
-
-export default () => <center>Not Implemented</center>;
+export { default as TextInput, } from './TextInput';

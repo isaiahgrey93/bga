@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { fonts, } from 'theme';
 
 import { backgroundColors, textColors, tagSizes, } from './constants';
 
 export const Tag = styled.span`
   display: inline-block;
-  font-family: 'Poppins';
+  font-family: ${fonts.fontFamily};
   font-weight: 600;
   color: ${props => textColors[props.color]};
   padding: ${props => tagSizes[props.size].vertical}px

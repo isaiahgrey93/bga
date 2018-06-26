@@ -10,15 +10,29 @@ export default {
     primary: 'rgba(47, 176, 255, 0.30)',
     secondary: 'rgba(255, 155, 24, 0.40)',
   },
+  getColor(color) {
+    switch (color) {
+      case 'primary':
+        return this.color.primary;
+      case 'secondary':
+        return this.color.secondary;
+      default:
+        return this.color.default;
+    }
+  },
+  getDepth(depth) {
+    switch (depth) {
+      case 'low':
+        return this.depth.low;
+      case 'medium':
+        return this.depth.medium;
+      case 'high':
+        return this.depth.high;
+      default:
+        return this.depth.none;
+    }
+  },
   get(color = 'default', depth = 'none') {
-    if (Object.keys(this.depth).indexOf(depth) < 0) {
-      throw new Error(`Invalid option "${depth}" for shadow. Use one of the following: ${JSON.stringify(Object.keys(this.depth))}`);
-    }
-
-    if (Object.keys(this.color).indexOf(color) < 0) {
-      throw new Error(`Invalid option "${color}" for shadow. Use one of the following: ${JSON.stringify(Object.keys(this.color))}`);
-    }
-
-    return `${this.depth[depth]} ${this.color[color]}`;
+    return `${this.getDepth(depth)} ${this.getColor(color)}`;
   },
 };

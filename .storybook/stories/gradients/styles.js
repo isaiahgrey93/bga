@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, gradients } from 'theme';
+import { colors, fonts, gradients } from 'theme';
 
 export const GradientSwatchesContainer = styled.div`
   display: flex;
@@ -27,7 +27,7 @@ export const GradientSwatchShape = styled.div`
 
 export const GradientSwatchDetail = styled.div`
   padding: 10px;
-  font-family: 'Poppins';
+  font-family: ${fonts.fontFamily};
 `;
 
 export const GradientStyleDetail = styled.div`
