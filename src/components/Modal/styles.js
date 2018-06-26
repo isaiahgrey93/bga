@@ -8,7 +8,8 @@ export const Modal = styled(ReactModal)`
   background-color: transparent;
 `;
 
-injectGlobal(`
+// eslint-disable-next-line no-unused-expressions
+injectGlobal`
   .ReactModal__Overlay {
     opacity: 0;
     width: 100%;
@@ -37,4 +38,4 @@ injectGlobal(`
     opacity: 0;
     transition: opacity 200ms ease-out;
   }
-`);
+`;
