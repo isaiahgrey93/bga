@@ -3808,7 +3808,7 @@ exports[`Storyshots Card Component 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-htoDjs gwxLDo"
+          className="sc-htoDjs gODkLg"
         >
           Card Content
         </div>
@@ -3842,7 +3842,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
             onClick={undefined}
           >
             <div
-              className="sc-htoDjs gwxLDo"
+              className="sc-htoDjs bQYHdV"
             >
               Card Content
             </div>
@@ -3856,7 +3856,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
             onClick={undefined}
           >
             <div
-              className="sc-htoDjs gwxLDo"
+              className="sc-htoDjs bQYHdV"
             >
               <div>
                 DOM Node
@@ -3872,7 +3872,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
             onClick={undefined}
           >
             <div
-              className="sc-htoDjs joQKnY"
+              className="sc-htoDjs kHjqqi"
             >
               Card Content
             </div>
@@ -3886,7 +3886,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
             onClick={undefined}
           >
             <div
-              className="sc-htoDjs joQKnY"
+              className="sc-htoDjs kHjqqi"
             >
               <div>
                 DOM Node

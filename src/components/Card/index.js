@@ -9,7 +9,9 @@ const Card = ({
   children, value, onClick, ...props
 }) => (
   <WrapperButton onClick={onClick}>
-    <StyledCard {...props}>{children || value}</StyledCard>
+    <StyledCard clickable={!!onClick} {...props}>
+      {children || value}
+    </StyledCard>
   </WrapperButton>
 );
 

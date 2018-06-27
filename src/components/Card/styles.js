@@ -7,10 +7,10 @@ const cardShadowMixin = css`
   box-shadow: ${props =>
     (props.raised ? shadows.get('default', 'high') : 'none')};
   &:active {
-    opacity: 0.8;
     transition: all 0.1s ease-in;
     box-shadow: ${props =>
     (props.raised ? shadows.get('default', 'none') : 'none')};
+    opacity: ${props => (props.clickable ? 0.8 : 1)};
   }
 `;
 
