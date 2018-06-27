@@ -8,7 +8,7 @@ export { default as Card, } from './Card';
 export { default as Divider, } from './Divider';
 export { default as Icon, } from './Icon';
 export { HeaderImage, ProfileImage, } from './Image';
-export { TextInput, } from './Input';
+export { AmountInput, TextInput, } from './Input';
 export { default as Modal, } from './Modal';
 export { default as Row, } from './Row';
 export { default as Tag, } from './Tag';

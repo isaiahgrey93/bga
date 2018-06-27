@@ -4,25 +4,19 @@ import { storiesOf } from '@storybook/react';
 
 import { withState } from '@dump247/storybook-state';
 import withPropsCombinations from 'react-storybook-addon-props-combinations';
-import { text, select } from '@storybook/addon-knobs/react';
+import { text } from '@storybook/addon-knobs/react';
 
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { TextInput } from 'components';
+import { AmountInput } from 'components';
 
-const icons = {
-  none: undefined,
-  plus: <span>&#43;</span>,
-  close: <span>&#215;</span>,
-  mail: <span>&#9993;</span>,
-};
-
-decorateAddons(storiesOf('Input/Text Input', module))
+decorateAddons(storiesOf('Input/Amount Input', module))
   .addWithJSX('Component', () => (
-    <TextInput
+    <AmountInput
+      symbol={'$'}
+      placeholder={'AmountInputPlaceholder'}
       onChange={storyAction('onChange')}
-      icon={icons[select('Icon', Object.keys(icons), Object.keys(icons)[0])]}
     />
   ))
   .add(
@@ -30,12 +24,11 @@ decorateAddons(storiesOf('Input/Text Input', module))
     withState({ value: '' })(({ store }) => {
       const onChange = event => store.set({ value: event.target.value });
       return (
-        <TextInput
+        <AmountInput
+          symbol={'$'}
           onChange={onChange}
+          placeholder={'AmountInputPlaceholder'}
           value={store.state.value}
-          icon={
-            icons[select('Icon', Object.keys(icons), Object.keys(icons)[0])]
-          }
         />
       );
     })
@@ -43,10 +36,10 @@ decorateAddons(storiesOf('Input/Text Input', module))
 
   .add(
     'Prop Combinations',
-    withPropsCombinations(TextInput, {
+    withPropsCombinations(AmountInput, {
+      symbol: ['$'],
       onChange: [() => null],
-      icon: Object.values(icons),
       placeholder: ['TextInputPlaceholder'],
-      value: [undefined, 'TextInputValue'],
+      value: [undefined, '123'],
     })
   );
