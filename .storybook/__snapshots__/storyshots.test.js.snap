@@ -3916,289 +3916,289 @@ exports[`Storyshots Colors Colors 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-eNQAEJ gvpCXm"
+        className="sc-hMqMXs hIuDJf"
       >
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             White
           </div>
           <div
-            className="sc-kEYyzF bwRmFt"
+            className="sc-kkGfuU hRuVNR"
             color="#FFFFFF"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #FFFFFF
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Grey 5
           </div>
           <div
-            className="sc-kEYyzF biyriI"
+            className="sc-kkGfuU gfIcxT"
             color="#EDEFF2"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #EDEFF2
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Grey 4
           </div>
           <div
-            className="sc-kEYyzF fmzrAv"
+            className="sc-kkGfuU lptPvt"
             color="#E1E3E6"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #E1E3E6
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Grey 3
           </div>
           <div
-            className="sc-kEYyzF eAANCP"
+            className="sc-kkGfuU jrBDrl"
             color="#C1C3C6"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #C1C3C6
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Grey 2
           </div>
           <div
-            className="sc-kEYyzF cLghMw"
+            className="sc-kkGfuU ievnfR"
             color="#9B9B9B"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #9B9B9B
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Grey 1
           </div>
           <div
-            className="sc-kEYyzF gQzepd"
+            className="sc-kkGfuU fBuTDZ"
             color="#666666"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #666666
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Black
           </div>
           <div
-            className="sc-kEYyzF hhamDS"
+            className="sc-kkGfuU cQXAFA"
             color="#303030"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #303030
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Primary Orange
           </div>
           <div
-            className="sc-kEYyzF fXOeoA"
+            className="sc-kkGfuU dUeGut"
             color="#FFA700"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #FFA700
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Light Orange
           </div>
           <div
-            className="sc-kEYyzF iWzjKV"
+            className="sc-kkGfuU cELPiy"
             color="#FFBE00"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #FFBE00
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Dark Orange
           </div>
           <div
-            className="sc-kEYyzF bXcaUo"
+            className="sc-kkGfuU eijXlJ"
             color="#FF8D00"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #FF8D00
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Primary Blue
           </div>
           <div
-            className="sc-kEYyzF gdkcRO"
+            className="sc-kkGfuU gInPaN"
             color="#0075F7"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #0075F7
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Light Blue
           </div>
           <div
-            className="sc-kEYyzF bvDhES"
+            className="sc-kkGfuU hixJrH"
             color="#00CDFF"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #00CDFF
             </div>
           </div>
         </div>
         <div
-          className="sc-hMqMXs dzbJbt"
+          className="sc-kEYyzF iMoEOz"
         >
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             Dark Blue
           </div>
           <div
-            className="sc-kEYyzF fGgAcK"
+            className="sc-kkGfuU hdmzaV"
             color="#0E91FD"
           />
           <div
-            className="sc-kkGfuU gUFdbg"
+            className="sc-iAyFgw gzJXyl"
           >
             <div
-              className="sc-iAyFgw gCezVH"
+              className="sc-hSdWYo vktjB"
             >
               #0E91FD
             </div>
@@ -4226,24 +4226,24 @@ exports[`Storyshots Colors Gradients 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-hSdWYo eSsXYU"
+        className="sc-eHgmQL hTYkpT"
       >
         <div
-          className="sc-eHgmQL HjvcS"
+          className="sc-cvbbAY hRWBlh"
         >
           <div
-            className="sc-jWBwVP gNJvYb"
+            className="sc-brqgnP cmKkgm"
           >
             Primary
           </div>
           <div
-            className="sc-cvbbAY fLxDLR"
+            className="sc-jWBwVP gjAmlh"
           />
           <div
-            className="sc-jWBwVP gNJvYb"
+            className="sc-brqgnP cmKkgm"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-cMljjf dnYOqG"
             >
               background: 
               linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
@@ -4251,21 +4251,21 @@ exports[`Storyshots Colors Gradients 1`] = `
           </div>
         </div>
         <div
-          className="sc-eHgmQL HjvcS"
+          className="sc-cvbbAY hRWBlh"
         >
           <div
-            className="sc-jWBwVP gNJvYb"
+            className="sc-brqgnP cmKkgm"
           >
             Secondary
           </div>
           <div
-            className="sc-cvbbAY hePvgb"
+            className="sc-jWBwVP fBGttz"
           />
           <div
-            className="sc-jWBwVP gNJvYb"
+            className="sc-brqgnP cmKkgm"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-cMljjf dnYOqG"
             >
               background: 
               linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
@@ -4345,9 +4345,14 @@ exports[`Storyshots Icon Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <center>
-        Not Implemented
-      </center>
+      <span
+        className="sc-iwsKbI jQhHGA"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&larr;",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -4372,9 +4377,62 @@ exports[`Storyshots Icon Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <center>
-            Not Implemented
-          </center>
+          <span
+            className="sc-iwsKbI jQhHGA"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&larr;",
+              }
+            }
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <span
+            className="sc-iwsKbI jQhHGA"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&rarr;",
+              }
+            }
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <span
+            className="sc-iwsKbI jQhHGA"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&#43;",
+              }
+            }
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <span
+            className="sc-iwsKbI jQhHGA"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&#215;",
+              }
+            }
+          />
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <span
+            className="sc-iwsKbI jQhHGA"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&#9993;",
+              }
+            }
+          />
         </div>
       </div>
     </div>
@@ -4398,7 +4456,7 @@ exports[`Storyshots Image/Header Image Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-gZMcBi JSSlK"
+        className="sc-gqjmRU hCCrFd"
       />
     </div>
   </div>
@@ -4425,7 +4483,7 @@ exports[`Storyshots Image/Header Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-gZMcBi JSSlK"
+            className="sc-gqjmRU hCCrFd"
           />
         </div>
       </div>
@@ -4450,7 +4508,7 @@ exports[`Storyshots Image/Profile Image Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <img
-        className="sc-iwsKbI jEXqNz"
+        className="sc-gZMcBi eIKKPu"
         shape="square"
         size="small"
         src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4480,7 +4538,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI kjckBJ"
+            className="sc-gZMcBi fWApjc"
             shape="square"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4490,7 +4548,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI twfDL"
+            className="sc-gZMcBi jQNkKy"
             shape="square"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4500,7 +4558,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI jiDsZu"
+            className="sc-gZMcBi ezPkNV"
             shape="square"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4510,7 +4568,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI jEXqNz"
+            className="sc-gZMcBi eIKKPu"
             shape="square"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4520,7 +4578,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI qpTCM"
+            className="sc-gZMcBi kGEoRm"
             shape="circle"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4530,7 +4588,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI dwNWqb"
+            className="sc-gZMcBi lpqlED"
             shape="circle"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4540,7 +4598,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI dBVtFk"
+            className="sc-gZMcBi jyaVYy"
             shape="circle"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4550,7 +4608,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI jiNIDe"
+            className="sc-gZMcBi gOLUNt"
             shape="circle"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4560,7 +4618,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI hItsFH"
+            className="sc-gZMcBi kdMoWj"
             shape="rounded"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4570,7 +4628,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI iBpdop"
+            className="sc-gZMcBi dwEtDq"
             shape="rounded"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4580,7 +4638,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI uoBnp"
+            className="sc-gZMcBi oDhnQ"
             shape="rounded"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4590,7 +4648,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI hVbbxs"
+            className="sc-gZMcBi zcZvM"
             shape="rounded"
             size="small"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4600,7 +4658,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI fVjaHy"
+            className="sc-gZMcBi giEAOw"
             shape="square"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4610,7 +4668,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI wWCRd"
+            className="sc-gZMcBi higeuk"
             shape="square"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4620,7 +4678,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI VyCbP"
+            className="sc-gZMcBi dClBsU"
             shape="square"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4630,7 +4688,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI fqjaDW"
+            className="sc-gZMcBi dLiLcs"
             shape="square"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4640,7 +4698,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI jmDKTc"
+            className="sc-gZMcBi iWAbCa"
             shape="circle"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4650,7 +4708,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI fLefLH"
+            className="sc-gZMcBi dMAnLr"
             shape="circle"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4660,7 +4718,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI xVGYg"
+            className="sc-gZMcBi ffqkbE"
             shape="circle"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4670,7 +4728,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI igyaCy"
+            className="sc-gZMcBi dhcrHd"
             shape="circle"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4680,7 +4738,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI BvfEW"
+            className="sc-gZMcBi iusNGT"
             shape="rounded"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4690,7 +4748,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI knVgZV"
+            className="sc-gZMcBi klRLXG"
             shape="rounded"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4700,7 +4758,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI kwhfBF"
+            className="sc-gZMcBi dyfbEI"
             shape="rounded"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4710,7 +4768,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI gpPUhJ"
+            className="sc-gZMcBi gKrEoO"
             shape="rounded"
             size="medium"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4720,7 +4778,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI fADKZJ"
+            className="sc-gZMcBi gxKnEJ"
             shape="square"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4730,7 +4788,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI frkKEi"
+            className="sc-gZMcBi kjmCNh"
             shape="square"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4740,7 +4798,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI cDPkzE"
+            className="sc-gZMcBi ksXvFm"
             shape="square"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4750,7 +4808,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI jKrMtS"
+            className="sc-gZMcBi jcjQMx"
             shape="square"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4760,7 +4818,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI ciRLUZ"
+            className="sc-gZMcBi dpbjEF"
             shape="circle"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4770,7 +4828,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI clAKCU"
+            className="sc-gZMcBi FhXeb"
             shape="circle"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4780,7 +4838,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI bHhthn"
+            className="sc-gZMcBi gIcBWN"
             shape="circle"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4790,7 +4848,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI fBlnoN"
+            className="sc-gZMcBi eslehk"
             shape="circle"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4800,7 +4858,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI gFOVSD"
+            className="sc-gZMcBi iYFBqt"
             shape="rounded"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4810,7 +4868,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI kaTWTb"
+            className="sc-gZMcBi iHWjvY"
             shape="rounded"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4820,7 +4878,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI kehBek"
+            className="sc-gZMcBi fssolJ"
             shape="rounded"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4830,7 +4888,7 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <img
-            className="sc-iwsKbI cKPBqG"
+            className="sc-gZMcBi dsXbqB"
             shape="rounded"
             size="large"
             src="https://placehold.it/192/ccc/606060&&text=G"
@@ -4858,15 +4916,15 @@ exports[`Storyshots Input/Amount Input Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-gqjmRU fWeFcD"
+        className="sc-VigVT idQcTb"
       >
         <div
-          className="sc-jTzLTM KoRux"
+          className="sc-fjdhpX ikYJdp"
         >
           $
         </div>
         <input
-          className="sc-VigVT effwZl"
+          className="sc-jTzLTM bXUkjy"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -4905,15 +4963,15 @@ exports[`Storyshots Input/Amount Input Controlled 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-gqjmRU fWeFcD"
+        className="sc-VigVT idQcTb"
       >
         <div
-          className="sc-jTzLTM KoRux"
+          className="sc-fjdhpX ikYJdp"
         >
           $
         </div>
         <input
-          className="sc-VigVT effwZl"
+          className="sc-jTzLTM bXUkjy"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -4956,15 +5014,15 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-gqjmRU fWeFcD"
+            className="sc-VigVT idQcTb"
           >
             <div
-              className="sc-jTzLTM KoRux"
+              className="sc-fjdhpX ikYJdp"
             >
               $
             </div>
             <input
-              className="sc-VigVT effwZl"
+              className="sc-jTzLTM bXUkjy"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -4987,15 +5045,15 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-gqjmRU fWeFcD"
+            className="sc-VigVT idQcTb"
           >
             <div
-              className="sc-jTzLTM KoRux"
+              className="sc-fjdhpX ikYJdp"
             >
               $
             </div>
             <input
-              className="sc-VigVT effwZl"
+              className="sc-jTzLTM bXUkjy"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -5036,10 +5094,10 @@ exports[`Storyshots Input/Text Input Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-fjdhpX kFNJyF"
+        className="sc-jzJRlG hwoArk"
       >
         <input
-          className="sc-cSHVUG cwijnu"
+          className="sc-kAzzGY ctvZwU"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -5067,10 +5125,10 @@ exports[`Storyshots Input/Text Input Controlled 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-fjdhpX kFNJyF"
+        className="sc-jzJRlG hwoArk"
       >
         <input
-          className="sc-cSHVUG cwijnu"
+          className="sc-kAzzGY ctvZwU"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -5102,10 +5160,10 @@ exports[`Storyshots Input/Text Input Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-fjdhpX kFNJyF"
+            className="sc-jzJRlG hwoArk"
           >
             <input
-              className="sc-cSHVUG cwijnu"
+              className="sc-kAzzGY ctvZwU"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -5118,10 +5176,10 @@ exports[`Storyshots Input/Text Input Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-fjdhpX kFNJyF"
+            className="sc-jzJRlG hwoArk"
           >
             <input
-              className="sc-cSHVUG cwijnu"
+              className="sc-kAzzGY ctvZwU"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -5192,7 +5250,7 @@ exports[`Storyshots Row Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-chPdSV dhljQJ"
+        className="sc-kgoBCf wEESE"
       >
         <div>
           TextLeft
@@ -5226,7 +5284,7 @@ exports[`Storyshots Row Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-chPdSV dhljQJ"
+            className="sc-kgoBCf wEESE"
           >
             <div>
               TextLeft
@@ -5258,7 +5316,7 @@ exports[`Storyshots Tag Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <span
-        className="sc-kgoBCf efbkMp"
+        className="sc-kGXeez kBXXKK"
         color="blue"
         onClick={[Function]}
         size="small"
@@ -5290,7 +5348,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf idMwnf"
+            className="sc-kGXeez lmIzeo"
             color="black"
             size="small"
           >
@@ -5301,7 +5359,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf jnfceA"
+            className="sc-kGXeez daeQoR"
             color="black"
             size="medium"
           >
@@ -5312,7 +5370,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf bJjcyH"
+            className="sc-kGXeez Mycvu"
             color="black"
             size="large"
           >
@@ -5323,7 +5381,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf ijotwp"
+            className="sc-kGXeez bjLHDJ"
             color="muted"
             size="small"
           >
@@ -5334,7 +5392,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf gAMsIt"
+            className="sc-kGXeez eqNyoa"
             color="muted"
             size="medium"
           >
@@ -5345,7 +5403,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf hPqIur"
+            className="sc-kGXeez bBlZCW"
             color="muted"
             size="large"
           >
@@ -5356,7 +5414,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf eAvTXB"
+            className="sc-kGXeez deNigF"
             color="white"
             size="small"
           >
@@ -5367,7 +5425,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf hzYRii"
+            className="sc-kGXeez bZpLUs"
             color="white"
             size="medium"
           >
@@ -5378,7 +5436,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf kRhURN"
+            className="sc-kGXeez liLPvi"
             color="white"
             size="large"
           >
@@ -5389,7 +5447,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf efbkMp"
+            className="sc-kGXeez kBXXKK"
             color="blue"
             size="small"
           >
@@ -5400,7 +5458,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf dWQZfB"
+            className="sc-kGXeez hKVhQa"
             color="blue"
             size="medium"
           >
@@ -5411,7 +5469,7 @@ exports[`Storyshots Tag Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kgoBCf ffUDsA"
+            className="sc-kGXeez keckvs"
             color="blue"
             size="large"
           >
@@ -5440,7 +5498,7 @@ exports[`Storyshots Text Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <span
-        className="sc-kGXeez eIIwaK"
+        className="sc-kpOJdX kAzjOl"
         color="black"
         size="medium"
         style={
@@ -5479,7 +5537,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xLarge"
             style={
@@ -5498,7 +5556,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="large"
             style={
@@ -5517,7 +5575,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="medium"
             style={
@@ -5536,7 +5594,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="small"
             style={
@@ -5555,7 +5613,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xSmall"
             style={
@@ -5574,7 +5632,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xLarge"
             style={
@@ -5593,7 +5651,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="large"
             style={
@@ -5612,7 +5670,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="medium"
             style={
@@ -5631,7 +5689,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="small"
             style={
@@ -5650,7 +5708,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xSmall"
             style={
@@ -5669,7 +5727,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xLarge"
             style={
@@ -5688,7 +5746,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="large"
             style={
@@ -5707,7 +5765,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="medium"
             style={
@@ -5726,7 +5784,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="small"
             style={
@@ -5745,7 +5803,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xSmall"
             style={
@@ -5764,7 +5822,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xLarge"
             style={
@@ -5783,7 +5841,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="large"
             style={
@@ -5802,7 +5860,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="medium"
             style={
@@ -5821,7 +5879,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="small"
             style={
@@ -5840,7 +5898,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="black"
             size="xSmall"
             style={
@@ -5859,7 +5917,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xLarge"
             style={
@@ -5878,7 +5936,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="large"
             style={
@@ -5897,7 +5955,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="medium"
             style={
@@ -5916,7 +5974,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="small"
             style={
@@ -5935,7 +5993,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xSmall"
             style={
@@ -5954,7 +6012,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xLarge"
             style={
@@ -5973,7 +6031,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="large"
             style={
@@ -5992,7 +6050,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="medium"
             style={
@@ -6011,7 +6069,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="small"
             style={
@@ -6030,7 +6088,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xSmall"
             style={
@@ -6049,7 +6107,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xLarge"
             style={
@@ -6068,7 +6126,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="large"
             style={
@@ -6087,7 +6145,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="medium"
             style={
@@ -6106,7 +6164,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="small"
             style={
@@ -6125,7 +6183,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xSmall"
             style={
@@ -6144,7 +6202,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xLarge"
             style={
@@ -6163,7 +6221,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="large"
             style={
@@ -6182,7 +6240,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="medium"
             style={
@@ -6201,7 +6259,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="small"
             style={
@@ -6220,7 +6278,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="white"
             size="xSmall"
             style={
@@ -6239,7 +6297,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xLarge"
             style={
@@ -6258,7 +6316,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="large"
             style={
@@ -6277,7 +6335,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="medium"
             style={
@@ -6296,7 +6354,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="small"
             style={
@@ -6315,7 +6373,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xSmall"
             style={
@@ -6334,7 +6392,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xLarge"
             style={
@@ -6353,7 +6411,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="large"
             style={
@@ -6372,7 +6430,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="medium"
             style={
@@ -6391,7 +6449,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="small"
             style={
@@ -6410,7 +6468,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xSmall"
             style={
@@ -6429,7 +6487,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xLarge"
             style={
@@ -6448,7 +6506,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="large"
             style={
@@ -6467,7 +6525,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="medium"
             style={
@@ -6486,7 +6544,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="small"
             style={
@@ -6505,7 +6563,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xSmall"
             style={
@@ -6524,7 +6582,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xLarge"
             style={
@@ -6543,7 +6601,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="large"
             style={
@@ -6562,7 +6620,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="medium"
             style={
@@ -6581,7 +6639,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="small"
             style={
@@ -6600,7 +6658,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey1"
             size="xSmall"
             style={
@@ -6619,7 +6677,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xLarge"
             style={
@@ -6638,7 +6696,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="large"
             style={
@@ -6657,7 +6715,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="medium"
             style={
@@ -6676,7 +6734,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="small"
             style={
@@ -6695,7 +6753,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xSmall"
             style={
@@ -6714,7 +6772,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xLarge"
             style={
@@ -6733,7 +6791,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="large"
             style={
@@ -6752,7 +6810,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="medium"
             style={
@@ -6771,7 +6829,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="small"
             style={
@@ -6790,7 +6848,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xSmall"
             style={
@@ -6809,7 +6867,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xLarge"
             style={
@@ -6828,7 +6886,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="large"
             style={
@@ -6847,7 +6905,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="medium"
             style={
@@ -6866,7 +6924,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="small"
             style={
@@ -6885,7 +6943,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xSmall"
             style={
@@ -6904,7 +6962,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xLarge"
             style={
@@ -6923,7 +6981,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="large"
             style={
@@ -6942,7 +7000,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="medium"
             style={
@@ -6961,7 +7019,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="small"
             style={
@@ -6980,7 +7038,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey2"
             size="xSmall"
             style={
@@ -6999,7 +7057,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xLarge"
             style={
@@ -7018,7 +7076,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="large"
             style={
@@ -7037,7 +7095,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="medium"
             style={
@@ -7056,7 +7114,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="small"
             style={
@@ -7075,7 +7133,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xSmall"
             style={
@@ -7094,7 +7152,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xLarge"
             style={
@@ -7113,7 +7171,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="large"
             style={
@@ -7132,7 +7190,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="medium"
             style={
@@ -7151,7 +7209,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="small"
             style={
@@ -7170,7 +7228,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xSmall"
             style={
@@ -7189,7 +7247,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xLarge"
             style={
@@ -7208,7 +7266,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="large"
             style={
@@ -7227,7 +7285,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="medium"
             style={
@@ -7246,7 +7304,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="small"
             style={
@@ -7265,7 +7323,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xSmall"
             style={
@@ -7284,7 +7342,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xLarge"
             style={
@@ -7303,7 +7361,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="large"
             style={
@@ -7322,7 +7380,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="medium"
             style={
@@ -7341,7 +7399,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="small"
             style={
@@ -7360,7 +7418,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey3"
             size="xSmall"
             style={
@@ -7379,7 +7437,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xLarge"
             style={
@@ -7398,7 +7456,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="large"
             style={
@@ -7417,7 +7475,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="medium"
             style={
@@ -7436,7 +7494,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="small"
             style={
@@ -7455,7 +7513,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xSmall"
             style={
@@ -7474,7 +7532,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xLarge"
             style={
@@ -7493,7 +7551,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="large"
             style={
@@ -7512,7 +7570,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="medium"
             style={
@@ -7531,7 +7589,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="small"
             style={
@@ -7550,7 +7608,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xSmall"
             style={
@@ -7569,7 +7627,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xLarge"
             style={
@@ -7588,7 +7646,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="large"
             style={
@@ -7607,7 +7665,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="medium"
             style={
@@ -7626,7 +7684,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="small"
             style={
@@ -7645,7 +7703,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xSmall"
             style={
@@ -7664,7 +7722,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xLarge"
             style={
@@ -7683,7 +7741,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="large"
             style={
@@ -7702,7 +7760,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="medium"
             style={
@@ -7721,7 +7779,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="small"
             style={
@@ -7740,7 +7798,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey4"
             size="xSmall"
             style={
@@ -7759,7 +7817,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xLarge"
             style={
@@ -7778,7 +7836,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="large"
             style={
@@ -7797,7 +7855,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="medium"
             style={
@@ -7816,7 +7874,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="small"
             style={
@@ -7835,7 +7893,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xSmall"
             style={
@@ -7854,7 +7912,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xLarge"
             style={
@@ -7873,7 +7931,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="large"
             style={
@@ -7892,7 +7950,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="medium"
             style={
@@ -7911,7 +7969,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="small"
             style={
@@ -7930,7 +7988,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xSmall"
             style={
@@ -7949,7 +8007,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xLarge"
             style={
@@ -7968,7 +8026,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="large"
             style={
@@ -7987,7 +8045,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="medium"
             style={
@@ -8006,7 +8064,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="small"
             style={
@@ -8025,7 +8083,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xSmall"
             style={
@@ -8044,7 +8102,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xLarge"
             style={
@@ -8063,7 +8121,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="large"
             style={
@@ -8082,7 +8140,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="medium"
             style={
@@ -8101,7 +8159,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="small"
             style={
@@ -8120,7 +8178,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey5"
             size="xSmall"
             style={
@@ -8139,7 +8197,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xLarge"
             style={
@@ -8158,7 +8216,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="large"
             style={
@@ -8177,7 +8235,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="medium"
             style={
@@ -8196,7 +8254,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="small"
             style={
@@ -8215,7 +8273,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xSmall"
             style={
@@ -8234,7 +8292,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xLarge"
             style={
@@ -8253,7 +8311,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="large"
             style={
@@ -8272,7 +8330,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="medium"
             style={
@@ -8291,7 +8349,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="small"
             style={
@@ -8310,7 +8368,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xSmall"
             style={
@@ -8329,7 +8387,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xLarge"
             style={
@@ -8348,7 +8406,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="large"
             style={
@@ -8367,7 +8425,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="medium"
             style={
@@ -8386,7 +8444,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="small"
             style={
@@ -8405,7 +8463,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xSmall"
             style={
@@ -8424,7 +8482,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xLarge"
             style={
@@ -8443,7 +8501,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="large"
             style={
@@ -8462,7 +8520,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="medium"
             style={
@@ -8481,7 +8539,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="small"
             style={
@@ -8500,7 +8558,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="grey6"
             size="xSmall"
             style={
@@ -8519,7 +8577,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xLarge"
             style={
@@ -8538,7 +8596,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="large"
             style={
@@ -8557,7 +8615,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="medium"
             style={
@@ -8576,7 +8634,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="small"
             style={
@@ -8595,7 +8653,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xSmall"
             style={
@@ -8614,7 +8672,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xLarge"
             style={
@@ -8633,7 +8691,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="large"
             style={
@@ -8652,7 +8710,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="medium"
             style={
@@ -8671,7 +8729,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="small"
             style={
@@ -8690,7 +8748,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xSmall"
             style={
@@ -8709,7 +8767,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xLarge"
             style={
@@ -8728,7 +8786,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="large"
             style={
@@ -8747,7 +8805,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="medium"
             style={
@@ -8766,7 +8824,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="small"
             style={
@@ -8785,7 +8843,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xSmall"
             style={
@@ -8804,7 +8862,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xLarge"
             style={
@@ -8823,7 +8881,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="large"
             style={
@@ -8842,7 +8900,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="medium"
             style={
@@ -8861,7 +8919,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="small"
             style={
@@ -8880,7 +8938,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="blue"
             size="xSmall"
             style={
@@ -8899,7 +8957,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xLarge"
             style={
@@ -8918,7 +8976,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="large"
             style={
@@ -8937,7 +8995,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="medium"
             style={
@@ -8956,7 +9014,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="small"
             style={
@@ -8975,7 +9033,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xSmall"
             style={
@@ -8994,7 +9052,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xLarge"
             style={
@@ -9013,7 +9071,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="large"
             style={
@@ -9032,7 +9090,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="medium"
             style={
@@ -9051,7 +9109,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="small"
             style={
@@ -9070,7 +9128,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xSmall"
             style={
@@ -9089,7 +9147,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xLarge"
             style={
@@ -9108,7 +9166,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="large"
             style={
@@ -9127,7 +9185,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="medium"
             style={
@@ -9146,7 +9204,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="small"
             style={
@@ -9165,7 +9223,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xSmall"
             style={
@@ -9184,7 +9242,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xLarge"
             style={
@@ -9203,7 +9261,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="large"
             style={
@@ -9222,7 +9280,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="medium"
             style={
@@ -9241,7 +9299,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="small"
             style={
@@ -9260,7 +9318,7 @@ exports[`Storyshots Text Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <span
-            className="sc-kGXeez eIIwaK"
+            className="sc-kpOJdX kAzjOl"
             color="orange"
             size="xSmall"
             style={
@@ -9297,7 +9355,7 @@ exports[`Storyshots TextArea Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <textarea
-        className="sc-kpOJdX fAINGN"
+        className="sc-dxgOiQ jEUEEU"
         placeholder="TextAreaPlaceholder"
         value={undefined}
       />
@@ -9326,7 +9384,7 @@ exports[`Storyshots TextArea Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <textarea
-            className="sc-kpOJdX fAINGN"
+            className="sc-dxgOiQ jEUEEU"
             placeholder="TextAreaPlaceholder"
             value={undefined}
           />
@@ -9353,14 +9411,14 @@ exports[`Storyshots Toggle Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-dxgOiQ imJkBl"
+        className="sc-ckVGcZ ikmnVD"
         onClick={[Function]}
       >
         <div
-          className="sc-ckVGcZ crOmSP"
+          className="sc-jKJlTe bwkDME"
         >
           <div
-            className="sc-jKJlTe kyesZi"
+            className="sc-eNQAEJ fpYeYI"
           />
         </div>
       </div>
@@ -9389,14 +9447,14 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dxgOiQ imJkBl"
+            className="sc-ckVGcZ ikmnVD"
             onClick={undefined}
           >
             <div
-              className="sc-ckVGcZ crOmSP"
+              className="sc-jKJlTe bwkDME"
             >
               <div
-                className="sc-jKJlTe kyesZi"
+                className="sc-eNQAEJ fpYeYI"
               />
             </div>
           </div>
@@ -9405,14 +9463,14 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dxgOiQ imJkBl"
+            className="sc-ckVGcZ ikmnVD"
             onClick={undefined}
           >
             <div
-              className="sc-ckVGcZ kdXEhg"
+              className="sc-jKJlTe caRcor"
             >
               <div
-                className="sc-jKJlTe jslCPJ"
+                className="sc-eNQAEJ jVZVzd"
               />
             </div>
           </div>
@@ -9439,7 +9497,7 @@ exports[`Storyshots Typography Font Families 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jAaTju KsHFy"
+        className="sc-jDwBTQ UcACB"
       >
         <h3
           style={
@@ -9453,65 +9511,65 @@ exports[`Storyshots Typography Font Families 1`] = `
           Poppins
         </h3>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj hYZoWI"
+            className="sc-jlyJG kBYtVS"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Regular - 400
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj hpalGp"
+            className="sc-jlyJG jZLOCM"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Medium - 500
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj JFXyK"
+            className="sc-jlyJG gwtwBk"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Semi-Bold - 600
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj gTMQqd"
+            className="sc-jlyJG gIYoyG"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Bold - 700
           </div>
@@ -9538,13 +9596,13 @@ exports[`Storyshots Typography Font Leading 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jAaTju KsHFy"
+        className="sc-jDwBTQ UcACB"
       >
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj jSxdIp"
+            className="sc-jlyJG dbJgsz"
             size={16}
             style={
               Object {
@@ -9556,16 +9614,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Extra Small - 18px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj jSxdIp"
+            className="sc-jlyJG dbJgsz"
             size={16}
             style={
               Object {
@@ -9577,16 +9635,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Small - 20px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj hsIXXN"
+            className="sc-jlyJG hPgsMc"
             size={16}
             style={
               Object {
@@ -9598,16 +9656,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Medium - 24px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj ciWtBI"
+            className="sc-jlyJG iJRfam"
             size={16}
             style={
               Object {
@@ -9619,16 +9677,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Large - 30px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj kCUUqo"
+            className="sc-jlyJG dynqlc"
             size={16}
             style={
               Object {
@@ -9640,7 +9698,7 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Extra Large - 36px
           </div>
@@ -9667,84 +9725,84 @@ exports[`Storyshots Typography Font Sizes 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jAaTju KsHFy"
+        className="sc-jDwBTQ UcACB"
       >
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj HmxCA"
+            className="sc-jlyJG caFupC"
             size={12}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Extra Small - 12px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj jIUqSj"
+            className="sc-jlyJG hqfVox"
             size={14}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Small - 14px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj dYxFcd"
+            className="sc-jlyJG gtSBdk"
             size={16}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Medium - 16px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj ikGPgZ"
+            className="sc-jlyJG fRkYqi"
             size={24}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Large - 24px
           </div>
         </div>
         <div
-          className="sc-jDwBTQ bbqTXU"
+          className="sc-gPEVay bnKrQG"
         >
           <div
-            className="sc-iRbamj gGSkJj"
+            className="sc-jlyJG cvSrXi"
             size={30}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-gPEVay dtbEXs"
+            className="sc-iRbamj NDUAU"
           >
             Extra Large - 30px
           </div>
