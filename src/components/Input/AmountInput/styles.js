@@ -8,7 +8,7 @@ export const getInputContainerBorderColor = ({ focused, }) =>
 export const InputContainer = styled.div`
   width: 100%;
   height: 56px;
-  padding: 9px 18px;
+  padding: 9px 7px 9px 18px;
   border-width: 2px;
   border-radius: 28px;
   border-style: solid;

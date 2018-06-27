@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { IconButton, } from 'components';
+
 import {
   Input as StyledInput,
   InputContainer as StyledInputContainer,
@@ -19,7 +21,9 @@ class AmountInput extends React.Component {
 
   render() {
     const { focused, } = this.state;
-    const { value = '', symbol, ...props } = this.props;
+    const {
+      value = '', symbol, onSubmit, ...props
+    } = this.props;
 
     const formatted = parseAmount(value);
 
@@ -32,6 +36,12 @@ class AmountInput extends React.Component {
           onFocus={this.onInputFocus}
           {...props}
         />
+        <IconButton
+          size={'medium'}
+          color={'secondary'}
+          name={<span>&rarr;</span>}
+          onClick={onSubmit}
+        />
       </StyledInputContainer>
     );
   }
@@ -39,11 +49,13 @@ class AmountInput extends React.Component {
 
 AmountInput.propTypes = {
   symbol: PropTypes.string,
+  onSubmit: PropTypes.func,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, ]),
 };
 
 AmountInput.defaultProps = {
   symbol: undefined,
+  onSubmit: undefined,
   value: undefined,
 };
 

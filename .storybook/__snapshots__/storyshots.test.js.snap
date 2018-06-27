@@ -4858,7 +4858,7 @@ exports[`Storyshots Input/Amount Input Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-gqjmRU VWQbW"
+        className="sc-gqjmRU fWeFcD"
       >
         <div
           className="sc-jTzLTM dGSvNP"
@@ -4873,6 +4873,16 @@ exports[`Storyshots Input/Amount Input Component 1`] = `
           placeholder="AmountInputPlaceholder"
           value=""
         />
+        <button
+          className="sc-ifAKCX fqAZOp"
+          color="secondary"
+          onClick={[Function]}
+          size="medium"
+        >
+          <span>
+            →
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -4895,7 +4905,7 @@ exports[`Storyshots Input/Amount Input Controlled 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-gqjmRU VWQbW"
+        className="sc-gqjmRU fWeFcD"
       >
         <div
           className="sc-jTzLTM dGSvNP"
@@ -4910,6 +4920,16 @@ exports[`Storyshots Input/Amount Input Controlled 1`] = `
           placeholder="AmountInputPlaceholder"
           value=""
         />
+        <button
+          className="sc-ifAKCX fqAZOp"
+          color="secondary"
+          onClick={[Function]}
+          size="medium"
+        >
+          <span>
+            →
+          </span>
+        </button>
       </div>
     </div>
   </div>
@@ -4936,7 +4956,7 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-gqjmRU VWQbW"
+            className="sc-gqjmRU fWeFcD"
           >
             <div
               className="sc-jTzLTM dGSvNP"
@@ -4951,13 +4971,23 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
               placeholder="TextInputPlaceholder"
               value=""
             />
+            <button
+              className="sc-ifAKCX fqAZOp"
+              color="secondary"
+              onClick={undefined}
+              size="medium"
+            >
+              <span>
+                →
+              </span>
+            </button>
           </div>
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-gqjmRU VWQbW"
+            className="sc-gqjmRU fWeFcD"
           >
             <div
               className="sc-jTzLTM dGSvNP"
@@ -4972,6 +5002,16 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
               placeholder="TextInputPlaceholder"
               value="123"
             />
+            <button
+              className="sc-ifAKCX fqAZOp"
+              color="secondary"
+              onClick={undefined}
+              size="medium"
+            >
+              <span>
+                →
+              </span>
+            </button>
           </div>
         </div>
       </div>

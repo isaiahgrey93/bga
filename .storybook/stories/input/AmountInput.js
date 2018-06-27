@@ -17,6 +17,7 @@ decorateAddons(storiesOf('Input/Amount Input', module))
       symbol={'$'}
       placeholder={'AmountInputPlaceholder'}
       onChange={storyAction('onChange')}
+      onSubmit={storyAction('onSubmit')}
     />
   ))
   .add(
@@ -28,6 +29,7 @@ decorateAddons(storiesOf('Input/Amount Input', module))
           symbol={'$'}
           onChange={onChange}
           placeholder={'AmountInputPlaceholder'}
+          onSubmit={storyAction('onSubmit')}
           value={store.state.value}
         />
       );
