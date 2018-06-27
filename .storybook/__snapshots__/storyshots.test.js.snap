@@ -4861,12 +4861,12 @@ exports[`Storyshots Input/Amount Input Component 1`] = `
         className="sc-gqjmRU fWeFcD"
       >
         <div
-          className="sc-jTzLTM dGSvNP"
+          className="sc-jTzLTM KoRux"
         >
           $
         </div>
         <input
-          className="sc-VigVT cQAkxt"
+          className="sc-VigVT effwZl"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -4908,12 +4908,12 @@ exports[`Storyshots Input/Amount Input Controlled 1`] = `
         className="sc-gqjmRU fWeFcD"
       >
         <div
-          className="sc-jTzLTM dGSvNP"
+          className="sc-jTzLTM KoRux"
         >
           $
         </div>
         <input
-          className="sc-VigVT cQAkxt"
+          className="sc-VigVT effwZl"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -4959,12 +4959,12 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
             className="sc-gqjmRU fWeFcD"
           >
             <div
-              className="sc-jTzLTM dGSvNP"
+              className="sc-jTzLTM KoRux"
             >
               $
             </div>
             <input
-              className="sc-VigVT cQAkxt"
+              className="sc-VigVT effwZl"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -4990,12 +4990,12 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
             className="sc-gqjmRU fWeFcD"
           >
             <div
-              className="sc-jTzLTM dGSvNP"
+              className="sc-jTzLTM KoRux"
             >
               $
             </div>
             <input
-              className="sc-VigVT cQAkxt"
+              className="sc-VigVT effwZl"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}

@@ -26,6 +26,7 @@ const AmountTextCSS = css`
   caret-color: ${colors.black};
   &::placeholder {
     color: ${colors.grey3};
+    font-weight: ${fonts.fontWeight.regular};
   }
   &::-moz-selection {
     color: ${colors.darkBlue};
