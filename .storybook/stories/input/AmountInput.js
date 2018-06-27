@@ -42,6 +42,6 @@ decorateAddons(storiesOf('Input/Amount Input', module))
       symbol: ['$'],
       onChange: [() => null],
       placeholder: ['TextInputPlaceholder'],
-      value: [undefined, '123'],
+      value: [undefined, '123', '2300', '12.25', '120000.50'],
     })
   );

@@ -40,7 +40,6 @@ decorateAddons(storiesOf('Input/Text Input', module))
       );
     })
   )
-
   .add(
     'Prop Combinations',
     withPropsCombinations(TextInput, {

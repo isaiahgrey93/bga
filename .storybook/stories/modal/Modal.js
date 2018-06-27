@@ -21,20 +21,22 @@ decorateAddons(storiesOf('Modal', module))
     </Modal>
   ))
   .add(
-    'With State',
+    'Controlled',
     withState({ active: false })(({ store }) => {
-      const close = () => store.set({ active: !store.state.active });
+      const toggle = () => store.set({ active: !store.state.active });
 
       return (
         <div>
-          <Modal onClose={close} active={store.state.active}>
+          <Modal onClose={toggle} active={store.state.active}>
             <Card style={{ height: 480, width: 320 }}>
               <Text
                 value={text('Content (children)', 'Modal with Card Component')}
               />
+              <button onClick={toggle}>Close Modal</button>
             </Card>
           </Modal>
-          {button('Toggle Modal', close)}
+          <button onClick={toggle}>Open Modal</button>
+          {button('Toggle Modal', toggle)}
         </div>
       );
     })

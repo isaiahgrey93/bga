@@ -5072,6 +5072,99 @@ exports[`Storyshots Input/Amount Input Prop Combinations 1`] = `
             </button>
           </div>
         </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-VigVT idQcTb"
+          >
+            <div
+              className="sc-fjdhpX ikYJdp"
+            >
+              $
+            </div>
+            <input
+              className="sc-jTzLTM bXUkjy"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="TextInputPlaceholder"
+              value="2,300"
+            />
+            <button
+              className="sc-ifAKCX fqAZOp"
+              color="secondary"
+              onClick={undefined}
+              size="medium"
+            >
+              <span>
+                →
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-VigVT idQcTb"
+          >
+            <div
+              className="sc-fjdhpX ikYJdp"
+            >
+              $
+            </div>
+            <input
+              className="sc-jTzLTM bXUkjy"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="TextInputPlaceholder"
+              value="12.25"
+            />
+            <button
+              className="sc-ifAKCX fqAZOp"
+              color="secondary"
+              onClick={undefined}
+              size="medium"
+            >
+              <span>
+                →
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-VigVT idQcTb"
+          >
+            <div
+              className="sc-fjdhpX ikYJdp"
+            >
+              $
+            </div>
+            <input
+              className="sc-jTzLTM bXUkjy"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="TextInputPlaceholder"
+              value="120,000.50"
+            />
+            <button
+              className="sc-ifAKCX fqAZOp"
+              color="secondary"
+              onClick={undefined}
+              size="medium"
+            >
+              <span>
+                →
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -5213,14 +5306,14 @@ exports[`Storyshots Modal Component 1`] = `
 </div>
 `;
 
-exports[`Storyshots Modal With State 1`] = `
+exports[`Storyshots Modal Controlled 1`] = `
 <div>
   <h3
     className="sc-htpNat bmPwTJ"
   >
     Modal
       →  
-    With State
+    Controlled
   </h3>
   <div
     className="sc-bxivhb fZfWO"
@@ -5228,7 +5321,13 @@ exports[`Storyshots Modal With State 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <div />
+      <div>
+        <button
+          onClick={[Function]}
+        >
+          Open Modal
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -9357,7 +9456,33 @@ exports[`Storyshots TextArea Component 1`] = `
       <textarea
         className="sc-dxgOiQ jEUEEU"
         placeholder="TextAreaPlaceholder"
-        value={undefined}
+        value="TextAreaContent"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextArea Controlled 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    TextArea
+      →  
+    Controlled
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <textarea
+        className="sc-dxgOiQ jEUEEU"
+        onChange={[Function]}
+        placeholder="TextAreaPlaceholder"
+        value=""
       />
     </div>
   </div>
@@ -9389,6 +9514,15 @@ exports[`Storyshots TextArea Prop Combinations 1`] = `
             value={undefined}
           />
         </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <textarea
+            className="sc-dxgOiQ jEUEEU"
+            placeholder="TextAreaPlaceholder"
+            value="TextAreaContent"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -9403,6 +9537,38 @@ exports[`Storyshots Toggle Component 1`] = `
     Toggle
       →  
     Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div
+        className="sc-ckVGcZ ikmnVD"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-jKJlTe bwkDME"
+        >
+          <div
+            className="sc-eNQAEJ fpYeYI"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Toggle Controlled 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    Toggle
+      →  
+    Controlled
   </h3>
   <div
     className="sc-bxivhb fZfWO"
