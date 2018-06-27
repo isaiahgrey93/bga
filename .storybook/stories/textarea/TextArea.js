@@ -9,5 +9,12 @@ import { decorateAddons } from 'story-decorators';
 import { TextArea } from 'components';
 
 decorateAddons(storiesOf('TextArea', module))
-  .addWithJSX('Component', () => <TextArea />)
-  .add('Prop Combinations', withPropsCombinations(TextArea, {}));
+  .addWithJSX('Component', () => (
+    <TextArea placeholder={'TextAreaPlaceholder'} />
+  ))
+  .add(
+    'Prop Combinations',
+    withPropsCombinations(TextArea, {
+      placeholder: ['TextAreaPlaceholder'],
+    })
+  );

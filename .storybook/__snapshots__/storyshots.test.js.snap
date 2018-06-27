@@ -3916,289 +3916,289 @@ exports[`Storyshots Colors Colors 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jKJlTe kwVvic"
+        className="sc-eNQAEJ gvpCXm"
       >
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             White
           </div>
           <div
-            className="sc-hMqMXs gZVgre"
+            className="sc-kEYyzF bwRmFt"
             color="#FFFFFF"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #FFFFFF
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Grey 5
           </div>
           <div
-            className="sc-hMqMXs eTilyT"
+            className="sc-kEYyzF biyriI"
             color="#EDEFF2"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #EDEFF2
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Grey 4
           </div>
           <div
-            className="sc-hMqMXs XJSsb"
+            className="sc-kEYyzF fmzrAv"
             color="#E1E3E6"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #E1E3E6
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Grey 3
           </div>
           <div
-            className="sc-hMqMXs kbPOMI"
+            className="sc-kEYyzF eAANCP"
             color="#C1C3C6"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #C1C3C6
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Grey 2
           </div>
           <div
-            className="sc-hMqMXs jmOsRe"
+            className="sc-kEYyzF cLghMw"
             color="#9B9B9B"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #9B9B9B
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Grey 1
           </div>
           <div
-            className="sc-hMqMXs loDFvc"
+            className="sc-kEYyzF gQzepd"
             color="#666666"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #666666
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Black
           </div>
           <div
-            className="sc-hMqMXs gVMTql"
+            className="sc-kEYyzF hhamDS"
             color="#303030"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #303030
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Primary Orange
           </div>
           <div
-            className="sc-hMqMXs gwvZhG"
+            className="sc-kEYyzF fXOeoA"
             color="#FFA700"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #FFA700
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Light Orange
           </div>
           <div
-            className="sc-hMqMXs feIyjR"
+            className="sc-kEYyzF iWzjKV"
             color="#FFBE00"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #FFBE00
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Dark Orange
           </div>
           <div
-            className="sc-hMqMXs hgMJyw"
+            className="sc-kEYyzF bXcaUo"
             color="#FF8D00"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #FF8D00
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Primary Blue
           </div>
           <div
-            className="sc-hMqMXs eKrTzT"
+            className="sc-kEYyzF gdkcRO"
             color="#0075F7"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #0075F7
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Light Blue
           </div>
           <div
-            className="sc-hMqMXs deoibv"
+            className="sc-kEYyzF bvDhES"
             color="#00CDFF"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #00CDFF
             </div>
           </div>
         </div>
         <div
-          className="sc-eNQAEJ cpPFEh"
+          className="sc-hMqMXs dzbJbt"
         >
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             Dark Blue
           </div>
           <div
-            className="sc-hMqMXs bflhpV"
+            className="sc-kEYyzF fGgAcK"
             color="#0E91FD"
           />
           <div
-            className="sc-kEYyzF dgXgZU"
+            className="sc-kkGfuU gUFdbg"
           >
             <div
-              className="sc-kkGfuU jzEguq"
+              className="sc-iAyFgw gCezVH"
             >
               #0E91FD
             </div>
@@ -4226,24 +4226,24 @@ exports[`Storyshots Colors Gradients 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-iAyFgw ijQiiN"
+        className="sc-hSdWYo eSsXYU"
       >
         <div
-          className="sc-hSdWYo QaMmT"
+          className="sc-eHgmQL HjvcS"
         >
           <div
-            className="sc-cvbbAY lpeWtD"
+            className="sc-jWBwVP gNJvYb"
           >
             Primary
           </div>
           <div
-            className="sc-eHgmQL hIvhYp"
+            className="sc-cvbbAY fLxDLR"
           />
           <div
-            className="sc-cvbbAY lpeWtD"
+            className="sc-jWBwVP gNJvYb"
           >
             <div
-              className="sc-jWBwVP dXbqfM"
+              className="sc-brqgnP jFonML"
             >
               background: 
               linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
@@ -4251,21 +4251,21 @@ exports[`Storyshots Colors Gradients 1`] = `
           </div>
         </div>
         <div
-          className="sc-hSdWYo QaMmT"
+          className="sc-eHgmQL HjvcS"
         >
           <div
-            className="sc-cvbbAY lpeWtD"
+            className="sc-jWBwVP gNJvYb"
           >
             Secondary
           </div>
           <div
-            className="sc-eHgmQL kOPrQD"
+            className="sc-cvbbAY hePvgb"
           />
           <div
-            className="sc-cvbbAY lpeWtD"
+            className="sc-jWBwVP gNJvYb"
           >
             <div
-              className="sc-jWBwVP dXbqfM"
+              className="sc-brqgnP jFonML"
             >
               background: 
               linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
@@ -9296,9 +9296,11 @@ exports[`Storyshots TextArea Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <center>
-        Not Implemented
-      </center>
+      <textarea
+        className="sc-kpOJdX fAINGN"
+        placeholder="TextAreaPlaceholder"
+        value={undefined}
+      />
     </div>
   </div>
 </div>
@@ -9323,9 +9325,11 @@ exports[`Storyshots TextArea Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <center>
-            Not Implemented
-          </center>
+          <textarea
+            className="sc-kpOJdX fAINGN"
+            placeholder="TextAreaPlaceholder"
+            value={undefined}
+          />
         </div>
       </div>
     </div>
@@ -9349,14 +9353,14 @@ exports[`Storyshots Toggle Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-kpOJdX cmtMdq"
+        className="sc-dxgOiQ imJkBl"
         onClick={[Function]}
       >
         <div
-          className="sc-dxgOiQ kgYYBZ"
+          className="sc-ckVGcZ crOmSP"
         >
           <div
-            className="sc-ckVGcZ hVLdJZ"
+            className="sc-jKJlTe kyesZi"
           />
         </div>
       </div>
@@ -9385,14 +9389,14 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-kpOJdX cmtMdq"
+            className="sc-dxgOiQ imJkBl"
             onClick={undefined}
           >
             <div
-              className="sc-dxgOiQ kgYYBZ"
+              className="sc-ckVGcZ crOmSP"
             >
               <div
-                className="sc-ckVGcZ hVLdJZ"
+                className="sc-jKJlTe kyesZi"
               />
             </div>
           </div>
@@ -9401,14 +9405,14 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-kpOJdX cmtMdq"
+            className="sc-dxgOiQ imJkBl"
             onClick={undefined}
           >
             <div
-              className="sc-dxgOiQ geGUs"
+              className="sc-ckVGcZ kdXEhg"
             >
               <div
-                className="sc-ckVGcZ hcUIee"
+                className="sc-jKJlTe jslCPJ"
               />
             </div>
           </div>
@@ -9435,7 +9439,7 @@ exports[`Storyshots Typography Font Families 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-cMljjf jweQel"
+        className="sc-jAaTju KsHFy"
       >
         <h3
           style={
@@ -9449,65 +9453,65 @@ exports[`Storyshots Typography Font Families 1`] = `
           Poppins
         </h3>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay iPYwGX"
+            className="sc-iRbamj hYZoWI"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Regular - 400
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay dtinmU"
+            className="sc-iRbamj hpalGp"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Medium - 500
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay sjArN"
+            className="sc-iRbamj JFXyK"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Semi-Bold - 600
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay kwHBPu"
+            className="sc-iRbamj gTMQqd"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Bold - 700
           </div>
@@ -9534,13 +9538,13 @@ exports[`Storyshots Typography Font Leading 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-cMljjf jweQel"
+        className="sc-jAaTju KsHFy"
       >
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay cUksyV"
+            className="sc-iRbamj jSxdIp"
             size={16}
             style={
               Object {
@@ -9552,16 +9556,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Extra Small - 18px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay cUksyV"
+            className="sc-iRbamj jSxdIp"
             size={16}
             style={
               Object {
@@ -9573,16 +9577,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Small - 20px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay dVtevG"
+            className="sc-iRbamj hsIXXN"
             size={16}
             style={
               Object {
@@ -9594,16 +9598,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Medium - 24px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay ftlgrC"
+            className="sc-iRbamj ciWtBI"
             size={16}
             style={
               Object {
@@ -9615,16 +9619,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Large - 30px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay bTUhEv"
+            className="sc-iRbamj kCUUqo"
             size={16}
             style={
               Object {
@@ -9636,7 +9640,7 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Extra Large - 36px
           </div>
@@ -9663,84 +9667,84 @@ exports[`Storyshots Typography Font Sizes 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-cMljjf jweQel"
+        className="sc-jAaTju KsHFy"
       >
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay fLmMym"
+            className="sc-iRbamj HmxCA"
             size={12}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Extra Small - 12px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay fojUyX"
+            className="sc-iRbamj jIUqSj"
             size={14}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Small - 14px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay lqWPx"
+            className="sc-iRbamj dYxFcd"
             size={16}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Medium - 16px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay cPgIon"
+            className="sc-iRbamj ikGPgZ"
             size={24}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Large - 24px
           </div>
         </div>
         <div
-          className="sc-jAaTju kPxTtG"
+          className="sc-jDwBTQ bbqTXU"
         >
           <div
-            className="sc-gPEVay dfGHcU"
+            className="sc-iRbamj gGSkJj"
             size={30}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-jDwBTQ huneHj"
+            className="sc-gPEVay dtbEXs"
           >
             Extra Large - 30px
           </div>
