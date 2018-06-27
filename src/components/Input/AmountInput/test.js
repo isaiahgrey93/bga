@@ -7,7 +7,7 @@ import { colors, } from 'theme';
 import { AmountInput, } from 'components';
 import { Input, } from 'components/Input/AmountInput/styles';
 
-describe('AmountInput style modifers', () => {
+describe('AmountInput style modifiers', () => {
   it('On focus the input container border color should be primary blue', () => {
     const wrapper = shallow(<AmountInput />);
 

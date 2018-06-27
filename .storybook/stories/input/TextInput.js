@@ -45,7 +45,7 @@ decorateAddons(storiesOf('Input/Text Input', module))
     'Prop Combinations',
     withPropsCombinations(TextInput, {
       onChange: [() => null],
-      icon: Object.values(icons),
+      icon: [Object.values(icons)[0]],
       placeholder: ['TextInputPlaceholder'],
       value: [undefined, 'TextInputValue'],
     })
