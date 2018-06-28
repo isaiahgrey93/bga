@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { IconButton, } from 'components';
+import { IconButton, } from 'components/common';
 
 import {
   Input as StyledInput,

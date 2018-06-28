@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { WrapperButton, } from 'components';
+import { WrapperButton, } from 'components/common';
 
 import { Card as StyledCard, } from './styles';
 

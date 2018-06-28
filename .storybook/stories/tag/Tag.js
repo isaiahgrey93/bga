@@ -8,13 +8,13 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { Tag } from 'components';
+import { Tag } from 'components/common';
 import {
   tagSizes,
   backgroundColors,
   defaultColor,
   defaultTagSize,
-} from 'components/Tag/constants';
+} from 'components/common/Tag/constants';
 
 const tagSizeOptions = Object.keys(tagSizes);
 const backgroundColorOptions = Object.keys(backgroundColors);

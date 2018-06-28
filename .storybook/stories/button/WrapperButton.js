@@ -6,7 +6,7 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 
 import { decorateAddons } from 'story-decorators';
 
-import { WrapperButton } from 'components';
+import { WrapperButton } from 'components/common';
 
 import { storyAction } from 'story-utilities';
 import { text } from '@storybook/addon-knobs/react';

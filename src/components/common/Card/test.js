@@ -1,13 +1,14 @@
 import React from 'react';
 import sinon from 'sinon';
 import { shallow, } from 'enzyme';
+import 'jest-styled-components';
 
-import { WrapperButton, } from 'components';
+import { Card, } from 'components/common';
 
-describe('WrapperButton event handlers', () => {
+describe('Card event handlers', () => {
   it('should handle click event', () => {
     const onClick = sinon.spy();
-    const wrapper = shallow(<WrapperButton onClick={onClick} />);
+    const wrapper = shallow(<Card onClick={onClick} />);
 
     wrapper.simulate('click');
     expect(onClick).toHaveProperty('callCount', 1);

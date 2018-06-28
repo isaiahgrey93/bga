@@ -9,7 +9,7 @@ import { text } from '@storybook/addon-knobs/react';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { AmountInput } from 'components';
+import { AmountInput } from 'components/common';
 
 decorateAddons(storiesOf('Input/Amount Input', module))
   .addWithJSX('Component', () => (

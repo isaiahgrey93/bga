@@ -7,7 +7,7 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 import { decorateAddons } from 'story-decorators';
 import { text } from '@storybook/addon-knobs';
 
-import { HeaderImage } from 'components';
+import { HeaderImage } from 'components/common';
 
 const sampleImageURL = 'https://placehold.it/1200/ccc/606060&&text=Givelify';
 

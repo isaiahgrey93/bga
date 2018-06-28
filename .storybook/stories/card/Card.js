@@ -8,7 +8,7 @@ import { text, boolean } from '@storybook/addon-knobs/react';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { Card } from 'components';
+import { Card } from 'components/common';
 
 decorateAddons(storiesOf('Card', module))
   .addWithJSX('Component', () => (

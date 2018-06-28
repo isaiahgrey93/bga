@@ -9,7 +9,7 @@ import { boolean } from '@storybook/addon-knobs/react';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { Toggle } from 'components';
+import { Toggle } from 'components/common';
 
 decorateAddons(storiesOf('Toggle', module))
   .addWithJSX('Component', () => (

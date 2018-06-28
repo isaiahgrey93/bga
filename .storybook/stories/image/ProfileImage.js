@@ -7,14 +7,14 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 import { decorateAddons } from 'story-decorators';
 import { boolean, select, text } from '@storybook/addon-knobs';
 
-import { ProfileImage } from 'components';
+import { ProfileImage } from 'components/common';
 
 import {
   sizes,
   shapes,
   defaultSize,
   defaultShape,
-} from 'components/Image/ProfileImage/constants';
+} from 'components/common/Image/ProfileImage/constants';
 
 const sizeOptions = Object.keys(sizes);
 const shapeOptions = Object.keys(shapes);

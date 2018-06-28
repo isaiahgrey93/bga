@@ -8,11 +8,11 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { OutlineButton } from 'components';
+import { OutlineButton } from 'components/common';
 import {
   buttonSizes,
   buttonColors,
-} from 'components/Button/OutlineButton/constants';
+} from 'components/common/Button/OutlineButton/constants';
 
 const buttonSizeOptions = Object.keys(buttonSizes);
 const buttonColorOptions = Object.keys(buttonColors);

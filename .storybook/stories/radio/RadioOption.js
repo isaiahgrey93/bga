@@ -10,7 +10,7 @@ import { button } from '@storybook/addon-knobs';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { RadioOption } from 'components';
+import { RadioOption } from 'components/common';
 
 decorateAddons(storiesOf('Radio/Option', module))
   .addWithJSX('Component', () => (

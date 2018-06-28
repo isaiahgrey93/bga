@@ -45,7 +45,9 @@
   "jest": {
     "setupTestFrameworkScriptFile": "./test.setup.js",
     "testMatch": [
-      "<rootDir>/**/**/*test.{js,jsx}"
+      "<rootDir>/**/*test.{js,jsx}",
+      "<rootDir>/**/**/*test.{js,jsx}",
+      "<rootDir>/**/**/**/*test.{js,jsx}"
     ],
     "modulePaths": [
       "<rootDir>/src",

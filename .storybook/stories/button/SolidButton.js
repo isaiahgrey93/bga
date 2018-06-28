@@ -8,7 +8,7 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { SolidButton } from 'components';
+import { SolidButton } from 'components/common';
 import {
   buttonSizes,
   backgroundColors,
@@ -16,7 +16,7 @@ import {
   defaultShadowType,
   defaultColor,
   defaultButtonSize,
-} from 'components/Button/SolidButton/constants';
+} from 'components/common/Button/SolidButton/constants';
 
 const buttonSizeOptions = Object.keys(buttonSizes);
 const shadowTypeOptions = Object.keys(shadowTypes);

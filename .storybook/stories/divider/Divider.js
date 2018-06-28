@@ -6,7 +6,7 @@ import withPropsCombinations from 'react-storybook-addon-props-combinations';
 
 import { decorateAddons } from 'story-decorators';
 
-import { Divider } from 'components';
+import { Divider } from 'components/common';
 
 decorateAddons(storiesOf('Divider', module))
   .addWithJSX('Component', () => <Divider />)

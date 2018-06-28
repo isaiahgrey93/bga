@@ -4,8 +4,8 @@ import 'jest-styled-components';
 
 import { colors, } from 'theme';
 
-import { TextInput, } from 'components';
-import { InputIcon, Input, } from 'components/Input/TextInput/styles';
+import { TextInput, } from 'components/common';
+import { InputIcon, Input, } from 'components/common/Input/TextInput/styles';
 
 const TestIcon = () => <span>&times;</span>;
 

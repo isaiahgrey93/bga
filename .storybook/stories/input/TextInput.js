@@ -9,7 +9,7 @@ import { text, select } from '@storybook/addon-knobs/react';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { TextInput } from 'components';
+import { TextInput } from 'components/common';
 
 const icons = {
   none: undefined,

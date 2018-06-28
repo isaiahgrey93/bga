@@ -4,7 +4,7 @@ import { shallow, } from 'enzyme';
 import 'jest-styled-components';
 
 import { colors, } from 'theme';
-import { RadioOption, } from 'components';
+import { RadioOption, } from 'components/common';
 
 import { RadioOptionButton, RadioOptionButtonContainer, } from './styles';
 

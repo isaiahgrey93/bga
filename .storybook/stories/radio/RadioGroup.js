@@ -11,7 +11,7 @@ import { button } from '@storybook/addon-knobs';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { Card, RadioGroup, RadioOption } from 'components';
+import { Card, RadioGroup, RadioOption } from 'components/common';
 
 const options = [
   {

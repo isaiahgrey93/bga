@@ -10,7 +10,7 @@ import { button } from '@storybook/addon-knobs';
 
 import { decorateAddons } from 'story-decorators';
 
-import { Modal, Card, SolidButton, OutlineButton, Text } from 'components';
+import { Modal, Card, SolidButton, OutlineButton, Text } from 'components/common';
 
 const ExampeModalCard = styled(Card)`
   height: 480px;

@@ -8,7 +8,7 @@ import { text, select } from '@storybook/addon-knobs/react';
 import { decorateAddons } from 'story-decorators';
 import { storyAction } from 'story-utilities';
 
-import { IconButton } from 'components';
+import { IconButton } from 'components/common';
 
 import {
   buttonSizes,
@@ -17,7 +17,7 @@ import {
   defaultShadowType,
   defaultColor,
   defaultButtonSize,
-} from 'components/Button/IconButton/constants';
+} from 'components/common/Button/IconButton/constants';
 
 const buttonSizeOptions = Object.keys(buttonSizes);
 const shadowTypeOptions = Object.keys(shadowTypes);

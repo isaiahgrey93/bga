@@ -7,7 +7,7 @@ import { text } from '@storybook/addon-knobs/react';
 
 import { decorateAddons } from 'story-decorators';
 
-import { Row } from 'components';
+import { Row } from 'components/common';
 
 decorateAddons(storiesOf('Row', module))
   .addWithJSX('Component', () => (

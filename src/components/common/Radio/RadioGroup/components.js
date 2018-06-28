@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Divider from 'components/Divider';
+import Divider from 'components/common/Divider';
 
 export const RadioOptionSeperator = ({ index, nodes, }) =>
   (index !== nodes.length - 1 ? <Divider /> : null);

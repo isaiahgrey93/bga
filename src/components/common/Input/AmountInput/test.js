@@ -4,8 +4,8 @@ import 'jest-styled-components';
 
 import { colors, } from 'theme';
 
-import { AmountInput, } from 'components';
-import { Input, } from 'components/Input/AmountInput/styles';
+import { AmountInput, } from 'components/common';
+import { Input, } from 'components/common/Input/AmountInput/styles';
 
 describe('AmountInput style modifiers', () => {
   it('On focus the input container border color should be primary blue', () => {

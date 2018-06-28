@@ -8,7 +8,7 @@ import { text } from '@storybook/addon-knobs/react';
 
 import { decorateAddons } from 'story-decorators';
 
-import { TextArea } from 'components';
+import { TextArea } from 'components/common';
 
 decorateAddons(storiesOf('TextArea', module))
   .addWithJSX('Component', () => (

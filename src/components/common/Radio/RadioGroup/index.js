@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import RadioOption from 'components/Radio/RadioOption';
+import RadioOption from 'components/common/Radio/RadioOption';
 
 import { RadioGroup as StyledRadioGroup, } from './styles';
 import { RadioOptionSeperator, } from './components';

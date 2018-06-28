@@ -2,12 +2,12 @@ import React from 'react';
 import sinon from 'sinon';
 import { shallow, } from 'enzyme';
 
-import { IconButton, } from 'components';
+import { SolidButton, } from 'components/common';
 
-describe('IconButton event handlers', () => {
+describe('SolidButton event handlers', () => {
   it('should handle click event', () => {
     const onClick = sinon.spy();
-    const wrapper = shallow(<IconButton name={<span>&rarr;</span>} onClick={onClick} />);
+    const wrapper = shallow(<SolidButton onClick={onClick} />);
 
     wrapper.simulate('click');
     expect(onClick).toHaveProperty('callCount', 1);

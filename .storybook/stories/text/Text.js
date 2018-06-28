@@ -7,7 +7,7 @@ import { text, select, number, boolean } from '@storybook/addon-knobs/react';
 
 import { decorateAddons } from 'story-decorators';
 
-import { Text } from 'components';
+import { Text } from 'components/common';
 
 import {
   defaultTextSize,
@@ -16,7 +16,7 @@ import {
   textSizes,
   textColors,
   textWeights,
-} from 'components/Text/constants';
+} from 'components/common/Text/constants';
 
 const textSizeOptions = Object.keys(textSizes);
 const textColorOptions = Object.keys(textColors);

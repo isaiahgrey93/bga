@@ -7,8 +7,8 @@ import { select } from '@storybook/addon-knobs/react';
 
 import { decorateAddons } from 'story-decorators';
 
-import { Icon } from 'components';
-import { icons } from 'components/Icon/constants';
+import { Icon } from 'components/common';
+import { icons } from 'components/common/Icon/constants';
 
 decorateAddons(storiesOf('Icon', module))
   .addWithJSX('Component', () => (
