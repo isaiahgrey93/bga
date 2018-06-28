@@ -10,6 +10,7 @@ export { default as Icon, } from './Icon';
 export { HeaderImage, ProfileImage, } from './Image';
 export { AmountInput, TextInput, } from './Input';
 export { default as Modal, } from './Modal';
+export { RadioGroup, RadioOption, } from './Radio';
 export { default as Row, } from './Row';
 export { default as Tag, } from './Tag';
 export { default as Text, } from './Text';
