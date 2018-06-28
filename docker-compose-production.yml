@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+
+  bga-prod-app:
+    container_name: bga-prod-app
+    build:
+      context: .
+      dockerfile: dockerfile.prod.app
+    ports:
+      - '80:80'
+    environment:
+      - NODE_ENV=production

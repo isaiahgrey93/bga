@@ -1,0 +1,28 @@
+version: '3.5'
+
+services:
+
+  bga-dev-app:
+    container_name: bga-dev-app
+    build:
+      context: .
+      dockerfile: dockerfile.dev.app
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
+  bga-dev-storybook:
+    container_name: bga-dev-storybook
+    build:
+      context: .
+      dockerfile: dockerfile.dev.storybook
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '9001:9001'
+    environment:
+      - NODE_ENV=development
