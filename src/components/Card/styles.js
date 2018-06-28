@@ -10,11 +10,12 @@ const cardShadowMixin = css`
     transition: all 0.1s ease-in;
     box-shadow: ${props =>
     (props.raised ? shadows.get('default', 'none') : 'none')};
-    opacity: ${props => (props.clickable ? 0.8 : 1)};
+    opacity: ${props => props.clickable && 0.8};
   }
 `;
 
 export const Card = styled.div`
+  opacity: 1;
   padding: 20px;
   min-height: 72px;
   border-radius: 8px;

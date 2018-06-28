@@ -3808,7 +3808,7 @@ exports[`Storyshots Card Component 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-htoDjs gODkLg"
+          className="sc-htoDjs ldhTrZ"
         >
           Card Content
         </div>
@@ -3839,10 +3839,10 @@ exports[`Storyshots Card Prop Combinations 1`] = `
         >
           <div
             className="sc-gzVnrw hclbJv"
-            onClick={undefined}
+            onClick={[Function]}
           >
             <div
-              className="sc-htoDjs bQYHdV"
+              className="sc-htoDjs ldhTrZ"
             >
               Card Content
             </div>
@@ -3853,10 +3853,10 @@ exports[`Storyshots Card Prop Combinations 1`] = `
         >
           <div
             className="sc-gzVnrw hclbJv"
-            onClick={undefined}
+            onClick={[Function]}
           >
             <div
-              className="sc-htoDjs bQYHdV"
+              className="sc-htoDjs ldhTrZ"
             >
               <div>
                 DOM Node
@@ -3869,10 +3869,10 @@ exports[`Storyshots Card Prop Combinations 1`] = `
         >
           <div
             className="sc-gzVnrw hclbJv"
-            onClick={undefined}
+            onClick={[Function]}
           >
             <div
-              className="sc-htoDjs kHjqqi"
+              className="sc-htoDjs hakEiL"
             >
               Card Content
             </div>
@@ -3883,10 +3883,10 @@ exports[`Storyshots Card Prop Combinations 1`] = `
         >
           <div
             className="sc-gzVnrw hclbJv"
-            onClick={undefined}
+            onClick={[Function]}
           >
             <div
-              className="sc-htoDjs kHjqqi"
+              className="sc-htoDjs hakEiL"
             >
               <div>
                 DOM Node
@@ -5323,7 +5323,10 @@ exports[`Storyshots Modal Controlled 1`] = `
     >
       <div>
         <button
+          className="sc-bZQynM bIWTVt"
+          color="black"
           onClick={[Function]}
+          size="medium"
         >
           Open Modal
         </button>
@@ -9663,7 +9666,7 @@ exports[`Storyshots Typography Font Families 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jDwBTQ UcACB"
+        className="sc-gPEVay esekdX"
       >
         <h3
           style={
@@ -9677,65 +9680,65 @@ exports[`Storyshots Typography Font Families 1`] = `
           Poppins
         </h3>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG kBYtVS"
+            className="sc-gipzik fvWRRx"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Regular - 400
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG jZLOCM"
+            className="sc-gipzik jNFwcQ"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Medium - 500
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG gwtwBk"
+            className="sc-gipzik fzNFmd"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Semi-Bold - 600
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG gIYoyG"
+            className="sc-gipzik cGdaT"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Bold - 700
           </div>
@@ -9762,13 +9765,13 @@ exports[`Storyshots Typography Font Leading 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jDwBTQ UcACB"
+        className="sc-gPEVay esekdX"
       >
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG dbJgsz"
+            className="sc-gipzik faMpDv"
             size={16}
             style={
               Object {
@@ -9780,16 +9783,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Extra Small - 18px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG dbJgsz"
+            className="sc-gipzik faMpDv"
             size={16}
             style={
               Object {
@@ -9801,16 +9804,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Small - 20px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG hPgsMc"
+            className="sc-gipzik jehSF"
             size={16}
             style={
               Object {
@@ -9822,16 +9825,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Medium - 24px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG iJRfam"
+            className="sc-gipzik jMpSOC"
             size={16}
             style={
               Object {
@@ -9843,16 +9846,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Large - 30px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG dynqlc"
+            className="sc-gipzik kzjrhK"
             size={16}
             style={
               Object {
@@ -9864,7 +9867,7 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Extra Large - 36px
           </div>
@@ -9891,84 +9894,84 @@ exports[`Storyshots Typography Font Sizes 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-jDwBTQ UcACB"
+        className="sc-gPEVay esekdX"
       >
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG caFupC"
+            className="sc-gipzik JehPS"
             size={12}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Extra Small - 12px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG hqfVox"
+            className="sc-gipzik dovMil"
             size={14}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Small - 14px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG gtSBdk"
+            className="sc-gipzik hnnepQ"
             size={16}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Medium - 16px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG fRkYqi"
+            className="sc-gipzik chIWYq"
             size={24}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Large - 24px
           </div>
         </div>
         <div
-          className="sc-gPEVay bnKrQG"
+          className="sc-iRbamj dZOHSQ"
         >
           <div
-            className="sc-jlyJG cvSrXi"
+            className="sc-gipzik cwboXY"
             size={30}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-iRbamj NDUAU"
+            className="sc-jlyJG bFrndF"
           >
             Extra Large - 30px
           </div>

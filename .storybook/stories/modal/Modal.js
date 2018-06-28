@@ -1,5 +1,6 @@
 import React from 'react';
 
+import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 
 import { withState } from '@dump247/storybook-state';
@@ -9,7 +10,16 @@ import { button } from '@storybook/addon-knobs';
 
 import { decorateAddons } from 'story-decorators';
 
-import { Modal, Card, Text } from 'components';
+import { Modal, Card, SolidButton, OutlineButton, Text } from 'components';
+
+const ExampeModalCard = styled(Card)`
+  height: 480px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 decorateAddons(storiesOf('Modal', module))
   .addWithJSX('Component', () => (
@@ -28,14 +38,16 @@ decorateAddons(storiesOf('Modal', module))
       return (
         <div>
           <Modal onClose={toggle} active={store.state.active}>
-            <Card style={{ height: 480, width: 320 }}>
+            <ExampeModalCard>
               <Text
                 value={text('Content (children)', 'Modal with Card Component')}
               />
-              <button onClick={toggle}>Close Modal</button>
-            </Card>
+              <OutlineButton fluid onClick={toggle}>
+                Close Modal
+              </OutlineButton>
+            </ExampeModalCard>
           </Modal>
-          <button onClick={toggle}>Open Modal</button>
+          <SolidButton onClick={toggle}>Open Modal</SolidButton>
           {button('Toggle Modal', toggle)}
         </div>
       );

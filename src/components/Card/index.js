@@ -7,13 +7,17 @@ import { Card as StyledCard, } from './styles';
 
 const Card = ({
   children, value, onClick, ...props
-}) => (
-  <WrapperButton onClick={onClick}>
-    <StyledCard clickable={!!onClick} {...props}>
-      {children || value}
-    </StyledCard>
-  </WrapperButton>
-);
+}) => {
+  const isClickable = !!onClick;
+
+  return (
+    <WrapperButton onClick={onClick}>
+      <StyledCard clickable={isClickable} {...props}>
+        {children || value}
+      </StyledCard>
+    </WrapperButton>
+  );
+};
 
 Card.propTypes = {
   raised: PropTypes.bool,

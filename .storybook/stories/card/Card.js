@@ -22,6 +22,7 @@ decorateAddons(storiesOf('Card', module))
     'Prop Combinations',
     withPropsCombinations(Card, {
       raised: [true, false],
+      onClick: [() => null],
       value: ['Card Content', <div>DOM Node</div>],
     })
   );
