@@ -5352,7 +5352,7 @@ exports[`Storyshots Radio/Group Component - options as children 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-ckVGcZ foYhJp"
+        className="sc-ckVGcZ knpIAd"
       >
         <div
           className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -5505,7 +5505,7 @@ exports[`Storyshots Radio/Group Component - options as object array 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-ckVGcZ foYhJp"
+        className="sc-ckVGcZ knpIAd"
       >
         <div
           className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -5658,7 +5658,7 @@ exports[`Storyshots Radio/Group Controlled 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-ckVGcZ foYhJp"
+        className="sc-ckVGcZ knpIAd"
       >
         <div
           className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -5815,7 +5815,7 @@ exports[`Storyshots Radio/Group Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-ckVGcZ foYhJp"
+            className="sc-ckVGcZ knpIAd"
           >
             <div
               className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -5952,7 +5952,7 @@ exports[`Storyshots Radio/Group Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-ckVGcZ foYhJp"
+            className="sc-ckVGcZ knpIAd"
           >
             <div
               className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -6089,144 +6089,7 @@ exports[`Storyshots Radio/Group Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-ckVGcZ foYhJp"
-          >
-            <div
-              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
-              onClick={[Function]}
-            >
-              <div>
-                None
-              </div>
-              <div>
-                <div
-                  className="sc-kpOJdX dVqwrR"
-                  selected={true}
-                >
-                  <div
-                    className="sc-dxgOiQ dGxMaJ"
-                    selected={true}
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="sc-dnqmqq kcNjKD"
-            />
-            <div
-              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
-              onClick={[Function]}
-            >
-              <div>
-                Daily
-              </div>
-              <div>
-                <div
-                  className="sc-kpOJdX eghNkM"
-                  selected={false}
-                >
-                  <div
-                    className="sc-dxgOiQ duBLuE"
-                    selected={false}
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="sc-dnqmqq kcNjKD"
-            />
-            <div
-              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
-              onClick={[Function]}
-            >
-              <div>
-                Weekly
-              </div>
-              <div>
-                <div
-                  className="sc-kpOJdX eghNkM"
-                  selected={false}
-                >
-                  <div
-                    className="sc-dxgOiQ duBLuE"
-                    selected={false}
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="sc-dnqmqq kcNjKD"
-            />
-            <div
-              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
-              onClick={[Function]}
-            >
-              <div>
-                Every Two Weeks
-              </div>
-              <div>
-                <div
-                  className="sc-kpOJdX eghNkM"
-                  selected={false}
-                >
-                  <div
-                    className="sc-dxgOiQ duBLuE"
-                    selected={false}
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="sc-dnqmqq kcNjKD"
-            />
-            <div
-              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
-              onClick={[Function]}
-            >
-              <div>
-                Twice a month (1st & 16th)
-              </div>
-              <div>
-                <div
-                  className="sc-kpOJdX eghNkM"
-                  selected={false}
-                >
-                  <div
-                    className="sc-dxgOiQ duBLuE"
-                    selected={false}
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="sc-dnqmqq kcNjKD"
-            />
-            <div
-              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
-              onClick={[Function]}
-            >
-              <div>
-                Monthly
-              </div>
-              <div>
-                <div
-                  className="sc-kpOJdX eghNkM"
-                  selected={false}
-                >
-                  <div
-                    className="sc-dxgOiQ duBLuE"
-                    selected={false}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="sc-bdVaJa cvqqop"
-        >
-          <div
-            className="sc-ckVGcZ foYhJp"
+            className="sc-ckVGcZ knpIAd"
           >
             <div
               className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -6363,7 +6226,144 @@ exports[`Storyshots Radio/Group Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-ckVGcZ foYhJp"
+            className="sc-ckVGcZ knpIAd"
+          >
+            <div
+              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
+              onClick={[Function]}
+            >
+              <div>
+                None
+              </div>
+              <div>
+                <div
+                  className="sc-kpOJdX dVqwrR"
+                  selected={true}
+                >
+                  <div
+                    className="sc-dxgOiQ dGxMaJ"
+                    selected={true}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-dnqmqq kcNjKD"
+            />
+            <div
+              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
+              onClick={[Function]}
+            >
+              <div>
+                Daily
+              </div>
+              <div>
+                <div
+                  className="sc-kpOJdX eghNkM"
+                  selected={false}
+                >
+                  <div
+                    className="sc-dxgOiQ duBLuE"
+                    selected={false}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-dnqmqq kcNjKD"
+            />
+            <div
+              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
+              onClick={[Function]}
+            >
+              <div>
+                Weekly
+              </div>
+              <div>
+                <div
+                  className="sc-kpOJdX eghNkM"
+                  selected={false}
+                >
+                  <div
+                    className="sc-dxgOiQ duBLuE"
+                    selected={false}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-dnqmqq kcNjKD"
+            />
+            <div
+              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
+              onClick={[Function]}
+            >
+              <div>
+                Every Two Weeks
+              </div>
+              <div>
+                <div
+                  className="sc-kpOJdX eghNkM"
+                  selected={false}
+                >
+                  <div
+                    className="sc-dxgOiQ duBLuE"
+                    selected={false}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-dnqmqq kcNjKD"
+            />
+            <div
+              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
+              onClick={[Function]}
+            >
+              <div>
+                Twice a month (1st & 16th)
+              </div>
+              <div>
+                <div
+                  className="sc-kpOJdX eghNkM"
+                  selected={false}
+                >
+                  <div
+                    className="sc-dxgOiQ duBLuE"
+                    selected={false}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-dnqmqq kcNjKD"
+            />
+            <div
+              className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
+              onClick={[Function]}
+            >
+              <div>
+                Monthly
+              </div>
+              <div>
+                <div
+                  className="sc-kpOJdX eghNkM"
+                  selected={false}
+                >
+                  <div
+                    className="sc-dxgOiQ duBLuE"
+                    selected={false}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-ckVGcZ knpIAd"
           >
             <div
               className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
@@ -6500,7 +6500,7 @@ exports[`Storyshots Radio/Group Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-ckVGcZ foYhJp"
+            className="sc-ckVGcZ knpIAd"
           >
             <div
               className="sc-kGXeez dJUfob sc-kgoBCf wEESE"
