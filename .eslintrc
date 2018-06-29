@@ -33,6 +33,7 @@
         "aspects": ["noHref", "invalidHref", "preferButton"]
       }
     ],
+    "react/no-find-dom-node": 0,
     "import/prefer-default-export": 0,
     "import/no-unresolved": 0,
     "import/extensions": 0,

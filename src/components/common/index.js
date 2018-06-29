@@ -16,3 +16,4 @@ export { default as Tag, } from './Tag';
 export { default as Text, } from './Text';
 export { default as TextArea, } from './TextArea';
 export { default as Toggle, } from './Toggle';
+export { default as WrapperOffset, } from './WrapperOffset';

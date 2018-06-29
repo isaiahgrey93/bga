@@ -3872,7 +3872,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
             onClick={[Function]}
           >
             <div
-              className="sc-htoDjs hakEiL"
+              className="sc-htoDjs gsBUbN"
             >
               Card Content
             </div>
@@ -3886,7 +3886,67 @@ exports[`Storyshots Card Prop Combinations 1`] = `
             onClick={[Function]}
           >
             <div
-              className="sc-htoDjs hakEiL"
+              className="sc-htoDjs gsBUbN"
+            >
+              <div>
+                DOM Node
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-gzVnrw hclbJv"
+            onClick={[Function]}
+          >
+            <div
+              className="sc-htoDjs lublQ"
+            >
+              Card Content
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-gzVnrw hclbJv"
+            onClick={[Function]}
+          >
+            <div
+              className="sc-htoDjs lublQ"
+            >
+              <div>
+                DOM Node
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-gzVnrw hclbJv"
+            onClick={[Function]}
+          >
+            <div
+              className="sc-htoDjs cSpfae"
+            >
+              Card Content
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-gzVnrw hclbJv"
+            onClick={[Function]}
+          >
+            <div
+              className="sc-htoDjs cSpfae"
             >
               <div>
                 DOM Node
@@ -3916,289 +3976,289 @@ exports[`Storyshots Colors Colors 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-hSdWYo eSsXYU"
+        className="sc-cvbbAY fEhZlF"
       >
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             White
           </div>
           <div
-            className="sc-cvbbAY MVbc"
+            className="sc-brqgnP bjDwGu"
             color="#FFFFFF"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #FFFFFF
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Grey 5
           </div>
           <div
-            className="sc-cvbbAY fADwIq"
+            className="sc-brqgnP jTIfkO"
             color="#EDEFF2"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #EDEFF2
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Grey 4
           </div>
           <div
-            className="sc-cvbbAY jekxGV"
+            className="sc-brqgnP bMuAee"
             color="#E1E3E6"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #E1E3E6
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Grey 3
           </div>
           <div
-            className="sc-cvbbAY gmkCFS"
+            className="sc-brqgnP hZdZEp"
             color="#C1C3C6"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #C1C3C6
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Grey 2
           </div>
           <div
-            className="sc-cvbbAY kLmvLU"
+            className="sc-brqgnP iIRvja"
             color="#9B9B9B"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #9B9B9B
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Grey 1
           </div>
           <div
-            className="sc-cvbbAY dVfJsX"
+            className="sc-brqgnP kgQxyh"
             color="#666666"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #666666
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Black
           </div>
           <div
-            className="sc-cvbbAY cfpGhp"
+            className="sc-brqgnP gxZfsz"
             color="#303030"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #303030
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Primary Orange
           </div>
           <div
-            className="sc-cvbbAY kKCXAr"
+            className="sc-brqgnP KoUQQ"
             color="#FFA700"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #FFA700
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Light Orange
           </div>
           <div
-            className="sc-cvbbAY bwPTer"
+            className="sc-brqgnP gPoEiM"
             color="#FFBE00"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #FFBE00
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Dark Orange
           </div>
           <div
-            className="sc-cvbbAY dqeydd"
+            className="sc-brqgnP dKRAIu"
             color="#FF8D00"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #FF8D00
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Primary Blue
           </div>
           <div
-            className="sc-cvbbAY jvKDKM"
+            className="sc-brqgnP eNOOUZ"
             color="#0075F7"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #0075F7
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Light Blue
           </div>
           <div
-            className="sc-cvbbAY jfDhGy"
+            className="sc-brqgnP kENtNn"
             color="#00CDFF"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #00CDFF
             </div>
           </div>
         </div>
         <div
-          className="sc-eHgmQL kFtlQY"
+          className="sc-jWBwVP fefQOw"
         >
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             Dark Blue
           </div>
           <div
-            className="sc-cvbbAY hLMkUe"
+            className="sc-brqgnP gMcxoX"
             color="#0E91FD"
           />
           <div
-            className="sc-jWBwVP jGNdDQ"
+            className="sc-cMljjf juHJnk"
           >
             <div
-              className="sc-brqgnP jFonML"
+              className="sc-jAaTju jyvLjD"
             >
               #0E91FD
             </div>
@@ -4226,24 +4286,24 @@ exports[`Storyshots Colors Gradients 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-cMljjf bquCCL"
+        className="sc-jDwBTQ SEYqD"
       >
         <div
-          className="sc-jAaTju bZxFxe"
+          className="sc-gPEVay guyAAI"
         >
           <div
-            className="sc-gPEVay gfcwhb"
+            className="sc-jlyJG gBIVzu"
           >
             Primary
           </div>
           <div
-            className="sc-jDwBTQ ibbfnS"
+            className="sc-iRbamj brWFcT"
           />
           <div
-            className="sc-gPEVay gfcwhb"
+            className="sc-jlyJG gBIVzu"
           >
             <div
-              className="sc-iRbamj DDVJn"
+              className="sc-gipzik ggDOfJ"
             >
               background: 
               linear-gradient(135deg, #00CDFF 0%, #0E91FD 100%)
@@ -4251,21 +4311,21 @@ exports[`Storyshots Colors Gradients 1`] = `
           </div>
         </div>
         <div
-          className="sc-jAaTju bZxFxe"
+          className="sc-gPEVay guyAAI"
         >
           <div
-            className="sc-gPEVay gfcwhb"
+            className="sc-jlyJG gBIVzu"
           >
             Secondary
           </div>
           <div
-            className="sc-jDwBTQ iFLSge"
+            className="sc-iRbamj kXcBT"
           />
           <div
-            className="sc-gPEVay gfcwhb"
+            className="sc-jlyJG gBIVzu"
           >
             <div
-              className="sc-iRbamj DDVJn"
+              className="sc-gipzik ggDOfJ"
             >
               background: 
               linear-gradient(135deg, #FFBE00 0%, #FF8D00 100%)
@@ -11115,7 +11175,7 @@ exports[`Storyshots Typography Font Families 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-csuQGl BxYVj"
+        className="sc-bRBYWo jTSemK"
       >
         <h3
           style={
@@ -11129,65 +11189,65 @@ exports[`Storyshots Typography Font Families 1`] = `
           Poppins
         </h3>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC gkvtku"
+            className="sc-fBuWsC gYpKPJ"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Regular - 400
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC hMcbzN"
+            className="sc-fBuWsC krATFH"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Medium - 500
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC dvRTgx"
+            className="sc-fBuWsC buRhJy"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Semi-Bold - 600
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC kbVpbP"
+            className="sc-fBuWsC dJMagC"
             size={64}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Bold - 700
           </div>
@@ -11214,13 +11274,13 @@ exports[`Storyshots Typography Font Leading 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-csuQGl BxYVj"
+        className="sc-bRBYWo jTSemK"
       >
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC jHxhhB"
+            className="sc-fBuWsC eeWWOH"
             size={16}
             style={
               Object {
@@ -11232,16 +11292,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Extra Small - 18px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC jHxhhB"
+            className="sc-fBuWsC eeWWOH"
             size={16}
             style={
               Object {
@@ -11253,16 +11313,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Small - 20px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC cAJAOr"
+            className="sc-fBuWsC zfhFr"
             size={16}
             style={
               Object {
@@ -11274,16 +11334,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Medium - 24px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC gyNWqP"
+            className="sc-fBuWsC bNtJml"
             size={16}
             style={
               Object {
@@ -11295,16 +11355,16 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Large - 30px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC hGOyjS"
+            className="sc-fBuWsC boYqrN"
             size={16}
             style={
               Object {
@@ -11316,7 +11376,7 @@ exports[`Storyshots Typography Font Leading 1`] = `
             Paradigm shift analytics traction twitter business to consumer influencer growth hacking focus.
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Extra Large - 36px
           </div>
@@ -11343,86 +11403,336 @@ exports[`Storyshots Typography Font Sizes 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-csuQGl BxYVj"
+        className="sc-bRBYWo jTSemK"
       >
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC bQZwBd"
+            className="sc-fBuWsC bblDrX"
             size={12}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Extra Small - 12px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC NXxmQ"
+            className="sc-fBuWsC ehbXfT"
             size={14}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Small - 14px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC ezjiq"
+            className="sc-fBuWsC iImykp"
             size={16}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Medium - 16px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC fFKEyj"
+            className="sc-fBuWsC eVpAov"
             size={24}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Large - 24px
           </div>
         </div>
         <div
-          className="sc-Rmtcm hVOtPp"
+          className="sc-hzDkRC fFqpEM"
         >
           <div
-            className="sc-hzDkRC fQiTFk"
+            className="sc-fBuWsC eIKtqd"
             size={30}
             style={undefined}
           >
             Aa
           </div>
           <div
-            className="sc-bRBYWo LmReA"
+            className="sc-jhAzac bRMwSC"
           >
             Extra Large - 30px
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots WrapperOffset Component 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    WrapperOffset
+      →  
+    Component
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div
+        className="sc-fMiknA dFehsU"
+      >
+        <div
+          className="sc-hSdWYo dAtSZv"
+        >
+          <div
+            className="sc-gzVnrw hclbJv"
+            onClick={undefined}
+          >
+            <div
+              className="sc-dVhcbM XesTM sc-htoDjs bSBBIY"
+            >
+              <span
+                className="sc-eNQAEJ fAbPPh"
+                color="black"
+                size="medium"
+                style={
+                  Object {
+                    "color": "#303030",
+                    "fontSize": 16,
+                    "fontWeight": 400,
+                    "lineHeight": "24px",
+                  }
+                }
+              >
+                Title
+              </span>
+            </div>
+          </div>
+          <div
+            className="sc-eHgmQL ggXSVW"
+            offset={NaN}
+          >
+            <button
+              className="sc-bZQynM fSwWop"
+              color="secondary"
+              size="large"
+              style={
+                Object {
+                  "margin": "0 24px",
+                }
+              }
+            >
+              Create account
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots WrapperOffset Prop Combinations 1`] = `
+<div>
+  <h3
+    className="sc-htpNat bmPwTJ"
+  >
+    WrapperOffset
+      →  
+    Prop Combinations
+  </h3>
+  <div
+    className="sc-bxivhb fZfWO"
+  >
+    <div
+      className="sc-bwzfXH EgZdJ"
+    >
+      <div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-fMiknA dFehsU"
+          >
+            <div
+              className="sc-hSdWYo dAtSZv"
+            >
+              <div
+                className="sc-gzVnrw hclbJv"
+                onClick={undefined}
+              >
+                <div
+                  className="sc-dVhcbM XesTM sc-htoDjs bSBBIY"
+                >
+                  <span
+                    className="sc-eNQAEJ fAbPPh"
+                    color="black"
+                    size="medium"
+                    style={
+                      Object {
+                        "color": "#303030",
+                        "fontSize": 16,
+                        "fontWeight": 400,
+                        "lineHeight": "24px",
+                      }
+                    }
+                  >
+                    Title
+                  </span>
+                </div>
+              </div>
+              <div
+                className="sc-eHgmQL ggXSVW"
+                offset={NaN}
+              >
+                <button
+                  className="sc-bZQynM fSwWop"
+                  color="secondary"
+                  size="large"
+                  style={
+                    Object {
+                      "margin": "0 24px",
+                    }
+                  }
+                >
+                  Create account
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-fMiknA dFehsU"
+          >
+            <div
+              className="sc-hSdWYo dAtSZv"
+            >
+              <div
+                className="sc-gzVnrw hclbJv"
+                onClick={undefined}
+              >
+                <div
+                  className="sc-dVhcbM XesTM sc-htoDjs bSBBIY"
+                >
+                  <span
+                    className="sc-eNQAEJ fAbPPh"
+                    color="black"
+                    size="medium"
+                    style={
+                      Object {
+                        "color": "#303030",
+                        "fontSize": 16,
+                        "fontWeight": 400,
+                        "lineHeight": "24px",
+                      }
+                    }
+                  >
+                    Title
+                  </span>
+                </div>
+              </div>
+              <div
+                className="sc-eHgmQL ggXSVW"
+                offset={NaN}
+              >
+                <button
+                  className="sc-bZQynM fSwWop"
+                  color="secondary"
+                  size="large"
+                  style={
+                    Object {
+                      "margin": "0 24px",
+                    }
+                  }
+                >
+                  Sign in
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-fMiknA dFehsU"
+          >
+            <div
+              className="sc-hSdWYo dAtSZv"
+            >
+              <div
+                className="sc-gzVnrw hclbJv"
+                onClick={undefined}
+              >
+                <div
+                  className="sc-dVhcbM XesTM sc-htoDjs bSBBIY"
+                >
+                  <span
+                    className="sc-eNQAEJ fAbPPh"
+                    color="black"
+                    size="medium"
+                    style={
+                      Object {
+                        "color": "#303030",
+                        "fontSize": 16,
+                        "fontWeight": 400,
+                        "lineHeight": "24px",
+                      }
+                    }
+                  >
+                    Title
+                  </span>
+                </div>
+              </div>
+              <div
+                className="sc-eHgmQL ggXSVW"
+                offset={NaN}
+              >
+                <button
+                  className="sc-bZQynM dLOhED"
+                  color="primary"
+                  size="medium"
+                  style={
+                    Object {
+                      "margin": "84px",
+                    }
+                  }
+                >
+                  Ok
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

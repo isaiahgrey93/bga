@@ -4,15 +4,16 @@ import PropTypes from 'prop-types';
 import { WrapperButton, } from 'components/common';
 
 import { Card as StyledCard, } from './styles';
+import { rounding, } from './constants';
 
 const Card = ({
-  children, value, onClick, ...props
+  children, value, rounded, onClick, ...props
 }) => {
   const isClickable = !!onClick;
 
   return (
     <WrapperButton onClick={onClick}>
-      <StyledCard clickable={isClickable} {...props}>
+      <StyledCard clickable={isClickable} rounded={rounded} {...props}>
         {children || value}
       </StyledCard>
     </WrapperButton>
@@ -20,6 +21,7 @@ const Card = ({
 };
 
 Card.propTypes = {
+  rounded: PropTypes.oneOf(Object.keys(rounding)),
   raised: PropTypes.bool,
   onClick: PropTypes.func,
   value: PropTypes.oneOfType([
@@ -33,6 +35,7 @@ Card.propTypes = {
 };
 
 Card.defaultProps = {
+  rounded: 'small',
   raised: undefined,
   onClick: undefined,
   value: undefined,
