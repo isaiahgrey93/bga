@@ -11001,10 +11001,10 @@ exports[`Storyshots Toggle Component 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-kkGfuU dLUjgh"
+          className="sc-kkGfuU bNGncr"
         >
           <div
-            className="sc-iAyFgw gfSOlw"
+            className="sc-iAyFgw bREBBo"
           />
         </div>
       </div>
@@ -11033,10 +11033,10 @@ exports[`Storyshots Toggle Controlled 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-kkGfuU dLUjgh"
+          className="sc-kkGfuU bNGncr"
         >
           <div
-            className="sc-iAyFgw gfSOlw"
+            className="sc-iAyFgw bREBBo"
           />
         </div>
       </div>
@@ -11069,10 +11069,10 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
             onClick={undefined}
           >
             <div
-              className="sc-kkGfuU dLUjgh"
+              className="sc-kkGfuU bNGncr"
             >
               <div
-                className="sc-iAyFgw gfSOlw"
+                className="sc-iAyFgw bREBBo"
               />
             </div>
           </div>
@@ -11085,7 +11085,7 @@ exports[`Storyshots Toggle Prop Combinations 1`] = `
             onClick={undefined}
           >
             <div
-              className="sc-kkGfuU fJiBwV"
+              className="sc-kkGfuU hRyidF"
             >
               <div
                 className="sc-iAyFgw cmkvOu"

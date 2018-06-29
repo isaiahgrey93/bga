@@ -29,8 +29,9 @@ export const ToggleSlide = styled.div`
   max-height: 18px;
   border-radius: 10px;
   transition: all ease-in-out 0.2s;
-  border: 1px solid
-    ${props =>
+  border-width: 1px;
+  border-style: solid;
+  border-color: ${props =>
     (props.active ? activeSlideBorderColor : inActiveSlideBorderColor)};
   background-color: ${props =>
     (props.active ? activeSlideBackgroundColor : inActiveSlideBackgroundColor)};
