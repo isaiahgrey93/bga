@@ -8,10 +8,20 @@ class HttpAuthentication extends AuthenticationPort {
   }
 
   async login(email, password) {
-    return this.api.post('/donor/login', {
-      email,
-      password,
+    const { error, response, } = await this.api.post('/donor/login', {
+      data: {
+        email,
+        password,
+      },
     });
+
+    if (error) {
+      return { error, };
+    }
+
+    return {
+      response: response.data,
+    };
   }
 }
 

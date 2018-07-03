@@ -1,7 +1,7 @@
-import FetchAdapter from './fetch';
+import AxiosAdapter from './axios';
 
 const HttpAdapter = {
-  Fetch: FetchAdapter,
+  Axios: AxiosAdapter,
 };
 
 export default HttpAdapter;

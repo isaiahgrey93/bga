@@ -4,13 +4,17 @@ class HttpPort {
       throw new Error('HttpAdapter parameter @url is required. new HttpAdapter.adapter({ url: @url})');
     }
 
-    this.url = url;
-
     if (!headers) {
       throw new Error('HttpAdapter parameter @headers is required. new HttpAdapter.adapter({ headers: @headers })');
     }
+  }
 
-    this.headers = headers;
+  get token() {
+    throw new Error('HttpAdapter getter @token is not implemented');
+  }
+
+  set token(token) {
+    throw new Error('HttpAdapter setter @token() is not implemented');
   }
 
   get() {
