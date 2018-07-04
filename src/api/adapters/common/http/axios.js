@@ -22,23 +22,23 @@ class AxiosAdapter extends HttpPort {
     this.api.defaults.headers.Authorization = token;
   }
 
-  get(url, { params, headers, }) {
+  get(url, { params, headers, } = {}) {
     return asyncify(this.api.get(url, { params, headers, }));
   }
 
-  post(url, { data, params, headers, }) {
+  post(url, { data, params, headers, } = {}) {
     return asyncify(this.api.post(url, { data, params, headers, }));
   }
 
-  put(url, { data, params, headers, }) {
+  put(url, { data, params, headers, } = {}) {
     return asyncify(this.api.put(url, { data, params, headers, }));
   }
 
-  patch(url, { data, params, headers, }) {
+  patch(url, { data, params, headers, } = {}) {
     return asyncify(this.api.patch(url, { data, params, headers, }));
   }
 
-  delete(url, { params, headers, }) {
+  delete(url, { params, headers, } = {}) {
     return asyncify(this.api.delete(url, { params, headers, }));
   }
 }

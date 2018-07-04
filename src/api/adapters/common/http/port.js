@@ -1,5 +1,5 @@
 class HttpPort {
-  constructor({ url, headers, }) {
+  constructor({ url, headers, } = {}) {
     if (!url) {
       throw new Error('HttpAdapter parameter @url is required. new HttpAdapter.adapter({ url: @url})');
     }
