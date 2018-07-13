@@ -3,6 +3,7 @@ import DonorPort from './port';
 // TODO: Sample requests for API hookup
 // - Refactor to handle errors with codes
 // - Add tests with full mocks
+// - Add data entity transforms
 class LegacyDonor extends DonorPort {
   constructor({ api, request, }) {
     super({ api, request, });

@@ -6,6 +6,7 @@ class DataProvider extends Component {
     fetch: PropTypes.bool,
     params: PropTypes.object,
     request: PropTypes.func.isRequired,
+    entity: PropTypes.func.isRequired,
     children: PropTypes.func.isRequired,
     context: PropTypes.object.isRequired,
   };
@@ -15,11 +16,15 @@ class DataProvider extends Component {
     params: {},
   };
 
-  state = {
-    value: {},
-    error: false,
-    loading: false,
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      error: false,
+      loading: false,
+      value: props.entity(),
+    };
+  }
 
   async componentDidMount() {
     const { fetch, request, params = {}, } = this.props;
