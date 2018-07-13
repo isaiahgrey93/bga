@@ -9,14 +9,6 @@ class HttpPort {
     }
   }
 
-  get token() {
-    throw new Error('HttpAdapter getter @token is not implemented');
-  }
-
-  set token(token) {
-    throw new Error('HttpAdapter setter @token() is not implemented');
-  }
-
   get() {
     throw new Error('HttpAdapter method @get() is not implemented.');
   }

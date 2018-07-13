@@ -5,6 +5,7 @@
   "dependencies": {
     "@storybook/react": "^3.4.6",
     "axios": "^0.18.0",
+    "blueimp-md5": "^2.10.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "jest-styled-components": "^5.0.1",
@@ -44,7 +45,9 @@
     "docker:dev:build": "yarn docker:dev up -d --build --remove-orphans",
     "docker:prod:build": "yarn docker:prod up -d --build --remove-orphans",
     "docker:dev:stop": "yarn docker:dev stop",
-    "docker:prod:stop": "yarn docker:prod stop"
+    "docker:prod:stop": "yarn docker:prod stop",
+    "docker:dev:down": "yarn docker:dev down",
+    "docker:prod:down": "yarn docker:prod down"
   },
   "husky": {
     "hooks": {

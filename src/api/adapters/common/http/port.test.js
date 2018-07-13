@@ -22,18 +22,4 @@ describe('HttpAdapter Port', () => {
     expect(instance.patch).toThrowError();
     expect(instance.delete).toThrowError();
   });
-
-  it('to throw an error on @token get,set', () => {
-    const headers = {};
-    const url = 'https://fake.url';
-
-    const token = '_token_';
-
-    const instance = new HttpPort({ url, headers, });
-
-    expect(() => instance.token).toThrowError();
-    expect(() => {
-      instance.token = token;
-    }).toThrowError();
-  });
 });
