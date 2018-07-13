@@ -3,12 +3,7 @@ import Loadable from 'react-loadable';
 
 const Loading = () => <div>Loading...</div>;
 
-export const Home = Loadable({
-  loader: () => import('./Home'),
-  loading: Loading,
-});
-
-export const Settings = Loadable({
-  loader: () => import('./Settings'),
+export const Amounts = Loadable({
+  loader: () => import('./Amounts'),
   loading: Loading,
 });

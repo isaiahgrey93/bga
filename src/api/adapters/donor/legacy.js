@@ -11,7 +11,7 @@ class LegacyDonor extends DonorPort {
     this.request = request;
   }
 
-  async login(data) {
+  login = async (data) => {
     const { email, password, } = data;
 
     const { url, request, } = await this.request.create('donor/login/', {
@@ -21,9 +21,9 @@ class LegacyDonor extends DonorPort {
     });
 
     return this.api.post(url, { data: request, });
-  }
+  };
 
-  async signup(data) {
+  signup = async (data) => {
     const {
       email,
       password,
@@ -54,7 +54,7 @@ class LegacyDonor extends DonorPort {
     });
 
     return this.api.post(url, { data: request, });
-  }
+  };
 }
 
 export default LegacyDonor;

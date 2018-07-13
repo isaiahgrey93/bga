@@ -37,7 +37,7 @@ class LegacyDonee extends DoneePort {
     return this.transformResponse(this.api.post(url, { data: request, }));
   }
 
-  async profile(data) {
+  profile = async (data) => {
     const { donee, } = data;
 
     const { url, request, } = await this.request.create('donee/profile/', {
@@ -45,9 +45,9 @@ class LegacyDonee extends DoneePort {
     });
 
     return this.transformResponse(this.api.post(url, { data: request, }));
-  }
+  };
 
-  async campaigns(data) {
+  campaigns = async (data) => {
     const { donee, } = data;
 
     const { url, request, } = await this.request.create('donee/campaigns/', {
@@ -55,9 +55,9 @@ class LegacyDonee extends DoneePort {
     });
 
     return this.transformResponse(this.api.post(url, { data: request, }));
-  }
+  };
 
-  async defaultOfferings(data) {
+  defaultOfferings = async (data) => {
     const { donee, } = data;
 
     const { url, request, } = await this.request.create(
@@ -68,9 +68,9 @@ class LegacyDonee extends DoneePort {
     );
 
     return this.transformResponse(this.api.post(url, { data: request, }));
-  }
+  };
 
-  async memoTemplates(data) {
+  memoTemplates = async (data) => {
     const { donee, } = data;
 
     const { url, request, } = await this.request.create(
@@ -81,9 +81,9 @@ class LegacyDonee extends DoneePort {
     );
 
     return this.transformResponse(this.api.post(url, { data: request, }));
-  }
+  };
 
-  async shareMessage(data) {
+  shareMessage = async (data) => {
     const { donee, } = data;
 
     const { url, request, } = await this.request.create(
@@ -94,7 +94,7 @@ class LegacyDonee extends DoneePort {
     );
 
     return this.transformResponse(this.api.post(url, { data: request, }));
-  }
+  };
 }
 
 export default LegacyDonee;
