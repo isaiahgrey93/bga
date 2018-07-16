@@ -2,17 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import api from 'api';
-import { DoneeProfileEntity, } from 'api/entities';
-import { DataProvider, } from 'stores';
+import { DoneeProfileEntity } from 'api/entities';
+import { DataStore, DataProvider } from 'stores';
 
-const DoneeProfileContext = React.createContext({});
+const DoneeProfileStore = new DataStore({ initial: new DoneeProfileEntity() });
 
 const DoneeProfile = ({ donee, ...props }) => (
   <DataProvider
-    params={{ donee, }}
+    params={{ donee }}
     request={api.donee.profile}
-    entity={DoneeProfileEntity}
-    context={DoneeProfileContext}
+    store={DoneeProfileStore}
     {...props}
   />
 );
