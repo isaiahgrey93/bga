@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 
-import { colors, gradients } from 'theme';
+import { colors, gradients, } from 'theme';
 
 export const NavContainer = styled.div`
   width: 100%;

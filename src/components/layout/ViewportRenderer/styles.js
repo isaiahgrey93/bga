@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const getDisplay = ({ visible }) => (visible ? 'block' : 'none');
+const getDisplay = ({ visible, }) => (visible ? 'block' : 'none');
 
 export const MobileRenderer = styled.div`
   display: none;

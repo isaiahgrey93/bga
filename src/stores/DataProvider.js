@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
 import PropTypes from 'prop-types';
 
-import { Provider, Subscribe } from 'unstated';
+import { Provider, Subscribe, } from 'unstated';
 
 class DataProvider extends Component {
   static propTypes = {
@@ -29,12 +29,12 @@ class DataProvider extends Component {
   }
 
   async componentDidMount() {
-    const { fetch, request, params = {} } = this.props;
+    const { fetch, request, params = {}, } = this.props;
 
     if (fetch) {
       this.onFetch();
 
-      const { response, error } = await request(params);
+      const { response, error, } = await request(params);
 
       if (error) this.onError(error);
       else this.onResponse(response);
@@ -65,20 +65,20 @@ class DataProvider extends Component {
   }
 
   render() {
-    const { error, loading } = this.state;
-    const { fetch, children, store } = this.props;
+    const { error, loading, } = this.state;
+    const { fetch, children, store, } = this.props;
 
     if (!children) return null;
 
     return (
       <Provider>
         {fetch ? (
-          <Subscribe to={[store]}>
-            {data => children(data.state.value, { error, loading })}
+          <Subscribe to={[store, ]}>
+            {data => children(data.state.value, { error, loading, })}
           </Subscribe>
         ) : (
-          <Subscribe to={[store]}>
-            {data => children(data.state.value, { error, loading })}
+          <Subscribe to={[store, ]}>
+            {data => children(data.state.value, { error, loading, })}
           </Subscribe>
         )}
       </Provider>
