@@ -4516,7 +4516,7 @@ exports[`Storyshots Image/Header Image Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-gqjmRU hCCrFd"
+        className="sc-gqjmRU fyGHdO"
       />
     </div>
   </div>
@@ -4543,7 +4543,7 @@ exports[`Storyshots Image/Header Image Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-gqjmRU hCCrFd"
+            className="sc-gqjmRU fyGHdO"
           />
         </div>
       </div>

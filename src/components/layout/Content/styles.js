@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-import { layout } from 'theme';
+import { layout, } from 'theme';
 
-const { breakpoints } = layout;
-const { mobile, desktop } = breakpoints;
+const { breakpoints, } = layout;
+const { mobile, desktop, } = breakpoints;
 
 export const ContentContainer = styled.div`
   width: 100%;
@@ -23,8 +23,10 @@ export const Content = styled.div`
   flex-direction: inherit;
   justify-content: inherit;
   align-items: inherit;
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  min-width: inherit;
+  height: inherit;
+  min-height: inherit;
   text-align: center;
   max-width: ${desktop.min}px;
 `;

@@ -1,14 +1,12 @@
 import React from 'react';
 
-import { NavContainer, NavContent, NavLogoContainer, NavLogo } from './styles';
-import { NavMenuToggle, NavMenuList } from './components';
-
-const notImplemented = () => alert('Not implemented!');
+import { NavContainer, NavContent, NavLogoContainer, NavLogo, } from './styles';
+import { NavMenuToggle, NavMenuList, } from './components';
 
 export default () => (
   <NavContainer>
     <NavContent>
-      <NavMenuToggle onClick={notImplemented} />
+      <NavMenuToggle />
       <NavLogoContainer>
         <NavLogo alt={'Givelify Logo'} src={'/givelify-logo.svg'} />
       </NavLogoContainer>

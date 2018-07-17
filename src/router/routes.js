@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Loadable from 'react-loadable';
 
-const Loading = () => <div>Loading...</div>;
+const Loading = () => <div />;
 
 export const Amounts = Loadable({
-  loader: () => import('./Amounts'),
+  loader: () => import('./DonationAmount'),
   loading: Loading,
 });

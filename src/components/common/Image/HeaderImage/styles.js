@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-import { layout } from 'theme';
-const { breakpoints } = layout;
-const { mobile, tablet, desktop } = breakpoints;
+import { layout, } from 'theme';
+
+const { breakpoints, } = layout;
+const { mobile, tablet, desktop, } = breakpoints;
 
 export const HeaderImage = styled.div`
   width: 100%;

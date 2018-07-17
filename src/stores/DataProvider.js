@@ -1,7 +1,5 @@
-import React, { Component, } from 'react';
+import { Component, } from 'react';
 import PropTypes from 'prop-types';
-
-import { Provider, Subscribe, } from 'unstated';
 
 class DataProvider extends Component {
   static propTypes = {
@@ -9,7 +7,7 @@ class DataProvider extends Component {
     params: PropTypes.object,
     request: PropTypes.func.isRequired,
     children: PropTypes.func.isRequired,
-    store: PropTypes.object.isRequired,
+    onComplete: PropTypes.func.isRequired,
   };
 
   static defaultProps = {
@@ -20,7 +18,7 @@ class DataProvider extends Component {
   constructor(props) {
     super(props);
 
-    this.onChange = props.store.onChange;
+    this.onComplete = props.onComplete;
 
     this.state = {
       error: false,
@@ -49,12 +47,13 @@ class DataProvider extends Component {
   }
 
   onResponse(response) {
-    this.onChange(response);
-
-    this.setState(() => ({
-      error: false,
-      loading: false,
-    }));
+    this.setState(
+      () => ({
+        error: false,
+        loading: false,
+      }),
+      () => this.onComplete(response)
+    );
   }
 
   onFetch() {
@@ -66,23 +65,13 @@ class DataProvider extends Component {
 
   render() {
     const { error, loading, } = this.state;
-    const { fetch, children, store, } = this.props;
+    const { fetch, children, } = this.props;
 
     if (!children) return null;
 
-    return (
-      <Provider>
-        {fetch ? (
-          <Subscribe to={[store, ]}>
-            {data => children(data.state.value, { error, loading, })}
-          </Subscribe>
-        ) : (
-          <Subscribe to={[store, ]}>
-            {data => children(data.state.value, { error, loading, })}
-          </Subscribe>
-        )}
-      </Provider>
-    );
+    if (!fetch) return children({});
+
+    return children({ error, loading, });
   }
 }
 

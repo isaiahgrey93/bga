@@ -18,6 +18,13 @@ class AmountInput extends React.Component {
 
   onInputBlur = () => this.setState(() => ({ focused: false, }));
   onInputFocus = () => this.setState(() => ({ focused: true, }));
+  onInputChange = (event) => {
+    event.persist();
+
+    const formatted = parseAmount(event.target.value);
+
+    this.props.onChange(formatted, event);
+  };
 
   render() {
     const { focused, } = this.state;
@@ -35,6 +42,7 @@ class AmountInput extends React.Component {
           onBlur={this.onInputBlur}
           onFocus={this.onInputFocus}
           {...props}
+          onChange={this.onInputChange}
         />
         <IconButton
           size={'medium'}
@@ -50,12 +58,14 @@ class AmountInput extends React.Component {
 AmountInput.propTypes = {
   symbol: PropTypes.string,
   onSubmit: PropTypes.func,
+  onChange: PropTypes.func,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, ]),
 };
 
 AmountInput.defaultProps = {
   symbol: undefined,
   onSubmit: undefined,
+  onChange: undefined,
   value: undefined,
 };
 

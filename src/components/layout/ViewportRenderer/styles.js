@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-import { layout } from 'theme';
+import { layout, } from 'theme';
 
-const { breakpoints } = layout;
-const { mobile, tablet, desktop } = breakpoints;
+const { breakpoints, } = layout;
+const { mobile, tablet, desktop, } = breakpoints;
 
-const getDisplay = ({ visible }) => (visible ? 'block' : 'none');
+const getDisplay = ({ visible, }) => (visible ? 'block' : 'none');
 
 export const MobileRenderer = styled.div`
   display: none;
