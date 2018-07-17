@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Text, } from 'components/common';
-import { ViewportRenderer, } from 'components/layout';
+import { Text } from 'components/common';
+import { ViewportRenderer } from 'components/layout';
 
 import {
   NavLinkList,
@@ -10,11 +10,11 @@ import {
   NavMenuIcon,
   NavMenuIconBar,
 } from './styles';
-import { links, } from './constants';
+import { links } from './constants';
 
 export const NavMenuToggle = props => (
   <ViewportRenderer mobile tablet>
-    <NavMenuButton {...props}>
+    <NavMenuButton aria-label={'Menu Toggle'} {...props}>
       <NavMenuIcon>
         <NavMenuIconBar />
         <NavMenuIconBar />
@@ -27,7 +27,7 @@ export const NavMenuToggle = props => (
 export const NavMenuList = () => (
   <ViewportRenderer desktop>
     <NavLinkList>
-      {links.map(({ text, path, }) => (
+      {links.map(({ text, path }) => (
         <NavLink to={path} key={path}>
           <Text color={'white'}>{text}</Text>
         </NavLink>

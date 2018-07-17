@@ -1,30 +1,35 @@
 import styled from 'styled-components';
 
-import { Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import { colors, gradients, } from 'theme';
+import { ContentLayout } from 'components/layout';
+import { colors, gradients, layout } from 'theme';
 
-export const NavContainer = styled.div`
+const { breakpoints } = layout;
+const { tablet, desktop } = breakpoints;
+
+export const NavContainer = styled(ContentLayout)`
   width: 100%;
   height: 56px;
   background-image: ${gradients.header};
 `;
 
 export const NavContent = styled.div`
+  flex: 1;
+  width: 100%;
   height: 100%;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: space-between;
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: ${tablet.max}px) {
     justify-content: center;
   }
 `;
 
 export const NavLogoContainer = styled.div`
   display: flex;
-  alignitems: center;
-  padding: 0px 16px;
+  align-items: center;
 `;
 
 export const NavLogo = styled.img`
