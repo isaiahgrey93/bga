@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { colors, gradients, layout, } from 'theme';
 
 import { ContentLayout, } from 'components/layout';
-import { ProfileImage, SolidButton, } from 'components/common';
+import { ProfileImage, SolidButton, Text, } from 'components/common';
 
 const { breakpoints, } = layout;
 const { desktop, tablet, mobile, } = breakpoints;
@@ -40,12 +40,18 @@ export const InfoItem = styled.div`
   align-items: center;
 `;
 
+export const InfoOrganizationTitle = styled(Text)`
+  min-height: 24px;
+`;
+
 export const LeftProfileImage = styled(ProfileImage).attrs({
   bordered: true,
   shape: 'circle',
 })`
   position: relative;
   z-index: 1;
+  background-color: ${colors.white};
+  background-size: 80%;
 `;
 
 export const RightProfileImage = styled(ProfileImage).attrs({

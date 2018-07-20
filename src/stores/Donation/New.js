@@ -21,7 +21,11 @@ const NewDonation = ({ children, }) => (
 );
 
 NewDonation.propTypes = {
-  children: PropTypes.func.isRequired,
+  children: PropTypes.func,
+};
+
+NewDonation.defaultProps = {
+  children: undefined,
 };
 
 export default NewDonation;

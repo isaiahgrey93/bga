@@ -4567,11 +4567,10 @@ exports[`Storyshots Image/Profile Image Component 1`] = `
     <div
       className="sc-bwzfXH EgZdJ"
     >
-      <img
-        className="sc-gZMcBi eIKKPu"
+      <div
+        className="sc-gZMcBi ctfISi"
         shape="square"
         size="small"
-        src="https://placehold.it/192/ccc/606060&&text=G"
       />
     </div>
   </div>
@@ -4597,361 +4596,325 @@ exports[`Storyshots Image/Profile Image Prop Combinations 1`] = `
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi fWApjc"
+          <div
+            className="sc-gZMcBi bEfoSc"
             shape="square"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi jQNkKy"
+          <div
+            className="sc-gZMcBi sNdki"
             shape="square"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi ezPkNV"
+          <div
+            className="sc-gZMcBi iJEfRj"
             shape="square"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi eIKKPu"
+          <div
+            className="sc-gZMcBi ctfISi"
             shape="square"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi kGEoRm"
+          <div
+            className="sc-gZMcBi kAcSzl"
             shape="circle"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi lpqlED"
+          <div
+            className="sc-gZMcBi bqdvEZ"
             shape="circle"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi jyaVYy"
+          <div
+            className="sc-gZMcBi jPZHHa"
             shape="circle"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi gOLUNt"
+          <div
+            className="sc-gZMcBi JlmBu"
             shape="circle"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi kdMoWj"
+          <div
+            className="sc-gZMcBi fYabIe"
             shape="rounded"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dwEtDq"
+          <div
+            className="sc-gZMcBi cmkWlS"
             shape="rounded"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi oDhnQ"
+          <div
+            className="sc-gZMcBi ezqldn"
             shape="rounded"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi zcZvM"
+          <div
+            className="sc-gZMcBi hOpqTX"
             shape="rounded"
             size="small"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi giEAOw"
+          <div
+            className="sc-gZMcBi AGMwX"
             shape="square"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi higeuk"
+          <div
+            className="sc-gZMcBi gJDxwC"
             shape="square"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dClBsU"
+          <div
+            className="sc-gZMcBi dPSTFY"
             shape="square"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dLiLcs"
+          <div
+            className="sc-gZMcBi bDfUpI"
             shape="square"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi iWAbCa"
+          <div
+            className="sc-gZMcBi gbezIB"
             shape="circle"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dMAnLr"
+          <div
+            className="sc-gZMcBi cIyWjR"
             shape="circle"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi ffqkbE"
+          <div
+            className="sc-gZMcBi fqrMeY"
             shape="circle"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dhcrHd"
+          <div
+            className="sc-gZMcBi gwEHgM"
             shape="circle"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi iusNGT"
+          <div
+            className="sc-gZMcBi gixsPg"
             shape="rounded"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi klRLXG"
+          <div
+            className="sc-gZMcBi efHEKF"
             shape="rounded"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dyfbEI"
+          <div
+            className="sc-gZMcBi ijdAeP"
             shape="rounded"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi gKrEoO"
+          <div
+            className="sc-gZMcBi dUwlSr"
             shape="rounded"
             size="medium"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi gxKnEJ"
+          <div
+            className="sc-gZMcBi betdES"
             shape="square"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi kjmCNh"
+          <div
+            className="sc-gZMcBi gOQSzb"
             shape="square"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi ksXvFm"
+          <div
+            className="sc-gZMcBi jFHXWl"
             shape="square"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi jcjQMx"
+          <div
+            className="sc-gZMcBi dDhCvb"
             shape="square"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dpbjEF"
+          <div
+            className="sc-gZMcBi eyqOZu"
             shape="circle"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi FhXeb"
+          <div
+            className="sc-gZMcBi bzrCuR"
             shape="circle"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi gIcBWN"
+          <div
+            className="sc-gZMcBi gdxWCl"
             shape="circle"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi eslehk"
+          <div
+            className="sc-gZMcBi dDUiLf"
             shape="circle"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi iYFBqt"
+          <div
+            className="sc-gZMcBi fNjZhZ"
             shape="rounded"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi iHWjvY"
+          <div
+            className="sc-gZMcBi fUkAif"
             shape="rounded"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi fssolJ"
+          <div
+            className="sc-gZMcBi ilLRuh"
             shape="rounded"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
         <div
           className="sc-bdVaJa cvqqop"
         >
-          <img
-            className="sc-gZMcBi dsXbqB"
+          <div
+            className="sc-gZMcBi hBhSej"
             shape="rounded"
             size="large"
-            src="https://placehold.it/192/ccc/606060&&text=G"
           />
         </div>
       </div>

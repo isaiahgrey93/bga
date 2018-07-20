@@ -25,9 +25,14 @@ const DoneeProfile = ({ donee, children, ...props }) => (
     {({ error, loading, }) => (
       <Provider>
         <Subscribe to={[store, ]}>
-          {({ state, }) => children({
- state, store, error, loading,
-})}
+          {({ state, }) =>
+            children({
+              state,
+              store,
+              error,
+              loading,
+            })
+          }
         </Subscribe>
       </Provider>
     )}
@@ -36,9 +41,11 @@ const DoneeProfile = ({ donee, children, ...props }) => (
 
 DoneeProfile.propTypes = {
   donee: PropTypes.string.isRequired,
-  children: PropTypes.func.isRequired,
+  children: PropTypes.func,
 };
 
-DoneeProfile.defaultProps = {};
+DoneeProfile.defaultProps = {
+  children: undefined,
+};
 
 export default DoneeProfile;

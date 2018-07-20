@@ -1,4 +1,4 @@
-import React, { Component, Fragment, } from 'react';
+import React, { Component, } from 'react';
 import PropTypes from 'prop-types';
 import Composer from 'react-composer';
 
@@ -11,6 +11,7 @@ import {
   InfoLayoutContainer,
   InfoContainer,
   InfoItem,
+  InfoOrganizationTitle,
   LeftProfileImage,
   RightProfileImage,
   AmountLayoutContainer,
@@ -30,7 +31,7 @@ import { appStoreUrl, googlePlayUrl, } from './constants';
 
 const headerURL =
   'https://jhmrad.com/wp-content/uploads/alvin-missionary-baptist-church-great-investment_2910388.jpg';
-const avatarURL = 'https://placehold.it/1200/fafafa/fafafa&text=-';
+const avatarURL = 'http://i.pravatar.cc/100?img=17';
 
 class DonationAmount extends Component {
   state = {
@@ -88,20 +89,22 @@ class DonationAmount extends Component {
     const { amount, custom, } = this.state;
 
     const { profile, } = this.props;
-    const { name, officer = {}, amounts = [], } = profile;
+    const {
+      name, officer = {}, images = {}, amounts = [],
+    } = profile;
 
     return (
-      <Fragment>
+      <div>
         <HeaderContainer>
           <HeaderImage source={headerURL} />
         </HeaderContainer>
         <InfoLayoutContainer>
           <InfoContainer>
             <InfoItem>
-              <Text>{name}</Text>
+              <InfoOrganizationTitle>{name}</InfoOrganizationTitle>
             </InfoItem>
             <InfoItem>
-              <LeftProfileImage source={avatarURL} />
+              <LeftProfileImage source={images.logo} />
               <RightProfileImage source={avatarURL} />
               <Text size={'small'} weight={'semiBold'}>
                 {officer.title} {officer.name}
@@ -158,7 +161,7 @@ class DonationAmount extends Component {
             </GivingAppsLinks>
           </GivingExperienceInfo>
         </AmountLayoutContainer>
-      </Fragment>
+      </div>
     );
   }
 }

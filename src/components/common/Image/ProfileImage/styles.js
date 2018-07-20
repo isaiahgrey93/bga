@@ -4,9 +4,9 @@ import { colors, shadows, } from 'theme';
 
 import { shapes, sizes, } from './constants';
 
-export const ProfileImage = styled.img`
-  width: ${props => sizes[props.size]}px;
-  height: ${props => sizes[props.size]}px;
+export const ProfileImage = styled.div`
+  width: ${props => sizes[props.size]}px !important;
+  height: ${props => sizes[props.size]}px !important;
   border-radius: ${(props) => {
     switch (props.shape) {
       case shapes.circle:
@@ -20,4 +20,9 @@ export const ProfileImage = styled.img`
   border: ${props => (props.bordered ? `1px solid ${colors.grey4}` : 'none')}
   box-shadow: ${props =>
     (props.raised ? shadows.get('default', 'medium') : 'none')};
+    background-image: url(https://dev.givelify.com/data/donee/logo/478/5cdb424…_w.png);
+    background-image: url(${props => props.source});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 `;

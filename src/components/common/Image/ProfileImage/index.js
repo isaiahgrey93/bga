@@ -9,7 +9,7 @@ const ProfileImage = ({
   size, shape, source, raised, bordered, ...props
 }) => (
   <StyledProfileImage
-    src={source}
+    source={source}
     size={size}
     shape={shape}
     raised={raised}
