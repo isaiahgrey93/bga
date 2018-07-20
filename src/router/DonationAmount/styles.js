@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-import { colors, gradients, layout, } from 'theme';
+import { colors, gradients, layout } from 'theme';
 
-import { ContentLayout, } from 'components/layout';
-import { ProfileImage, SolidButton, Text, } from 'components/common';
+import { ContentLayout } from 'components/layout';
+import { ProfileImage, SolidButton, Text } from 'components/common';
 
-const { breakpoints, } = layout;
-const { desktop, tablet, mobile, } = breakpoints;
+const { breakpoints } = layout;
+const { desktop, tablet, mobile } = breakpoints;
 
 export const HeaderContainer = styled.div`
   background-color: ${colors.grey6};
@@ -51,7 +51,6 @@ export const LeftProfileImage = styled(ProfileImage).attrs({
   position: relative;
   z-index: 1;
   background-color: ${colors.white};
-  background-size: 80%;
 `;
 
 export const RightProfileImage = styled(ProfileImage).attrs({

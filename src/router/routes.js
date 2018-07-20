@@ -3,7 +3,12 @@ import Loadable from 'react-loadable';
 
 const Loading = () => <div />;
 
-export const Amounts = Loadable({
+export const DonationAmount = Loadable({
   loader: () => import('./DonationAmount'),
+  loading: Loading,
+});
+
+export const DonationPurpose = Loadable({
+  loader: () => import('./DonationPurpose'),
   loading: Loading,
 });

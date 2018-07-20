@@ -1,11 +1,11 @@
-import React, { Fragment, } from 'react';
-import { BrowserRouter, Route, Switch, Redirect, } from 'react-router-dom';
+import React, { Fragment } from 'react';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-import { Donation, } from 'stores';
+import { Donation } from 'stores';
 
-import { TopNavigation, } from 'components';
+import { TopNavigation } from 'components';
 
-import { Amounts, } from './routes';
+import { DonationAmount, DonationPurpose } from './routes';
 
 import Transition from './Transition';
 
@@ -14,18 +14,18 @@ export default () => (
     <Fragment>
       <TopNavigation />
       <Route
-        render={({ location, }) => (
+        render={({ location }) => (
           <Transition location={location}>
             <Switch location={location}>
-              <Route exact path={'/donation/amount'} component={Amounts} />
+              <Route
+                exact
+                path={'/donation/amount'}
+                component={DonationAmount}
+              />
               <Route
                 exact
                 path={'/donation/:type(envelope|cause)'}
-                render={() => (
-                  <Donation.New>
-                    {({ state: { amount, }, }) => <div>Selected: ${amount}</div>}
-                  </Donation.New>
-                )}
+                component={DonationPurpose}
               />
               <Redirect to={'/donation/amount'} />
             </Switch>
