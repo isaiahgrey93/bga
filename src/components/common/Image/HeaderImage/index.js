@@ -8,9 +8,11 @@ const HeaderImage = ({ source, ...props }) => (
 );
 
 HeaderImage.propTypes = {
-  source: PropTypes.string.isRequired,
+  source: PropTypes.string,
 };
 
-HeaderImage.defaultProps = {};
+HeaderImage.defaultProps = {
+  source: undefined,
+};
 
 export default HeaderImage;

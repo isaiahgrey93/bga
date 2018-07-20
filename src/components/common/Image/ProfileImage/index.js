@@ -19,7 +19,7 @@ const ProfileImage = ({
 );
 
 ProfileImage.propTypes = {
-  source: PropTypes.string.isRequired,
+  source: PropTypes.string,
   size: PropTypes.oneOf(Object.keys(sizes)),
   shape: PropTypes.oneOf(Object.keys(shapes)),
   raised: PropTypes.bool,
@@ -29,6 +29,7 @@ ProfileImage.propTypes = {
 ProfileImage.defaultProps = {
   size: defaultSize,
   shape: defaultShape,
+  source: undefined,
   raised: undefined,
   bordered: undefined,
 };
