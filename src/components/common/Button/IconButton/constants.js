@@ -22,7 +22,7 @@ export const iconColors = {
 
 export const sizes = {
   xSmall: {
-    icon: 14,
+    icon: 16,
     container: 16,
   },
   small: {

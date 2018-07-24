@@ -28,5 +28,6 @@ export const Content = styled.div`
   height: inherit;
   min-height: inherit;
   text-align: center;
+  margin: 0 auto;
   max-width: ${desktop.min}px;
 `;

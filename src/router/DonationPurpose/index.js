@@ -51,7 +51,7 @@ const DonationPurpose = ({
             <PurposeSelectionListItem key={selected.name}>
               <PurposeSelectionListItemContent
                 raised
-                onClick={() => onSetPurpose(selected.id)}
+                onClick={() => onSetPurpose(selected)}
               >
                 <PurposeSelectionListItemText
                   left={
@@ -77,12 +77,13 @@ const DonationPurpose = ({
 
         <PurposeSelectionListContainer>
           {purposes
+            .sort((a, b) => a.priority - b.priority)
             .filter(p => (selected ? p.id !== selected.id : true))
             .map(purpose => (
               <PurposeSelectionListItem key={purpose.name}>
                 <PurposeSelectionListItemContent
                   raised
-                  onClick={() => onSetPurpose(purpose.id)}
+                  onClick={() => onSetPurpose(purpose)}
                 >
                   <PurposeSelectionListItemText
                     left={<Text value={purpose.name} />}
@@ -118,18 +119,21 @@ const DonationPurposeContainer = ({ history, }) => (
     ]}
   >
     {([donation, offerings, ]) => {
+      const { list, } = offerings.state;
+      const { amount, purpose, } = donation.state;
+
       const onSetPurpose = (value) => {
         history.push('/donation/checkout');
 
-        setTimeout(() => donation.store.setPurpose(value), 300);
+        setTimeout(() => donation.store.setPurpose(value), 200);
       };
 
       return (
         <DonationPurpose
-          amount={donation.state.amount}
-          purposes={offerings.state.list}
+          amount={amount}
+          purposes={list}
+          selected={purpose}
           onSetPurpose={onSetPurpose}
-          selected={offerings.state.list.find(o => o.id === donation.state.purpose)}
         />
       );
     }}

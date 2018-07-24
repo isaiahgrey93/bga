@@ -39,7 +39,7 @@ export const icons = {
 
 export const sizes = {
   xSmall: {
-    icon: 14,
+    icon: 16,
     container: 16,
   },
   small: {

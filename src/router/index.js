@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch, Redirect, } from 'react-router-dom';
 
 import { TopNavigation, } from 'components';
 
-import { DonationAmount, DonationPurpose, } from './routes';
+import { DonationAmount, DonationPurpose, DonationCheckout, } from './routes';
 
 import Transition from './Transition';
 
@@ -28,7 +28,7 @@ export default () => (
               <Route
                 exact
                 path={'/donation/checkout'}
-                render={() => <div>Checkout</div>}
+                component={DonationCheckout}
               />
               <Redirect to={'/donation/amount'} />
             </Switch>
