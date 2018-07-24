@@ -8,6 +8,8 @@ class NewDonationStore extends Container {
   state = new DonationEntity();
 
   setAmount = value => this.setState(() => ({ amount: value, }));
+
+  setPurpose = value => this.setState(() => ({ purpose: value, }));
 }
 
 const store = new NewDonationStore();

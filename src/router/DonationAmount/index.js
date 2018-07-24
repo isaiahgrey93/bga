@@ -5,6 +5,7 @@ import Composer from 'react-composer';
 import { Donee, Donation, } from 'stores';
 
 import { AmountInput, HeaderImage, Text, } from 'components/common';
+import { DoneeImageWrapper, } from 'components';
 
 import {
   HeaderContainer,
@@ -96,7 +97,9 @@ class DonationAmount extends Component {
     return (
       <div>
         <HeaderContainer>
-          <HeaderImage source={headerURL} />
+          <DoneeImageWrapper type={profile.type}>
+            <HeaderImage source={headerURL} />
+          </DoneeImageWrapper>
         </HeaderContainer>
         <InfoLayoutContainer>
           <InfoContainer>
@@ -198,6 +201,7 @@ const DonationAmountContainer = ({ history, }) => (
           history.push('/donation/cause');
         }
       };
+
       return (
         <DonationAmount
           profile={profile.state}

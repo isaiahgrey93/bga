@@ -22,23 +22,23 @@ export const iconColors = {
 
 export const sizes = {
   xSmall: {
-    icon: 12,
+    icon: 14,
     container: 16,
   },
   small: {
-    icon: 16,
+    icon: 20,
     container: 24,
   },
   medium: {
-    icon: 24,
+    icon: 30,
     container: 36,
   },
   large: {
-    icon: 36,
+    icon: 44,
     container: 52,
   },
   xLarge: {
-    icon: 52,
+    icon: 62,
     container: 72,
   },
 };

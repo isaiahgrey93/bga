@@ -25,6 +25,11 @@ export default () => (
                 path={'/donation/:type(envelope|cause)'}
                 component={DonationPurpose}
               />
+              <Route
+                exact
+                path={'/donation/checkout'}
+                render={() => <div>Checkout</div>}
+              />
               <Redirect to={'/donation/amount'} />
             </Switch>
           </Transition>

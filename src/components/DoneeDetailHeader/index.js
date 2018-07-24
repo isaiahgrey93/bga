@@ -26,7 +26,7 @@ const DoneeDetailHeader = ({ name, images = [], }) => (
 
 DoneeDetailHeader.propTypes = {
   name: PropTypes.string,
-  images: PropTypes.arrayOf(PropTypes.string),
+  images: PropTypes.object,
 };
 
 DoneeDetailHeader.defaultProps = {

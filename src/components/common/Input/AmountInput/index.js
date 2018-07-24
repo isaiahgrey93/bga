@@ -46,9 +46,12 @@ class AmountInput extends React.Component {
         />
         <IconButton
           size={'medium'}
+          name={'forward'}
           color={'secondary'}
-          name={'arrow'}
           onClick={onSubmit}
+          iconProps={{
+            size: 'xSmall',
+          }}
         />
       </StyledInputContainer>
     );

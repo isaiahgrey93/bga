@@ -58,6 +58,12 @@ export const PurposeSelectionListItem = styled.div`
   }
 `;
 
+export const PurposeSelectedTextContainer = styled.div`
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+`;
+
 export const PurposeSelectionListItemText = styled(Row)`
   display: flex;
   &:first-child > div {
@@ -66,12 +72,11 @@ export const PurposeSelectionListItemText = styled(Row)`
     text-overflow: ellipsis;
     &:first-child {
       flex: 1;
-      max-width: 90%;
+      max-width: 80%;
       text-align: left;
     }
     &:last-child {
-      flex: 0;
-      max-width: 10%;
+      max-width: 20%;
       text-align: right;
     }
   }
