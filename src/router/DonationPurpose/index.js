@@ -48,7 +48,7 @@ const DonationPurpose = ({ amount, purposes, }) => (
             <PurposeSelectionListItem key={purpose.name}>
               <PurposeSelectionListItemContent
                 raised
-                onClick={() => alert(purpose.name)}
+                onClick={() => purpose.name}
               >
                 <PurposeSelectionListItemText
                   left={<Text>{purpose.name}</Text>}

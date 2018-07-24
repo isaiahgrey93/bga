@@ -47,7 +47,7 @@ class AmountInput extends React.Component {
         <IconButton
           size={'medium'}
           color={'secondary'}
-          name={<span>&rarr;</span>}
+          name={'arrow'}
           onClick={onSubmit}
         />
       </StyledInputContainer>

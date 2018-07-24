@@ -39,7 +39,7 @@
     "visual-reg:compare": "loki test",
     "visual-reg:update": "loki update",
     "visual-reg:approve": "loki approve",
-    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook": "start-storybook -p 9001 -s ./public -c .storybook",
     "storybook:build": "build-storybook -o build-storybook",
     "docker:dev": "docker-compose -f docker-compose-development.yml",
     "docker:prod": "docker-compose -f docker-compose-production.yml",

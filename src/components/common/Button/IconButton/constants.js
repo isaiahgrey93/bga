@@ -20,22 +20,26 @@ export const iconColors = {
   secondary: colors.white,
 };
 
-export const buttonSizes = {
+export const sizes = {
   xSmall: {
-    icon: 14,
-    container: 20,
+    icon: 12,
+    container: 16,
   },
   small: {
-    icon: 20,
-    container: 32,
+    icon: 16,
+    container: 24,
   },
   medium: {
-    icon: 22,
-    container: 40,
+    icon: 24,
+    container: 36,
   },
   large: {
-    icon: 32,
-    container: 56,
+    icon: 36,
+    container: 52,
+  },
+  xLarge: {
+    icon: 52,
+    container: 72,
   },
 };
 
@@ -43,4 +47,4 @@ export const shadowTypes = shadows.depth;
 
 export const defaultShadowType = 'none';
 export const defaultColor = 'black';
-export const defaultButtonSize = 'medium';
+export const defaultSize = 'medium';
