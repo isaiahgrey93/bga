@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook@1.5x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1024/Share/Edit-memo" transform="translate(-272.000000, -436.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(272.000000, 328.000000)">
+                <g id="Group-4" transform="translate(0.000000, 108.000000)">
+                    <g id="facebook">
+                        <path d="M0,12 C0,5.3726 5.3726,0 12,0 C18.6274,0 24,5.3726 24,12 C24,18.6274 18.6274,24 12,24 C5.3726,24 0,18.6274 0,12 Z" id="Shape" fill="#3B5998"></path>
+                        <path d="M13.25076,19.05572 L13.25076,12.52708 L15.052948,12.52708 L15.2917768,10.277276 L13.2507608,10.277276 L13.2538227,9.151228 C13.2538227,8.564444 13.3095751,8.250032 14.1523667,8.250032 L15.2790227,8.250032 L15.2790227,5.999972 L13.4765787,5.999972 C11.3115547,5.999972 10.5495227,7.091368 10.5495227,8.926756 L10.5495227,10.277528 L9.19998668,10.277528 L9.19998668,12.527332 L10.5495227,12.527332 L10.5495227,19.055692 L13.2507627,19.055692 L13.25076,19.05572 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

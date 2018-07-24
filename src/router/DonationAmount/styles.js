@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-import { colors, gradients, layout } from 'theme';
+import { colors, gradients, layout, } from 'theme';
 
-import { ContentLayout } from 'components/layout';
-import { ProfileImage, SolidButton, Text } from 'components/common';
+import { ContentLayout, } from 'components/layout';
+import { ProfileImage, SolidButton, Text, } from 'components/common';
 
-const { breakpoints } = layout;
-const { desktop, tablet, mobile } = breakpoints;
+const { breakpoints, } = layout;
+const { desktop, tablet, mobile, } = breakpoints;
 
 export const HeaderContainer = styled.div`
   background-color: ${colors.grey6};

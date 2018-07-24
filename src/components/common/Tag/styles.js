@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { fonts } from 'theme';
+import { fonts, } from 'theme';
 
-import { backgroundColors, textColors, tagSizes } from './constants';
+import { backgroundColors, textColors, tagSizes, } from './constants';
 
 export const Tag = styled.span`
   display: inline-block;

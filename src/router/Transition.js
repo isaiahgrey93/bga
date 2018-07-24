@@ -5,7 +5,7 @@ import { TransitionGroup, CSSTransition, } from 'react-transition-group';
 
 const Transition = ({ children, location, }) => (
   <TransitionGroup>
-    <CSSTransition key={location.key} timeout={2000} classNames={'fade'}>
+    <CSSTransition key={location.key} timeout={300} classNames={'fade'}>
       {children}
     </CSSTransition>
   </TransitionGroup>

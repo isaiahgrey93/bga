@@ -8,7 +8,7 @@ export default () => (
     <NavContent>
       <NavMenuToggle />
       <NavLogoContainer>
-        <NavLogo alt={'Givelify Logo'} src={'/givelify-logo.svg'} />
+        <NavLogo alt={'Givelify Logo'} src={'/images/svg/givelify-logo.svg'} />
       </NavLogoContainer>
       <NavMenuList />
     </NavContent>

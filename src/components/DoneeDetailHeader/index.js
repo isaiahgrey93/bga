@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import { Donee } from 'stores';
+import { Donee, } from 'stores';
 
-import { ProfileImage, Text } from 'components/common';
+import { ProfileImage, Text, } from 'components/common';
 
 import {
   DetailHeaderContainer,
@@ -10,7 +11,7 @@ import {
   DetailHeaderImageContainer,
 } from './styles';
 
-const DoneeDetailHeader = ({ name, images = [] }) => (
+const DoneeDetailHeader = ({ name, images = [], }) => (
   <DetailHeaderContainer>
     <DetailHeaderContent>
       <DetailHeaderImageContainer>
@@ -22,6 +23,16 @@ const DoneeDetailHeader = ({ name, images = [] }) => (
     </DetailHeaderContent>
   </DetailHeaderContainer>
 );
+
+DoneeDetailHeader.propTypes = {
+  name: PropTypes.string,
+  images: PropTypes.arrayOf(PropTypes.string),
+};
+
+DoneeDetailHeader.defaultProps = {
+  name: undefined,
+  images: undefined,
+};
 
 const DoneeDetailHeaderContainer = () => (
   <Donee.Profile fetch donee={'1071226100775949'}>

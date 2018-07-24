@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-import { colors, layout } from 'theme';
+import { colors, layout, } from 'theme';
 
-import { Row } from 'components/common';
-import { ContentLayout } from 'components/layout';
+import { Card, Row, } from 'components/common';
+import { ContentLayout, } from 'components/layout';
 
-const { breakpoints } = layout;
-const { desktop, tablet, mobile } = breakpoints;
+const { breakpoints, } = layout;
+const { desktop, tablet, mobile, } = breakpoints;
 
 export const PurposeListContainer = styled(ContentLayout)`
   background-color: ${colors.grey6};
@@ -41,4 +41,42 @@ export const PurposeSelectionContainer = styled(Row)`
 
 export const PurposeSelectionSectionLabel = styled.div`
   text-align: left;
+`;
+
+export const PurposeSelectionListContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 64px;
+`;
+
+export const PurposeSelectionListItem = styled.div`
+  width: 48%;
+  margin: 0px 0px 20px;
+  @media screen and (max-width: ${mobile.max}px) {
+    width: 100%;
+  }
+`;
+
+export const PurposeSelectionListItemText = styled(Row)`
+  display: flex;
+  &:first-child > div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    &:first-child {
+      flex: 1;
+      max-width: 90%;
+      text-align: left;
+    }
+    &:last-child {
+      flex: 0;
+      max-width: 10%;
+      text-align: right;
+    }
+  }
+`;
+
+export const PurposeSelectionListItemContent = styled(Card)`
+  display: flex;
 `;

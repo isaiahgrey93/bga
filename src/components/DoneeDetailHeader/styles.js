@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-import { colors, layout } from 'theme';
+import { colors, layout, } from 'theme';
 
-import { ContentLayout } from 'components/layout';
+import { ContentLayout, } from 'components/layout';
 
-const { breakpoints } = layout;
-const { desktop, tablet, mobile } = breakpoints;
+const { breakpoints, } = layout;
+const { desktop, tablet, mobile, } = breakpoints;
 
 export const DetailHeaderContainer = styled(ContentLayout)`
   height: 80px;

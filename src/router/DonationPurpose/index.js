@@ -1,18 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import { Donee, Donation } from 'stores';
+import Composer from 'react-composer';
 
-import { DoneeDetailHeader } from 'components';
-import { Card, Divider, Row, Tag, Text } from 'components/common';
+import { Donee, Donation, } from 'stores';
+
+import { DoneeDetailHeader, } from 'components';
+import { Divider, Tag, Text, } from 'components/common';
 
 import {
   PurposeListContainer,
   PurposeListContent,
   PurposeSelectionContainer,
   PurposeSelectionSectionLabel,
+  PurposeSelectionListContainer,
+  PurposeSelectionListItem,
+  PurposeSelectionListItemContent,
+  PurposeSelectionListItemText,
 } from './styles';
 
-export default () => (
+const DonationPurpose = ({ amount, purposes, }) => (
   <div>
     <DoneeDetailHeader />
     <PurposeListContainer>
@@ -20,17 +27,14 @@ export default () => (
         <PurposeSelectionContainer
           left={<Text>Amount:</Text>}
           right={
-            <Donation.New>
-              {({ state: { amount } }) => (
-                <Tag size={'medium'}>
-                  <Text color={'white'}>${amount}</Text>
-                </Tag>
-              )}
-            </Donation.New>
+            <Tag size={'medium'}>
+              <Text color={'white'}>${amount}</Text>
+            </Tag>
           }
         />
-        <Divider />
         <br />
+        <br />
+        <Divider />
         <br />
         <br />
         <PurposeSelectionSectionLabel>
@@ -39,26 +43,50 @@ export default () => (
           </Text>
         </PurposeSelectionSectionLabel>
         <br />
-        <Donee.Offerings fetch donee={'1071226100775949'}>
-          {({ state: { list: offerings = [] } }) => (
-            <div
-              style={{
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-between',
-              }}
-            >
-              {offerings.map(offering => (
-                <div style={{ width: '47%', margin: '0px 0px 12px' }}>
-                  <Card raised onClick={() => null}>
-                    <Row left={offering.name} right={'>'} />
-                  </Card>
-                </div>
-              ))}
-            </div>
-          )}
-        </Donee.Offerings>
+        <PurposeSelectionListContainer>
+          {purposes.map(purpose => (
+            <PurposeSelectionListItem key={purpose.name}>
+              <PurposeSelectionListItemContent
+                raised
+                onClick={() => alert(purpose.name)}
+              >
+                <PurposeSelectionListItemText
+                  left={<Text>{purpose.name}</Text>}
+                  right={<Text value={'>'} />}
+                />
+              </PurposeSelectionListItemContent>
+            </PurposeSelectionListItem>
+          ))}
+        </PurposeSelectionListContainer>
       </PurposeListContent>
     </PurposeListContainer>
   </div>
 );
+
+DonationPurpose.propTypes = {
+  amount: PropTypes.string,
+  purposes: PropTypes.arrayOf(PropTypes.object),
+};
+
+DonationPurpose.defaultProps = {
+  amount: undefined,
+  purposes: [],
+};
+
+const DonationPurposeContainer = () => (
+  <Composer
+    components={[
+      <Donation.New />,
+      <Donee.Offerings fetch donee={'1071226100775949'} />,
+    ]}
+  >
+    {([donation, offerings, ]) => (
+      <DonationPurpose
+        amount={donation.state.amount}
+        purposes={offerings.state.list}
+      />
+    )}
+  </Composer>
+);
+
+export default DonationPurposeContainer;

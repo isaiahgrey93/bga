@@ -153,10 +153,14 @@ class DonationAmount extends Component {
             </Text>
             <GivingAppsLinks>
               <a target={'_blank'} href={appStoreUrl}>
-                <GivingAppPlatformStoreImage src={'/app-store-badge.svg'} />
+                <GivingAppPlatformStoreImage
+                  src={'/images/svg/app-store-badge.svg'}
+                />
               </a>
               <a target={'_blank'} href={googlePlayUrl}>
-                <GivingAppPlatformStoreImage src={'/google-play-badge.svg'} />
+                <GivingAppPlatformStoreImage
+                  src={'/images/svg/google-play-badge.svg'}
+                />
               </a>
             </GivingAppsLinks>
           </GivingExperienceInfo>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>cancel_trash_icon@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1024/Recurring" transform="translate(-735.000000, -156.000000)" stroke="#FF3B5B">
+            <g id="Group-2" transform="translate(144.000000, 80.000000)">
+                <g id="history-item">
+                    <g id="Group">
+                        <g id="cancel-[8h]" transform="translate(591.000000, 72.000000)">
+                            <g id="cancel_trash_icon" transform="translate(0.000000, 4.000000)">
+                                <path d="M3.20424425,3 C3.19587495,3 3.18750969,3.00036774 3.17917267,3.00110215 C3.02198573,3.0149488 2.90578546,3.15359892 2.91963211,3.31078587 L3.92637886,14.7393573 C3.93937286,14.8868649 4.06291218,15 4.210991,15 L12.7891818,15 C12.9372606,15 13.0607999,14.8868649 13.0737939,14.7393573 L14.0805406,3.31078587 C14.0812751,3.30244885 14.0816428,3.29408359 14.0816428,3.28571429 C14.0816428,3.12791864 13.9537242,3 13.7959285,3 L3.20424425,3 Z" id="Rectangle-2" stroke-width="2" fill="#FFFFFF"></path>
+                                <rect id="Rectangle-2" stroke-width="2" fill="#FFFFFF" x="1" y="2.57142857" width="15" height="1" rx="0.5"></rect>
+                                <path d="M6.14556355,1.85714286 L10.8544365,1.85714286 C10.8179632,1.37768231 10.4173736,1 9.92857143,1 L7.07142857,1 C6.58262645,1 6.18203675,1.37768231 6.14556355,1.85714286 Z" id="Rectangle-2" stroke-width="2" fill="#FFFFFF"></path>
+                                <rect id="Rectangle-2" stroke-width="1.28571429" x="9.64285714" y="6.64285714" width="1" height="4.71428571" rx="0.5"></rect>
+                                <rect id="Rectangle-2" stroke-width="1.28571429" x="6.64285714" y="6.64285714" width="1" height="4.71428571" rx="0.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
