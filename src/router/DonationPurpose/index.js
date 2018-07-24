@@ -49,7 +49,10 @@ const DonationPurpose = ({
         {selected && (
           <Fragment>
             <PurposeSelectionListItem key={selected.name}>
-              <PurposeSelectionListItemContent raised>
+              <PurposeSelectionListItemContent
+                raised
+                onClick={() => onSetPurpose(selected.id)}
+              >
                 <PurposeSelectionListItemText
                   left={
                     <div>
@@ -96,7 +99,7 @@ const DonationPurpose = ({
 
 DonationPurpose.propTypes = {
   amount: PropTypes.string,
-  selected: PropTypes.string,
+  selected: PropTypes.object,
   purposes: PropTypes.arrayOf(PropTypes.object),
   onSetPurpose: PropTypes.func.isRequired,
 };
@@ -116,9 +119,9 @@ const DonationPurposeContainer = ({ history, }) => (
   >
     {([donation, offerings, ]) => {
       const onSetPurpose = (value) => {
-        donation.store.setPurpose(value);
-
         history.push('/donation/checkout');
+
+        setTimeout(() => donation.store.setPurpose(value), 300);
       };
 
       return (
