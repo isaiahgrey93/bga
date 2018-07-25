@@ -16,18 +16,14 @@ export const PurposeListContainer = styled(ContentLayout)`
 export const PurposeListContent = styled.div`
   width: 100%;
   height: 100%;
-  @media screen and (max-width: ${mobile.max}px) {
-    padding: 0 32px;
-    min-height: calc(100vh - (80px + 56px));
-  }
 
-  @media screen and (min-width: ${tablet.min}px) and (max-width: ${tablet.max}px) {
-    padding: 0 52px;
+  @media screen and (max-width: ${tablet.max}px) {
+    padding: 0 0px;
     min-height: calc(100vh - (80px + 56px));
   }
 
   @media screen and (min-width: ${desktop.min}px) {
-    padding: 0 72px;
+    padding: 0 78px;
     min-height: calc(100vh - (80px + 56px));
   }
 `;

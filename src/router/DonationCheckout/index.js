@@ -5,84 +5,128 @@ import Composer from 'react-composer';
 
 import { Donation, Donee, } from 'stores';
 import { DoneeDetailHeader, } from 'components';
-import { Divider, Icon, IconButton, Row, Text, } from 'components/common';
+import {
+  Divider,
+  Icon,
+  IconButton,
+  Row,
+  SolidButton,
+  Text,
+} from 'components/common';
 
 import {
   CheckoutContainer,
+  CheckoutContent,
   CheckoutTotalContainer,
   CheckoutLineItem,
   CheckoutLineItemAmountContainer,
   CheckoutActionsContainer,
   CheckoutActionButton,
   CheckoutPaymentContainer,
+  PaymentInfoPreview,
+  PaymentInfoCardPreview,
+  EditPaymentLink,
+  CheckoutConfirmationContainer,
 } from './styles';
 
 const DonationCheckout = ({ amount, selected, }) => (
   <div>
     <DoneeDetailHeader />
     <CheckoutContainer>
-      <div>
-        <CheckoutTotalContainer>
-          <Text weight={'bold'} size={'large'}>
-            TOTAL: ${amount}
-          </Text>
-        </CheckoutTotalContainer>
-      </div>
-      <div>
-        {[selected, ].sort((a, b) => b.priority - a.priority).map(purpose => (
-          <Fragment>
-            <CheckoutLineItem>
-              <Row
-                left={<Text color={'grey1'}>{purpose && purpose.name}</Text>}
-                right={
+      <CheckoutContent>
+        <div>
+          <CheckoutTotalContainer>
+            <Text weight={'bold'} size={'large'}>
+              TOTAL: ${amount}
+            </Text>
+          </CheckoutTotalContainer>
+        </div>
+        <div>
+          {[]
+            .concat(selected || [])
+            .sort((a, b) => b.priority - a.priority)
+            .map(purpose => (
+              <Fragment>
+                <CheckoutLineItem>
                   <Row
                     left={
-                      <CheckoutLineItemAmountContainer>
-                        <Text color={'grey1'}>${amount}</Text>
-                      </CheckoutLineItemAmountContainer>
+                      <Text color={'grey1'}>{purpose && purpose.name}</Text>
                     }
                     right={
-                      <IconButton
-                        name={'edit'}
-                        size={'xSmall'}
-                        color={'transparent'}
+                      <Row
+                        left={
+                          <CheckoutLineItemAmountContainer>
+                            <Text color={'grey1'}>${amount}</Text>
+                          </CheckoutLineItemAmountContainer>
+                        }
+                        right={
+                          <IconButton
+                            name={'edit'}
+                            size={'xSmall'}
+                            color={'transparent'}
+                          />
+                        }
                       />
                     }
                   />
-                }
-              />
-            </CheckoutLineItem>
-            <Divider />
-          </Fragment>
-        ))}
-      </div>
-      <CheckoutActionsContainer>
-        <CheckoutActionButton>
-          <Icon name={'add'} size={'small'} />
-          <div style={{ height: 8, }} />
-          <Text color={'grey2'} size={'small'}>
-            Add donation
-          </Text>
-        </CheckoutActionButton>
-        <CheckoutActionButton>
-          <Icon name={'memo'} size={'small'} />
-          <div style={{ height: 8, }} />
-          <Text color={'grey2'} size={'small'}>
-            Add memo
-          </Text>
-        </CheckoutActionButton>
-        <CheckoutActionButton>
-          <Icon name={'recurring'} size={'small'} />
-          <div style={{ height: 8, }} />
-          <Text color={'grey2'} size={'small'}>
-            Make recurring
-          </Text>
-        </CheckoutActionButton>
-      </CheckoutActionsContainer>
-      <CheckoutPaymentContainer>
-        <div>Text</div>
-        <div>Text</div>
-      </CheckoutPaymentContainer>
+                </CheckoutLineItem>
+                <Divider />
+              </Fragment>
+            ))}
+        </div>
+        <CheckoutActionsContainer>
+          <CheckoutActionButton>
+            <Icon name={'add'} size={'small'} />
+            <div style={{ height: 8, }} />
+            <Text color={'grey2'} size={'small'}>
+              Add donation
+            </Text>
+          </CheckoutActionButton>
+          <CheckoutActionButton>
+            <Icon name={'memo'} size={'small'} />
+            <div style={{ height: 8, }} />
+            <Text color={'grey2'} size={'small'}>
+              Add memo
+            </Text>
+          </CheckoutActionButton>
+          <CheckoutActionButton>
+            <Icon name={'recurring'} size={'small'} />
+            <div style={{ height: 8, }} />
+            <Text color={'grey2'} size={'small'}>
+              Make recurring
+            </Text>
+          </CheckoutActionButton>
+        </CheckoutActionsContainer>
+        <CheckoutPaymentContainer>
+          <Row
+            left={
+              <PaymentInfoPreview>
+                <Icon size={'large'} name={'visa-badge'} />
+                <PaymentInfoCardPreview>
+                  <Text weight={'semiBold'}>*5643</Text>
+                </PaymentInfoCardPreview>
+              </PaymentInfoPreview>
+            }
+            right={
+              <EditPaymentLink to={'#'}>
+                <Text color={'blue'} size={'small'}>
+                  Different payment
+                </Text>
+              </EditPaymentLink>
+            }
+          />
+          <CheckoutConfirmationContainer>
+            <SolidButton
+              fluid
+              size={'large'}
+              raised={'high'}
+              color={'secondary'}
+              // onClick={onClick}
+              value={`Give $${amount}`}
+            />
+          </CheckoutConfirmationContainer>
+        </CheckoutPaymentContainer>
+      </CheckoutContent>
     </CheckoutContainer>
   </div>
 );
