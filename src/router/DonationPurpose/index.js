@@ -1,12 +1,12 @@
-import React, { Fragment, } from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donee, Donation, } from 'stores';
+import { Donee, Donation } from 'stores';
 
-import { DoneeDetailHeader, } from 'components';
-import { Divider, Icon, Tag, Text, } from 'components/common';
+import { DoneeDetailHeader } from 'components';
+import { Divider, Icon, Tag, Text } from 'components/common';
 
 import {
   PurposeListContainer,
@@ -20,9 +20,7 @@ import {
   PurposeSelectionListItemText,
 } from './styles';
 
-const DonationPurpose = ({
-  amount, purposes, selected, onSetPurpose,
-}) => (
+const DonationPurpose = ({ amount, purposes, selected, onSetPurpose }) => (
   <div>
     <DoneeDetailHeader />
     <PurposeListContainer>
@@ -46,21 +44,21 @@ const DonationPurpose = ({
           </Text>
         </PurposeSelectionSectionLabel>
         <br />
-        {selected && (
+        {selected.map(purpose => (
           <Fragment>
-            <PurposeSelectionListItem key={selected.name}>
+            <PurposeSelectionListItem key={purpose.id}>
               <PurposeSelectionListItemContent
                 raised
-                onClick={() => onSetPurpose(selected)}
+                onClick={() => onSetPurpose(purpose)}
               >
                 <PurposeSelectionListItemText
                   left={
                     <div>
                       <PurposeSelectedTextContainer>
-                        <Text size={'large'}>${amount}</Text>
+                        <Text size={'large'}>${purpose.amount}</Text>
                       </PurposeSelectedTextContainer>
                       <PurposeSelectedTextContainer>
-                        <Text value={selected.name} />
+                        <Text value={purpose.name} />
                       </PurposeSelectedTextContainer>
                     </div>
                   }
@@ -68,6 +66,10 @@ const DonationPurpose = ({
                 />
               </PurposeSelectionListItemContent>
             </PurposeSelectionListItem>
+          </Fragment>
+        ))}
+        {selected.length > 0 && (
+          <Fragment>
             <br />
             <Divider />
             <br />
@@ -78,7 +80,7 @@ const DonationPurpose = ({
         <PurposeSelectionListContainer>
           {purposes
             .sort((a, b) => a.priority - b.priority)
-            .filter(p => (selected ? p.id !== selected.id : true))
+            .filter(p => !selected.find(s => s.id === p.id))
             .map(purpose => (
               <PurposeSelectionListItem key={purpose.name}>
                 <PurposeSelectionListItemContent
@@ -111,28 +113,28 @@ DonationPurpose.defaultProps = {
   purposes: [],
 };
 
-const DonationPurposeContainer = ({ history, }) => (
+const DonationPurposeContainer = ({ history }) => (
   <Composer
     components={[
       <Donation.New />,
       <Donee.Offerings fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation, offerings, ]) => {
-      const { list, } = offerings.state;
-      const { amount, purpose, } = donation.state;
+    {([donation, offerings]) => {
+      const { list = [] } = offerings.state;
+      const { amount, purposes = {} } = donation.state;
 
-      const onSetPurpose = (value) => {
+      const onSetPurpose = purpose => {
         history.push('/donation/checkout');
 
-        setTimeout(() => donation.store.setPurpose(value), 200);
+        setTimeout(() => donation.store.setPurpose(purpose), 200);
       };
 
       return (
         <DonationPurpose
-          amount={amount}
           purposes={list}
-          selected={purpose}
+          amount={amount}
+          selected={Object.values(purposes)}
           onSetPurpose={onSetPurpose}
         />
       );

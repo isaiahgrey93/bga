@@ -1,11 +1,11 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donation, Donee, } from 'stores';
-import { DoneeDetailHeader, } from 'components';
-import { Modal, SolidButton, } from 'components/common';
+import { Donation, Donee } from 'stores';
+import { DoneeDetailHeader } from 'components';
+import { Modal, SolidButton } from 'components/common';
 
 import {
   CheckoutContainer,
@@ -34,26 +34,24 @@ class DonationCheckout extends Component {
     }));
 
   render() {
-    const { modals, } = this.state;
-    const { amount, selected, } = this.props;
+    const { modals } = this.state;
+    const { total, purposes } = this.props;
 
     return (
       <div>
         <DoneeDetailHeader />
         <CheckoutContainer>
           <CheckoutContent>
-            <DonationList amount={amount} selected={selected} />
+            <DonationList total={total} purposes={purposes} />
             <CheckoutActions />
             <PaymentInfo open={this.modal('payment', true)} />
             <CheckoutConfirmationContainer>
               <SolidButton
                 fluid
                 size={'large'}
-                raised={amount ? 'high' : 'none'}
-                disabled={!amount}
-                style={{ opacity: amount ? 1 : 0.5, }}
-                color={amount ? 'secondary' : 'muted'}
-                value={`Give ${amount ? `$${amount}` : ''}`}
+                raised={'high'}
+                color={'secondary'}
+                value={`Give ${total ? `$${total}` : ''}`}
               />
             </CheckoutConfirmationContainer>
           </CheckoutContent>
@@ -68,12 +66,12 @@ class DonationCheckout extends Component {
 
 DonationCheckout.propTypes = {
   amount: PropTypes.string,
-  selected: PropTypes.object,
+  purposes: PropTypes.array,
 };
 
 DonationCheckout.defaultProps = {
   amount: undefined,
-  selected: undefined,
+  purposes: undefined,
 };
 
 const DonationCheckoutContainer = () => (
@@ -83,10 +81,15 @@ const DonationCheckoutContainer = () => (
       <Donee.Offerings fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation, ]) => {
-      const { amount, purpose, } = donation.state;
+    {([donation]) => {
+      const { amount, purposes: _purposes = [] } = donation.state;
 
-      return <DonationCheckout amount={amount} selected={purpose} />;
+      const purposes = Object.values(_purposes);
+      const total = purposes
+        .reduce((acc, { amount: value = 0 }) => acc + value * 1, 0)
+        .toFixed(2);
+
+      return <DonationCheckout total={total} purposes={purposes} />;
     }}
   </Composer>
 );
