@@ -6,6 +6,7 @@ export const icons = {
   arrow: '/images/png/arrow@3x.png',
   'arrow-active': '/images/png/arrow_active@3x.png',
   'button-add': '/images/png/button_add@3x.png',
+  close: '/images/png/close@3x.png',
   'cancel-trash': '/images/png/cancel_trash@3x.png',
   'check-active': '/images/png/check_active@3x.png',
   'confirm-edit': '/images/png/confirm_edit@3x.png',

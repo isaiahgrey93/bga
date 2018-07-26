@@ -17,3 +17,8 @@ export const DonationCheckout = Loadable({
   loader: () => import('./DonationCheckout'),
   loading: Loading,
 });
+
+export const DonationPaymentModal = Loadable({
+  loader: () => import('./DonationPaymentModal'),
+  loading: Loading,
+});

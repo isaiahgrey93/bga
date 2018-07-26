@@ -7887,7 +7887,7 @@ exports[`Storyshots Button/Wrapper Button Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-dnqmqq eUwLoe"
+        className="sc-dnqmqq ftHLrF"
         onClick={[Function]}
       >
         Wrapped Text
@@ -7917,7 +7917,7 @@ exports[`Storyshots Button/Wrapper Button Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
           >
             WrappedText
           </div>
@@ -7926,7 +7926,7 @@ exports[`Storyshots Button/Wrapper Button Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
           >
             <div>
               Wrapped DOM Node
@@ -7955,7 +7955,7 @@ exports[`Storyshots Card Component 1`] = `
       className="sc-bwzfXH EgZdJ"
     >
       <div
-        className="sc-dnqmqq eUwLoe"
+        className="sc-dnqmqq ftHLrF"
         onClick={[Function]}
       >
         <div
@@ -7989,7 +7989,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8003,7 +8003,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8019,7 +8019,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8033,7 +8033,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8049,7 +8049,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8063,7 +8063,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8079,7 +8079,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8093,7 +8093,7 @@ exports[`Storyshots Card Prop Combinations 1`] = `
           className="sc-bdVaJa cvqqop"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={[Function]}
           >
             <div
@@ -8682,6 +8682,20 @@ exports[`Storyshots Icon Prop Combinations 1`] = `
               className="sc-ifAKCX iNkLvC"
               size="medium"
               src="/images/png/button_add@3x.png"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-bdVaJa cvqqop"
+        >
+          <div
+            className="sc-EHOje bIRGLC"
+            size="medium"
+          >
+            <img
+              className="sc-ifAKCX iNkLvC"
+              size="medium"
+              src="/images/png/close@3x.png"
             />
           </div>
         </div>
@@ -16122,7 +16136,7 @@ exports[`Storyshots WrapperOffset Component 1`] = `
           className="sc-eHgmQL dpAtYH"
         >
           <div
-            className="sc-dnqmqq eUwLoe"
+            className="sc-dnqmqq ftHLrF"
             onClick={undefined}
           >
             <div
@@ -16195,7 +16209,7 @@ exports[`Storyshots WrapperOffset Prop Combinations 1`] = `
               className="sc-eHgmQL dpAtYH"
             >
               <div
-                className="sc-dnqmqq eUwLoe"
+                className="sc-dnqmqq ftHLrF"
                 onClick={undefined}
               >
                 <div
@@ -16248,7 +16262,7 @@ exports[`Storyshots WrapperOffset Prop Combinations 1`] = `
               className="sc-eHgmQL dpAtYH"
             >
               <div
-                className="sc-dnqmqq eUwLoe"
+                className="sc-dnqmqq ftHLrF"
                 onClick={undefined}
               >
                 <div
@@ -16301,7 +16315,7 @@ exports[`Storyshots WrapperOffset Prop Combinations 1`] = `
               className="sc-eHgmQL dpAtYH"
             >
               <div
-                className="sc-dnqmqq eUwLoe"
+                className="sc-dnqmqq ftHLrF"
                 onClick={undefined}
               >
                 <div

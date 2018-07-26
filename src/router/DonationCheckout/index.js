@@ -1,135 +1,70 @@
-import React, { Fragment, } from 'react';
+import React, { Component, } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
 import { Donation, Donee, } from 'stores';
 import { DoneeDetailHeader, } from 'components';
-import {
-  Divider,
-  Icon,
-  IconButton,
-  Row,
-  SolidButton,
-  Text,
-} from 'components/common';
+import { Modal, SolidButton, } from 'components/common';
 
 import {
   CheckoutContainer,
   CheckoutContent,
-  CheckoutTotalContainer,
-  CheckoutLineItem,
-  CheckoutLineItemAmountContainer,
-  CheckoutActionsContainer,
-  CheckoutActionButton,
-  CheckoutPaymentContainer,
-  PaymentInfoPreview,
-  PaymentInfoCardPreview,
-  EditPaymentLink,
   CheckoutConfirmationContainer,
 } from './styles';
 
-const DonationCheckout = ({ amount, selected, }) => (
-  <div>
-    <DoneeDetailHeader />
-    <CheckoutContainer>
-      <CheckoutContent>
-        <div>
-          <CheckoutTotalContainer>
-            <Text weight={'bold'} size={'large'}>
-              TOTAL: ${amount}
-            </Text>
-          </CheckoutTotalContainer>
-        </div>
-        <div>
-          {[]
-            .concat(selected || [])
-            .sort((a, b) => b.priority - a.priority)
-            .map(purpose => (
-              <Fragment>
-                <CheckoutLineItem>
-                  <Row
-                    left={
-                      <Text color={'grey1'}>{purpose && purpose.name}</Text>
-                    }
-                    right={
-                      <Row
-                        left={
-                          <CheckoutLineItemAmountContainer>
-                            <Text color={'grey1'}>${amount}</Text>
-                          </CheckoutLineItemAmountContainer>
-                        }
-                        right={
-                          <IconButton
-                            name={'edit'}
-                            size={'xSmall'}
-                            color={'transparent'}
-                          />
-                        }
-                      />
-                    }
-                  />
-                </CheckoutLineItem>
-                <Divider />
-              </Fragment>
-            ))}
-        </div>
-        <CheckoutActionsContainer>
-          <CheckoutActionButton>
-            <Icon name={'add'} size={'small'} />
-            <div style={{ height: 8, }} />
-            <Text color={'grey2'} size={'small'}>
-              Add donation
-            </Text>
-          </CheckoutActionButton>
-          <CheckoutActionButton>
-            <Icon name={'memo'} size={'small'} />
-            <div style={{ height: 8, }} />
-            <Text color={'grey2'} size={'small'}>
-              Add memo
-            </Text>
-          </CheckoutActionButton>
-          <CheckoutActionButton>
-            <Icon name={'recurring'} size={'small'} />
-            <div style={{ height: 8, }} />
-            <Text color={'grey2'} size={'small'}>
-              Make recurring
-            </Text>
-          </CheckoutActionButton>
-        </CheckoutActionsContainer>
-        <CheckoutPaymentContainer>
-          <Row
-            left={
-              <PaymentInfoPreview>
-                <Icon size={'large'} name={'visa-badge'} />
-                <PaymentInfoCardPreview>
-                  <Text weight={'semiBold'}>*5643</Text>
-                </PaymentInfoCardPreview>
-              </PaymentInfoPreview>
-            }
-            right={
-              <EditPaymentLink to={'#'}>
-                <Text color={'blue'} size={'small'}>
-                  Different payment
-                </Text>
-              </EditPaymentLink>
-            }
-          />
-          <CheckoutConfirmationContainer>
-            <SolidButton
-              fluid
-              size={'large'}
-              raised={'high'}
-              color={'secondary'}
-              // onClick={onClick}
-              value={`Give $${amount}`}
-            />
-          </CheckoutConfirmationContainer>
-        </CheckoutPaymentContainer>
-      </CheckoutContent>
-    </CheckoutContainer>
-  </div>
-);
+import DonationList from './DonationList';
+import CheckoutActions from './CheckoutActions';
+import PaymentInfo from './PaymentInfo';
+import PaymentMethodSelection from './PaymentMethodSelection';
+
+class DonationCheckout extends Component {
+  state = {
+    modals: {
+      payment: false,
+    },
+  };
+
+  modal = (modal, status) => () =>
+    this.setState(state => ({
+      modals: {
+        ...state.modals,
+        [modal]: status === undefined ? !state[modal] : status,
+      },
+    }));
+
+  render() {
+    const { modals, } = this.state;
+    const { amount, selected, } = this.props;
+
+    return (
+      <div>
+        <DoneeDetailHeader />
+        <CheckoutContainer>
+          <CheckoutContent>
+            <DonationList amount={amount} selected={selected} />
+            <CheckoutActions />
+            <PaymentInfo open={this.modal('payment', true)} />
+            <CheckoutConfirmationContainer>
+              <SolidButton
+                fluid
+                size={'large'}
+                raised={amount ? 'high' : 'none'}
+                disabled={!amount}
+                style={{ opacity: amount ? 1 : 0.5, }}
+                color={amount ? 'secondary' : 'muted'}
+                value={`Give ${amount ? `$${amount}` : ''}`}
+              />
+            </CheckoutConfirmationContainer>
+          </CheckoutContent>
+        </CheckoutContainer>
+        <Modal active={modals.payment}>
+          <PaymentMethodSelection close={this.modal('payment', false)} />
+        </Modal>
+      </div>
+    );
+  }
+}
 
 DonationCheckout.propTypes = {
   amount: PropTypes.string,

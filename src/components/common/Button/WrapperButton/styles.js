@@ -6,5 +6,5 @@ export const WrapperButton = styled.div`
   padding: 0;
   outline: 0;
   background-color: transparent;
-  cursor: default;
+  cursor: pointer;
 `;
