@@ -1,11 +1,11 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Composer from 'react-composer';
 
-import { Donee, Donation, } from 'stores';
+import { Donee, Donation } from 'stores';
 
-import { AmountInput, HeaderImage, Text, } from 'components/common';
-import { DoneeImageWrapper, } from 'components';
+import { AmountInput, HeaderImage, Text } from 'components/common';
+import { DoneeImageWrapper } from 'components';
 
 import {
   HeaderContainer,
@@ -27,8 +27,8 @@ import {
   GivingAppPlatformStoreImage,
 } from './styles';
 
-import { formatDecimal, } from './utils';
-import { appStoreUrl, googlePlayUrl, } from './constants';
+import { formatDecimal } from './utils';
+import { appStoreUrl, googlePlayUrl } from './constants';
 
 const headerURL =
   'https://jhmrad.com/wp-content/uploads/alvin-missionary-baptist-church-great-investment_2910388.jpg';
@@ -41,43 +41,19 @@ class DonationAmount extends Component {
     initialized: false,
   };
 
-  static getDerivedStateFromProps(props, state) {
-    const { initialized, } = state;
-    const { amount, profile, } = props;
-    const { amounts, } = profile;
-
-    if (amount && !initialized) {
-      const value =
-        amount
-          .split(',')
-          .join('')
-          .split('.')[0] || '';
-
-      const custom = amounts.indexOf(value) === -1;
-
-      return {
-        custom,
-        initialized: true,
-        amount: custom ? amount : value,
-      };
-    }
-
-    return {};
-  }
-
   onToggleCustomAmount = () =>
-    this.setState(() => ({ custom: true, amount: '', }));
+    this.setState(() => ({ custom: true, amount: '' }));
 
-  onAmountChange = (amount) => {
-    this.setState(() => ({ amount, custom: false, }), this.onSubmitAmount);
+  onAmountChange = amount => {
+    this.setState(() => ({ amount, custom: false }), this.onSubmitAmount);
   };
 
-  onCustomAmountChange = (value) => {
-    this.setState(() => ({ amount: value, }));
+  onCustomAmountChange = value => {
+    this.setState(() => ({ amount: value }));
   };
 
   onSubmitAmount = () => {
-    const { amount, } = this.state;
+    const { amount } = this.state;
 
     if (amount.length === 0) return;
 
@@ -87,12 +63,10 @@ class DonationAmount extends Component {
   };
 
   render() {
-    const { amount, custom, } = this.state;
+    const { amount, custom } = this.state;
 
-    const { profile, } = this.props;
-    const {
-      name, officer = {}, images = {}, amounts = [],
-    } = profile;
+    const { profile } = this.props;
+    const { name, officer = {}, images = {}, amounts = [] } = profile;
 
     return (
       <div>
@@ -174,40 +148,32 @@ class DonationAmount extends Component {
 }
 
 DonationAmount.propTypes = {
-  amount: PropTypes.string,
   profile: PropTypes.object,
   onSetAmount: PropTypes.func.isRequired,
 };
 
 DonationAmount.defaultProps = {
-  amount: undefined,
   profile: undefined,
 };
 
-const DonationAmountContainer = ({ history, }) => (
+const DonationAmountContainer = ({ history }) => (
   <Composer
     components={[
       <Donation.New />,
       <Donee.Profile fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation, profile, ]) => {
-      const onSetAmount = (value) => {
-        donation.store.setAmount(value, () => {
-          if (profile.state.type === 'church') {
-            history.push('/donation/envelope');
-          } else {
-            history.push('/donation/cause');
-          }
-        });
+    {([donation, profile]) => {
+      const onSetAmount = value => {
+        if (profile.state.type === 'church') {
+          history.push('/donation/envelope', { amount: value });
+        } else {
+          history.push('/donation/cause', { amount: value });
+        }
       };
 
       return (
-        <DonationAmount
-          profile={profile.state}
-          amount={donation.state.amount}
-          onSetAmount={onSetAmount}
-        />
+        <DonationAmount profile={profile.state} onSetAmount={onSetAmount} />
       );
     }}
   </Composer>

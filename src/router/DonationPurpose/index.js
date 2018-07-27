@@ -1,12 +1,12 @@
-import React, { Fragment, } from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donee, Donation, } from 'stores';
+import { Donee, Donation } from 'stores';
 
-import { DoneeDetailHeader, } from 'components';
-import { Divider, Icon, Tag, Text, } from 'components/common';
+import { DoneeDetailHeader } from 'components';
+import { Divider, Icon, Tag, Text } from 'components/common';
 
 import {
   PurposeListContainer,
@@ -20,9 +20,7 @@ import {
   PurposeSelectionListItemText,
 } from './styles';
 
-const DonationPurpose = ({
-  amount, purposes, selected, onSetPurpose,
-}) => (
+const DonationPurpose = ({ amount, purposes, selected, onSetPurpose }) => (
   <div>
     <DoneeDetailHeader />
     <PurposeListContainer>
@@ -115,40 +113,46 @@ DonationPurpose.defaultProps = {
   purposes: [],
 };
 
-const DonationPurposeContainer = ({ history, ...props }) => (
-  <Composer
-    components={[
-      <Donation.New />,
-      <Donee.Offerings fetch donee={'1071226100775949'} />,
-    ]}
-  >
-    {([donation, offerings, ]) => {
-      const { list = [], } = offerings.state;
-      const { amount, purposes: _purposes = {}, } = donation.state;
+const DonationPurposeContainer = ({ history, location }) => {
+  const { amount } = location.state;
 
-      const purposes = Object.values(_purposes);
+  if (history.action === 'POP' || !amount) {
+    history.replace('/donation/amount', {});
 
-      const onSetPurpose = (purpose) => {
-        donation.store.setPurpose(purpose, () => {
-          history.push('/donation/checkout');
-        });
-      };
+    return null;
+  }
 
-      if (!amount && history.action === 'POP') {
-        history.replace('/donation/amount');
-      }
+  return (
+    <Composer
+      components={[
+        <Donation.New />,
+        <Donee.Offerings fetch donee={'1071226100775949'} />,
+      ]}
+    >
+      {([donation, offerings]) => {
+        const { list = [] } = offerings.state;
+        const { purposes: _purposes = {} } = donation.state;
 
-      return (
-        <DonationPurpose
-          amount={amount}
-          purposes={list}
-          selected={purposes}
-          onSetPurpose={onSetPurpose}
-        />
-      );
-    }}
-  </Composer>
-);
+        const purposes = Object.values(_purposes);
+
+        const onSetPurpose = purpose => {
+          donation.store.setPurpose(purpose, amount, () => {
+            history.replace('/donation/checkout', {});
+          });
+        };
+
+        return (
+          <DonationPurpose
+            amount={amount}
+            purposes={list}
+            selected={purposes}
+            onSetPurpose={onSetPurpose}
+          />
+        );
+      }}
+    </Composer>
+  );
+};
 
 DonationPurposeContainer.propTypes = {
   history: PropTypes.object.isRequired,

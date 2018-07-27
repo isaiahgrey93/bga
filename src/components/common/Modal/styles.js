@@ -1,4 +1,4 @@
-import styled, { injectGlobal, } from 'styled-components';
+import styled, { injectGlobal } from 'styled-components';
 
 import ReactModal from 'react-modal';
 
@@ -12,6 +12,7 @@ export const Modal = styled(ReactModal)`
 injectGlobal`
   .ReactModal__Overlay {
     opacity: 0;
+    z-index: 2;
     width: 100%;
     height: 100%;
     display: flex;
