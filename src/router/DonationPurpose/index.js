@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donee, Donation } from 'stores';
+import { Donee, Donation, } from 'stores';
 
-import { DoneeDetailHeader } from 'components';
-import { Divider, Icon, Tag, Text } from 'components/common';
+import { DoneeDetailHeader, } from 'components';
+import { Divider, Icon, Tag, Text, } from 'components/common';
 
 import {
   PurposeListContainer,
@@ -20,7 +20,9 @@ import {
   PurposeSelectionListItemText,
 } from './styles';
 
-const DonationPurpose = ({ amount, purposes, selected, onSetPurpose }) => (
+const DonationPurpose = ({
+  amount, purposes, selected, onSetPurpose,
+}) => (
   <div>
     <DoneeDetailHeader />
     <PurposeListContainer>
@@ -120,13 +122,13 @@ const DonationPurposeContainer = ({ history, ...props }) => (
       <Donee.Offerings fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation, offerings]) => {
-      const { list = [] } = offerings.state;
-      const { amount, purposes: _purposes = {} } = donation.state;
+    {([donation, offerings, ]) => {
+      const { list = [], } = offerings.state;
+      const { amount, purposes: _purposes = {}, } = donation.state;
 
       const purposes = Object.values(_purposes);
 
-      const onSetPurpose = purpose => {
+      const onSetPurpose = (purpose) => {
         donation.store.setPurpose(purpose, () => {
           history.push('/donation/checkout');
         });
