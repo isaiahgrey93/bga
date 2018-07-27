@@ -2,7 +2,7 @@ const initial = {
   purposes: {},
 };
 
-export default data => {
+export default (data) => {
   if (!data) {
     return initial;
   }

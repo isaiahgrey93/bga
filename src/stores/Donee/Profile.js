@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+import { Container, Provider, Subscribe } from 'unstated';
 
 import api from 'api';
-import { DoneeProfileEntity, } from 'api/entities';
-import { DataProvider, } from 'stores';
+import { DoneeProfileEntity } from 'api/entities';
+import { DataProvider } from 'stores';
 
 class DoneeProfileStore extends Container {
   state = new DoneeProfileEntity();
 
-  setProfile = value => this.setState(() => ({ ...value, }));
+  setProfile = (value, cb) =>
+    this.setState(() => ({ ...value }), () => cb && cb());
 }
 
 const store = new DoneeProfileStore();
@@ -17,15 +18,15 @@ const store = new DoneeProfileStore();
 const DoneeProfile = ({ donee, children, ...props }) => (
   <DataProvider
     store={store}
-    params={{ donee, }}
+    params={{ donee }}
     request={api.donee.profile}
     onComplete={store.setProfile}
     {...props}
   >
-    {({ error, loading, }) => (
+    {({ error, loading }) => (
       <Provider>
-        <Subscribe to={[store, ]}>
-          {({ state, }) =>
+        <Subscribe to={[store]}>
+          {({ state }) =>
             children({
               state,
               store,

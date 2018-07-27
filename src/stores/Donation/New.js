@@ -7,27 +7,33 @@ import { DonationEntity } from 'api/entities';
 class NewDonationStore extends Container {
   state = new DonationEntity();
 
-  setAmount = value =>
-    this.setState(state => ({
-      amount: value,
-    }));
+  setAmount = (value, cb) =>
+    this.setState(
+      state => ({
+        amount: value,
+      }),
+      () => cb && cb()
+    );
 
-  setPurpose = value =>
-    this.setState(state => ({
-      amount: undefined,
-      purposes: {
-        ...state.purposes,
-        [value.id]: {
-          ...(state.purposes[value.id] ? state.purposes[value.id] : {}),
-          ...(value ? value : {}),
-          amount: state.amount
-            ? state.amount
-            : state.purposes[value.id]
-              ? state.purposes[value.id].amount
-              : undefined,
+  setPurpose = (value, cb) =>
+    this.setState(
+      state => ({
+        amount: undefined,
+        purposes: {
+          ...state.purposes,
+          [value.id]: {
+            ...(state.purposes[value.id] ? state.purposes[value.id] : {}),
+            ...(value || {}),
+            amount: state.amount
+              ? state.amount
+              : state.purposes[value.id]
+                ? state.purposes[value.id].amount
+                : undefined,
+          },
         },
-      },
-    }));
+      }),
+      () => cb && cb()
+    );
 }
 
 const store = new NewDonationStore();

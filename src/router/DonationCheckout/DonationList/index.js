@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, } from 'react';
 import PropTypes from 'prop-types';
 
-import { Divider, IconButton, Row, Text } from 'components/common';
+import { Divider, IconButton, Row, Text, } from 'components/common';
 
 import {
   DonationTotalContainer,
@@ -9,7 +9,7 @@ import {
   DonationListItemAmountContainer,
 } from './styles';
 
-const DonationList = ({ total, purposes }) => (
+const DonationList = ({ total, purposes, }) => (
   <Fragment>
     <div>
       <DonationTotalContainer>

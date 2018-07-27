@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donation, Donee } from 'stores';
-import { DoneeDetailHeader } from 'components';
-import { Modal, SolidButton } from 'components/common';
+import { Donation, Donee, } from 'stores';
+import { DoneeDetailHeader, } from 'components';
+import { Modal, SolidButton, } from 'components/common';
 
 import {
   CheckoutContainer,
@@ -34,8 +34,8 @@ class DonationCheckout extends Component {
     }));
 
   render() {
-    const { modals } = this.state;
-    const { total, purposes } = this.props;
+    const { modals, } = this.state;
+    const { total, purposes, } = this.props;
 
     return (
       <div>
@@ -81,12 +81,12 @@ const DonationCheckoutContainer = () => (
       <Donee.Offerings fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation]) => {
-      const { amount, purposes: _purposes = [] } = donation.state;
+    {([donation, ]) => {
+      const { amount, purposes: _purposes = [], } = donation.state;
 
       const purposes = Object.values(_purposes);
       const total = purposes
-        .reduce((acc, { amount: value = 0 }) => acc + value * 1, 0)
+        .reduce((acc, { amount: value = 0, }) => acc + value * 1, 0)
         .toFixed(2);
 
       return <DonationCheckout total={total} purposes={purposes} />;

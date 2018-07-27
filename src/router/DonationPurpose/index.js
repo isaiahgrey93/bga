@@ -113,7 +113,7 @@ DonationPurpose.defaultProps = {
   purposes: [],
 };
 
-const DonationPurposeContainer = ({ history }) => (
+const DonationPurposeContainer = ({ history, ...props }) => (
   <Composer
     components={[
       <Donation.New />,
@@ -122,19 +122,25 @@ const DonationPurposeContainer = ({ history }) => (
   >
     {([donation, offerings]) => {
       const { list = [] } = offerings.state;
-      const { amount, purposes = {} } = donation.state;
+      const { amount, purposes: _purposes = {} } = donation.state;
+
+      const purposes = Object.values(_purposes);
 
       const onSetPurpose = purpose => {
-        history.push('/donation/checkout');
-
-        setTimeout(() => donation.store.setPurpose(purpose), 200);
+        donation.store.setPurpose(purpose, () => {
+          history.push('/donation/checkout');
+        });
       };
+
+      if (!amount && history.action === 'POP') {
+        history.replace('/donation/amount');
+      }
 
       return (
         <DonationPurpose
-          purposes={list}
           amount={amount}
-          selected={Object.values(purposes)}
+          purposes={list}
+          selected={purposes}
           onSetPurpose={onSetPurpose}
         />
       );
