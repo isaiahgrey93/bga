@@ -72,3 +72,11 @@ export const DonationCheckout = Loadable({
     return <Loading>{React.createElement(loaded.default, props)}</Loading>;
   },
 });
+
+export const DonationMemo = Loadable({
+  loader: () => import('./DonationMemo'),
+  loading: Loading,
+  render(loaded, props) {
+    return <Loading>{React.createElement(loaded.default, props)}</Loading>;
+  },
+});

@@ -7,6 +7,14 @@ import { DonationEntity, } from 'api/entities';
 class NewDonationStore extends Container {
   state = new DonationEntity();
 
+  setMemo = (memo, cb) =>
+    this.setState(
+      () => ({
+        memo,
+      }),
+      () => cb && cb()
+    );
+
   setFrequency = (frequency, cb) =>
     this.setState(
       () => ({

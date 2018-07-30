@@ -3,7 +3,12 @@ import { BrowserRouter, Route, Switch, Redirect, } from 'react-router-dom';
 
 import { TopNavigation, } from 'components';
 
-import { DonationAmount, DonationPurpose, DonationCheckout, } from './routes';
+import {
+  DonationAmount,
+  DonationPurpose,
+  DonationCheckout,
+  DonationMemo,
+} from './routes';
 
 export default () => (
   <BrowserRouter>
@@ -16,6 +21,7 @@ export default () => (
           path={'/donation/:type(envelope|cause)'}
           component={DonationPurpose}
         />
+        <Route exact path={'/donation/memo'} component={DonationMemo} />
         <Route exact path={'/donation/checkout'} component={DonationCheckout} />
         <Redirect to={'/donation/amount'} />
       </Switch>
