@@ -1,5 +1,6 @@
 const initial = {
   purposes: {},
+  frequency: 'none',
 };
 
 export default (data) => {

@@ -1,11 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe } from 'unstated';
+import { Container, Provider, Subscribe, } from 'unstated';
 
-import { DonationEntity } from 'api/entities';
+import { DonationEntity, } from 'api/entities';
 
 class NewDonationStore extends Container {
   state = new DonationEntity();
+
+  setFrequency = (frequency, cb) =>
+    this.setState(
+      () => ({
+        frequency,
+      }),
+      () => cb && cb()
+    );
 
   setPurpose = (purpose, amount, cb) =>
     this.setState(
@@ -15,11 +23,11 @@ class NewDonationStore extends Container {
           [purpose.id]: {
             ...(state.purposes[purpose.id] ? state.purposes[purpose.id] : {}),
             ...(purpose || {}),
-            amount: amount
-              ? amount
-              : state.purposes[purpose.id]
+            amount:
+              amount ||
+              (state.purposes[purpose.id]
                 ? state.purposes[purpose.id].amount
-                : undefined,
+                : undefined),
           },
         },
       }),
@@ -29,10 +37,10 @@ class NewDonationStore extends Container {
 
 const store = new NewDonationStore();
 
-const NewDonation = ({ children }) => (
+const NewDonation = ({ children, }) => (
   <Provider>
-    <Subscribe to={[store]}>
-      {({ state }) => children({ state, store })}
+    <Subscribe to={[store, ]}>
+      {({ state, }) => children({ state, store, })}
     </Subscribe>
   </Provider>
 );

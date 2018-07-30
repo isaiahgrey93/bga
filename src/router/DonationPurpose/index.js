@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donee, Donation } from 'stores';
+import { Donee, Donation, } from 'stores';
 
-import { DoneeDetailHeader } from 'components';
-import { Divider, Icon, Tag, Text } from 'components/common';
+import { DoneeDetailHeader, } from 'components';
+import { Divider, Icon, Tag, Text, } from 'components/common';
 
 import {
   PurposeListContainer,
@@ -20,7 +20,9 @@ import {
   PurposeSelectionListItemText,
 } from './styles';
 
-const DonationPurpose = ({ amount, purposes, selected, onSetPurpose }) => (
+const DonationPurpose = ({
+  amount, purposes, selected, onSetPurpose,
+}) => (
   <div>
     <DoneeDetailHeader />
     <PurposeListContainer>
@@ -113,8 +115,8 @@ DonationPurpose.defaultProps = {
   purposes: [],
 };
 
-const DonationPurposeContainer = ({ history, location }) => {
-  const { amount } = location.state;
+const DonationPurposeContainer = ({ history, location, }) => {
+  const { amount, } = location.state;
 
   if (history.action === 'POP' || !amount) {
     history.replace('/donation/amount', {});
@@ -129,13 +131,13 @@ const DonationPurposeContainer = ({ history, location }) => {
         <Donee.Offerings fetch donee={'1071226100775949'} />,
       ]}
     >
-      {([donation, offerings]) => {
-        const { list = [] } = offerings.state;
-        const { purposes: _purposes = {} } = donation.state;
+      {([donation, offerings, ]) => {
+        const { list = [], } = offerings.state;
+        const { purposes: _purposes = {}, } = donation.state;
 
         const purposes = Object.values(_purposes);
 
-        const onSetPurpose = purpose => {
+        const onSetPurpose = (purpose) => {
           donation.store.setPurpose(purpose, amount, () => {
             history.replace('/donation/checkout', {});
           });
@@ -155,6 +157,7 @@ const DonationPurposeContainer = ({ history, location }) => {
 };
 
 DonationPurposeContainer.propTypes = {
+  location: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
 };
 

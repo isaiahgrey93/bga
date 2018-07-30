@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donation, Donee } from 'stores';
-import { DoneeDetailHeader } from 'components';
-import { Modal, SolidButton } from 'components/common';
+import { Donation, Donee, } from 'stores';
+import { DoneeDetailHeader, } from 'components';
+import { Modal, SolidButton, } from 'components/common';
 
 import {
   CheckoutContainer,
@@ -17,6 +17,7 @@ import DonationList from './DonationList';
 import CheckoutActions from './CheckoutActions';
 import PaymentInfo from './PaymentInfo';
 import PaymentMethodSelection from './PaymentMethodSelection';
+import DonationFrequencySelection from './DonationFrequencySelection';
 
 class DonationCheckout extends Component {
   state = {
@@ -34,8 +35,8 @@ class DonationCheckout extends Component {
     }));
 
   render() {
-    const { modals } = this.state;
-    const { total, purposes } = this.props;
+    const { modals, } = this.state;
+    const { total, purposes, } = this.props;
 
     return (
       <div>
@@ -43,7 +44,7 @@ class DonationCheckout extends Component {
         <CheckoutContainer>
           <CheckoutContent>
             <DonationList total={total} purposes={purposes} />
-            <CheckoutActions />
+            <CheckoutActions open={this.modal('frequency', true)} />
             <PaymentInfo open={this.modal('payment', true)} />
             <CheckoutConfirmationContainer>
               <SolidButton
@@ -59,18 +60,21 @@ class DonationCheckout extends Component {
         <Modal active={modals.payment}>
           <PaymentMethodSelection close={this.modal('payment', false)} />
         </Modal>
+        <Modal active={modals.frequency}>
+          <DonationFrequencySelection close={this.modal('frequency', false)} />
+        </Modal>
       </div>
     );
   }
 }
 
 DonationCheckout.propTypes = {
-  amount: PropTypes.string,
+  total: PropTypes.string,
   purposes: PropTypes.array,
 };
 
 DonationCheckout.defaultProps = {
-  amount: undefined,
+  total: undefined,
   purposes: undefined,
 };
 
@@ -81,12 +85,12 @@ const DonationCheckoutContainer = () => (
       <Donee.Offerings fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation]) => {
-      const { amount, purposes: _purposes = [] } = donation.state;
+    {([donation, ]) => {
+      const { purposes: _purposes = [], } = donation.state;
 
       const purposes = Object.values(_purposes);
       const total = purposes
-        .reduce((acc, { amount: value = 0 }) => acc + value * 1, 0)
+        .reduce((acc, { amount = 0, }) => amount * 1 + acc, 0)
         .toFixed(2);
 
       return <DonationCheckout total={total} purposes={purposes} />;

@@ -8,6 +8,10 @@ import { Text as StyledText, } from 'components/common/Text/styles';
 const { breakpoints, } = layout;
 const { mobile, } = breakpoints;
 
+export const CheckoutActionButtonContainer = styled.div`
+  width: 33%;
+`;
+
 export const CheckoutActionsContainer = styled.div`
   display: flex;
   justify-content: space-evenly;

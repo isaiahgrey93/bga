@@ -42,7 +42,6 @@ const PaymentMethodSelection = ({ close, }) => (
         name={'close'}
         size={'xLarge'}
         color={'transparent'}
-        value={'Create account'}
         iconProps={{ size: 'medium', }}
         onClick={close}
       />

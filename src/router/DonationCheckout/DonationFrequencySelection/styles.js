@@ -7,7 +7,7 @@ import { IconButton, Text, } from 'components/common';
 const { breakpoints, } = layout;
 const { mobile, tablet, } = breakpoints;
 
-export const PaymentMethodLabelContainer = styled.div`
+export const DonationFrequencyLabelContainer = styled.div`
   display: flex;
   align-items: center;
   @media screen and (max-width: ${mobile.max}px) {
@@ -18,9 +18,9 @@ export const PaymentMethodLabelContainer = styled.div`
   }
 `;
 
-export const PaymentMethodLabel = styled(Text)`
+export const DonationFrequencyLabel = styled(Text)`
   padding-left: 12px;
-  padding-right: 20vw;
+  padding-right: 24px;
   @media screen and (max-width: ${mobile.max}px) {
     font-size: 14px !important;
   }
@@ -29,16 +29,4 @@ export const PaymentMethodLabel = styled(Text)`
 export const OffsetDismissButton = styled(IconButton)`
   position: relative;
   top: 48px;
-`;
-
-export const PaymentModalActionDivider = styled.div`
-  height: 1px;
-  margin-bottom: 16px;
-  background-color: #e1e3e6;
-`;
-
-export const PaymentModalActionTextContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `;

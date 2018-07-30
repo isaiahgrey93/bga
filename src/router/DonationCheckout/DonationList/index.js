@@ -51,12 +51,12 @@ const DonationList = ({ total, purposes, }) => (
 
 DonationList.propTypes = {
   total: PropTypes.string,
-  selected: PropTypes.object,
+  purposes: PropTypes.array,
 };
 
 DonationList.defaultProps = {
   total: undefined,
-  selected: undefined,
+  purposes: undefined,
 };
 
 export default DonationList;

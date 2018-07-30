@@ -1,4 +1,4 @@
-import styled, { injectGlobal } from 'styled-components';
+import styled, { injectGlobal, } from 'styled-components';
 
 import ReactModal from 'react-modal';
 
@@ -30,6 +30,7 @@ injectGlobal`
   }
   .ReactModal__Content {
     opacity: 0;
+    max-width: 95%;
   }
   .ReactModal__Content--after-open {
     opacity: 1;
