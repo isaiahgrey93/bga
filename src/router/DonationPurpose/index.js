@@ -47,8 +47,8 @@ const DonationPurpose = ({
         </PurposeSelectionSectionLabel>
         <br />
         {selected.map(purpose => (
-          <Fragment>
-            <PurposeSelectionListItem key={purpose.id}>
+          <Fragment key={purpose.id}>
+            <PurposeSelectionListItem>
               <PurposeSelectionListItemContent
                 raised
                 onClick={() => onSetPurpose(purpose)}
@@ -84,7 +84,7 @@ const DonationPurpose = ({
             .sort((a, b) => a.priority - b.priority)
             .filter(p => !selected.find(s => s.id === p.id))
             .map(purpose => (
-              <PurposeSelectionListItem key={purpose.name}>
+              <PurposeSelectionListItem key={purpose.id}>
                 <PurposeSelectionListItemContent
                   raised
                   onClick={() => onSetPurpose(purpose)}
@@ -104,7 +104,7 @@ const DonationPurpose = ({
 
 DonationPurpose.propTypes = {
   amount: PropTypes.string,
-  selected: PropTypes.object,
+  selected: PropTypes.array,
   purposes: PropTypes.arrayOf(PropTypes.object),
   onSetPurpose: PropTypes.func.isRequired,
 };

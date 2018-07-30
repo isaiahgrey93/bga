@@ -46,7 +46,11 @@ Loading.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.node,
     PropTypes.arrayOf(PropTypes.node),
-  ]).isRequired,
+  ]),
+};
+
+Loading.defaultProps = {
+  children: undefined,
 };
 
 export const DonationAmount = Loadable({

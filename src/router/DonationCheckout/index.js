@@ -5,12 +5,13 @@ import Composer from 'react-composer';
 
 import { Donation, Donee, } from 'stores';
 import { DoneeDetailHeader, } from 'components';
-import { Modal, SolidButton, } from 'components/common';
+import { Modal, SolidButton, Text, } from 'components/common';
 
 import {
   CheckoutContainer,
   CheckoutContent,
   CheckoutConfirmationContainer,
+  DonationMemoPreview,
 } from './styles';
 
 import DonationList from './DonationList';
@@ -36,16 +37,27 @@ class DonationCheckout extends Component {
 
   render() {
     const { modals, } = this.state;
-    const { total, purposes, } = this.props;
+    const {
+      memo, hasMemo, total, purposes, removePurpose,
+    } = this.props;
 
     return (
       <div>
         <DoneeDetailHeader />
         <CheckoutContainer>
           <CheckoutContent>
-            <DonationList total={total} purposes={purposes} />
+            <DonationList
+              total={total}
+              purposes={purposes}
+              removePurpose={removePurpose}
+            />
             <CheckoutActions open={this.modal('frequency', true)} />
             <PaymentInfo open={this.modal('payment', true)} />
+            {hasMemo && (
+              <DonationMemoPreview>
+                <Text>{memo}</Text>
+              </DonationMemoPreview>
+            )}
             <CheckoutConfirmationContainer>
               <SolidButton
                 fluid
@@ -70,12 +82,18 @@ class DonationCheckout extends Component {
 
 DonationCheckout.propTypes = {
   total: PropTypes.string,
+  memo: PropTypes.string,
+  hasMemo: PropTypes.bool,
   purposes: PropTypes.array,
+  removePurpose: PropTypes.func,
 };
 
 DonationCheckout.defaultProps = {
   total: undefined,
+  memo: undefined,
+  hasMemo: undefined,
   purposes: undefined,
+  removePurpose: undefined,
 };
 
 const DonationCheckoutContainer = () => (
@@ -86,14 +104,26 @@ const DonationCheckoutContainer = () => (
     ]}
   >
     {([donation, ]) => {
-      const { purposes: _purposes = [], } = donation.state;
+      const { purposes: _purposes = [], memo, } = donation.state;
 
+      const hasMemo = !!memo;
       const purposes = Object.values(_purposes);
       const total = purposes
-        .reduce((acc, { amount = 0, }) => amount * 1 + acc, 0)
+        .reduce(
+          (acc, { amount = '0', }) => amount.split(',').join('') * 1 + acc,
+          0
+        )
         .toFixed(2);
 
-      return <DonationCheckout total={total} purposes={purposes} />;
+      return (
+        <DonationCheckout
+          memo={memo}
+          hasMemo={hasMemo}
+          total={total}
+          purposes={purposes}
+          removePurpose={donation.store.removePurpose}
+        />
+      );
     }}
   </Composer>
 );

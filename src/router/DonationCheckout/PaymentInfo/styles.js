@@ -8,7 +8,7 @@ export const PaymentInfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 48px 0px 24px 0px;
+  padding: 12px 0px 24px 0px;
 `;
 
 export const PaymentInfoPreview = styled.div`

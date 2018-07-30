@@ -26,7 +26,14 @@ export const CheckoutContent = styled.div`
   }
 `;
 
+export const DonationMemoPreview = styled.div`
+  border-top: 1px solid ${colors.grey4};
+  border-bottom: 1px solid ${colors.grey4};
+  margin: 12px 0px 48px 0px;
+  padding: 30px 0px 30px 0px;
+`;
+
 export const CheckoutConfirmationContainer = styled.div`
   max-width: 384px;
-  margin: 20px auto;
+  margin: 20px auto 60px auto;
 `;

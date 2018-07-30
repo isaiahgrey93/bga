@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container, Provider, Subscribe, } from 'unstated';
 
+import { omit, } from 'lodash';
+
 import { DonationEntity, } from 'api/entities';
 
 class NewDonationStore extends Container {
@@ -38,6 +40,14 @@ class NewDonationStore extends Container {
                 : undefined),
           },
         },
+      }),
+      () => cb && cb()
+    );
+
+  removePurpose = (purpose, cb) =>
+    this.setState(
+      state => ({
+        purposes: omit(state.purposes, [purpose.id, ]),
       }),
       () => cb && cb()
     );
