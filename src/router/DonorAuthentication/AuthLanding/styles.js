@@ -1,24 +1,18 @@
 import styled from 'styled-components';
 
-import { gradients } from 'theme';
+import { Text, } from 'components/common';
+
+import { gradients, } from 'theme';
 
 export const LandingContainer = styled.div`
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
+  padding-top: 25vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
   background: ${gradients.default};
-`;
-
-export const HeaderContainer = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10vh 18px;
-  box-sizing: content-box;
 `;
 
 export const CenterContainer = styled.div`
@@ -38,4 +32,8 @@ export const FacebookButtonContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+
+export const FacebookButtonText = styled(Text)`
+  color: #3b5998;
 `;

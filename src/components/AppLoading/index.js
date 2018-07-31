@@ -1,14 +1,14 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-import { Text } from 'components/common';
+import { Text, } from 'components/common';
 
-import { Motion, spring } from 'react-motion';
+import { Motion, } from 'react-motion';
 
 const loadingStyle = {
   top: 0,
   left: 0,
-  width: '100vw',
+  width: '100%',
   height: '100vh',
   color: '#fff',
   display: 'flex',
@@ -18,22 +18,33 @@ const loadingStyle = {
   backgroundColor: '#ffffff',
 };
 
-const AppLoading = ({ children }) => (
+const AppLoading = ({ children, }) => (
   <Motion
-    defaultStyle={{ showLoading: 0, showContent: 0 }}
+    defaultStyle={{ showLoading: 0, showContent: 0, }}
     style={{
-      showContent: spring(children ? 1 : 0),
-      showLoading: spring(children ? 0 : 1, {
-        stiffness: children ? 240 : 20,
-      }),
+      showContent: children ? 1 : 0,
+      showLoading: children ? 0 : 1,
     }}
   >
-    {({ showContent, showLoading }) => (
+    {({ showContent, showLoading, }) => (
       <div>
-        <div style={{ ...loadingStyle, opacity: showLoading }}>
+        <div
+          style={{
+            ...loadingStyle,
+            opacity: showLoading,
+            transition: 'opacity 0.3s ease-in-out',
+          }}
+        >
           <Text>Loading...</Text>
         </div>
-        <div style={{ opacity: showContent, zIndex: 1, position: 'relative' }}>
+        <div
+          style={{
+            opacity: showContent,
+            zIndex: 1,
+            position: 'relative',
+            transition: 'opacity 0.3s ease-in-out',
+          }}
+        >
           {children}
         </div>
       </div>

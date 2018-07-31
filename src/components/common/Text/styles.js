@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled, { css, } from 'styled-components';
 
-import { textSizes, textColors, textWeights, lineHeights } from './constants';
+import { textSizes, textColors, textWeights, lineHeights, } from './constants';
 
 const noSelect = css`
   -webkit-touch-callout: none;

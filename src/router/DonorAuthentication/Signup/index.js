@@ -3,7 +3,7 @@ import React from 'react';
 import { Icon, Text, TextInput, WrapperOffset, } from 'components/common';
 
 import {
-  LoginContainer,
+  SignupContainer,
   CenterContainer,
   FooterContainer,
   FormContainer,
@@ -19,21 +19,21 @@ import {
   FormAlternateActionContainer,
 } from './styles';
 
-const Login = () => (
-  <LoginContainer>
+const Signup = () => (
+  <SignupContainer>
     <CenterContainer>
       <FormContainer>
         <FormHeaderContainer>
           <FormHeaderItem>
             <StyledLink to={'/account/login'}>
-              <FormHeaderItemText size={'small'} color={'white'} active>
+              <FormHeaderItemText size={'small'} color={'white'}>
                 SIGN IN
               </FormHeaderItemText>
             </StyledLink>
           </FormHeaderItem>
           <FormHeaderItem>
             <StyledLink to={'/account/signup'}>
-              <FormHeaderItemText size={'small'} color={'white'}>
+              <FormHeaderItemText size={'small'} color={'white'} active>
                 CREATE ACCOUNT
               </FormHeaderItemText>
             </StyledLink>
@@ -47,6 +47,13 @@ const Login = () => (
                   <Text>Personal Giving</Text>
                 </FormCardHeaderContainer>
               </center>
+              <FormItem>
+                <TextInput
+                  icon={'name'}
+                  iconActive={'name-active'}
+                  placeholder={'Fullname'}
+                />
+              </FormItem>
               <FormItem>
                 <TextInput
                   icon={'mail'}
@@ -72,33 +79,34 @@ const Login = () => (
                 fluid
                 size={'large'}
                 raised={'high'}
-                value={'Sign In'}
+                value={'Create Account'}
                 color={'secondary'}
               />
             </FormSubmitContainer>
           }
         />
         <FormAlternateActionContainer>
-          <Text size={'xSmall'} color={'blue'}>
-            Forgot your password?
+          <Text size={'xSmall'} color={'grey2'}>
+            By creating a free, personal Givelify account, you are agreeing to
+            our Terms of Service
           </Text>
         </FormAlternateActionContainer>
       </FormContainer>
     </CenterContainer>
     <FooterContainer>
       <center>
-        <Text size={'xSmall'}>Need a free personal giving account?</Text>
+        <Text size={'xSmall'}>Already a Givelify user?</Text>
         <br />
-        <StyledLink to={'/account/signup'}>
+        <StyledLink to={'/account/login'}>
           <Text size={'small'} color={'blue'}>
-            Sign up now!
+            Sign in
           </Text>
           &nbsp;&nbsp;
           <Icon size={'xSmall'} name={'arrow-active'} />
         </StyledLink>
       </center>
     </FooterContainer>
-  </LoginContainer>
+  </SignupContainer>
 );
 
-export default Login;
+export default Signup;

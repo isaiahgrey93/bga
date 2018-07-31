@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Loadable from 'react-loadable';
 
-import { AppLoading } from 'components';
+import { AppLoading, } from 'components';
 
 export const DonationAmount = Loadable({
   loader: () => import('./DonationAmount'),
@@ -46,7 +46,7 @@ export const DonationMemo = Loadable({
 
 export const DonorAuthentication = Loadable({
   loader: () => import('./DonorAuthentication'),
-  loading: AppLoading,
+  loading: () => null,
   render(loaded, props) {
     return (
       <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
@@ -66,6 +66,16 @@ export const DonorAuthLanding = Loadable({
 
 export const DonorLogin = Loadable({
   loader: () => import('./DonorAuthentication/Login'),
+  loading: AppLoading,
+  render(loaded, props) {
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
+  },
+});
+
+export const DonorSignup = Loadable({
+  loader: () => import('./DonorAuthentication/Signup'),
   loading: AppLoading,
   render(loaded, props) {
     return (

@@ -1,4 +1,4 @@
-import styled, { injectGlobal } from 'styled-components';
+import styled, { injectGlobal, } from 'styled-components';
 
 import ReactModal from 'react-modal';
 
@@ -19,6 +19,7 @@ injectGlobal`
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.75) !important;
+    overflow: scroll;
   }
   .ReactModal__Overlay--after-open {
     opacity: 1;

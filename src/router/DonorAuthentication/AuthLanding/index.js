@@ -1,26 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import {
-  Icon,
-  Modal,
-  Text,
-  SolidButton,
-  OutlineButton,
-} from 'components/common';
+import { Icon, Text, SolidButton, OutlineButton, } from 'components/common';
 
 import {
   LandingContainer,
-  HeaderContainer,
   CenterContainer,
   FooterContainer,
   FacebookButtonContent,
+  FacebookButtonText,
 } from './styles';
 
-const AuthLanding = props => (
+const AuthLanding = ({ history, }) => (
   <LandingContainer>
-    <HeaderContainer>
-      <img alt={'Givelify Logo'} src={'/images/svg/givelify-logo.svg'} />
-    </HeaderContainer>
     <CenterContainer>
       <center>
         <Text
@@ -35,9 +27,7 @@ const AuthLanding = props => (
         raised={'high'}
         size={'large'}
         color={'white'}
-        onClick={() => {
-          props.history.push('/account/login');
-        }}
+        onClick={() => history.push('/account/login')}
       >
         <Text size={'small'} color={'white'}>
           Continue with email
@@ -49,10 +39,9 @@ const AuthLanding = props => (
         <FacebookButtonContent>
           <Icon size={'small'} name={'facebook-square'} />
           &nbsp; &nbsp;
-          <Text
+          <FacebookButtonText
             size={'small'}
             weight={'semiBold'}
-            style={{ color: '#3B5998' }}
             value={'Continue with Facebook'}
           />
         </FacebookButtonContent>
@@ -79,5 +68,9 @@ const AuthLanding = props => (
     </FooterContainer>
   </LandingContainer>
 );
+
+AuthLanding.propTypes = {
+  history: PropTypes.object.isRequired,
+};
 
 export default AuthLanding;

@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-import { colors, fonts } from 'theme';
+import { colors, fonts, } from 'theme';
 
-import { Icon } from 'components/common';
+import { Icon, } from 'components/common';
 
-export const getInputContainerBorderColor = ({ focused }) =>
-  focused ? colors.primaryBlue : colors.grey4;
+export const getInputContainerBorderColor = ({ focused, }) =>
+  (focused ? colors.primaryBlue : colors.grey4);
 
-export const getInputIconColor = ({ focused }) =>
-  focused ? colors.primaryBlue : colors.grey3;
+export const getInputIconColor = ({ focused, }) =>
+  (focused ? colors.primaryBlue : colors.grey3);
 
 export const InputContainer = styled.div`
   display: flex;
