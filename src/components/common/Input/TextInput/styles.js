@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
-import { colors, fonts, } from 'theme';
+import { colors, fonts } from 'theme';
 
-export const getInputContainerBorderColor = ({ focused, }) =>
-  (focused ? colors.primaryBlue : colors.grey4);
+import { Icon } from 'components/common';
 
-export const getInputIconColor = ({ focused, }) =>
-  (focused ? colors.primaryBlue : colors.grey3);
+export const getInputContainerBorderColor = ({ focused }) =>
+  focused ? colors.primaryBlue : colors.grey4;
+
+export const getInputIconColor = ({ focused }) =>
+  focused ? colors.primaryBlue : colors.grey3;
 
 export const InputContainer = styled.div`
   display: flex;
@@ -17,13 +19,10 @@ export const InputContainer = styled.div`
   transition: border-bottom 250ms ease-in-out;
 `;
 
-export const InputIcon = styled.span`
-  color: ${getInputIconColor};
-  width: 24px;
-  height: 32px;
-  font-size: 24px;
-  line-height: 32px;
-  transition: color 250ms ease-in-out;
+export const InputIcon = styled(Icon)``;
+
+export const InputIconContainer = styled.div`
+  padding-right: 12px;
 `;
 
 export const Input = styled.input`

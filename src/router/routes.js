@@ -1,86 +1,75 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
+
 import Loadable from 'react-loadable';
 
-import { Text, } from 'components/common';
-
-import { Motion, spring, } from 'react-motion';
-
-const loadingStyle = {
-  top: 0,
-  left: 0,
-  width: '100vw',
-  height: '100vh',
-  color: '#fff',
-  display: 'flex',
-  position: 'absolute',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundColor: '#ffffff',
-};
-
-const Loading = ({ children, }) => (
-  <Motion
-    defaultStyle={{ showLoading: 0, showContent: 0, }}
-    style={{
-      showContent: spring(children ? 1 : 0),
-      showLoading: spring(children ? 0 : 1, {
-        stiffness: children ? 240 : 20,
-      }),
-    }}
-  >
-    {({ showContent, showLoading, }) => (
-      <div>
-        <div style={{ ...loadingStyle, opacity: showLoading, }}>
-          <Text>Loading...</Text>
-        </div>
-        <div style={{ opacity: showContent, zIndex: 1, position: 'relative', }}>
-          {children}
-        </div>
-      </div>
-    )}
-  </Motion>
-);
-
-Loading.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.node,
-    PropTypes.arrayOf(PropTypes.node),
-  ]),
-};
-
-Loading.defaultProps = {
-  children: undefined,
-};
+import { AppLoading } from 'components';
 
 export const DonationAmount = Loadable({
   loader: () => import('./DonationAmount'),
-  loading: Loading,
+  loading: AppLoading,
   render(loaded, props) {
-    return <Loading>{React.createElement(loaded.default, props)}</Loading>;
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
   },
 });
 
 export const DonationPurpose = Loadable({
   loader: () => import('./DonationPurpose'),
-  loading: Loading,
+  loading: AppLoading,
   render(loaded, props) {
-    return <Loading>{React.createElement(loaded.default, props)}</Loading>;
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
   },
 });
 
 export const DonationCheckout = Loadable({
   loader: () => import('./DonationCheckout'),
-  loading: Loading,
+  loading: AppLoading,
   render(loaded, props) {
-    return <Loading>{React.createElement(loaded.default, props)}</Loading>;
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
   },
 });
 
 export const DonationMemo = Loadable({
   loader: () => import('./DonationMemo'),
-  loading: Loading,
+  loading: AppLoading,
   render(loaded, props) {
-    return <Loading>{React.createElement(loaded.default, props)}</Loading>;
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
+  },
+});
+
+export const DonorAuthentication = Loadable({
+  loader: () => import('./DonorAuthentication'),
+  loading: AppLoading,
+  render(loaded, props) {
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
+  },
+});
+
+export const DonorAuthLanding = Loadable({
+  loader: () => import('./DonorAuthentication/AuthLanding'),
+  loading: AppLoading,
+  render(loaded, props) {
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
+  },
+});
+
+export const DonorLogin = Loadable({
+  loader: () => import('./DonorAuthentication/Login'),
+  loading: AppLoading,
+  render(loaded, props) {
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
   },
 });

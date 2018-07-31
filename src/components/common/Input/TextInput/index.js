@@ -4,24 +4,34 @@ import PropTypes from 'prop-types';
 import {
   Input as StyledInput,
   InputIcon as StyledInputIcon,
+  InputIconContainer as StyledInputIconContainer,
   InputContainer as StyledInputContainer,
 } from './styles';
+
+import { icons } from 'components/common/Icon/constants';
 
 class Input extends React.Component {
   state = {
     focused: false,
   };
 
-  onInputBlur = () => this.setState(() => ({ focused: false, }));
-  onInputFocus = () => this.setState(() => ({ focused: true, }));
+  onInputBlur = () => this.setState(() => ({ focused: false }));
+  onInputFocus = () => this.setState(() => ({ focused: true }));
 
   render() {
-    const { focused, } = this.state;
-    const { value, icon, ...props } = this.props;
+    const { focused } = this.state;
+    const { value, icon, iconActive, ...props } = this.props;
 
     return (
       <StyledInputContainer focused={focused}>
-        {icon && <StyledInputIcon focused={focused}>{icon}</StyledInputIcon>}
+        {icon && (
+          <StyledInputIconContainer>
+            <StyledInputIcon
+              size={'xSmall'}
+              name={focused && iconActive ? iconActive : icon}
+            />
+          </StyledInputIconContainer>
+        )}
         <StyledInput
           value={value}
           onBlur={this.onInputBlur}
@@ -34,12 +44,14 @@ class Input extends React.Component {
 }
 
 Input.propTypes = {
-  icon: PropTypes.oneOfType([PropTypes.node, PropTypes.func, ]),
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, ]),
+  icon: PropTypes.oneOf(Object.keys(icons)),
+  iconActive: PropTypes.oneOf(Object.keys(icons)),
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };
 
 Input.defaultProps = {
   icon: undefined,
+  iconActive: undefined,
   value: undefined,
 };
 

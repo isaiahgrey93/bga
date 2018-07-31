@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_fb </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1024/Login" transform="translate(-400.000000, -384.000000)" fill="#3B5998">
+            <g id="btn/fb" transform="translate(320.000000, 368.000000)">
+                <g id="Group-[12h]" transform="translate(80.000000, 14.000000)">
+                    <path d="M15.4285714,26 L15.3571429,17.1764706 L18.2142857,17.1764706 L18.9285714,13.5 L15.3571429,13.5 L15.3571429,11.0735294 C15.3571429,10.0441176 15.7142857,9.30882353 17.1428571,9.30882353 L19,9.30882353 L19,6.14705882 C18.7142857,6.14705882 17.6428571,6 16.3571429,6 C13.7142857,6 11.8571429,7.54411765 11.8571429,10.5588235 L11.8571429,13.5 L9,13.5 L9,17.1764706 L11.8571429,17.1764706 L11.8571429,26 L4,26 C1.790861,26 2.705415e-16,24.209139 0,22 L0,6 C-2.705415e-16,3.790861 1.790861,2 4,2 L19,2 C21.209139,2 23,3.790861 23,6 L23,22 C23,24.209139 21.209139,26 19,26 L15.4285714,26 Z" id="icon_fb-"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

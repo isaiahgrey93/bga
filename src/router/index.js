@@ -1,29 +1,32 @@
-import React, { Fragment, } from 'react';
-import { BrowserRouter, Route, Switch, Redirect, } from 'react-router-dom';
+import React, { Fragment } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { TopNavigation, } from 'components';
+import { TopNavigation } from 'components';
 
 import {
   DonationAmount,
   DonationPurpose,
   DonationCheckout,
   DonationMemo,
+  DonorAuthentication,
 } from './routes';
 
 export default () => (
   <BrowserRouter>
     <Fragment>
-      <TopNavigation />
       <Switch>
-        <Route exact path={'/donation/amount'} component={DonationAmount} />
+        <Route path={'/account*'} render={() => null} />
+        <TopNavigation />
+      </Switch>
+      <Switch>
+        <Route path={'/donation/amount'} component={DonationAmount} />
         <Route
-          exact
-          path={'/donation/:type(envelope|cause)'}
           component={DonationPurpose}
+          path={'/donation/:type(envelope|cause)'}
         />
-        <Route exact path={'/donation/memo'} component={DonationMemo} />
-        <Route exact path={'/donation/checkout'} component={DonationCheckout} />
-        <Redirect to={'/donation/amount'} />
+        <Route path={'/donation/memo'} component={DonationMemo} />
+        <Route path={'/donation/checkout'} component={DonationCheckout} />
+        <Route path={'/account'} component={DonorAuthentication} />
       </Switch>
     </Fragment>
   </BrowserRouter>

@@ -20,7 +20,7 @@ export const DonationDescriptionContainer = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  left: ${props => (props.active ? '24px' : '0px')};
+  left: ${props => (props.active ? '36px' : '0px')};
   transition: left 0.2s ease-in;
 `;
 
@@ -29,6 +29,6 @@ export const DonationRemoveAction = styled.div`
   position: absolute;
   opacity: 0;
   opacity: ${props => (props.active ? '1' : '0')};
-  left: ${props => (props.active ? '-24px' : '-40px')};
+  left: ${props => (props.active ? '-36px' : '-56px')};
   transition: opacity 0.2s ease-out 0.2s;
 `;

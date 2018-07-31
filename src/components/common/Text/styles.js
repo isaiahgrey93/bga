@@ -1,6 +1,6 @@
-import styled, { css, } from 'styled-components';
+import styled, { css } from 'styled-components';
 
-import { textSizes, textColors, textWeights, lineHeights, } from './constants';
+import { textSizes, textColors, textWeights, lineHeights } from './constants';
 
 const noSelect = css`
   -webkit-touch-callout: none;
@@ -11,13 +11,10 @@ const noSelect = css`
   user-select: none;
 `;
 
-export const Text = styled.span.attrs({
-  style: ({ size, color, weight, }) => ({
-    color: textColors[color],
-    fontSize: textSizes[size],
-    fontWeight: textWeights[weight],
-    lineHeight: `${lineHeights[size]}px`,
-  }),
-})`
+export const Text = styled.span`
+  color: ${props => textColors[props.color]};
+  font-size: ${props => textSizes[props.size]}px;
+  font-weight: ${props => textWeights[props.weight]};
+  line-height: ${props => lineHeights[props.size]}px;
   ${props => (props.selectable ? '' : noSelect)};
 `;

@@ -1,11 +1,11 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { Donation, Donee, } from 'stores';
-import { DoneeDetailHeader, } from 'components';
-import { Modal, SolidButton, Text, } from 'components/common';
+import { Donation, Donee } from 'stores';
+import { DoneeDetailHeader } from 'components';
+import { Modal, SolidButton, Text } from 'components/common';
 
 import {
   CheckoutContainer,
@@ -36,9 +36,14 @@ class DonationCheckout extends Component {
     }));
 
   render() {
-    const { modals, } = this.state;
+    const { modals } = this.state;
     const {
-      memo, hasMemo, total, purposes, removePurpose,
+      submit,
+      memo,
+      hasMemo,
+      total,
+      purposes,
+      removePurpose,
     } = this.props;
 
     return (
@@ -65,6 +70,7 @@ class DonationCheckout extends Component {
                 raised={'high'}
                 color={'secondary'}
                 value={`Give ${total ? `$${total}` : ''}`}
+                onClick={submit}
               />
             </CheckoutConfirmationContainer>
           </CheckoutContent>
@@ -96,24 +102,28 @@ DonationCheckout.defaultProps = {
   removePurpose: undefined,
 };
 
-const DonationCheckoutContainer = () => (
+const DonationCheckoutContainer = ({ history }) => (
   <Composer
     components={[
       <Donation.New />,
       <Donee.Offerings fetch donee={'1071226100775949'} />,
     ]}
   >
-    {([donation, ]) => {
-      const { purposes: _purposes = [], memo, } = donation.state;
+    {([donation]) => {
+      const { purposes: _purposes = [], memo } = donation.state;
 
       const hasMemo = !!memo;
       const purposes = Object.values(_purposes);
       const total = purposes
         .reduce(
-          (acc, { amount = '0', }) => amount.split(',').join('') * 1 + acc,
+          (acc, { amount = '0' }) => amount.split(',').join('') * 1 + acc,
           0
         )
         .toFixed(2);
+
+      const onSubmit = () => {
+        history.push('/account');
+      };
 
       return (
         <DonationCheckout
@@ -122,6 +132,7 @@ const DonationCheckoutContainer = () => (
           total={total}
           purposes={purposes}
           removePurpose={donation.store.removePurpose}
+          submit={onSubmit}
         />
       );
     }}

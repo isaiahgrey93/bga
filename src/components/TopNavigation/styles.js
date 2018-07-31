@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
-import { Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import { ContentLayout, } from 'components/layout';
-import { colors, gradients, layout, } from 'theme';
+import { ContentLayout } from 'components/layout';
+import { colors, gradients, layout } from 'theme';
 
-const { breakpoints, } = layout;
-const { tablet, } = breakpoints;
+const { breakpoints } = layout;
+const { tablet } = breakpoints;
 
 export const NavContainer = styled(ContentLayout)`
   width: 100%;
   height: 56px;
-  background-image: ${gradients.header};
+  background-image: ${gradients.default};
 `;
 
 export const NavContent = styled.div`
