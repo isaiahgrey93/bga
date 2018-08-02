@@ -1,32 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+import { Container, Provider, Subscribe } from 'unstated';
 
 import api from 'api';
-import { DoneeProfileEntity, } from 'api/entities';
-import { DataProvider, } from 'stores';
+import { DoneeProfileEntity } from 'api/entities';
+import { DoneeApiProvider } from 'providers';
 
 class DoneeProfileStore extends Container {
   state = new DoneeProfileEntity();
 
   setProfile = (value, cb) =>
-    this.setState(() => ({ ...value, }), () => cb && cb());
+    this.setState(() => ({ ...value }), () => cb && cb());
 }
 
 const store = new DoneeProfileStore();
 
-const DoneeProfile = ({ donee, children, ...props }) => (
-  <DataProvider
-    store={store}
-    params={{ donee, }}
+const DoneeProfile = ({ children, ...props }) => (
+  <DoneeApiProvider.Profile
     request={api.donee.profile}
     onComplete={store.setProfile}
     {...props}
   >
-    {({ error, loading, }) => (
+    {({ error, loading }) => (
       <Provider>
-        <Subscribe to={[store, ]}>
-          {({ state, }) =>
+        <Subscribe to={[store]}>
+          {({ state }) =>
             children({
               state,
               store,
@@ -37,11 +35,10 @@ const DoneeProfile = ({ donee, children, ...props }) => (
         </Subscribe>
       </Provider>
     )}
-  </DataProvider>
+  </DoneeApiProvider.Profile>
 );
 
 DoneeProfile.propTypes = {
-  donee: PropTypes.string.isRequired,
   children: PropTypes.func,
 };
 

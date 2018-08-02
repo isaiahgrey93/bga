@@ -27,15 +27,10 @@ class DataProvider extends Component {
   }
 
   async componentDidMount() {
-    const { fetch, request, params = {}, } = this.props;
+    const { fetch, params = {}, } = this.props;
 
     if (fetch) {
-      this.onFetch();
-
-      const { response, error, } = await request(params);
-
-      if (error) this.onError(error);
-      else this.onResponse(response);
+      this.request(params);
     }
   }
 
@@ -56,22 +51,31 @@ class DataProvider extends Component {
     );
   }
 
-  onFetch() {
+  onRequest() {
     this.setState(() => ({
       error: false,
       loading: true,
     }));
   }
 
+  async request(data) {
+    const { request, } = this.props;
+
+    this.onRequest();
+
+    const { response, error, } = await request(data);
+
+    if (error) this.onError(error);
+    else this.onResponse(response);
+  }
+
   render() {
     const { error, loading, } = this.state;
-    const { fetch, children, } = this.props;
+    const { children, } = this.props;
 
     if (!children) return null;
 
-    if (!fetch) return children({});
-
-    return children({ error, loading, });
+    return children({ error, loading, request: this.request, });
   }
 }
 

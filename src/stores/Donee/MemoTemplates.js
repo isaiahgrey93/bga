@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+import { Container, Provider, Subscribe } from 'unstated';
 
-import api from 'api';
-import { DoneeMemoTemplatesEntity, } from 'api/entities';
-import { DataProvider, } from 'stores';
+import { DoneeMemoTemplatesEntity } from 'api/entities';
+import { DoneeApiProvider } from 'providers';
 
 class DoneeMemoTemplatesStore extends Container {
   state = {
@@ -13,25 +12,22 @@ class DoneeMemoTemplatesStore extends Container {
 
   setMemoTemplates = (value, cb) =>
     this.setState(
-      () => ({ list: new DoneeMemoTemplatesEntity(value), }),
+      () => ({ list: new DoneeMemoTemplatesEntity(value) }),
       () => cb && cb()
     );
 }
 
 const store = new DoneeMemoTemplatesStore();
 
-const DoneeMemoTemplates = ({ donee, children, ...props }) => (
-  <DataProvider
-    store={store}
-    params={{ donee, }}
-    request={api.donee.memoTemplates}
+const DoneeMemoTemplates = ({ children, ...props }) => (
+  <DoneeApiProvider.MemoTemplates
     onComplete={store.setMemoTemplates}
     {...props}
   >
-    {({ error, loading, }) => (
+    {({ error, loading }) => (
       <Provider>
-        <Subscribe to={[store, ]}>
-          {({ state, }) =>
+        <Subscribe to={[store]}>
+          {({ state }) =>
             children({
               state,
               store,
@@ -42,7 +38,7 @@ const DoneeMemoTemplates = ({ donee, children, ...props }) => (
         </Subscribe>
       </Provider>
     )}
-  </DataProvider>
+  </DoneeApiProvider.MemoTemplates>
 );
 
 DoneeMemoTemplates.propTypes = {

@@ -64,7 +64,7 @@ class DonationMemo extends Component {
         <MemoContent>
           <MemoSelectionContainer>
             {templates.map(t => (
-              <MemoTemplateContainer>
+              <MemoTemplateContainer key={t.id}>
                 <SolidButton
                   color={'muted'}
                   size={'small'}
