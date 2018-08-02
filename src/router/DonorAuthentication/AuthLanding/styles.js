@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { Text, } from 'components/common';
 
-import { gradients, } from 'theme';
+import { colors, gradients, } from 'theme';
 
 export const LandingContainer = styled.div`
   min-width: 100%;
@@ -36,4 +36,8 @@ export const FacebookButtonContent = styled.div`
 
 export const FacebookButtonText = styled(Text)`
   color: #3b5998;
+`;
+
+export const StyledAnchor = styled.a`
+  color: ${colors.white};
 `;

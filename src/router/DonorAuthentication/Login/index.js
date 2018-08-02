@@ -25,14 +25,14 @@ const Login = () => (
       <FormContainer>
         <FormHeaderContainer>
           <FormHeaderItem>
-            <StyledLink to={'/account/login'}>
+            <StyledLink replace to={'/account/login'}>
               <FormHeaderItemText size={'small'} color={'white'} active>
                 SIGN IN
               </FormHeaderItemText>
             </StyledLink>
           </FormHeaderItem>
           <FormHeaderItem>
-            <StyledLink to={'/account/signup'}>
+            <StyledLink replace to={'/account/signup'}>
               <FormHeaderItemText size={'small'} color={'white'}>
                 CREATE ACCOUNT
               </FormHeaderItemText>
@@ -89,7 +89,7 @@ const Login = () => (
       <center>
         <Text size={'xSmall'}>Need a free personal giving account?</Text>
         <br />
-        <StyledLink to={'/account/signup'}>
+        <StyledLink replace to={'/account/signup'}>
           <Text size={'small'} color={'blue'}>
             Sign up now!
           </Text>

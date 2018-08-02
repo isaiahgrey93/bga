@@ -124,7 +124,7 @@ const DonationCheckoutContainer = ({ history, }) => (
         .toFixed(2);
 
       const onSubmit = () => {
-        history.push('/account');
+        history.push('/account/auth', { referrer: '/donation/checkout', });
       };
 
       return (

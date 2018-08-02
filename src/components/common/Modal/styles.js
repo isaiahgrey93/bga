@@ -18,7 +18,6 @@ injectGlobal`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.75) !important;
     overflow: scroll;
   }
   .ReactModal__Overlay--after-open {

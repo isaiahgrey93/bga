@@ -25,14 +25,14 @@ const Signup = () => (
       <FormContainer>
         <FormHeaderContainer>
           <FormHeaderItem>
-            <StyledLink to={'/account/login'}>
+            <StyledLink replace to={'/account/login'}>
               <FormHeaderItemText size={'small'} color={'white'}>
                 SIGN IN
               </FormHeaderItemText>
             </StyledLink>
           </FormHeaderItem>
           <FormHeaderItem>
-            <StyledLink to={'/account/signup'}>
+            <StyledLink replace to={'/account/signup'}>
               <FormHeaderItemText size={'small'} color={'white'} active>
                 CREATE ACCOUNT
               </FormHeaderItemText>
@@ -97,7 +97,7 @@ const Signup = () => (
       <center>
         <Text size={'xSmall'}>Already a Givelify user?</Text>
         <br />
-        <StyledLink to={'/account/login'}>
+        <StyledLink replace to={'/account/login'}>
           <Text size={'small'} color={'blue'}>
             Sign in
           </Text>

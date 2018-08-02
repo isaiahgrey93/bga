@@ -13,19 +13,28 @@ import {
   MainContent,
 } from './styles';
 
-const Auth = () => (
-  <Modal active>
+import CloseModalButton from './CloseModalButton';
+
+const modalStyles = {
+  overlay: {
+    backgroundColor: 'rgba(255, 255, 255, 0.75)',
+  },
+};
+
+const Auth = props => (
+  <Modal active style={modalStyles}>
     <ModalContentContainer>
       <SharedContentContainer>
         <HeaderContainer>
           <img alt={'Givelify Logo'} src={'/images/svg/givelify-logo.svg'} />
         </HeaderContainer>
+        <CloseModalButton {...props} />
       </SharedContentContainer>
       <MainContent>
         <Switch>
           <Route exact path={'/account/login'} component={DonorLogin} />
           <Route exact path={'/account/signup'} component={DonorSignup} />
-          <Route component={DonorAuthLanding} />
+          <Route exact path={'/account/auth'} component={DonorAuthLanding} />
         </Switch>
       </MainContent>
     </ModalContentContainer>

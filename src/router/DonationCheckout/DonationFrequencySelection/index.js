@@ -22,7 +22,7 @@ const DonationFrequencySelection = ({ close, selected, onSelect, }) => (
   <WrapperOffset
     component={
       <OffsetDismissButton
-        name={'close'}
+        name={'close-circle'}
         size={'xLarge'}
         color={'transparent'}
         iconProps={{ size: 'medium', }}

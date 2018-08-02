@@ -9,6 +9,7 @@ import {
   FooterContainer,
   FacebookButtonContent,
   FacebookButtonText,
+  StyledAnchor,
 } from './styles';
 
 const AuthLanding = ({ history, }) => (
@@ -27,7 +28,7 @@ const AuthLanding = ({ history, }) => (
         raised={'high'}
         size={'large'}
         color={'white'}
-        onClick={() => history.push('/account/login')}
+        onClick={() => history.replace('/account/login')}
       >
         <Text size={'small'} color={'white'}>
           Continue with email
@@ -61,8 +62,11 @@ const AuthLanding = ({ history, }) => (
     <FooterContainer>
       <center>
         <Text size={'xSmall'} color={'white'}>
-          Organization official? <u>Create an account</u> and increase
-          contributions with Givelify.
+          Organization official?{' '}
+          <StyledAnchor href={'https://givelify.com/signup'} target={'_blank'}>
+            Create an account
+          </StyledAnchor>{' '}
+          and increase contributions with Givelify.
         </Text>
       </center>
     </FooterContainer>

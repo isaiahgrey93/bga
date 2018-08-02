@@ -26,7 +26,10 @@ export default () => (
         />
         <Route path={'/donation/memo'} component={DonationMemo} />
         <Route path={'/donation/checkout'} component={DonationCheckout} />
-        <Route path={'/account'} component={DonorAuthentication} />
+        <Route
+          path={'/account/:authentication(auth|login|signup)'}
+          component={DonorAuthentication}
+        />
       </Switch>
     </Fragment>
   </BrowserRouter>
