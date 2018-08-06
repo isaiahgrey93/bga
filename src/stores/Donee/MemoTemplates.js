@@ -1,10 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+
+import { Provider, Subscribe, } from 'unstated';
+import { PersistContainer, } from 'unstated-persist';
+
+import localForage from 'localforage';
 
 import { DoneeMemoTemplatesEntity, } from 'api/entities';
 
-class DoneeMemoTemplatesStore extends Container {
+class DoneeMemoTemplatesStore extends PersistContainer {
+  persist = {
+    version: '1.0',
+    key: 'DoneeMemoTemplates',
+    storage: localForage,
+  };
+
   state = {
     list: new DoneeMemoTemplatesEntity(),
   };
@@ -16,7 +26,7 @@ class DoneeMemoTemplatesStore extends Container {
     );
 }
 
-const store = new DoneeMemoTemplatesStore();
+export const store = new DoneeMemoTemplatesStore();
 
 const DoneeMemoTemplates = ({ children, }) => (
   <Provider>

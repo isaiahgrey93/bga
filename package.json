@@ -5,10 +5,12 @@
   "dependencies": {
     "@storybook/react": "^3.4.6",
     "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
     "blueimp-md5": "^2.10.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "jest-styled-components": "^5.0.1",
+    "localforage": "^1.7.2",
     "lodash": "^4.17.10",
     "numeral": "^2.0.6",
     "prop-types": "^15.6.1",
@@ -25,7 +27,8 @@
     "react-transition-group": "^2.4.0",
     "sinon": "^6.0.0",
     "styled-components": "^3.3.2",
-    "unstated": "^2.1.1"
+    "unstated": "^2.1.1",
+    "unstated-persist": "^0.0.3"
   },
   "scripts": {
     "start": "react-app-rewired start",

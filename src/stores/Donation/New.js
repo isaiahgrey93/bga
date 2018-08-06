@@ -1,12 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+
+import { Provider, Subscribe, } from 'unstated';
+import { PersistContainer, } from 'unstated-persist';
+
+import localForage from 'localforage';
 
 import { omit, } from 'lodash';
 
 import { DonationEntity, } from 'api/entities';
 
-class NewDonationStore extends Container {
+class NewDonationStore extends PersistContainer {
+  persist = {
+    version: '1.0',
+    key: 'DonationNew',
+    storage: localForage,
+  };
+
   state = new DonationEntity();
 
   setMemo = (memo, cb) =>
@@ -53,7 +63,7 @@ class NewDonationStore extends Container {
     );
 }
 
-const store = new NewDonationStore();
+export const store = new NewDonationStore();
 
 const NewDonation = ({ children, }) => (
   <Provider>

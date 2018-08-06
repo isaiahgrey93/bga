@@ -1,17 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+
+import { Provider, Subscribe, } from 'unstated';
+import { PersistContainer, } from 'unstated-persist';
+
+import localForage from 'localforage';
 
 import { DoneeProfileEntity, } from 'api/entities';
 
-class DoneeProfileStore extends Container {
+class DoneeProfileStore extends PersistContainer {
+  persist = {
+    version: '1.0',
+    key: 'DoneeProfile',
+    storage: localForage,
+  };
+
   state = new DoneeProfileEntity();
 
   setProfile = (value, cb) =>
     this.setState(() => ({ ...value, }), () => cb && cb());
 }
 
-const store = new DoneeProfileStore();
+export const store = new DoneeProfileStore();
 
 const DoneeProfile = ({ children, }) => (
   <Provider>

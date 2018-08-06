@@ -1,3 +1,5 @@
+import 'babel-polyfill'; // eslint-disable import/first
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 

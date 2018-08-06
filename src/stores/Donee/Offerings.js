@@ -1,10 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe, } from 'unstated';
+
+import { Provider, Subscribe, } from 'unstated';
+import { PersistContainer, } from 'unstated-persist';
+
+import localForage from 'localforage';
 
 import { DoneeOfferingsEntity, } from 'api/entities';
 
-class DoneeOfferingsStore extends Container {
+class DoneeOfferingsStore extends PersistContainer {
+  persist = {
+    version: '1.0',
+    key: 'DoneeOfferings',
+    storage: localForage,
+  };
+
   state = {
     list: new DoneeOfferingsEntity(),
   };
@@ -16,7 +26,7 @@ class DoneeOfferingsStore extends Container {
     );
 }
 
-const store = new DoneeOfferingsStore();
+export const store = new DoneeOfferingsStore();
 
 const DoneeOfferings = ({ children, }) => (
   <Provider>
