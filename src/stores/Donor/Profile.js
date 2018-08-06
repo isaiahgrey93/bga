@@ -2,18 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container, Provider, Subscribe } from 'unstated';
 
-import { DoneeProfileEntity } from 'api/entities';
+import { DonorProfileEntity } from 'api/entities';
 
-class DoneeProfileStore extends Container {
-  state = new DoneeProfileEntity();
+class DonorProfileStore extends Container {
+  state = new DonorProfileEntity();
 
   setProfile = (value, cb) =>
     this.setState(() => ({ ...value }), () => cb && cb());
 }
 
-const store = new DoneeProfileStore();
+const store = new DonorProfileStore();
 
-const DoneeProfile = ({ children, ...props }) => (
+const DonorProfile = ({ children, ...props }) => (
   <Provider>
     <Subscribe to={[store]}>
       {({ state }) =>
@@ -26,12 +26,12 @@ const DoneeProfile = ({ children, ...props }) => (
   </Provider>
 );
 
-DoneeProfile.propTypes = {
+DonorProfile.propTypes = {
   children: PropTypes.func,
 };
 
-DoneeProfile.defaultProps = {
+DonorProfile.defaultProps = {
   children: undefined,
 };
 
-export default DoneeProfile;
+export default DonorProfile;

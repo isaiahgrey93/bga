@@ -1,2 +1,3 @@
-export { default as Donee, } from './Donee';
-export { default as Donation, } from './Donation';
+export { default as DoneeStore } from './Donee';
+export { default as DonorStore } from './Donor';
+export { default as DonationStore } from './Donation';

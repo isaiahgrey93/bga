@@ -1,8 +1,10 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { IconButton, } from 'components/common';
+import { IconButton } from 'components/common';
+
+import AuthReferrer from './AuthReferrer';
 
 const mainRoute = '/account/auth';
 
@@ -18,27 +20,13 @@ class CloseModalButton extends Component {
     referrer: false,
   };
 
-  static getDerivedStateFromProps({ location, }, state) {
-    const { referrer, } = location.state || {};
-
-    if (referrer && referrer !== state.referrer) {
-      return { referrer, };
-    }
-
-    if (
-      referrer === '/account/auth' ||
-      referrer === '/account/login' ||
-      referrer === '/account/signup'
-    ) {
-      return { referrer: false, };
-    }
-
-    return {};
+  static getDerivedStateFromProps({ referrer }, state) {
+    return { referrer };
   }
 
   onClose = () => {
-    const { history, match, } = this.props;
-    const { referrer, } = this.state;
+    const { history, match } = this.props;
+    const { referrer } = this.state;
 
     const isMainRoute = match.url === mainRoute;
 
@@ -57,7 +45,7 @@ class CloseModalButton extends Component {
   };
 
   render() {
-    const { match, } = this.props;
+    const { match } = this.props;
 
     const isMainRoute = match.url === mainRoute;
 
@@ -77,4 +65,8 @@ CloseModalButton.propTypes = {
   match: PropTypes.object.isRequired,
 };
 
-export default CloseModalButton;
+export default props => (
+  <AuthReferrer>
+    {referrer => <CloseModalButton {...props} referrer={referrer} />}
+  </AuthReferrer>
+);

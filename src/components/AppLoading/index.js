@@ -1,9 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 
-import { Text, } from 'components/common';
-
-import { Motion, } from 'react-motion';
+import { Motion } from 'react-motion';
 
 const loadingStyle = {
   top: 0,
@@ -18,15 +16,15 @@ const loadingStyle = {
   backgroundColor: '#ffffff',
 };
 
-const AppLoading = ({ children, }) => (
+const AppLoading = ({ children }) => (
   <Motion
-    defaultStyle={{ showLoading: 0, showContent: 0, }}
+    defaultStyle={{ showLoading: 0, showContent: 0 }}
     style={{
       showContent: children ? 1 : 0,
       showLoading: children ? 0 : 1,
     }}
   >
-    {({ showContent, showLoading, }) => (
+    {({ showContent, showLoading }) => (
       <div>
         <div
           style={{
@@ -34,9 +32,7 @@ const AppLoading = ({ children, }) => (
             opacity: showLoading,
             transition: 'opacity 0.3s ease-in-out',
           }}
-        >
-          <Text>Loading...</Text>
-        </div>
+        />
         <div
           style={{
             opacity: showContent,

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { fonts, shadows, } from 'theme';
+import { fonts, shadows } from 'theme';
 
-import { backgroundColors, textColors, buttonSizes, } from './constants';
+import { backgroundColors, textColors, buttonSizes } from './constants';
 
 export const SolidButton = styled.button`
   outline: 0;

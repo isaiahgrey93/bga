@@ -1,7 +1,7 @@
-import React, { Fragment, } from 'react';
-import { BrowserRouter, Route, Switch, } from 'react-router-dom';
+import React, { Fragment } from 'react';
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
-import { TopNavigation, } from 'components';
+import { TopNavigation } from 'components';
 
 import {
   DonationAmount,
@@ -15,7 +15,10 @@ export default () => (
   <BrowserRouter>
     <Fragment>
       <Switch>
-        <Route path={'/account*'} render={() => null} />
+        <Route
+          path={'/account/:authentication(auth|login|signup)'}
+          render={() => null}
+        />
         <TopNavigation />
       </Switch>
       <Switch>
@@ -30,6 +33,11 @@ export default () => (
           path={'/account/:authentication(auth|login|signup)'}
           component={DonorAuthentication}
         />
+        <Route
+          path={'/account/forgot-password'}
+          render={() => 'Forgot Password'}
+        />
+        <Redirect to={'/donation/amount'} />
       </Switch>
     </Fragment>
   </BrowserRouter>

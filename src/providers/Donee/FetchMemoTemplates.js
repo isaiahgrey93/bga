@@ -5,19 +5,19 @@ import api from 'api';
 
 import { DataProvider } from 'providers';
 
-const DoneeMemoTemplates = ({ donee, children, ...props }) => (
+const FetchMemoTemplates = ({ donee, children, ...props }) => (
   <DataProvider params={{ donee }} request={api.donee.memoTemplates} {...props}>
     {children}
   </DataProvider>
 );
 
-DoneeMemoTemplates.propTypes = {
+FetchMemoTemplates.propTypes = {
   donee: PropTypes.string.isRequired,
   children: PropTypes.func,
 };
 
-DoneeMemoTemplates.defaultProps = {
+FetchMemoTemplates.defaultProps = {
   children: undefined,
 };
 
-export default DoneeMemoTemplates;
+export default FetchMemoTemplates;

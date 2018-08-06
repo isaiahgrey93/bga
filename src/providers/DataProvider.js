@@ -1,4 +1,4 @@
-import { Component, } from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class DataProvider extends Component {
@@ -23,11 +23,12 @@ class DataProvider extends Component {
     this.state = {
       error: false,
       loading: false,
+      response: undefined,
     };
   }
 
   async componentDidMount() {
-    const { fetch, params = {}, } = this.props;
+    const { fetch, params = {} } = this.props;
 
     if (fetch) {
       this.request(params);
@@ -38,6 +39,7 @@ class DataProvider extends Component {
     this.setState(() => ({
       error,
       loading: false,
+      response: undefined,
     }));
   }
 
@@ -46,6 +48,7 @@ class DataProvider extends Component {
       () => ({
         error: false,
         loading: false,
+        response,
       }),
       () => this.onComplete(response)
     );
@@ -55,27 +58,28 @@ class DataProvider extends Component {
     this.setState(() => ({
       error: false,
       loading: true,
+      response: undefined,
     }));
   }
 
-  async request(data) {
-    const { request, } = this.props;
+  request = async data => {
+    const { request } = this.props;
 
     this.onRequest();
 
-    const { response, error, } = await request(data);
+    const { response, error } = await request(data);
 
     if (error) this.onError(error);
     else this.onResponse(response);
-  }
+  };
 
   render() {
-    const { error, loading, } = this.state;
-    const { children, } = this.props;
+    const { error, loading, response } = this.state;
+    const { children } = this.props;
 
     if (!children) return null;
 
-    return children({ error, loading, request: this.request, });
+    return children({ error, loading, response, request: this.request });
   }
 }
 

@@ -1,9 +1,9 @@
-import Offerings from './Offerings';
-import Profile from './Profile';
-import MemoTemplates from './MemoTemplates';
+import FetchOfferings from './FetchOfferings';
+import FetchProfile from './FetchProfile';
+import FetchMemoTemplates from './FetchMemoTemplates';
 
 export default {
-  Offerings,
-  Profile,
-  MemoTemplates,
+  FetchOfferings,
+  FetchProfile,
+  FetchMemoTemplates,
 };

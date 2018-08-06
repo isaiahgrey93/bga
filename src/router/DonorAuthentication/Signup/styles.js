@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import { Card, SolidButton, Text, } from 'components/common';
+import { Card, SolidButton, Text } from 'components/common';
 
 export const SignupContainer = styled.div`
   min-width: 100%;
@@ -93,4 +93,28 @@ export const FormAlternateActionContainer = styled.div`
   justify-content: center;
   text-align: center;
   padding: 12px;
+`;
+
+export const ConfirmationCard = styled(Card)`
+  max-width: 480px;
+  margin-left: 24px;
+  margin-right: 24px;
+`;
+
+export const ConfirmationContent = styled.div`
+  padding-bottom: 12px;
+`;
+
+export const ConfirmationTitle = styled.div`
+  padding-bottom: 12px;
+`;
+
+export const ConfirmationMessage = styled.div`
+  padding-top: 12px;
+`;
+
+export const ConfirmationSubmit = styled(SolidButton)`
+  width: 70%;
+  min-width: 240px;
+  margin: 0 auto;
 `;

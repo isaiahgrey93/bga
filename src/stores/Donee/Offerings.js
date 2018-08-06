@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container, Provider, Subscribe } from 'unstated';
 
-import api from 'api';
 import { DoneeOfferingsEntity } from 'api/entities';
-import { DoneeApiProvider } from 'providers';
 
 class DoneeOfferingsStore extends Container {
   state = {
@@ -20,27 +18,17 @@ class DoneeOfferingsStore extends Container {
 
 const store = new DoneeOfferingsStore();
 
-const DoneeOfferings = ({ children, ...props }) => (
-  <DoneeApiProvider.Offerings
-    request={api.donee.offerings}
-    onComplete={store.setOfferings}
-    {...props}
-  >
-    {({ error, loading }) => (
-      <Provider>
-        <Subscribe to={[store]}>
-          {({ state }) =>
-            children({
-              state,
-              store,
-              error,
-              loading,
-            })
-          }
-        </Subscribe>
-      </Provider>
-    )}
-  </DoneeApiProvider.Offerings>
+const DoneeOfferings = ({ children }) => (
+  <Provider>
+    <Subscribe to={[store]}>
+      {({ state }) =>
+        children({
+          state,
+          store,
+        })
+      }
+    </Subscribe>
+  </Provider>
 );
 
 DoneeOfferings.propTypes = {

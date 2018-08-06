@@ -5,19 +5,19 @@ import api from 'api';
 
 import { DataProvider } from 'providers';
 
-const DoneeOfferings = ({ donee, children, ...props }) => (
-  <DataProvider params={{ donee }} request={api.donee.offerings} {...props}>
+const FetchProfile = ({ donee, children, ...props }) => (
+  <DataProvider params={{ donee }} request={api.donee.profile} {...props}>
     {children}
   </DataProvider>
 );
 
-DoneeOfferings.propTypes = {
+FetchProfile.propTypes = {
   donee: PropTypes.string.isRequired,
   children: PropTypes.func,
 };
 
-DoneeOfferings.defaultProps = {
+FetchProfile.defaultProps = {
   children: undefined,
 };
 
-export default DoneeOfferings;
+export default FetchProfile;

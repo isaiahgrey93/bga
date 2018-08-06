@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Donation, } from 'stores';
+import { DonationStore } from 'stores';
 
-import { withRouter, } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
-import { Icon, Text, } from 'components/common';
+import { Icon, Text } from 'components/common';
 
 import {
   CheckoutActionsContainer,
@@ -14,7 +14,7 @@ import {
   CheckoutActionSpacer,
 } from './styles';
 
-import { frequencyMap, } from './../DonationFrequencySelection/constants';
+import { frequencyMap } from './../DonationFrequencySelection/constants';
 
 const CheckoutActions = ({
   history,
@@ -74,10 +74,10 @@ CheckoutActions.propTypes = {
 };
 
 export default withRouter(props => (
-  <Donation.New>
-    {(donation) => {
-      const { state, } = donation;
-      const { memo, frequency, } = state;
+  <DonationStore.New>
+    {donation => {
+      const { state } = donation;
+      const { memo, frequency } = state;
       const hasMemo = !!memo;
       const isRecurring = frequency !== 'none';
 
@@ -90,5 +90,5 @@ export default withRouter(props => (
         />
       );
     }}
-  </Donation.New>
+  </DonationStore.New>
 ));

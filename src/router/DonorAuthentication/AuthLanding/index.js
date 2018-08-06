@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Icon, Text, SolidButton, OutlineButton, } from 'components/common';
+import { Icon, Text, SolidButton, OutlineButton } from 'components/common';
 
 import {
   LandingContainer,
@@ -12,7 +12,9 @@ import {
   StyledAnchor,
 } from './styles';
 
-const AuthLanding = ({ history, }) => (
+import { doneeSignupUrl } from './constants';
+
+const AuthLanding = ({ history }) => (
   <LandingContainer>
     <CenterContainer>
       <center>
@@ -63,7 +65,7 @@ const AuthLanding = ({ history, }) => (
       <center>
         <Text size={'xSmall'} color={'white'}>
           Organization official?{' '}
-          <StyledAnchor href={'https://givelify.com/signup'} target={'_blank'}>
+          <StyledAnchor href={doneeSignupUrl} target={'_blank'}>
             Create an account
           </StyledAnchor>{' '}
           and increase contributions with Givelify.
