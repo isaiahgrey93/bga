@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
+import PropTypes from 'prop-types';
 
 const AuthReferrer = React.createContext(false);
 
@@ -7,11 +8,11 @@ export class AuthReferrerProvider extends Component {
     referrer: '/',
   };
 
-  static getDerivedStateFromProps({ location }, state) {
-    const { referrer } = location.state || {};
+  static getDerivedStateFromProps({ location, }, state) {
+    const { referrer, } = location.state || {};
 
     if (referrer && referrer !== state.referrer) {
-      return { referrer };
+      return { referrer, };
     }
 
     if (
@@ -19,20 +20,31 @@ export class AuthReferrerProvider extends Component {
       referrer === '/account/login' ||
       referrer === '/account/signup'
     ) {
-      return { referrer: false };
+      return { referrer: false, };
     }
 
     return {};
   }
 
   render() {
-    const { referrer } = this.state;
-    const { children } = this.props;
+    const { referrer, } = this.state;
+    const { children, } = this.props;
 
     return (
       <AuthReferrer.Provider value={referrer}>{children}</AuthReferrer.Provider>
     );
   }
 }
+
+AuthReferrerProvider.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.node,
+    PropTypes.arrayOf(PropTypes.node),
+  ]),
+};
+
+AuthReferrerProvider.defaultProps = {
+  children: undefined,
+};
 
 export default AuthReferrer.Consumer;

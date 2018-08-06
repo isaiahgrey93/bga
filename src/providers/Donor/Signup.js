@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import api from 'api';
 
-import { DataProvider } from 'providers';
+import { DataProvider, } from 'providers';
 
 const Signup = ({ children, ...props }) => (
   <DataProvider request={api.donor.signup} {...props}>

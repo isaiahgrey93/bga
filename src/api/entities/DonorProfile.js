@@ -5,5 +5,10 @@ export default (data) => {
     return initial;
   }
 
-  return {};
+  return {
+    id: data.donor_id,
+    type: data.type,
+    name: data.name,
+    email: data.email,
+  };
 };

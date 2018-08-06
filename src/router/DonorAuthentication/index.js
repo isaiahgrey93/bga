@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, } from 'react-router-dom';
 
-import { Modal } from 'components/common';
+import { Modal, } from 'components/common';
 
-import { DonorLogin, DonorSignup, DonorAuthLanding } from 'router/routes';
+import { DonorLogin, DonorSignup, DonorAuthLanding, } from 'router/routes';
 
 import {
   HeaderContainer,
@@ -13,7 +13,7 @@ import {
   MainContent,
 } from './styles';
 
-import { AuthReferrerProvider } from './AuthReferrer';
+import { AuthReferrerProvider, } from './AuthReferrer';
 import CloseModalButton from './CloseModalButton';
 
 const modalStyles = {

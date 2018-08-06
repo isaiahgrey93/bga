@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Provider, Subscribe } from 'unstated';
+import { Container, Provider, Subscribe, } from 'unstated';
 
-import { DoneeOfferingsEntity } from 'api/entities';
+import { DoneeOfferingsEntity, } from 'api/entities';
 
 class DoneeOfferingsStore extends Container {
   state = {
@@ -11,17 +11,17 @@ class DoneeOfferingsStore extends Container {
 
   setOfferings = (value, cb) =>
     this.setState(
-      () => ({ list: new DoneeOfferingsEntity(value) }),
+      () => ({ list: new DoneeOfferingsEntity(value), }),
       () => cb && cb()
     );
 }
 
 const store = new DoneeOfferingsStore();
 
-const DoneeOfferings = ({ children }) => (
+const DoneeOfferings = ({ children, }) => (
   <Provider>
-    <Subscribe to={[store]}>
-      {({ state }) =>
+    <Subscribe to={[store, ]}>
+      {({ state, }) =>
         children({
           state,
           store,

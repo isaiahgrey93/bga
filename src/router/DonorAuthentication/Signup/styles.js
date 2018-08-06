@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 
-import { Card, SolidButton, Text } from 'components/common';
+import { Card, SolidButton, Text, } from 'components/common';
 
-export const SignupContainer = styled.div`
+export const Container = styled.div`
   min-width: 100%;
   min-height: 100vh;
   padding-top: 20vh;

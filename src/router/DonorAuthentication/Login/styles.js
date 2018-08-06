@@ -4,7 +4,7 @@ import { Link, } from 'react-router-dom';
 
 import { Card, SolidButton, Text, } from 'components/common';
 
-export const LoginContainer = styled.div`
+export const Container = styled.div`
   min-width: 100%;
   min-height: 100vh;
   padding-top: 20vh;

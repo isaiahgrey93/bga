@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Text, } from 'components/common';
 import { ViewportRenderer, } from 'components/layout';
@@ -24,16 +25,20 @@ export const NavMenuToggle = props => (
   </ViewportRenderer>
 );
 
-export const NavMenuList = () => (
+export const NavMenuList = ({ authenticated, }) => (
   <ViewportRenderer desktop>
     <NavLinkList>
-      {links.map(({ text, path, }) => (
+      {(authenticated ? links.authenticated : links.guest).map(({ text, path, }) => (
         <NavLink to={path} key={path}>
           <Text size={'small'} color={'white'}>
             {text}
           </Text>
         </NavLink>
-      ))}
+        ))}
     </NavLinkList>
   </ViewportRenderer>
 );
+
+NavMenuList.propTypes = {
+  authenticated: PropTypes.bool.isRequired,
+};

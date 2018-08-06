@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
+import PropTypes from 'prop-types';
 
 import {
   Icon,
@@ -9,10 +10,10 @@ import {
   WrapperOffset,
 } from 'components/common';
 
-import { DonorApiProvider } from 'providers';
+import { DonorApiProvider, } from 'providers';
 
 import {
-  SignupContainer,
+  Container,
   CenterContainer,
   FooterContainer,
   FormContainer,
@@ -40,26 +41,26 @@ class Signup extends Component {
     password: '',
   };
 
-  onFieldChange = key => e => {
+  onFieldChange = key => (e) => {
     e.persist();
 
-    this.setState(() => ({ [key]: e.target.value }));
+    this.setState(() => ({ [key]: e.target.value, }));
   };
 
   onSubmit = () => {
-    const { signup } = this.props;
-    const { name, email, password } = this.state;
+    const { signup, } = this.props;
+    const { name, email, password, } = this.state;
 
-    signup({ name, email, password });
+    signup({ name, email, password, });
   };
 
   render() {
-    const { loading, complete, onVerify } = this.props;
-    const { name, email, password } = this.state;
+    const { loading, complete, onVerify, } = this.props;
+    const { name, email, password, } = this.state;
     const disabled = !name || !email || !password;
 
     return (
-      <SignupContainer>
+      <Container>
         <CenterContainer>
           <FormContainer>
             <FormHeaderContainer>
@@ -191,22 +192,33 @@ class Signup extends Component {
             />
           </Modal>
         )}
-      </SignupContainer>
+      </Container>
     );
   }
 }
 
-export default ({ history }) => (
+Signup.propTypes = {
+  loading: PropTypes.bool.isRequired,
+  complete: PropTypes.bool.isRequired,
+  signup: PropTypes.func.isRequired,
+  onVerify: PropTypes.func.isRequired,
+};
+
+const SignupContainer = ({ history, }) => (
   <DonorApiProvider.Signup onComplete={() => null}>
-    {({ request, response, loading }) => {
-      return (
-        <Signup
-          signup={request}
-          loading={loading}
-          complete={!!response}
-          onVerify={() => history.push('/account/login')}
-        />
-      );
-    }}
+    {({ request, response, loading, }) => (
+      <Signup
+        signup={request}
+        loading={!!loading}
+        complete={!!response}
+        onVerify={() => history.push('/account/login')}
+      />
+    )}
   </DonorApiProvider.Signup>
 );
+
+SignupContainer.propTypes = {
+  history: PropTypes.object.isRequired,
+};
+
+export default SignupContainer;

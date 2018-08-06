@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { DoneeStore } from 'stores';
+import { DoneeStore, } from 'stores';
 
-import { ProfileImage, Text } from 'components/common';
+import { ProfileImage, Text, } from 'components/common';
 
 import {
   DetailHeaderContainer,
@@ -11,7 +11,7 @@ import {
   DetailHeaderImageContainer,
 } from './styles';
 
-const DoneeDetailHeader = ({ name, images = [] }) => (
+const DoneeDetailHeader = ({ name, images = [], }) => (
   <DetailHeaderContainer>
     <DetailHeaderContent>
       <DetailHeaderImageContainer>

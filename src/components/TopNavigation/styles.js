@@ -12,6 +12,8 @@ export const NavContainer = styled(ContentLayout)`
   width: 100%;
   height: 56px;
   background-image: ${gradients.default};
+  position: relative;
+  z-index: 1;
 `;
 
 export const NavContent = styled.div`

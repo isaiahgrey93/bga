@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import React, { Fragment, } from 'react';
+import { BrowserRouter, Route, Redirect, Switch, } from 'react-router-dom';
 
-import { TopNavigation } from 'components';
+import { TopNavigation, } from 'components';
 
 import {
   DonationAmount,

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { IconButton } from 'components/common';
+import { IconButton, } from 'components/common';
 
 import AuthReferrer from './AuthReferrer';
 
@@ -20,13 +20,13 @@ class CloseModalButton extends Component {
     referrer: false,
   };
 
-  static getDerivedStateFromProps({ referrer }, state) {
-    return { referrer };
+  static getDerivedStateFromProps({ referrer, }) {
+    return { referrer, };
   }
 
   onClose = () => {
-    const { history, match } = this.props;
-    const { referrer } = this.state;
+    const { history, match, } = this.props;
+    const { referrer, } = this.state;
 
     const isMainRoute = match.url === mainRoute;
 
@@ -45,7 +45,7 @@ class CloseModalButton extends Component {
   };
 
   render() {
-    const { match } = this.props;
+    const { match, } = this.props;
 
     const isMainRoute = match.url === mainRoute;
 

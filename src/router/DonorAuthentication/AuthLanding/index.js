@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Icon, Text, SolidButton, OutlineButton } from 'components/common';
+import { Icon, Text, SolidButton, OutlineButton, } from 'components/common';
 
 import {
   LandingContainer,
@@ -12,9 +12,9 @@ import {
   StyledAnchor,
 } from './styles';
 
-import { doneeSignupUrl } from './constants';
+import { doneeSignupUrl, } from './constants';
 
-const AuthLanding = ({ history }) => (
+const AuthLanding = ({ history, }) => (
   <LandingContainer>
     <CenterContainer>
       <center>

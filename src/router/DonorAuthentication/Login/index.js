@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
+import PropTypes from 'prop-types';
 
-import { Icon, Text, TextInput, WrapperOffset } from 'components/common';
+import { Icon, Text, TextInput, WrapperOffset, } from 'components/common';
 
-import { DonorApiProvider } from 'providers';
-import { DonorStore } from 'stores';
+import { DonorApiProvider, } from 'providers';
+import { DonorStore, } from 'stores';
 
 import {
-  LoginContainer,
+  Container,
   CenterContainer,
   FooterContainer,
   FormContainer,
@@ -30,27 +31,27 @@ class Login extends Component {
     password: '',
   };
 
-  onFieldChange = key => e => {
+  onFieldChange = key => (e) => {
     e.persist();
 
-    this.setState(() => ({ [key]: e.target.value }));
+    this.setState(() => ({ [key]: e.target.value, }));
   };
 
   onSubmit = () => {
-    const { login } = this.props;
-    const { email, password } = this.state;
+    const { login, } = this.props;
+    const { email, password, } = this.state;
 
-    login({ email, password });
+    login({ email, password, });
   };
 
   render() {
-    const { loading } = this.props;
-    const { email, password } = this.state;
+    const { loading, } = this.props;
+    const { email, password, } = this.state;
 
     const disabled = !email || !password;
 
     return (
-      <LoginContainer>
+      <Container>
         <CenterContainer>
           <FormContainer>
             <FormHeaderContainer>
@@ -136,23 +137,32 @@ class Login extends Component {
             </StyledLink>
           </center>
         </FooterContainer>
-      </LoginContainer>
+      </Container>
     );
   }
 }
 
-export default ({ history, location }) => (
+Login.propTypes = {
+  login: PropTypes.func.isRequired,
+  loading: PropTypes.bool,
+};
+
+Login.defaultProps = {
+  loading: false,
+};
+
+const LoginContainer = ({ history, }) => (
   <AuthReferrer>
     {referrer => (
       <DonorStore.Profile>
-        {({ state, store }) => (
+        {({ store, }) => (
           <DonorApiProvider.Login
-            onComplete={donor => {
+            onComplete={(donor) => {
               store.setProfile(donor);
               history.replace(referrer);
             }}
           >
-            {({ request, loading }) => (
+            {({ request, loading, }) => (
               <Login login={request} loading={loading} />
             )}
           </DonorApiProvider.Login>
@@ -161,3 +171,9 @@ export default ({ history, location }) => (
     )}
   </AuthReferrer>
 );
+
+LoginContainer.propTypes = {
+  history: PropTypes.object.isRequired,
+};
+
+export default LoginContainer;

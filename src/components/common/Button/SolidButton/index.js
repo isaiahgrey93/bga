@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { SolidButton as StyledSolidButton, } from './styles';
+import {
+  SolidButton as StyledSolidButton,
+  SolidButtonWrapper as StyledSolidButtonWrapper,
+} from './styles';
 import {
   buttonSizes,
   shadowTypes,
@@ -20,15 +23,23 @@ const SolidButton = ({
   children,
   ...props
 }) => (
-  <StyledSolidButton
+  <StyledSolidButtonWrapper
     size={size}
     color={color}
     raised={raised}
     fluid={fluid}
     {...props}
   >
-    {children || value}
-  </StyledSolidButton>
+    <StyledSolidButton
+      size={size}
+      color={color}
+      raised={raised}
+      fluid={fluid}
+      {...props}
+    >
+      {children || value}
+    </StyledSolidButton>
+  </StyledSolidButtonWrapper>
 );
 
 SolidButton.propTypes = {
