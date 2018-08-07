@@ -57,12 +57,13 @@ class DonationCheckout extends Component {
               removePurpose={removePurpose}
             />
             <CheckoutActions open={this.modal('frequency', true)} />
-            <PaymentInfo open={this.modal('payment', true)} />
             {hasMemo && (
               <DonationMemoPreview>
                 <Text>{memo}</Text>
               </DonationMemoPreview>
             )}
+            <PaymentInfo open={this.modal('payment', true)} />
+
             <CheckoutConfirmationContainer>
               <SolidButton
                 fluid

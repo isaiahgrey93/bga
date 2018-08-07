@@ -9,6 +9,8 @@ import {
   DonationCheckout,
   DonationMemo,
   DonorAuthentication,
+  DonorAddPaymentMethod,
+  DonorForgotPassword,
 } from './routes';
 
 export default () => (
@@ -35,8 +37,12 @@ export default () => (
             component={DonorAuthentication}
           />
           <Route
+            path={'/account/payment-methods/add'}
+            component={DonorAddPaymentMethod}
+          />
+          <Route
             path={'/account/forgot-password'}
-            render={() => 'Forgot Password'}
+            component={DonorForgotPassword}
           />
           <Redirect to={'/donation/amount'} />
         </Switch>

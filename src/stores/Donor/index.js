@@ -1,6 +1,8 @@
 import Profile, { store as ProfileStore, } from './Profile';
+import Wallet, { store as WalletStore, } from './Wallet';
 
 export default {
   Profile,
-  stores: [ProfileStore, ],
+  Wallet,
+  stores: [ProfileStore, WalletStore, ],
 };

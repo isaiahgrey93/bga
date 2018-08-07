@@ -82,6 +82,16 @@ class LegacyDonor extends DonorPort {
       DonorProfileEntity
     );
   };
+
+  wallet = async (data) => {
+    const { donor, } = data;
+
+    const { url, request, } = await this.request.create('donor/wallet/', {
+      donor_id: donor,
+    });
+
+    return this.transformResponse(this.api.post(url, { data: request, }));
+  };
 }
 
 export default LegacyDonor;

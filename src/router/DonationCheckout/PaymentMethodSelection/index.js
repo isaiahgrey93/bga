@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Link, } from 'react-router-dom';
+
 import {
   Card,
   Icon,
@@ -64,13 +66,15 @@ const PaymentMethodSelection = ({ close, }) => (
           ))}
         </RadioGroup>
         <PaymentModalActionDivider />
-        <SolidButton fluid color={'white'}>
-          <PaymentModalActionTextContainer>
-            <Text weight={'semiBold'} color={'blue'}>
-              + Add new card
-            </Text>
-          </PaymentModalActionTextContainer>
-        </SolidButton>
+        <Link to={'/account/payment-methods/add'}>
+          <SolidButton fluid color={'white'}>
+            <PaymentModalActionTextContainer>
+              <Text weight={'semiBold'} color={'blue'}>
+                + Add new card
+              </Text>
+            </PaymentModalActionTextContainer>
+          </SolidButton>
+        </Link>
       </Card>
     }
   />

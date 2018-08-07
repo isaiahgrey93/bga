@@ -83,3 +83,23 @@ export const DonorSignup = Loadable({
     );
   },
 });
+
+export const DonorAddPaymentMethod = Loadable({
+  loader: () => import('./DonorAddPaymentMethod'),
+  loading: AppLoading,
+  render(loaded, props) {
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
+  },
+});
+
+export const DonorForgotPassword = Loadable({
+  loader: () => import('./DonorForgotPassword'),
+  loading: AppLoading,
+  render(loaded, props) {
+    return (
+      <AppLoading>{React.createElement(loaded.default, props)}</AppLoading>
+    );
+  },
+});
