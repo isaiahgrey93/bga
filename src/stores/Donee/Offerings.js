@@ -1,37 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Provider, Subscribe, } from 'unstated';
-import { PersistContainer, } from 'unstated-persist';
+import { Provider, Subscribe } from 'unstated';
+import Store from 'stores/Store';
 
-import localForage from 'localforage';
+import { DoneeOfferingsEntity } from 'api/entities';
 
-import { DoneeOfferingsEntity, } from 'api/entities';
-
-class DoneeOfferingsStore extends PersistContainer {
-  persist = {
-    version: '1.0',
-    key: 'DoneeOfferings',
-    storage: localForage,
-  };
-
+class DoneeOfferingsStore extends Store {
   state = {
     list: new DoneeOfferingsEntity(),
   };
 
   setOfferings = (value, cb) =>
     this.setState(
-      () => ({ list: new DoneeOfferingsEntity(value), }),
+      () => ({ list: new DoneeOfferingsEntity(value) }),
       () => cb && cb()
     );
 }
 
-export const store = new DoneeOfferingsStore();
+export const store = new DoneeOfferingsStore({
+  version: '1.0',
+  key: 'DoneeOfferings',
+});
 
-const DoneeOfferings = ({ children, }) => (
+const DoneeOfferings = ({ children }) => (
   <Provider>
-    <Subscribe to={[store, ]}>
-      {({ state, }) =>
+    <Subscribe to={[store]}>
+      {({ state }) =>
         children({
           state,
           store,

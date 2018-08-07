@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
-import { layout, } from 'theme';
+import { layout } from 'theme';
 
-const { breakpoints, } = layout;
-const { mobile, tablet, desktop, } = breakpoints;
+import Image from '../Image';
 
-export const HeaderImage = styled.div`
+const { breakpoints } = layout;
+const { mobile, tablet, desktop } = breakpoints;
+
+export const HeaderImage = styled(Image)`
   width: 100%;
   background-size: cover;
   background-position: center;

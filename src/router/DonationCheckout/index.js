@@ -1,11 +1,11 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { DonationStore, } from 'stores';
-import { DoneeDetailHeader, } from 'components';
-import { Modal, SolidButton, Text, } from 'components/common';
+import { DonationStore } from 'stores';
+import { DoneeDetailHeader } from 'components';
+import { Modal, SolidButton, Text } from 'components/common';
 
 import {
   CheckoutContainer,
@@ -36,7 +36,7 @@ class DonationCheckout extends Component {
     }));
 
   render() {
-    const { modals, } = this.state;
+    const { modals } = this.state;
     const {
       submit,
       memo,
@@ -105,14 +105,13 @@ DonationCheckout.defaultProps = {
   removePurpose: undefined,
 };
 
-const DonationCheckoutContainer = ({ history, }) => (
-  <Composer components={[<DonationStore.New />, ]}>
-    {([donation, ]) => {
-      const { purposes: _purposes = [], memo, } = donation.state;
+const DonationCheckoutContainer = ({ history }) => (
+  <Composer components={[<DonationStore.New />]}>
+    {([donation]) => {
+      const { purposes: _purposes = [], memo } = donation.state;
 
       if (Object.keys(_purposes).length <= 0) {
         history.replace('/donation/amount');
-
         return null;
       }
 
@@ -120,13 +119,13 @@ const DonationCheckoutContainer = ({ history, }) => (
       const purposes = Object.values(_purposes);
       const total = purposes
         .reduce(
-          (acc, { amount = '0', }) => amount.split(',').join('') * 1 + acc,
+          (acc, { amount = '0' }) => amount.split(',').join('') * 1 + acc,
           0
         )
         .toFixed(2);
 
       const onSubmit = () => {
-        history.push('/account/auth', { referrer: '/donation/checkout', });
+        history.push('/account/auth', { referrer: '/donation/checkout' });
       };
 
       return (

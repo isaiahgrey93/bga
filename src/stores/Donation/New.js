@@ -1,22 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Provider, Subscribe, } from 'unstated';
-import { PersistContainer, } from 'unstated-persist';
+import { Provider, Subscribe } from 'unstated';
+import Store from 'stores/Store';
 
-import localForage from 'localforage';
+import { omit } from 'lodash';
 
-import { omit, } from 'lodash';
+import { DonationEntity } from 'api/entities';
 
-import { DonationEntity, } from 'api/entities';
-
-class NewDonationStore extends PersistContainer {
-  persist = {
-    version: '1.0',
-    key: 'DonationNew',
-    storage: localForage,
-  };
-
+class NewDonationStore extends Store {
   state = new DonationEntity();
 
   setMemo = (memo, cb) =>
@@ -57,18 +49,21 @@ class NewDonationStore extends PersistContainer {
   removePurpose = (purpose, cb) =>
     this.setState(
       state => ({
-        purposes: omit(state.purposes, [purpose.id, ]),
+        purposes: omit(state.purposes, [purpose.id]),
       }),
       () => cb && cb()
     );
 }
 
-export const store = new NewDonationStore();
+export const store = new NewDonationStore({
+  version: '1.0',
+  key: 'DonationNew',
+});
 
-const NewDonation = ({ children, }) => (
+const NewDonation = ({ children }) => (
   <Provider>
-    <Subscribe to={[store, ]}>
-      {({ state, }) => children({ state, store, })}
+    <Subscribe to={[store]}>
+      {({ state }) => children({ state, store })}
     </Subscribe>
   </Provider>
 );

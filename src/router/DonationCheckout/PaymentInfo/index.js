@@ -3,10 +3,10 @@ import Composer from 'react-composer';
 
 import PropTypes from 'prop-types';
 
-import { DonorApiProvider, } from 'providers';
-import { DonorStore, } from 'stores';
+import { DonorApiProvider } from 'providers';
+import { DonorStore } from 'stores';
 
-import { Icon, Row, Text, } from 'components/common';
+import { Icon, Row, Text } from 'components/common';
 import {
   PaymentInfoContainer,
   PaymentInfoPreview,
@@ -15,7 +15,7 @@ import {
   PaymentLink,
 } from './styles';
 
-const PaymentInfo = ({ open, loading, noPaymentMethod, }) => (
+const PaymentInfo = ({ open, loading, noPaymentMethod }) => (
   <PaymentInfoContainer hidden={loading}>
     {noPaymentMethod ? (
       <PaymentLink to={'/account/payment-methods/add'}>
@@ -52,23 +52,21 @@ PaymentInfo.propTypes = {
 };
 
 export default props => (
-  <Composer components={[<DonorStore.Profile />, <DonorStore.Wallet />, ]}>
-    {([profile, wallet, ]) =>
-      profile.state.id && (
-        <DonorApiProvider.FetchWallet
-          fetch
-          donor={profile.state.id}
-          onComplete={wallet.store.setWallet}
-        >
-          {({ loading, }) => (
-            <PaymentInfo
-              {...props}
-              loading={loading}
-              noPaymentMethod={wallet.state.list.length === 0}
-            />
-          )}
-        </DonorApiProvider.FetchWallet>
-      )
-    }
+  <Composer components={[<DonorStore.Profile />, <DonorStore.Wallet />]}>
+    {([profile, wallet]) => (
+      <DonorApiProvider.FetchWallet
+        fetch
+        donor={profile.state.id}
+        onComplete={wallet.store.setWallet}
+      >
+        {({ loading }) => (
+          <PaymentInfo
+            {...props}
+            loading={loading}
+            noPaymentMethod={wallet.state.list.length === 0}
+          />
+        )}
+      </DonorApiProvider.FetchWallet>
+    )}
   </Composer>
 );

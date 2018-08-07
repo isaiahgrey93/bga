@@ -9825,10 +9825,6 @@ thunky@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.2.tgz#a862e018e3fb1ea2ec3fce5d55605cf57f247371"
 
-tickedoff@>=1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/tickedoff/-/tickedoff-1.0.2.tgz#7f56ece47c56162032a04ed4c2e0c10ac7c4003d"
-
 time-stamp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/time-stamp/-/time-stamp-2.0.0.tgz#95c6a44530e15ba8d6f4a3ecb8c3a3fac46da357"
@@ -10097,14 +10093,7 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
-unstated-persist@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/unstated-persist/-/unstated-persist-0.0.3.tgz#fa8d139bc6f905696d97e26bce2be655bc4c8231"
-  dependencies:
-    tickedoff ">=1.0.0"
-    unstated ">=2.0.0"
-
-unstated@>=2.0.0, unstated@^2.1.1:
+unstated@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/unstated/-/unstated-2.1.1.tgz#36b124dfb2e7a12d39d0bb9c46dfb6e51276e3a2"
   dependencies:

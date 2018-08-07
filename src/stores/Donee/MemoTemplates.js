@@ -1,37 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Provider, Subscribe, } from 'unstated';
-import { PersistContainer, } from 'unstated-persist';
+import { Provider, Subscribe } from 'unstated';
+import Store from 'stores/Store';
 
-import localForage from 'localforage';
+import { DoneeMemoTemplatesEntity } from 'api/entities';
 
-import { DoneeMemoTemplatesEntity, } from 'api/entities';
-
-class DoneeMemoTemplatesStore extends PersistContainer {
-  persist = {
-    version: '1.0',
-    key: 'DoneeMemoTemplates',
-    storage: localForage,
-  };
-
+class DoneeMemoTemplatesStore extends Store {
   state = {
     list: new DoneeMemoTemplatesEntity(),
   };
 
   setMemoTemplates = (value, cb) =>
     this.setState(
-      () => ({ list: new DoneeMemoTemplatesEntity(value), }),
+      () => ({ list: new DoneeMemoTemplatesEntity(value) }),
       () => cb && cb()
     );
 }
 
-export const store = new DoneeMemoTemplatesStore();
+export const store = new DoneeMemoTemplatesStore({
+  version: '1.0',
+  key: 'DoneeMemoTemplates',
+});
 
-const DoneeMemoTemplates = ({ children, }) => (
+const DoneeMemoTemplates = ({ children }) => (
   <Provider>
-    <Subscribe to={[store, ]}>
-      {({ state, }) =>
+    <Subscribe to={[store]}>
+      {({ state }) =>
         children({
           state,
           store,
