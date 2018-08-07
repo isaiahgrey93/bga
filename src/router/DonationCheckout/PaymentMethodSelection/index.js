@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+import { DonorStore } from 'stores';
 
 import {
   Card,
@@ -21,67 +23,102 @@ import {
   PaymentModalActionTextContainer,
 } from './styles';
 
-const methods = [
-  {
-    icon: 'visa-badge',
-    label: '*5643',
-    selected: '*5643',
-  },
-  {
-    icon: 'mastercard-badge',
-    label: '*8743',
-  },
-  {
-    icon: 'discover-badge',
-    label: '*4442',
-  },
-];
+const cardIconMap = {
+  Visa: 'visa-badge',
+  Mastercard: 'mastecard-badge',
+  Discover: 'discover-badge',
+};
 
-const PaymentMethodSelection = ({ close, }) => (
-  <WrapperOffset
-    component={
-      <OffsetDismissButton
-        name={'close-circle'}
-        size={'xLarge'}
-        color={'transparent'}
-        iconProps={{ size: 'medium', }}
-        onClick={close}
+class PaymentMethodSelection extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      selected: false,
+      preferred: false,
+    };
+  }
+
+  static getDerivedStateFromProps({ preferred, methods }, { selected }) {
+    // if (methods.length === 1) {
+    //   return {
+    //     selected: methods[0],
+    //   };
+    // } else if (!selected && preferred) {
+    //   return {
+    //     selected: preferred,
+    //   };
+    // }
+    // return {};
+  }
+
+  render() {
+    const { selected } = this.state;
+    const { close, preferred, methods } = this.props;
+
+    return (
+      <WrapperOffset
+        component={
+          <OffsetDismissButton
+            name={'close-circle'}
+            size={'xLarge'}
+            color={'transparent'}
+            iconProps={{ size: 'medium' }}
+            onClick={close}
+          />
+        }
+        wrapper={
+          <Card>
+            <RadioGroup>
+              {methods.map(method => {
+                const { id, number, type } = method;
+
+                return (
+                  <RadioOption
+                    key={id}
+                    value={id}
+                    label={
+                      <PaymentMethodLabelContainer>
+                        <Icon size={'large'} name={cardIconMap[type]} />
+                        <PaymentMethodLabel weight={'semiBold'}>
+                          *{number.slice(number.length - 4)}
+                        </PaymentMethodLabel>
+                      </PaymentMethodLabelContainer>
+                    }
+                    selected={selected ? selected.id : false}
+                  />
+                );
+              })}
+            </RadioGroup>
+            <PaymentModalActionDivider />
+            <Link to={'/account/payment-methods/add'}>
+              <SolidButton fluid color={'white'}>
+                <PaymentModalActionTextContainer>
+                  <Text weight={'semiBold'} color={'blue'}>
+                    + Add new card
+                  </Text>
+                </PaymentModalActionTextContainer>
+              </SolidButton>
+            </Link>
+          </Card>
+        }
       />
-    }
-    wrapper={
-      <Card>
-        <RadioGroup>
-          {methods.map(({ label, icon, selected, }) => (
-            <RadioOption
-              key={label}
-              label={
-                <PaymentMethodLabelContainer>
-                  <Icon size={'large'} name={icon} />
-                  <PaymentMethodLabel>{label}</PaymentMethodLabel>
-                </PaymentMethodLabelContainer>
-              }
-              selected={selected}
-              value={label}
-            />
-          ))}
-        </RadioGroup>
-        <PaymentModalActionDivider />
-        <Link to={'/account/payment-methods/add'}>
-          <SolidButton fluid color={'white'}>
-            <PaymentModalActionTextContainer>
-              <Text weight={'semiBold'} color={'blue'}>
-                + Add new card
-              </Text>
-            </PaymentModalActionTextContainer>
-          </SolidButton>
-        </Link>
-      </Card>
-    }
-  />
-);
+    );
+  }
+}
 
 PaymentMethodSelection.propTypes = {
   close: PropTypes.func.isRequired,
 };
 
-export default PaymentMethodSelection;
+export default props => (
+  <DonorStore.Wallet>
+    {({ state: { list } }) => (
+      <PaymentMethodSelection
+        methods={list}
+        preferred={list.find(opt => opt.preferred)}
+        {...props}
+      />
+    )}
+  </DonorStore.Wallet>
+);

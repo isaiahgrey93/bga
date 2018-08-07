@@ -1,12 +1,12 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Composer from 'react-composer';
 
-import { DoneeStore, } from 'stores';
-import { DoneeApiProvider, } from 'providers';
+import { DoneeStore } from 'stores';
+import { DoneeApiProvider } from 'providers';
 
-import { AmountInput, HeaderImage, Text, } from 'components/common';
-import { DoneeImageWrapper, } from 'components';
+import { AmountInput, HeaderImage, Text } from 'components/common';
+import { DoneeImageWrapper } from 'components';
 
 import {
   HeaderContainer,
@@ -28,8 +28,8 @@ import {
   GivingAppPlatformStoreImage,
 } from './styles';
 
-import { formatDecimal, } from './utils';
-import { appStoreUrl, googlePlayUrl, } from './constants';
+import { formatDecimal } from './utils';
+import { appStoreUrl, googlePlayUrl } from './constants';
 
 const headerURL =
   'https://jhmrad.com/wp-content/uploads/alvin-missionary-baptist-church-great-investment_2910388.jpg';
@@ -43,18 +43,18 @@ class DonationAmount extends Component {
   };
 
   onToggleCustomAmount = () =>
-    this.setState(() => ({ custom: true, amount: '', }));
+    this.setState(() => ({ custom: true, amount: '' }));
 
-  onAmountChange = (amount) => {
-    this.setState(() => ({ amount, custom: false, }), this.onSubmitAmount);
+  onAmountChange = amount => {
+    this.setState(() => ({ amount, custom: false }), this.onSubmitAmount);
   };
 
-  onCustomAmountChange = (value) => {
-    this.setState(() => ({ amount: value, }));
+  onCustomAmountChange = value => {
+    this.setState(() => ({ amount: value }));
   };
 
   onSubmitAmount = () => {
-    const { amount, } = this.state;
+    const { amount } = this.state;
 
     if (amount.length === 0) return;
 
@@ -64,12 +64,10 @@ class DonationAmount extends Component {
   };
 
   render() {
-    const { amount, custom, } = this.state;
+    const { amount, custom } = this.state;
 
-    const { profile, } = this.props;
-    const {
-      name, officer = {}, images = {}, amounts = [],
-    } = profile;
+    const { profile } = this.props;
+    const { name, officer = {}, images = {}, amounts = [] } = profile;
 
     return (
       <div>
@@ -159,26 +157,27 @@ DonationAmount.defaultProps = {
   profile: undefined,
 };
 
-const DonationAmountContainer = ({ history, }) => (
-  <Composer components={[<DoneeStore.Profile />, ]}>
-    {([profile, ]) => (
+const DonationAmountContainer = ({ history }) => (
+  <Composer components={[<DoneeStore.Profile />]}>
+    {([{ state, store }]) => (
       <DoneeApiProvider.FetchProfile
         fetch
         donee={'1071226100775949'}
-        onComplete={profile.store.setProfile}
+        onComplete={store.setProfile}
       >
         {() => {
-          const onSetAmount = (value) => {
-            if (profile.state.type === 'church') {
-              history.push('/donation/envelope', { amount: value, });
+          const { value } = state;
+          const { type } = value;
+
+          const onSetAmount = amount => {
+            if (type === 'church') {
+              history.push('/donation/envelope', { amount });
             } else {
-              history.push('/donation/cause', { amount: value, });
+              history.push('/donation/cause', { amount });
             }
           };
 
-          return (
-            <DonationAmount profile={profile.state} onSetAmount={onSetAmount} />
-          );
+          return <DonationAmount profile={value} onSetAmount={onSetAmount} />;
         }}
       </DoneeApiProvider.FetchProfile>
     )}

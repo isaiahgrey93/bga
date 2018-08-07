@@ -1,32 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Provider, Subscribe, } from 'unstated';
-import { PersistContainer, } from 'unstated-persist';
+import update from 'immutability-helper';
 
-import localForage from 'localforage';
+import { Provider, Subscribe } from 'unstated';
+import Store from 'stores/Store';
 
-import { DonorWalletEntity, } from 'api/entities';
+import { DonorWalletEntity } from 'api/entities';
 
-class DonorWalletStore extends PersistContainer {
-  persist = {
-    version: '1.0',
-    key: 'DonorWallet',
-    storage: localForage,
+class DonorWalletStore extends Store {
+  state = {
+    list: new DonorWalletEntity(),
   };
 
-  state = new DonorWalletEntity();
-
   setWallet = (value, cb) =>
-    this.setState(state => ({ ...state, ...value, }), () => cb && cb());
+    this.setState(
+      state => update(state, { list: { $set: value } }),
+      () => cb && cb()
+    );
 }
 
-export const store = new DonorWalletStore();
+export const store = new DonorWalletStore({
+  version: '1.0',
+  key: 'DonorWallet',
+});
 
-const DonorWallet = ({ children, }) => (
+const DonorWallet = ({ children }) => (
   <Provider>
-    <Subscribe to={[store, ]}>
-      {({ state, }) =>
+    <Subscribe to={[store]}>
+      {({ state }) =>
         children({
           state,
           store,

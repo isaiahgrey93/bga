@@ -1,6 +1,6 @@
-import { asyncify, } from 'utilities';
+import { asyncify } from 'utilities';
 
-import { DonorProfileEntity, } from 'api/entities';
+import { DonorProfileEntity, DonorWalletEntity } from 'api/entities';
 
 import DonorPort from './port';
 
@@ -9,8 +9,8 @@ import DonorPort from './port';
 // - Add tests with full mocks
 // - Add data entity transforms
 class LegacyDonor extends DonorPort {
-  constructor({ api, request, }) {
-    super({ api, request, });
+  constructor({ api, request }) {
+    super({ api, request });
 
     this.api = api;
     this.request = request;
@@ -24,30 +24,30 @@ class LegacyDonor extends DonorPort {
     }
 
     const {
-      Response: { Error: error, Status: status, Result: response, },
+      Response: { Error: error, Status: status, Result: response },
     } = result.response;
 
     return status.code !== 0
-      ? { error, }
-      : { response: entity ? entity(response) : response, };
+      ? { error }
+      : { response: entity ? entity(response) : response };
   }
 
-  login = async (data) => {
-    const { email, password, } = data;
+  login = async data => {
+    const { email, password } = data;
 
-    const { url, request, } = await this.request.create('donor/login/', {
+    const { url, request } = await this.request.create('donor/login/', {
       type: 'email',
       email,
       password,
     });
 
     return this.transformResponse(
-      this.api.post(url, { data: request, }),
+      this.api.post(url, { data: request }),
       DonorProfileEntity
     );
   };
 
-  signup = async (data) => {
+  signup = async data => {
     const {
       email,
       password,
@@ -62,7 +62,7 @@ class LegacyDonor extends DonorPort {
       udinfo,
     } = data;
 
-    const { url, request, } = await this.request.create('donor/signup/', {
+    const { url, request } = await this.request.create('donor/signup/', {
       type: 'email',
       email,
       password,
@@ -78,19 +78,22 @@ class LegacyDonor extends DonorPort {
     });
 
     return this.transformResponse(
-      this.api.post(url, { data: request, }),
+      this.api.post(url, { data: request }),
       DonorProfileEntity
     );
   };
 
-  wallet = async (data) => {
-    const { donor, } = data;
+  wallet = async data => {
+    const { donor } = data;
 
-    const { url, request, } = await this.request.create('donor/wallet/', {
+    const { url, request } = await this.request.create('donor/wallet/', {
       donor_id: donor,
     });
 
-    return this.transformResponse(this.api.post(url, { data: request, }));
+    return this.transformResponse(
+      this.api.post(url, { data: request }),
+      DonorWalletEntity
+    );
   };
 }
 

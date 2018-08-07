@@ -22,9 +22,5 @@ export const links = {
       text: 'Wallet',
       path: '/wallet',
     },
-    {
-      text: 'Logout',
-      path: '/logout',
-    },
   ],
 };

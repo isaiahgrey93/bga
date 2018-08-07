@@ -1,15 +1,16 @@
 import React from 'react';
 
-import { DonorStore, } from 'stores';
+import { DonorStore } from 'stores';
 
-import { NavContainer, NavContent, NavLogoContainer, NavLogo, } from './styles';
-import { NavMenuToggle, NavMenuList, } from './components';
+import { NavContainer, NavContent, NavLogoContainer, NavLogo } from './styles';
+import { NavMenuToggle, NavMenuList } from './components';
 
 export default () => (
   <DonorStore.Profile>
-    {({ state, }) => {
-      const { id, } = state;
+    {({ state, store }) => {
+      const { id } = state.value;
       const authenticated = !!id;
+      const logout = store.removeProfile;
 
       return (
         <NavContainer>
@@ -21,7 +22,7 @@ export default () => (
                 src={'/images/svg/givelify-logo.svg'}
               />
             </NavLogoContainer>
-            <NavMenuList authenticated={authenticated} />
+            <NavMenuList authenticated={authenticated} onLogout={logout} />
           </NavContent>
         </NavContainer>
       );

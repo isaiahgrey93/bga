@@ -1,12 +1,12 @@
-import React, { Component, } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Composer from 'react-composer';
 
-import { DoneeStore, DonationStore, } from 'stores';
-import { DoneeApiProvider, } from 'providers';
+import { DoneeStore, DonationStore } from 'stores';
+import { DoneeApiProvider } from 'providers';
 
-import { SolidButton, Text, } from 'components/common';
+import { SolidButton, Text } from 'components/common';
 
 import {
   MemoContainer,
@@ -36,18 +36,18 @@ class DonationMemo extends Component {
     return {};
   }
 
-  onMemoChange = (event) => {
+  onMemoChange = event => {
     event.persist();
 
-    this.setState(() => ({ memo: event.target.value, }));
+    this.setState(() => ({ memo: event.target.value }));
   };
 
-  onMemoTemplateSelect = (value) => {
-    this.setState(() => ({ memo: value, }));
+  onMemoTemplateSelect = value => {
+    this.setState(() => ({ memo: value }));
   };
 
   onSubmitMemo = () => {
-    const { memo, } = this.state;
+    const { memo } = this.state;
 
     this.props.onSetMemo(memo);
   };
@@ -57,8 +57,8 @@ class DonationMemo extends Component {
   };
 
   render() {
-    const { memo, } = this.state;
-    const { templates, hasSavedMemo, } = this.props;
+    const { memo } = this.state;
+    const { templates, hasSavedMemo } = this.props;
 
     return (
       <MemoContainer>
@@ -106,26 +106,29 @@ DonationMemo.propTypes = {
 
 DonationMemo.defaultProps = {};
 
-const DonationMemoContainer = ({ history, }) => (
-  <Composer components={[<DonationStore.New />, <DoneeStore.MemoTemplates />, ]}>
-    {([donation, templates, ]) => (
+const DonationMemoContainer = ({ history }) => (
+  <Composer components={[<DonationStore.New />, <DoneeStore.MemoTemplates />]}>
+    {([donation, templates]) => (
       <DoneeApiProvider.FetchMemoTemplates
         fetch
         donee={'1071226100775949'}
         onComplete={templates.store.setMemoTemplates}
       >
         {() => {
-          const onSetMemo = (value) => {
+          const onSetMemo = value => {
             donation.store.setMemo(value, () => {
               history.push('/donation/checkout');
             });
           };
 
+          const { memo } = donation.state.value;
+          const { list: templateList } = templates.state;
+
           return (
             <DonationMemo
-              memo={donation.state.memo}
-              hasSavedMemo={!!donation.state.memo}
-              templates={templates.state.list}
+              memo={memo}
+              hasSavedMemo={!!memo}
+              templates={templateList}
               onSetMemo={onSetMemo}
             />
           );

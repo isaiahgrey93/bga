@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-import { Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import { ContentLayout, } from 'components/layout';
-import { colors, gradients, layout, } from 'theme';
+import { WrapperButton } from 'components/common';
+import { ContentLayout } from 'components/layout';
+import { colors, gradients, layout } from 'theme';
 
-const { breakpoints, } = layout;
-const { tablet, } = breakpoints;
+const { breakpoints } = layout;
+const { tablet } = breakpoints;
 
 export const NavContainer = styled(ContentLayout)`
   width: 100%;
@@ -46,6 +47,11 @@ export const NavLinkList = styled.div`
 `;
 
 export const NavLink = styled(Link)`
+  text-decoration: none;
+  padding: 6px 16px;
+`;
+
+export const NavLinkButton = styled(WrapperButton)`
   text-decoration: none;
   padding: 6px 16px;
 `;

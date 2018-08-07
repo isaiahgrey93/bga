@@ -3,7 +3,7 @@ const initial = {
   frequency: 'none',
 };
 
-export default (data) => {
+export default data => {
   if (!data) {
     return initial;
   }

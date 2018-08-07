@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { DonationStore, } from 'stores';
+import { DonationStore } from 'stores';
 
 import {
   Card,
@@ -16,23 +16,23 @@ import {
   DonationFrequencyLabel,
 } from './styles';
 
-import { frequencies, } from './constants';
+import { frequencies } from './constants';
 
-const DonationFrequencySelection = ({ close, selected, onSelect, }) => (
+const DonationFrequencySelection = ({ close, selected, onSelect }) => (
   <WrapperOffset
     component={
       <OffsetDismissButton
         name={'close-circle'}
         size={'xLarge'}
         color={'transparent'}
-        iconProps={{ size: 'medium', }}
+        iconProps={{ size: 'medium' }}
         onClick={close}
       />
     }
     wrapper={
       <Card>
         <RadioGroup>
-          {frequencies.map(({ value, label, }) => (
+          {frequencies.map(({ value, label }) => (
             <RadioOption
               key={label}
               label={
@@ -63,13 +63,13 @@ DonationFrequencySelection.defaultProps = {
 
 export default props => (
   <DonationStore.New>
-    {(donation) => {
-      const { state, store, } = donation;
+    {({ state, store }) => {
+      const { frequency } = state.value;
 
       return (
         <DonationFrequencySelection
           {...props}
-          selected={state.frequency}
+          selected={frequency}
           onSelect={store.setFrequency}
         />
       );

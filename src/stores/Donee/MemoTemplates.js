@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import update from 'immutability-helper';
+
 import { Provider, Subscribe } from 'unstated';
 import Store from 'stores/Store';
 
@@ -13,7 +15,7 @@ class DoneeMemoTemplatesStore extends Store {
 
   setMemoTemplates = (value, cb) =>
     this.setState(
-      () => ({ list: new DoneeMemoTemplatesEntity(value) }),
+      state => update(state, { list: { $set: value } }),
       () => cb && cb()
     );
 }

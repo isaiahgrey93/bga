@@ -107,8 +107,8 @@ DonationCheckout.defaultProps = {
 
 const DonationCheckoutContainer = ({ history }) => (
   <Composer components={[<DonationStore.New />]}>
-    {([donation]) => {
-      const { purposes: _purposes = [], memo } = donation.state;
+    {([{ state, store }]) => {
+      const { purposes: _purposes = [], memo } = state.value;
 
       if (Object.keys(_purposes).length <= 0) {
         history.replace('/donation/amount');
@@ -134,7 +134,7 @@ const DonationCheckoutContainer = ({ history }) => (
           hasMemo={hasMemo}
           total={total}
           purposes={purposes}
-          removePurpose={donation.store.removePurpose}
+          removePurpose={store.removePurpose}
           submit={onSubmit}
         />
       );

@@ -53,20 +53,27 @@ PaymentInfo.propTypes = {
 
 export default props => (
   <Composer components={[<DonorStore.Profile />, <DonorStore.Wallet />]}>
-    {([profile, wallet]) => (
-      <DonorApiProvider.FetchWallet
-        fetch
-        donor={profile.state.id}
-        onComplete={wallet.store.setWallet}
-      >
-        {({ loading }) => (
-          <PaymentInfo
-            {...props}
-            loading={loading}
-            noPaymentMethod={wallet.state.list.length === 0}
-          />
-        )}
-      </DonorApiProvider.FetchWallet>
-    )}
+    {([
+      {
+        state: { value: profile },
+      },
+      { store: walletStore, state: wallet },
+    ]) => {
+      return (
+        <DonorApiProvider.FetchWallet
+          fetch
+          donor={profile.id}
+          onComplete={walletStore.setWallet}
+        >
+          {({ loading }) => (
+            <PaymentInfo
+              {...props}
+              loading={loading}
+              noPaymentMethod={wallet.list.length === 0}
+            />
+          )}
+        </DonorApiProvider.FetchWallet>
+      );
+    }}
   </Composer>
 );
