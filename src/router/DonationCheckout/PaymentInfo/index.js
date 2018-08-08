@@ -60,19 +60,21 @@ export default props => (
       { store: walletStore, state: wallet },
     ]) => {
       return (
-        <DonorApiProvider.FetchWallet
-          fetch
-          donor={profile.id}
-          onComplete={walletStore.setWallet}
-        >
-          {({ loading }) => (
-            <PaymentInfo
-              {...props}
-              loading={loading}
-              noPaymentMethod={wallet.list.length === 0}
-            />
-          )}
-        </DonorApiProvider.FetchWallet>
+        console.log({ profile, wallet }) || (
+          <DonorApiProvider.FetchWallet
+            fetch
+            donor={profile.id}
+            onComplete={walletStore.setWallet}
+          >
+            {({ loading }) => (
+              <PaymentInfo
+                {...props}
+                loading={loading}
+                noPaymentMethod={wallet.list.length === 0}
+              />
+            )}
+          </DonorApiProvider.FetchWallet>
+        )
       );
     }}
   </Composer>

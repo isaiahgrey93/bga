@@ -18,6 +18,12 @@ class DonorWalletStore extends Store {
       state => update(state, { list: { $set: value } }),
       () => cb && cb()
     );
+
+  resetWallet = cb =>
+    this.setState(
+      state => update(state, { list: { $set: [] } }),
+      () => cb && cb()
+    );
 }
 
 export const store = new DonorWalletStore({

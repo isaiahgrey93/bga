@@ -6,6 +6,8 @@ import update from 'immutability-helper';
 import { Provider, Subscribe } from 'unstated';
 import Store from 'stores/Store';
 
+import { store as WalletStore } from './Wallet';
+
 import { DonorProfileEntity } from 'api/entities';
 
 class DonorProfileStore extends Store {
@@ -22,7 +24,9 @@ class DonorProfileStore extends Store {
   removeProfile = cb =>
     this.setState(
       state => update(state, { value: { $set: new DonorProfileEntity() } }),
-      () => cb && cb()
+      () => {
+        WalletStore.resetWallet(() => cb && cb());
+      }
     );
 }
 

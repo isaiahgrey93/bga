@@ -40,21 +40,22 @@ class PaymentMethodSelection extends Component {
   }
 
   static getDerivedStateFromProps({ preferred, methods }, { selected }) {
-    // if (methods.length === 1) {
-    //   return {
-    //     selected: methods[0],
-    //   };
-    // } else if (!selected && preferred) {
-    //   return {
-    //     selected: preferred,
-    //   };
-    // }
-    // return {};
+    if (methods.length === 1) {
+      return {
+        selected: methods[0],
+      };
+    } else if (!selected && preferred) {
+      return {
+        selected: preferred,
+      };
+    }
+
+    return {};
   }
 
   render() {
     const { selected } = this.state;
-    const { close, preferred, methods } = this.props;
+    const { close, methods } = this.props;
 
     return (
       <WrapperOffset
@@ -85,7 +86,7 @@ class PaymentMethodSelection extends Component {
                         </PaymentMethodLabel>
                       </PaymentMethodLabelContainer>
                     }
-                    selected={selected ? selected.id : false}
+                    selected={selected.id}
                   />
                 );
               })}

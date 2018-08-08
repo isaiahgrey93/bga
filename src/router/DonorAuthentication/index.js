@@ -1,10 +1,12 @@
 import React from 'react';
 
-import { Switch, Route, } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
-import { Modal, } from 'components/common';
+import { Modal } from 'components/common';
 
-import { DonorLogin, DonorSignup, DonorAuthLanding, } from 'router/routes';
+import { DonorLogin, DonorSignup, DonorAuthLanding } from 'router/routes';
+
+import { DonorStore } from 'stores';
 
 import {
   HeaderContainer,
@@ -13,8 +15,9 @@ import {
   MainContent,
 } from './styles';
 
-import { AuthReferrerProvider, } from './AuthReferrer';
+import { AuthReferrerProvider } from './AuthReferrer';
 import CloseModalButton from './CloseModalButton';
+import AlreadyAuthenticated from './AlreadyAuthenticated';
 
 const modalStyles = {
   overlay: {
@@ -33,6 +36,31 @@ const Auth = props => (
           <CloseModalButton {...props} />
         </SharedContentContainer>
         <MainContent>
+          <DonorStore.Profile>
+            {({ state: { value: donor }, store }) =>
+              donor.id ? (
+                <Route
+                  render={() => (
+                    <AlreadyAuthenticated
+                      donor={donor}
+                      onLogout={() => {
+                        store.removeProfile();
+                      }}
+                      onContinue={() => {
+                        const { history, location } = props;
+                        const { state } = location || {};
+                        const { referrer } = state || {};
+
+                        referrer
+                          ? history.replace(referrer)
+                          : history.replace('/');
+                      }}
+                    />
+                  )}
+                />
+              ) : null
+            }
+          </DonorStore.Profile>
           <Switch>
             <Route exact path={'/account/login'} component={DonorLogin} />
             <Route exact path={'/account/signup'} component={DonorSignup} />
