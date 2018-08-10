@@ -12,7 +12,7 @@
 
 # misc
 .DS_Store
-.env
+# .env
 .env.local
 .env.development.local
 .env.test.local
@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 
-/src/api/adapters/common/request/legacy.js
+# /src/api/adapters/common/request/legacy.js
